@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <Container className="roboto-mono-font">
+    <Container >
       <MeditationSiddhov />
       <Benefits data={benefitThree} />
       <SectionTitle
