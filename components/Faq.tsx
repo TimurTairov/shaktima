@@ -2,7 +2,8 @@
 import React from "react";
 import { Container } from "@/components/Container";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import { FaChevronUp } from "react-icons/fa";
+
 
 export const Faq = () => {
   return (
@@ -15,7 +16,7 @@ export const Faq = () => {
                 <>
                   <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-indigo-900 dark:text-gray-200">
                     <span>{item.question}</span>
-                    <ChevronUpIcon
+                    <FaChevronUp
                       className={`${open ? "transform rotate-180" : ""
                         } w-5 h-5 text-indigo-500`}
                     />

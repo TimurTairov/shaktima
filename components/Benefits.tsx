@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 import ImageGallery from "react-image-gallery";
