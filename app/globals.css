@@ -13,3 +13,7 @@
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100%;
 }
+
+.font-geist-sans {
+  font-family: var(--font-geist-sans);
+}

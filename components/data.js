@@ -114,16 +114,16 @@ const benefitThree = {
   title: "Медитация Сиддхов",
   desc: `Это уникальная практика, основанная на древних учениях. Она помогает освободить ум от напряжения, настроиться на позитивные вибрации и открыть внутренние ресурсы.`,
   images: [
-    {
-      original: 'https://sun9-5.userapi.com/impg/yIgr3OFnFscEX5ogaph7IQiN_nYOWcZAcCz8bg/CjFqUysiXjo.jpg?size=600x800&quality=95&sign=9f1c4d7ec7fef2a5721ed9dc4dabb550&type=album',
-    },
+    // {
+    //   original: 'https://sun9-5.userapi.com/impg/yIgr3OFnFscEX5ogaph7IQiN_nYOWcZAcCz8bg/CjFqUysiXjo.jpg?size=600x800&quality=95&sign=9f1c4d7ec7fef2a5721ed9dc4dabb550&type=album',
+    // },
     {
       original: 'https://sun9-69.userapi.com/impg/cvh7RuE6NALz4_xUkXZyoq-QX7_Rma_OvPfzMg/sY_C5jCQ-UM.jpg?size=600x800&quality=95&sign=ee5aba62169b8a94281407f160023edb&type=album',
     },
-    {
-      original: 'https://sun9-2.userapi.com/impg/p2o4qsu0okYIF_vlPg6WNbUWmoNioEyETw0Bng/Exbo29blFXQ.jpg?size=600x800&quality=95&sign=4e7873171deba69e3efec7ddee0e27b2&type=album',
+    // {
+    //   original: 'https://sun9-2.userapi.com/impg/p2o4qsu0okYIF_vlPg6WNbUWmoNioEyETw0Bng/Exbo29blFXQ.jpg?size=600x800&quality=95&sign=4e7873171deba69e3efec7ddee0e27b2&type=album',
 
-    },
+    // },
     {
       original: 'https://sun9-38.userapi.com/impg/WzUc_aXqaazx50oWEZiVLEN-InuOmyTLpMsa5A/OTvOEXmOnZA.jpg?size=600x800&quality=95&sign=ed82a3cd5841fd9558832eabf84a26fd&type=album',
     },
@@ -134,10 +134,10 @@ const benefitThree = {
     // {
     //   original: 'https://sun9-8.userapi.com/impg/xBVad3CD9A7mRSpm6ksWNIb8Vs131MSuIdPLKQ/RGTY7JpT96Y.jpg?size=600x800&quality=95&sign=da4a794e68cc4407baa6a4a51e1d7693&type=album',
     // },
-    {
-      original: 'https://sun9-39.userapi.com/impg/tPqoLIbCnqTXUx__7dh_4hNzNOJpp-1A17RjVg/hLczNvCr2KY.jpg?size=600x800&quality=95&sign=8e727d06be12baa2c2462a6f194653a2&type=album',
+    // {
+    //   original: 'https://sun9-39.userapi.com/impg/tPqoLIbCnqTXUx__7dh_4hNzNOJpp-1A17RjVg/hLczNvCr2KY.jpg?size=600x800&quality=95&sign=8e727d06be12baa2c2462a6f194653a2&type=album',
 
-    },
+    // },
     {
       original: 'https://sun9-20.userapi.com/impg/jvGMN1mouiHLRhNPLVDtBW-9ZvTd-gRGVkAsww/Hq1VrZxM1to.jpg?size=600x800&quality=95&sign=c57abab3bfd8d0a5a653e3db2399eb81&type=album',
     },
@@ -145,19 +145,19 @@ const benefitThree = {
     //   original: 'https://sun9-25.userapi.com/impg/G_skGtW-MfHsDTFOf9FHcYj3bsgtNSc41Sy13w/D3YlGl8IB7Q.jpg?size=600x800&quality=95&sign=bf3af24f2d38a1545b36bf9cf1cc6530&type=album',
 
     // },
-    {
-      original: 'https://sun9-80.userapi.com/impg/Nz6HnjTD-WsHmJKzjCAey0iltBjps1UhWqiSxw/chnKvBjPUHk.jpg?size=600x800&quality=95&sign=2a9429312d7e764d4ab2dbee6f2112d4&type=album',
-    },
+    // {
+    //   original: 'https://sun9-80.userapi.com/impg/Nz6HnjTD-WsHmJKzjCAey0iltBjps1UhWqiSxw/chnKvBjPUHk.jpg?size=600x800&quality=95&sign=2a9429312d7e764d4ab2dbee6f2112d4&type=album',
+    // },
     // {
     //   original: 'https://sun9-37.userapi.com/impg/L3iJoFBYkkrn6vPJi0QcGWKg_iIw6ABX82BrEg/64xy24Bbu5k.jpg?size=600x800&quality=95&sign=e11a42ba8decad0a8d5740ec5113a0af&type=album',
     // },
-    {
-      original: 'https://sun9-23.userapi.com/impg/aM-cd1eW8cZ_ehEm5A3dnkdGjgaSIowSp1idEw/42pOBi64OiI.jpg?size=600x800&quality=95&sign=ab2a9d6be15be8f710f5977bd5c5f7d0&type=album',
-    },
-    {
-      original: 'https://sun9-16.userapi.com/impg/ZGOsv6VcSosSny_EDs2CpriF3XdNkQIGR0mYow/W12PNNVIFRU.jpg?size=600x800&quality=95&sign=7dd5502138edc3441e56e45502b38aa1&type=album',
+    // {
+    //   original: 'https://sun9-23.userapi.com/impg/aM-cd1eW8cZ_ehEm5A3dnkdGjgaSIowSp1idEw/42pOBi64OiI.jpg?size=600x800&quality=95&sign=ab2a9d6be15be8f710f5977bd5c5f7d0&type=album',
+    // },
+    // {
+    //   original: 'https://sun9-16.userapi.com/impg/ZGOsv6VcSosSny_EDs2CpriF3XdNkQIGR0mYow/W12PNNVIFRU.jpg?size=600x800&quality=95&sign=7dd5502138edc3441e56e45502b38aa1&type=album',
 
-    },
+    // },
   ],
   bullets: [
     {
