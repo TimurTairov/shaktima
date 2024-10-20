@@ -7,6 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { PiHandsPrayingBold } from "react-icons/pi";
+import Menu from "@/components/Menu";
 
 export function Footer() {
   const navigation = [
@@ -15,7 +16,7 @@ export function Footer() {
       url: "/"
     },
     {
-      title: "Практики",
+      title: "Медитация сиддхов",
       url: "/praktiki"
     },
     {
@@ -32,7 +33,7 @@ export function Footer() {
     },
   ];
   return (
-    <div className="mt-auto px-2 bg-gray-100">
+    <div className="mt-auto px-2">
       <Container>
         <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-7 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  lg:grid-cols-9">
           <div className="md:col-span-3 lg:col-span-4 ">
@@ -69,7 +70,7 @@ export function Footer() {
 
           <div className="md:col-span-2 lg:col-span-3">
 
-            <p className="w-full font-semibold">Меню</p>
+            <p className="w-full font-semibold dark:text-gray-300">Меню</p>
             <div className="flex flex-wrap w-full mt-5">
               {navigation.map((item, index) => (
                 <Link

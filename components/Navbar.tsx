@@ -4,6 +4,7 @@ import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import logo from '@/public/ShaktiMa-logo.jpg'
+import MenuNavbar from "@/components/Menu"
 
 export const Navbar = () => {
   const navigation = [
@@ -83,16 +84,17 @@ export const Navbar = () => {
               </Disclosure.Button>
 
               <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
-                <>
-                  {navigation.map((item) => (
+                <div className="flex flex-col flex-start">
+                  <MenuNavbar />
+                  {/* {navigation.map((item) => (
                     <Link key={item.title} href={item.url} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-indigo-900 focus:outline-none">
                       {item.title}
                     </Link>
-                  ))}
-                  <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-500 rounded-md lg:ml-5">
+                  ))} */}
+                  {/* <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-500 rounded-md lg:ml-5">
                     Практиковать
-                  </Link>
-                </>
+                  </Link> */}
+                </div>
               </Disclosure.Panel>
             </>
           )}
@@ -100,7 +102,7 @@ export const Navbar = () => {
 
         {/* menu  */}
         <div className="hidden text-center lg:flex lg:items-center">
-          <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
+          {/* <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu) => (
               <li className="mr-3 nav__item" key={menu.title}>
                 <Link href={menu.url} className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-900">
@@ -108,8 +110,13 @@ export const Navbar = () => {
                 </Link>
               </li>
             ))}
-          </ul>
+            
+          </ul> */}
+
+          <MenuNavbar />
+
         </div>
+
 
       </nav>
     </div>

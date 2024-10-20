@@ -57,14 +57,15 @@ const ThemeChanger = () => {
             setTheme("dark")
             // iframeDark()
           }}
-          className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
+          className="text-gray-800 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
           <span className="sr-only">Dark Mode</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            className="w-5 h-5"
+            // width="24"
+            // height="24"
             viewBox="0 0 24 24"
-            fill="none"
+            // fill="none"
             stroke="currentColor"
             strokeWidth="1"
             strokeLinecap="round"
