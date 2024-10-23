@@ -17,7 +17,11 @@ export function Footer() {
     },
     {
       title: "Медитация сиддхов",
-      url: "/praktiki"
+      url: "/meditation"
+    },
+    {
+      title: "Медитация сиддхов",
+      url: "/bhadjan-mandala"
     },
     {
       title: "Семинары",
