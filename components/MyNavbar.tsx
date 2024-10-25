@@ -3,6 +3,7 @@ import Image from "next/image"
 import logo from '@/public/ShaktiMa-logo.jpg'
 import ThemeChanger from "./DarkSwitch";
 import { RxHamburgerMenu } from "react-icons/rx";
+import tilaka from '@/public/img/shiva-tilak-3100736.png'
 import Menu from "@/components/Menu";
 
 const MyNavbar = () => {
@@ -12,7 +13,7 @@ const MyNavbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <RxHamburgerMenu className="h-6 w-6 text-gray-500 dark:text-gray-50" />
+            <Image src={tilaka} alt="tilaka" className="h-8 w-8 text-gray-500 dark:text-gray-50" />
           </div>
           <ul
             tabIndex={0}
