@@ -4,8 +4,8 @@ import guru from '@/public/img/guru.png'
 
 const BM = () => {
   return (
-    <Container>
-      <div className="w-full flex flex-col md:flex-row justify-center md:justify-between">
+    <Container className="bg-base-200 py-10 rounded-md">
+      <div className="w-full flex flex-col md:flex-row justify-center md:justify-between ">
         <div className="md:mr-7">
           <p className="">
             «Величие, пользу, ценность этой садханы трудно переоценить. Садхана

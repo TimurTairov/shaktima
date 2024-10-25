@@ -20,7 +20,7 @@ export function Footer() {
       url: "/meditation"
     },
     {
-      title: "Медитация сиддхов",
+      title: "Бхаджан Мандала",
       url: "/bhadjan-mandala"
     },
     {

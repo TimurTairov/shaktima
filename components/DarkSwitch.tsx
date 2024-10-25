@@ -33,14 +33,14 @@ const ThemeChanger = () => {
   }
 
   return (
-    <div className="flex items-center order-last border rounded-md p-1">
+    <div className="flex items-center order-last border border-gray-400 dark:border-gray-200 rounded-md p-1">
       {theme === "dark" ? (
         <button
           onClick={() => {
             setTheme("light")
             // iframeLight()
           }}
-          className="text-gray-300 rounded-full outline-none focus:outline-none ">
+          className="text-gray-100 rounded-full outline-none focus:outline-none ">
           <span className="sr-only">Light Mode</span>
 
           <svg
@@ -57,7 +57,7 @@ const ThemeChanger = () => {
             setTheme("dark")
             // iframeDark()
           }}
-          className="text-gray-800 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
+          className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
           <span className="sr-only">Dark Mode</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
