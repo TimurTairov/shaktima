@@ -7,12 +7,12 @@ const BM = () => {
     <Container className="bg-base-200 py-10 rounded-md">
       <div className="w-full flex flex-col md:flex-row justify-center md:justify-between ">
         <div className="md:mr-7">
-          <p className="">
+          <p className="text-gray-800">
             «Величие, пользу, ценность этой садханы трудно переоценить. Садхана
             эта - легкая, радостная, а ее плод - как от серьезного йоговского
             тапаса. Счастлив тот, кто поет баджаны с верой и преданным сердцем»
           </p>
-          <p className="text-right md:mr-2 font-semibold">
+          <p className="text-right md:mr-2 font-semibold text-gray-800">
             Свами Вишнудевананда Гири Махарадж
           </p>
         </div>
