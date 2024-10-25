@@ -89,8 +89,8 @@ const page = () => {
         </div>
       </SectionTitle>
 
-      <Container>
-        <Image src={map} alt="map" className="mt-5 w-full h-auto lg:px-40 rounded-md" />
+      <Container className="md:px-8 lg:px-12 xl:px-32">
+        <Image src={map} alt="map" className="mt-5 w-full h-auto  rounded-lg" />
       </Container>
 
       <div className="flex justify-center mt-10">

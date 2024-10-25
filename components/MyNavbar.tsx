@@ -12,12 +12,12 @@ const MyNavbar = () => {
 
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden w-full">
             <Image src={tilaka} alt="tilaka" className="h-8 w-8 text-gray-500 dark:text-gray-50" />
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-md md:menu-lg dropdown-content rounded-box z-50 mt-3 w-60 md:w-80 p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400">
+            className="menu menu-md md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400">
             <Menu />
           </ul>
         </div>

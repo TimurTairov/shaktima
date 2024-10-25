@@ -12,6 +12,7 @@
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100vh;
+  border-radius: 0.5rem;
 }
 
 .font-geist-sans {

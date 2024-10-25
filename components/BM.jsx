@@ -4,7 +4,7 @@ import guru from '@/public/img/guru.png'
 
 const BM = () => {
   return (
-    <Container className="bg-base-200 py-10 rounded-md">
+    <Container className="bg-base-200 py-10 lg:py-20 rounded-md">
       <div className="w-full flex flex-col md:flex-row justify-center md:justify-between ">
         <div className="md:mr-7">
           <p className="text-gray-800">

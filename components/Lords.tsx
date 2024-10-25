@@ -9,7 +9,7 @@ import ganesh from "@/public/img/Lords/6.png"
 
 const Lords = () => {
   return (
-    <Container className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10 lg:py-20'>
+    <Container className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7 lg:gap-10 xl:gap-14 py-10 lg:py-20'>
       <div className='flex flex-col '>
         <Image src={shiva} alt='shiva' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Понедельник - Шива</h2>

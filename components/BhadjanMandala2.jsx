@@ -31,7 +31,7 @@ const BhadjanMandala2 = () => {
     img12,
   ]
   return (
-    <div className="py-20">
+    <div className="pt-10 lg:py-20">
       <Container className="flex flex-wrap">
         <div className="grid grid-cols-4 w-full lg:w-1/2">
           {altar.map((item, index) => (
