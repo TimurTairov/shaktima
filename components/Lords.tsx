@@ -13,34 +13,34 @@ const Lords = () => {
       <div className='flex flex-col '>
         <Image src={shiva} alt='shiva' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Понедельник - Шива</h2>
-        <p>Шива олицетворяет собой космическое сознание, статичное мужское начало вселенной (Пуруша). Наряду с Брахмой и Вишну является одним из богов Тримурти. Бог Разрушитель Вселенной. Также Шива является основателем Йоги.</p>
+        <p className='text-sm md:text-base'>Шива олицетворяет собой космическое сознание, статичное мужское начало вселенной (Пуруша). Наряду с Брахмой и Вишну является одним из богов Тримурти. Бог Разрушитель Вселенной. Также Шива является основателем Йоги.</p>
       </div>
       <div className='flex flex-col'>
         <Image src={datta} alt='datta' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Вторник - Даттатрея</h2>
-        <p>Даттатрея — ишта-девата, избранное божество нашей традиции. Он — учитель всех учителей, наставник всех йогов и сиддхов. Он олицетворяет принцип воззрения адвайты и самоосвобожденного поведения — игры в облике авадхуты.</p>
+        <p className='text-sm md:text-base'>Даттатрея — ишта-девата, избранное божество нашей традиции. Он — учитель всех учителей, наставник всех йогов и сиддхов. Он олицетворяет принцип воззрения адвайты и самоосвобожденного поведения — игры в облике авадхуты.</p>
       </div>
       <div className='flex flex-col'>
         <Image src={vishnu} alt='vishnu' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Среда - Вишну</h2>
-        <p>Бог-хранитель вселенной, один из Тримурти, божественной Троицы богов. Он олицетворяет энергию поддержания Абсолюта (стхити) и гуну саттва.
+        <p className='text-sm md:text-base'>Бог-хранитель вселенной, один из Тримурти, божественной Троицы богов. Он олицетворяет энергию поддержания Абсолюта (стхити) и гуну саттва.
         </p>
       </div>
       <div className='flex flex-col'>
         <Image src={guru} alt='guru' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Четверг - Гуру</h2>
-        <p>«Один лишь Гуру, который достиг Самореализации, может помочь ищущему достичь ее».</p>
-        <p className='w-full text-right pr-5 lg:pr-10'>Шива-сутра</p>
+        <p className='text-sm md:text-base'>«Один лишь Гуру, который достиг Самореализации, может помочь ищущему достичь ее».</p>
+        <p className='w-full text-right pr-5 lg:pr-10 text-sm md:text-base'>Шива-сутра</p>
       </div>
       <div className='flex flex-col'>
         <Image src={shakti} alt='shakti' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Пятница - Шакти</h2>
-        <p>Богиня, давшая начало всему творению - Божественная Мать всего сущего, аспектами которой являются все Богини или Дэви: Лакшми, Сарасвати и Парвати.</p>
+        <p className='text-sm md:text-base'>Богиня, давшая начало всему творению - Божественная Мать всего сущего, аспектами которой являются все Богини или Дэви: Лакшми, Сарасвати и Парвати.</p>
       </div>
       <div className='flex flex-col'>
         <Image src={ganesh} alt='ganesh' />
         <h2 className='w-full text-center text-lg font-semibold mt-2'>Суббота - Сиддхи</h2>
-        <p>Почитание Великих Святых - Махасиддхов. </p>
+        <p className='text-sm md:text-base'>Почитание Великих Святых - Махасиддхов. </p>
       </div>
 
     </Container>

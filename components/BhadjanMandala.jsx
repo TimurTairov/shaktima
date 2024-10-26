@@ -5,13 +5,13 @@ import heroImg from '@/public/img/hero-3.jpg'
 
 const BhadjanMandala = () => {
   return (
-    <Container className="flex flex-wrap">
-      <div className="flex items-center justify-center w-full lg:w-1/2">
-        <div className="max-w-2xl pb-10">
-          <h1 className="w-full text-center lg:text-start text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
+    <Container className="flex flex-wrap justify-between">
+      <div className="flex items-center justify-center w-full lg:w-5/12">
+        <div className="pb-10">
+          <h1 className="w-full text-center lg:text-start text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
             Бхаджан Мандала
           </h1>
-          <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Открыться безусловной любви через интеграцию с бхаджанами и песнями
             преданности и пережить радость от призывания милости святых и
             божеств линии передачи
@@ -27,7 +27,7 @@ const BhadjanMandala = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full lg:w-1/2">
+      <div className="flex items-center justify-center w-full lg:w-6/12">
         <Image
           src={heroImg}
           width="855"

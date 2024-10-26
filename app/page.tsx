@@ -54,7 +54,9 @@ export default function Home() {
         Как отличить игры ума от просветления?
       </SectionTitle>
 
-      <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[30rem] lg:px-20 xl:px-80 rounded-md mb-10"></iframe>
+      <Container>
+        <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[35rem] lg:px-20 xl:px-52 rounded-md mb-10"></iframe>
+      </Container>
 
       <SectionTitle
         preTitle="Галерея"

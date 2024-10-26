@@ -18,7 +18,7 @@ const page = () => {
       <Lords />
 
       <SectionTitle
-        preTitle="Бхаджан Манадал"
+        preTitle="Бхаджан Манадала"
         title="Детали мероприятия"
       >
         <div className="flex justify-center">
@@ -30,7 +30,14 @@ const page = () => {
                   <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
-                    <p className="text-left">Каждый вечер с 19:00 по 21:00, кроме воскресения. </p>
+                    <p className="text-left">Дата и время анонсируются в нашем
+                      <a href="https://t.me/mdc_ShaktiMa"
+                        target="_blank"
+                        rel="noopener"
+                        className="ml-1 text-left text-indigo-500">
+                        телеграм канале.
+                      </a>
+                    </p>
                   </div>
                 </div>
 
@@ -50,9 +57,13 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Где</p>
                     <p className="text-left">
-                      Пространство &quot;Studio 108&quot; <br />
-                      м. Тургеневская/Чистые Пруды<br />
-                      Ул. Жуковского дом 7
+                      Следите за анонсами в
+                      <a href="https://t.me/mdc_ShaktiMa"
+                        target="_blank"
+                        rel="noopener"
+                        className="ml-1 text-left text-indigo-500">
+                        телеграм канале.
+                      </a>
                     </p>
                   </div>
                 </div>
