@@ -8,7 +8,7 @@ const Menu = () => {
       <li >
         <details className="text-gray-700 dark:text-gray-300">
           <summary className="text-gray-700 dark:text-gray-300">Практики</summary>
-          <ul className="w-60 lg:w-48 wp-2 text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-base-content border-l border-gray-300 dark:border-gray-600">
+          <ul className="w-48 wp-2 text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-base-content border-l border-gray-300 dark:border-gray-600">
             <li><Link href='/meditation' className="text-gray-700 dark:text-gray-300 w-full">Медитация сиддхов</Link></li>
             <li><Link href='/bhadjan-mandala' className="text-gray-700 dark:text-gray-300 w-full">Бхаджан мандала</Link></li>
           </ul>
