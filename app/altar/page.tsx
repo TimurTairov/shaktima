@@ -34,11 +34,11 @@ const page = () => {
   ]
   return (
     <Container className="min-h-screen">
-      <div className="py-5 md:py-10 px-2 md:px-5 gap-3 max-h-screen  grid grid-cols-7 bg-red-800 rounded-lg">
+      <div className="py-5 md:py-10 px-2 md:px-5 gap-1 md:gap-5 lg:gap-7 xl:gap-10 max-h-screen  grid grid-cols-7 bg-red-800 rounded-lg">
         {
           gods.map(god => (
-            <div className="">
-              <Image src={god} alt="Сиддхи и божества" className="w-10 h-auto md:w-40 md:h-35" />
+            <div className="flex justify-center">
+              <Image src={god} alt="Сиддхи и божества" className="w-20 h-auto md:w-40 md:h-35" />
             </div>
           ))
         }
