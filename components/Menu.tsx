@@ -14,7 +14,7 @@ const Menu = () => {
           </ul>
         </details>
       </li>
-      <li><Link href='/seminary' className="text-gray-700 dark:text-gray-300">Семинары</Link></li>
+      <li><Link href='/events' className="text-gray-700 dark:text-gray-300">Мероприятия</Link></li>
       <li><Link href='/contacts' className="text-gray-700 dark:text-gray-300">Контакты</Link></li>
       <li><Link href='/donate' className="text-gray-700 dark:text-gray-300">Поддержать</Link></li>
     </>

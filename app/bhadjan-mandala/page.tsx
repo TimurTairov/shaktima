@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import Link from "next/link";
 import { Container } from "@/components/Container";
 import { SectionTitle } from "@/components/SectionTitle";
 import { IoCalendarNumberOutline } from "react-icons/io5";
@@ -9,6 +11,12 @@ import BhadjanMandala2 from "@/components/BhadjanMandala2"
 import BM from "@/components/BM"
 import Lords from "@/components/Lords"
 
+export const metadata: Metadata = {
+  title: "Бхаджан Мандала",
+  description: "Бхаджан Мандала это мистерия звука, коллективная практика призывания благословений Древа Прибежища",
+};
+
+
 const page = () => {
   return (
     <Container>
@@ -16,6 +24,8 @@ const page = () => {
       <BhadjanMandala2 />
       <BM />
       <Lords />
+
+      <Link href="/altar" className="py-10 inline-block w-full text-center text-indigo-500">Виртуальный алтарь</Link>
 
       <SectionTitle
         preTitle="Бхаджан Манадала"

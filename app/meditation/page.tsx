@@ -13,7 +13,7 @@ import { MeditationSiddhov } from "@/components/MeditationSiddhov"
 
 export const metadata: Metadata = {
   title: "Медитация сиддхов",
-  description: "Медитация оффлайн в Москве в Stydio 108. Метро Тургеневская/Чистые Пруды. Улица Жуковского дом 7.",
+  description: "Медитация сиддхов оффлайн в Москве в Stydio 108. Метро Тургеневская/Чистые Пруды. Улица Жуковского дом 7.",
 };
 
 const page = () => {
