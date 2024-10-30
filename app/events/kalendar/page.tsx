@@ -46,16 +46,17 @@ const page = () => {
 
   return (
     <Container className="min-h-screen">
-      <h1 className="w-full text-center">Календарь</h1>
+      <h1 className="w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Календарь</h1>
 
+      <p className="mt-10 text-lg lg:text-xl xl:mx-40">Ноябрь</p>
       <div className="hidden md:flex justify-center">
-        <div className="mt-10 grid grid-cols-7 border">
+        <div className="grid grid-cols-7 border">
           {kalendar.map(item => (<div key={item} className="text-center text-xs">{item}</div>))}
         </div>
       </div>
 
       <div className="flex justify-center md:hidden">
-        <div className="mt-10 grid grid-cols-7 border">
+        <div className="grid grid-cols-7 border">
           {kalendarSm.map(item => (<div key={item} className="text-center verySmallText">{item}</div>))}
         </div>
       </div>
