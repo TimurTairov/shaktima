@@ -24,8 +24,8 @@ export function Footer() {
       url: "/bhadjan-mandala"
     },
     {
-      title: "Семинары",
-      url: "/seminary"
+      title: "Календарь",
+      url: "/events/kalendar"
     },
     {
       title: "Контакты",

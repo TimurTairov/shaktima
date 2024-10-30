@@ -36,11 +36,6 @@ const page = () => {
     vasishtha, sripadasrivalabha, dattatreya, dattatreya2, dattatreyaAnagadevi, dhanvantari, kumary, viasa,
     ramalinga, shankara, satyamuni, guru, pribegishe, brahmananda, pambatti, durga,
   ]
-  const [value, setValue] = useState(1);
-
-  function chengeValue(event: any) {
-    setValue(event.target.value);
-  }
 
 
   return (
@@ -49,19 +44,20 @@ const page = () => {
         <h1 className="w-full text-center ">Виртуальный альтарь</h1>
         <GiSettingsKnobs />
       </div>
-      <div className="flex flex-col pb-5 pt-1 my-5 justify-center items-center border rounded-md">
+
+      {/* <div className="flex flex-col pb-5 pt-1 my-5 justify-center items-center border rounded-md">
         <div className="form-control w-52">
           <label className="label cursor-pointer">
             <span className="label-text">1</span>
             <input type="radio" name="radio-10" className="radio checked:bg-red-500" value={1} checked={value == 1 ? true : false}
-              onChange={chengeValue} defaultChecked />
+               defaultChecked />
           </label>
         </div>
         <div className="form-control w-52">
           <label className="label cursor-pointer">
             <span className="label-text">2</span>
             <input type="radio" name="radio-10" className="radio checked:bg-red-500" value={2} checked={value == 2 ? true : false}
-              onChange={chengeValue} defaultChecked />
+               defaultChecked />
           </label>
         </div>
 
@@ -69,11 +65,10 @@ const page = () => {
           <label className="label cursor-pointer">
             <span className="label-text">3</span>
             <input type="radio" name="radio-10" className="radio checked:bg-red-500" value={3} checked={value == 3 ? true : false}
-              onChange={chengeValue} defaultChecked />
+               defaultChecked />
           </label>
         </div>
-        <label className="text-xl">{value}</label>
-      </div>
+      </div> */}
 
 
       <div className="py-5 md:py-10 px-2 md:px-5 gap-1 md:gap-5 lg:gap-7 xl:gap-10 max-h-screen  grid grid-cols-8 bg-red-800 rounded-lg">

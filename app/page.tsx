@@ -10,7 +10,7 @@ import GalaryMDC from '@/components/GalaryMDC'
 export default function Home() {
   return (
     <Container>
-
+      <button type="button" id="dropdown-close-helper" className="h-0 w-0" />
       <Hero />
 
       <div className="mt-10 text-base md:text-lg w-full text-center">

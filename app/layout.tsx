@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local"
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
+import Navbar2 from "@/components/Navbar2";
 import MyNavbar from "@/components/MyNavbar";
 import { Footer } from "@/components/Footer";
 
@@ -44,7 +44,7 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} font-geist-sans antialiased`}>
         <ThemeProvider attribute="class">
-          {/* <Navbar /> */}
+          {/* <Navbar2 /> */}
           <MyNavbar />
           <div className="min-h-screen">
             {children}

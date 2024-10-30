@@ -1,22 +1,33 @@
-import Link from "next/link";
-import Image from "next/image"
+'use client'
+import Link from 'next/link'
+import Image from 'next/image'
 import logo from '@/public/ShaktiMa-logo.jpg'
-import ThemeChanger from "./DarkSwitch";
+import ThemeChanger from './DarkSwitch'
 import tilaka from '@/public/img/shiva-tilak-3100736.png'
-import Menu from "@/components/Menu";
+import Menu from '@/components/Menu'
+import MenuNavbar from './MenuNavbar'
 
 const MyNavbar = () => {
   return (
     <div className="container navbar relative flex items-center justify-between p-2 md:p-4 lg:p-8 mx-auto xl:px-1">
-
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden w-full">
-            <Image src={tilaka} alt="tilaka" loading="eager" className="h-8 w-8 text-gray-500 dark:text-gray-50" />
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden w-full"
+          >
+            <Image
+              src={tilaka}
+              alt="tilaka"
+              loading="eager"
+              className="h-8 w-8 text-gray-500 dark:text-gray-50"
+            />
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-md md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400">
+            className="menu menu-md md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400"
+          >
             <Menu />
           </ul>
         </div>
@@ -53,7 +64,7 @@ const MyNavbar = () => {
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-base text-gray-700 dark:text-gray-300 ">
-          <Menu />
+          <MenuNavbar />
         </ul>
       </div>
 
@@ -67,4 +78,3 @@ const MyNavbar = () => {
 }
 
 export default MyNavbar
-
