@@ -34,7 +34,7 @@ const BhadjanMandala = () => {
           height="638"
           className="object-cover w-full h-auto rounded-md"
           alt="Hero Illustration"
-          loading="eager"
+          loading="lazy"
           placeholder="blur"
         />
       </div>

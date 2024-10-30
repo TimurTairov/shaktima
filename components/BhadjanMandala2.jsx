@@ -35,7 +35,7 @@ const BhadjanMandala2 = () => {
       <Container className="flex flex-wrap justify-between">
         <div className="grid grid-cols-4 w-full lg:w-6/12">
           {altar.map((item, index) => (
-            <Image key={index} src={item} alt="murti" />
+            <Image key={index} src={item} alt="murti" loading="lazy" />
           ))}
         </div>
         <div className="flex items-center justify-center w-full lg:w-5/12">

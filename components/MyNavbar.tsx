@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image"
 import logo from '@/public/ShaktiMa-logo.jpg'
 import ThemeChanger from "./DarkSwitch";
-import { RxHamburgerMenu } from "react-icons/rx";
 import tilaka from '@/public/img/shiva-tilak-3100736.png'
 import Menu from "@/components/Menu";
 
@@ -13,7 +12,7 @@ const MyNavbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden w-full">
-            <Image src={tilaka} alt="tilaka" className="h-8 w-8 text-gray-500 dark:text-gray-50" />
+            <Image src={tilaka} alt="tilaka" loading="eager" className="h-8 w-8 text-gray-500 dark:text-gray-50" />
           </div>
           <ul
             tabIndex={0}
@@ -29,6 +28,7 @@ const MyNavbar = () => {
               width="32"
               alt="N"
               height="32"
+              loading="eager"
               className="w-8 rounded-full"
             />
             <h2 className="text-xl xl:text-2xl">Шакти Ма</h2>

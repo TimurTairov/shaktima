@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { Suspense } from "react";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
@@ -54,9 +55,11 @@ export default function Home() {
         Как отличить игры ума от просветления?
       </SectionTitle>
 
-      <Container>
-        <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[35rem] lg:px-20 xl:px-52 rounded-md mb-10"></iframe>
-      </Container>
+      <Suspense fallback={<p> Загрузка... </p>}>
+        <Container>
+          <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" loading="lazy" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[35rem] lg:px-20 xl:px-52 rounded-md mb-10"></iframe>
+        </Container>
+      </Suspense>
 
       <SectionTitle
         preTitle="Галерея"
