@@ -5,6 +5,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { benefitOne, benefitTwo } from "@/components/data";
 import GalaryMDC from '@/components/GalaryMDC'
+import Noyabr2024 from "@/components/Noyabr2024"
 
 
 export default function Home() {
@@ -60,6 +61,13 @@ export default function Home() {
           <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" loading="lazy" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[35rem] lg:px-20 xl:px-52 rounded-md mb-10"></iframe>
         </Container>
       </Suspense>
+
+      <SectionTitle
+        preTitle="Календарь"
+        title="Мероприятия в ноябре 2024 года"
+      >
+      </SectionTitle>
+      <Noyabr2024 />
 
       <SectionTitle
         preTitle="Галерея"
