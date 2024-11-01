@@ -25,7 +25,7 @@ import ramalinga from '@/public/img/virt altar/ramalinga.png'
 import guru from '@/public/img/virt altar/guru2.png'
 import viasa from '@/public/img/virt altar/viyasa.png'
 import pribegishe from '@/public/img/virt altar/pribegishe.png'
-import sutraMp3 from "@/audio/sutra"
+
 
 const Altar = () => {
   const gods = [
