@@ -14,6 +14,11 @@ const MenuNavbar = () => {
             </Link>
           </MenuItem>
           <MenuItem>
+            <Link className="w-full btn font-normal data-[focus]:bg-indigo-100" href="/sutra">
+              Утреняя Сутра
+            </Link>
+          </MenuItem>
+          <MenuItem>
             <Link className="w-full btn font-normal data-[focus]:bg-indigo-100" href="/bhadjan-mandala">
               Бхаджан Мандала
             </Link>

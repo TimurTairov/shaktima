@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/altar/page.tsx",
-    "components/MyNavbar.jsx"
+    "components/MyNavbar.jsx",
+    "app/sutra/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -1,5 +1,8 @@
 import Image from "next/image";
-import meditation from "@/public/img/meditation.svg"
+import meditation from "@/public/img/meditation-online.svg"
+import meditationOffline from "@/public/img/meditation.svg"
+import datta from "@/public/img/datta.jpg"
+import pambatti from "@/public/img/pambatti.png"
 
 const Decabr2024 = () => {
   return (
@@ -129,8 +132,8 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">14</p>
-            <div className="flex justify-center">
-              <p className="grid-meditation">Медитация сиддхов онлайн</p>
+            <div className="flex flex-wrap justify-center gap-1">
+              <Image src={datta} alt="Даттатрея" className="grid-meditation-mobile" />
               <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
             </div>
           </div>
@@ -157,7 +160,10 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">19</p>
-            <p></p>
+            <div className="flex justify-center">
+              <p className="grid-meditation">Памбатти джаянти</p>
+              <Image src={pambatti} alt="медитация сиддхов" className="grid-meditation-mobile" />
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">20</p>
@@ -244,11 +250,24 @@ const Decabr2024 = () => {
         </div>
 
       </div >
-      <div className="block lg:hidden">
-        <p>Условные обозначения:</p>
-        <div className="flex">
+
+      <div className="flex flex-col gap-1">
+        <p className="text-sm">Условные обозначения:</p>
+        <div className="flex items-center">
+          <Image src={datta} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
+          <p className="text-xs"> - Даттатрейя джаянти</p>
+        </div>
+        <div className="flex items-center">
+          <Image src={pambatti} alt="Памбатти" className="grid-meditation-mobile mr-1" />
+          <p className="text-xs"> - Памбатти джаянти</p>
+        </div>
+        <div className="flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p> - Медитация сиддхов онлайн</p>
+          <p className="text-xs"> - Медитация сиддхов онлайн</p>
+        </div>
+        <div className="flex items-center">
+          <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
+          <p className="text-xs"> - Медитация сиддхов оффлайн</p>
         </div>
       </div>
 
