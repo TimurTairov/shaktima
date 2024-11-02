@@ -18,6 +18,7 @@ const Menu = () => {
           <summary id="sum" className="text-gray-700 dark:text-gray-300">Практики</summary>
           <ul onClick={handleClickItem} className="w-48 wp-2 text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-base-content border-l border-gray-300 dark:border-gray-600">
             <li ><Link href='/meditation' className="text-gray-700 dark:text-gray-300 w-full">Медитация сиддхов</Link></li>
+            <li ><Link href='/sutra' className="text-gray-700 dark:text-gray-300 w-full">Утренняя сутра</Link></li>
             <li><Link href='/bhadjan-mandala' className="text-gray-700 dark:text-gray-300 w-full">Бхаджан мандала</Link></li>
           </ul>
         </details>
