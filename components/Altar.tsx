@@ -1,5 +1,4 @@
 'use client'
-import { Container } from "@/components/Container";
 import Image from "next/image";
 import ganesh from '@/public/img/virt altar/ganesh.png'
 import shiva from '@/public/img/virt altar/shiva2.png'
@@ -27,14 +26,17 @@ import viasa from '@/public/img/virt altar/viyasa.png'
 import pribegishe from '@/public/img/virt altar/pribegishe.png'
 import { useState } from "react";
 import { AiOutlineArrowsAlt } from "react-icons/ai";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Altar = () => {
   const [isFixed, setIsFixed] = useState(false)
 
   const gods = [
+    // ПЕРВЫЙ РЯД
     brahma, sarasvati, tripurasundari, vishnu, lakshmi, shiva, parvati, ganesh,
+    // ВТОРОЙ РЯД
     vasishtha, sripadasrivalabha, dattatreya, dattatreya2, dattatreyaAnagadevi, dhanvantari, kumary, viasa,
+    // ТРЕТИЙ РЯД
     ramalinga, shankara, satyamuni, guru, pribegishe, brahmananda, pambatti, durga,
   ]
 
@@ -53,21 +55,21 @@ const Altar = () => {
         <div className="py-5 md:py-7 px-2 md:px-3 gap-1 md:gap-5 max-h-screen  grid grid-cols-8 bg-red-800 rounded-lg">
           {
             gods.map((god, index) => (
-              <div className="flex justify-center">
-                <Image key={index} src={god} alt="Сиддхи и божества" loading="lazy" className="w-20 h-auto md:w-28 lg:w-32" />
+              <div key={index} className="flex justify-center">
+                <Image src={god} alt="Сиддхи и божества" className="w-20 h-auto md:w-28 lg:w-32" />
               </div>
             ))
           }
         </div>
-        <button className="p-1 border rounded-md bg-white text-black verySmallText md:text-xs" onClick={fixAltar}>
+        <button className="mt-1 p-0.5 border border-gray-200 dark:border-gray-600 rounded-md bg-white dark:bg-base-content text-black verySmallText md:text-xs" onClick={fixAltar}>
           {isFixed ? (
             <>
-              <AiOutlineCloseCircle className="w-4 h-4" />
+              <AiOutlineClose className="w-4 h-4 text-gray-400" />
             </>
           ) :
             (
               <>
-                <AiOutlineArrowsAlt className="w-4 h-4" />
+                <AiOutlineArrowsAlt className="w-4 h-4 text-gray-500 " />
               </>
             )
 

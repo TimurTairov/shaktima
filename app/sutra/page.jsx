@@ -10,10 +10,10 @@ const page = () => {
           className="flex flex-wrap items-center justify-center gap-3"
         >
           <p className="text-lg">Cутра</p>
-          <audio controls src="/sutra.mp3"></audio>
+          <audio controls src="/sounds/sutra.mp3"></audio>
         </div>
 
-        <div className="mt-10 w-full  flex flex-col items-center justify-center gap-4">
+        <div className="mt-10 w-full  flex flex-col items-center justify-center gap-5">
           <p className="sutra-title">1. Начало практики</p>
           <p className="text-center text-balance max-w-screen-sm">
             Перед началом практики выполняются ачамана и ежедневная практика
@@ -37,13 +37,15 @@ const page = () => {
             <br />
             САРВА КАРЙЕ ЩУ САРУАДА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             О, Изгибающий хобот, Огромнотелый, превосходящий своим сиянием свет
             миллионов Солнц! Устрани препятствия, о Бог, во всех моих
             начинаниях!
           </p>
           <p className="font-bold">ОМ ГАМ ГАНАПАТАЙЕ НАМАХА</p>
-          <p className="text-center">Поклонение Ганеше, Предводителю ганов!</p>
+          <p className="text-center text-sm">
+            Поклонение Ганеше, Предводителю ганов!
+          </p>
           <p className="font-bold">
             ГАНЕШАМ ПРАМАТХАДХИШАМ
             <br />
@@ -53,14 +55,14 @@ const page = () => {
             <br />
             ГОУРИНАНДАНАМ БХАДЖЕТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Ганешу, предводителя праматхов (духов), находящегося вне гун,
             наделенного добродетелями, благого, к стопам которого устремляются
             йогины, сына Гаури – почитаем!
           </p>
           <p className="sutra-title">6. Поется Сарасвати арати</p>
           <p className="font-bold">
-            ОМ ДЖЕЙ САРАСВАТИ МААТА,
+            ОМ ДЖЕЙ САРАСВАТИ МААТА
             <br />
             МАЙЯ ДЖЕЙ САРАСВАТИ МААТА
             <br />
@@ -70,20 +72,21 @@ const page = () => {
             <br />
             ТРИБХУВАНА ВИИКЬХЙААТАА
             <br />
-            ОМ ДЖЕЙ САРАСВАТИ МААТА (2 раза)
+            ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <> (2 раза)</>
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Слава Матери Сарасвати, преисполненной благих качеств,
             Повелительнице Трех Миров! Слава Матери Сарасвати!
           </p>
           <p className="font-bold">
             ЧАНДРА ВАДАНИ ПАДМАСИНИ
             <br />
-            ДхйУТИ МАНГАЛАКААРИ,
+            ДхйУТИ МАНГАЛАКААРИ
             <br />
             МАЙЯ ДхйУТИ МАНГАЛАКААРИИ
             <br />
-            СОХЕ ШУБХЕ ХАНСЕ САВААРИ,
+            СОХЕ ШУБХЕ ХАНСЕ САВААРИ
             <br />
             СОХЕ ШУБХЕ ХАНСЕ САВААРИ
             <br />
@@ -91,7 +94,7 @@ const page = () => {
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Луноликой, восседающей на лотосе, излучающей благодатный свет;
             восседающей на белом лебеде, обладающей несравненной силой – Слава
             Матери Сарасвати!
@@ -99,11 +102,11 @@ const page = () => {
           <p className="font-bold">
             БААЙЕ КААРе МЭ ВИНА
             <br />
-            ДААЙЕ КААРе МААЛЯ,
+            ДААЙЕ КААРе МААЛЯ
             <br />
             МАЙЯ ДААЙЕ КААРе МААЛЯА
             <br />
-            ШИИШа МУКУТе МАНИ СОХЕ,
+            ШИИШа МУКУТе МАНИ СОХЕ
             <br />
             ШИИШа МУКУТе МАНИ СОХЕ
             <br />
@@ -111,18 +114,18 @@ const page = () => {
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             В её левой руке вина, а в правой – четки. На её голове драгоценная
             корона, а на шее ожерелье из жемчуга. Слава Матери Сарасвати!
           </p>
           <p className="font-bold">
             ДЕВИ ШАРАНЕ ДЖО АЙЕ
             <br />
-            УНеКА УДДХААРе КИЙАА,
+            УНеКА УДДХААРе КИЙАА
             <br />
             МАЙЯ УНеКА УДДХААРэ КИЙАА
             <br />
-            ПЭТхИ МАНТХеРА ДААСИ,
+            ПЭТхИ МАНТХеРА ДААСИ
             <br />
             ПЭТхИ МАНТХеРА ДААСИ
             <br />
@@ -130,7 +133,7 @@ const page = () => {
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Кто бы ни обратился к Тебе, обретает Твою поддержку. Ты – Та, кто
             повлияла на служанку [царицы Кайкейи] Мантхару, чтобы убить Равану.
             Слава Матери Сарасвати!
@@ -138,11 +141,11 @@ const page = () => {
           <p className="font-bold">
             ВИДЬЯ ГЬЯНА ПРЭДАИНИ
             <br />
-            ГЬЯНА ПРАКААШЕ КАРОО,
+            ГЬЯНА ПРАКААШЕ КАРОО
             <br />
             МАЙЯ ГЬЯНА ПРАКААШЕ КАРОО
             <br />
-            МОХо АГЬЯНА ТИМИРИ КАА,
+            МОХо АГЬЯНА ТИМИРИ КАА
             <br />
             МОХо АГЬЯНА ТИМИРИ КАА
             <br />
@@ -150,18 +153,18 @@ const page = () => {
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             О Богиня, дарующая знание и мудрость, наполни меня светом мудрости!
             Рассей полностью тьму неведения и иллюзию! Слава Матери Сарасвати!
           </p>
           <p className="font-bold">
             ДХУУПа ДИИПа ПХАЛе МЕЕВА
             <br />
-            МАА СВИКААРе КАРОО,
+            МАА СВИКААРе КАРОО
             <br />
             МАЙЯ МАА СВИКААРе КАРОО
             <br />
-            ГЬЯНА ЧААКШУ ДЕ МААТА,
+            ГЬЯНА ЧААКШУ ДЕ МААТА
             <br />
             ГЬЯНА ЧАКШУ ДЕ МААТА
             <br />
@@ -169,32 +172,32 @@ const page = () => {
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             О Мать, прими благовония, светильники, фрукты и сладости. О Мать,
             надели нас оком мудрости! Слава Матери Сарасвати!
           </p>
           <p className="font-bold">
             МАА САРАСВАТИ КИ ААРАТИ
             <br />
-            ДЖО КОИ ДЖАНе ГААВЕЕ,
+            ДЖО КОИ ДЖАНе ГААВЕЕ
             <br />
             МАЙЯ ДЖО КОИ ДЖАНе ГААВЕЕ
             <br />
-            ХИТЭКААРИ СУКХАКАРИ,
+            ХИТЭКААРИ СУКХАКАРИ
             <br />
-            ХИТЭКААРИ СУКХАКАРИ,
+            ХИТЭКААРИ СУКХАКАРИ
             <br />
             ГЬЯНа БХАКТИ ПААВЕЕ
             <br />
             ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Тот, кто поет это арати Матери Сарасвати, приносящее благо и
             радость, будет благословлен мудростью и преданностью. Слава Матери
             Сарасвати!
           </p>
           <p className="font-bold">
-            ОМ ДЖЕЙ САРАСВАТИ МААТА,
+            ОМ ДЖЕЙ САРАСВАТИ МААТА
             <br />
             МАЙЯ ДЖЕЙ САРАСВАТИ МААТА
             <br />
@@ -204,15 +207,19 @@ const page = () => {
             <br />
             ТРИБХУВАНА ВИИКЬХЙААТАА
             <br />
-            ОМ ДЖЕЙ САРАСВАТИ МААТА (2 раза)
+            ОМ ДЖЕЙ САРАСВАТИ МААТА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p>(2 раза)</p>
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Слава Матери Сарасвати, преисполненной благих качеств,
             Повелительнице Трех Миров! Слава Матери Сарасвати!
           </p>
-          <p className="text-center text-balance">
-            Шри Сарасвати Мата Ки Джай!
+          <p className="font-bold text-center">
+            ШРИ МАХАСАРАСВАТИ МАТА КИ — ДЖЕЙ!
+            <br />
+            ШРИ Гуру СВАМИ ВИШНУДЕВАНАНДА ГИРИ ДЖИ КИ — ДЖЕЙ!
           </p>
+
           <p className="sutra-title">
             7. Поются четыре мантры, очищающие пространство
           </p>
@@ -226,7 +233,7 @@ const page = () => {
             <br />
             ДХЬЙО ЙО НАХ ПРАЧОДАЯТ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             О, Всевышний Источник! Ты есть высший Свет, разрушающий грехи. Мы
             медитируем на Тебя, чтобы Ты вдохновлял, просветлял и вел нас к
             освобождению!
@@ -241,7 +248,7 @@ const page = () => {
             <br />
             МРИТЬОР МУКШИЯ МА’МРИТАТ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Почитаем Трехокого Господа Шиву, Благоухающего, Несущего благо всем!
             Разрушающий узы рождений и смертей, да освободит Он нас от смерти
             ради Бессмертия!
@@ -254,7 +261,7 @@ const page = () => {
             <br />
             МРИТЬЮР МА АМРИТАМ ГАМАЙЯ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             От неистины веди меня к Истине, от тьмы веди меня к свету, от смерти
             веди меня к бессмертию.
           </p>
@@ -268,7 +275,7 @@ const page = () => {
             <br />
             ТАСМАЙ ШРИ ГУРАВЕ НАМАХА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Гуру – это Брахма, Гуру – это Вишну, Гуру – это Господь Махешвара.
             Гуру – это сам Парабрахман. Тому Шри Гуру поклонение!
           </p>
@@ -280,7 +287,7 @@ const page = () => {
             <br />
             ОМ ДРАМ ДАТТАТРЕЙЯЯ НАМАХА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Истинной природе поклонение! Духовному учителю поклонение! Ом,
             Бхагавану Даттатрее поклонение!
           </p>
@@ -293,7 +300,7 @@ const page = () => {
             <br />
             ОМКАРАЯ НАМО НАМАХА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Йоги всегда медитируют на отмеченный анусварой слог Ом, исполняющий
             все желания и дарующий освобождение. Мы почтительно склоняемся перед
             Омкарой
@@ -307,15 +314,15 @@ const page = () => {
             <br />
             ТАС МАЙ ШРИ ГУРАВЕ НАМАХА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Гуру – это Брахма, Гуру – это Вишну, Гуру – это Господь Махешвара.
             Гуру – это сам Парабрахман, Тому Шри Гуру поклонение!
           </p>
 
           {/* 9 */}
-          <div className="w-full  flex flex-col items-center justify-center gap-4">
+          <div className="w-full  flex flex-col items-center justify-center gap-5">
             <p className="sutra-title">9. Поется Шри Даттатрея стотра</p>
-            <p className="font-bold">
+            <p className="font-bold text-center">
               АСЬЯ ШРИ ДАТТАТРЕЙЯ СТОТРАМ
               <br />
               ШРИ ГАНЕШАЯ НАМАХА!
@@ -329,12 +336,12 @@ const page = () => {
               <br />
               ДАТТАТРЕЙАМ АХАМ БХАДЖЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Имеющий спутанные волосы, являющийся Пандурангой (Вишну), с
               трезубцем в руке, океан милосердия. Божественный избавитель от
               всех болезней – Даттатрея, я поклоняюсь Тебе.
             </p>
-            <p className="font-bold">
+            <p className="font-bold text-center md:text-left">
               АСЙА ШРИ ДАТТАТРЕЙА СТОТРА МАНТРАСЙА
               <br />
               БХАГАВАН НАРАДА РУШИХИ АНУШТУП
@@ -343,7 +350,7 @@ const page = () => {
               <br />
               ШРИ ДАТТА ПРИТЙАРТХЕ ДЖАПЭ ВИНИЙОГАХА
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Мантры этого гимна Даттатрее божественный мудрец Нарада сочинил в
               стихотворном размере ануштубх. Шри Датта, Высшая душа, Божество
               [этого гимна]. Чтобы порадовать Шри Датту, поется этот гимн.
@@ -357,7 +364,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Источник мира, его творец, хранитель и разрушитель, дарующий
               освобождение от привязанностей к миру – Даттатрея, мы склоняемся
               перед Тобой.
@@ -371,7 +378,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Разрушитель печали, рождения и старости, очищающий наше тело и
               душу, одеянием Тебе служит Небо. Даттатрея, мы склоняемся перед
               Тобой.
@@ -385,7 +392,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Твое тело лучезарное, как горящая камфара. Ты – проявленный образ
               Брахмы. Ты овладел всеми Ведами и писаниями. Даттатрея, мы
               склоняемся перед Тобой.
@@ -399,7 +406,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Который далеко за пределами тонкого,
               плотного, короткого и высокого, Кто не может быть ограничен именем
               или кастой, И Кто сияет в пяти стихиях мира.
@@ -413,7 +420,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Кто есть результат пяти жертвоприношений,
               Который является самим жертвенным огнем, Кто принимает форму
               жертвенного огня, Святой, Который любит жертвенный огонь.
@@ -427,7 +434,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, который в начале – Творец, Который в
               середине – Вишну, Хранитель, Который в конце – Шива, Разрушитель,
               И Кто есть Господь, представляющий Тримурти.
@@ -441,7 +448,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Ты источник всех удовольствий и Ты само удовольствие. О, мастер
               йоги! О совершенный повелитель своих чувств, Даттатрея, мы
               склоняемся перед Тобой.
@@ -455,7 +462,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Твое одеяние – это лишь стороны света, Твоя форма сияет
               божественностью, Ты вечный, высший, Брахман, Даттатрея, мы
               склоняемся перед Тобой.
@@ -469,7 +476,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЭ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               В Джамбудвипе, на великой земле, находится Твое жилище Матапура.
               Победивший ум, Ты сам являешься Божеством. Даттатрея, мы
               склоняемся перед тобой.
@@ -483,7 +490,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЭ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Как обнаженный нищий, Ты движешься от дома к дому, из деревни в
               деревню, с золотой чашей в руках, собирая милостыню. Даттатрея, мы
               склоняемся перед Тобой.
@@ -497,7 +504,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Кто заключает в себе знание Абсолюта, Кто
               носит небо и землю как свои одежды, Кто есть три стадии:
               бодрствование, сон и глубокий сон.
@@ -511,7 +518,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЭ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Авадхута, вечно-блаженный, твоя природа – Парабрахман. Имея тело,
               Ты – вне тела. Даттатрея, мы склоняемся перед Тобой.
             </p>
@@ -524,7 +531,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрейе, Кто есть олицетворение истины, чье
               поведение совершенно, Кто следует истине как своей дхарме, Кто
               является прибежищем истины, и Кто не имеет видимой формы.
@@ -538,7 +545,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Кто держит в руках трезубец и булаву, Кто
               носит гирланду из душистых полевых цветов, и Кто является главным
               исполнителем огненных жертвоприношений.
@@ -552,7 +559,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЭ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Чья природа одновременно тленна и нетленна.
               Кто вышел за пределы трансцендентной реальности. Датта
               освобожденный, высшая хвала Тебе!
@@ -566,7 +573,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Кто является величайшим знанием, Господином
               Лакшми, Датте, Который имеет форму души, и Кто имеет форму с
               качествами и без качеств.
@@ -580,7 +587,7 @@ const page = () => {
               <br />
               ДАТТАТРЕЙА НАМОСТУТЕ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Поклоняюсь Даттатрее, Который уничтожает моих врагов, Кто дарует
               мне знания и мастерство, и Кто уничтожает все мои грехи.
             </p>
@@ -593,21 +600,19 @@ const page = () => {
               <br />
               НАРАДЭНА ПРАКИРТИТАМ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Этот великий божественный гимн дарует прямое восприятие
               реальности. Я, Нарада, сочинил его только благодаря милости
               Даттатреи.
             </p>
-            <p className="font-bold">
-              ИТИ ШРИ НАРАДА ПУРАНЭ
-              <br />
-              НАРАДА КРТАМ
+            <p className="font-bold text-center">
+              ИТИ ШРИ НАРАДА ПУРАНЭ НАРАДА КРТАМ
               <br />
               ДАТТАРЕЙА СТОТРАМ САМПУРНАМ
               <br />
               ШРИ ДАТТАРЕЙА ПАРАМАСТУ
             </p>
-            <p className="text-center text-balance max-w-screen-sm">
+            <p className="text-center text-balance max-w-screen-sm text-sm">
               Так заканчивается Даттатрея стотра в Нарада пуране.
             </p>
           </div>
@@ -623,12 +628,12 @@ const page = () => {
             11. Поется молитва-почитание Даттатреи в аспекте «одетого в стороны
             света» – дигамбары
           </p>
-          <p className="font-bold">
+          <p className="font-bold text-center">
             ДИГАМБАРА ДИГАМБАРА
             <br />
             ШРИ ПАДАВАЛЛАБХА ДИГАМБАРА
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Одетому в пространство поклонение! Святому Шрипаде Валлабхе
             поклонение!
           </p>
@@ -644,7 +649,7 @@ const page = () => {
             13. Поется семенная мантра Даттатреи, 7 раз
           </p>
           <p className="font-bold">ОМ ДРАМ ДАТТАТРЕЙАЙА НАМАХА</p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Ом, Бхагавану Даттатрее поклонение!
           </p>
 
@@ -656,7 +661,7 @@ const page = () => {
             <br />
             ТАННО ДАТТА ПРАЧОДАЙАТ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Ом! Да услышит нас Даттатрея! Мы медитируем на сына Атри. Да дарует
             нам Даттатрея свою силу просветления!
           </p>
@@ -669,7 +674,7 @@ const page = () => {
             <br />
             ТАННО ПРАБХАКАРА ПРАЧОДАЙАТ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Ом! Да услышит нас сиддха йоги Прабхакара! Мы медитируем на
             Парамахамсу. Да осветит Шива Прабхакара наш разум!
           </p>
@@ -677,7 +682,7 @@ const page = () => {
           <p className="sutra-title">
             16. Поется молитва к Парамгуру Брахмананде
           </p>
-          <p className="font-bold">
+          <p className="font-bold text-center md:text-laft">
             ПРАБХАКАРАМ ШАНКАРА ЛОЧАНАМ
             <br />
             ПРАБХАНКУРАМ ШАКТИ ВИШЕША ДАЙАКАМ
@@ -686,20 +691,27 @@ const page = () => {
             <br />
             СМАРААМИ НИТЙАМ МАНАСА НАМАМЙАХАМ
           </p>
-          <p className="text-center text-balance max-w-screen-sm">
+          <p className="text-center text-balance max-w-screen-sm text-sm">
             Человек с глазами Господа Шивы, Рассвет, который рождает силу! Я
             держу тебя в своей памяти каждый день И склоняю голову перед тобой.
           </p>
 
           <p className="sutra-title">17. Поется мантра Брахмананды, 3 раза</p>
-          <p className="font-bold">ОМ НАМО НАМАХ ШИВАЙА ОМ ШИВА ПРАБХАКАРАЙА</p>
-          <p>Ом поклонение, поклонение Шиве, Шиве Прабхакаре!</p>
+          <p className="font-bold">
+            ОМ НАМО НАМАХ ШИВАЙА
+            <br />
+            ОМ ШИВА ПРАБХАКАРАЙА
+          </p>
+          <p className="text-center text-balance max-w-screen-sm text-sm">
+            Ом поклонение, поклонение Шиве, Шиве Прабхакаре!
+          </p>
 
           <p className="sutra-title">18. Звучит восхваление</p>
           <p className="font-bold max-w-screen-sm">
             БХАГАВАН ШРИ АВАДХУТА ДАТТАТРЕЙЯ КИ — ДЖЕЙ!
             <br />
-            БХАГАВАН ШИВА ПРАБХАКАРА ШРИ Гуру БРАХМАНАНДА АВАДХУТА КИ — ДЖЕЙ!
+            БХАГАВАН ШИВА ПРАБХАКАРА СИДДХАЙОГИ ШРИ Гуру БРАХМАНАНДА АВАДХУТА КИ
+            — ДЖЕЙ!
             <br />
             ШРИ Гуру СВАМИ ВИШНУДЕВАНАНДА ГИРИ ДЖИ КИ — ДЖЕЙ!
             <br />
@@ -717,7 +729,9 @@ const page = () => {
           <p className="sutra-title">
             20. Четвертый поклон из практики пяти поклонов
           </p>
-          <p>Поклон Самайе (выполняется под звук колокольчика).</p>
+          <p className="text-center text-balance max-w-screen-sm">
+            Поклон Самайе (выполняется под звук колокольчика).
+          </p>
 
           <p className="sutra-title">21. Звучит текст сутры</p>
 
@@ -740,7 +754,7 @@ const page = () => {
             26. Выполняется полное простирание в сторону алтаря
           </p>
 
-          <p className="sutra-title">Практика заершена!</p>
+          <p className="sutra-title">Практика завершена!</p>
         </div>
       </div>
     </div>

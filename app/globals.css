@@ -48,7 +48,7 @@
 
 /* АЛТАРЬ */
 .fixAltar {
-  @apply fixed top-2 left-0 w-full px-1 md:px-3 2xl:px-44 z-50;
+  @apply fixed top-1 left-0 w-full px-1 md:px-3 2xl:px-44 z-50;
 }
 .marginTop {
   @apply mt-52 2xl:mt-[35rem];
