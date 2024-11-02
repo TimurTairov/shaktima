@@ -40,7 +40,7 @@
   @apply hidden text-indigo-800 px-1 bg-indigo-200 rounded-md verySmallText 2xl:text-xs;
 }
 .grid-meditation-mobile {
-  @apply block h-6 w-6 text-indigo-800 bg-indigo-200 rounded-md verySmallText md:text-xs lg:text-sm object-cover;
+  @apply block h-6 w-6 text-indigo-800 bg-indigo-200 rounded-md text-sm object-cover;
 }
 .grid-meditation-mobile {
   padding: 1px;
@@ -48,7 +48,7 @@
 
 /* АЛТАРЬ */
 .fixAltar {
-  @apply fixed top-0 left-0 w-full px-1 md:px-3 2xl:px-44 z-50;
+  @apply fixed top-2 left-0 w-full px-1 md:px-3 2xl:px-44 z-50;
 }
 .marginTop {
   @apply mt-52 2xl:mt-[35rem];
@@ -56,5 +56,5 @@
 
 /* СУТРА */
 .sutra-title {
-  @apply mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl font-semibold text-center text-indigo-500;
+  @apply mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl font-semibold text-center text-indigo-500 max-w-screen-sm;
 }

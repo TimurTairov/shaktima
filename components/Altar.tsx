@@ -25,7 +25,9 @@ import ramalinga from '@/public/img/virt altar/ramalinga.png'
 import guru from '@/public/img/virt altar/guru2.png'
 import viasa from '@/public/img/virt altar/viyasa.png'
 import pribegishe from '@/public/img/virt altar/pribegishe.png'
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { AiOutlineArrowsAlt } from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Altar = () => {
   const [isFixed, setIsFixed] = useState(false)
@@ -57,7 +59,20 @@ const Altar = () => {
             ))
           }
         </div>
-        <button className="p-1 border rounded-md bg-white text-black text-xs" onClick={fixAltar}>{isFixed ? "Расфиксировать" : "Зафиксировать"}</button>
+        <button className="p-1 border rounded-md bg-white text-black verySmallText md:text-xs" onClick={fixAltar}>
+          {isFixed ? (
+            <>
+              <AiOutlineCloseCircle className="w-4 h-4" />
+            </>
+          ) :
+            (
+              <>
+                <AiOutlineArrowsAlt className="w-4 h-4" />
+              </>
+            )
+
+          }
+        </button>
       </div>
     </>
   )
