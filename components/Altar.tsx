@@ -25,37 +25,41 @@ import ramalinga from '@/public/img/virt altar/ramalinga.png'
 import guru from '@/public/img/virt altar/guru2.png'
 import viasa from '@/public/img/virt altar/viyasa.png'
 import pribegishe from '@/public/img/virt altar/pribegishe.png'
-
+import { useState, useEffect } from "react";
 
 const Altar = () => {
+  const [isFixed, setIsFixed] = useState(false)
+
   const gods = [
     brahma, sarasvati, tripurasundari, vishnu, lakshmi, shiva, parvati, ganesh,
     vasishtha, sripadasrivalabha, dattatreya, dattatreya2, dattatreyaAnagadevi, dhanvantari, kumary, viasa,
     ramalinga, shankara, satyamuni, guru, pribegishe, brahmananda, pambatti, durga,
   ]
+
+
+  const fixAltar = () => {
+    const altar = document.getElementById('altar')
+    const sutra = document.getElementById('sutra')
+    altar?.classList.toggle('fixAltar')
+    sutra?.classList.toggle('marginTop')
+    setIsFixed(!isFixed)
+  }
+
   return (
-    <Container className="min-h-screen">
-      {/* <div className="flex items-center text-2xl md:text-3xl lg:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
-        <h1 className="w-full text-center ">Виртуальный альтарь</h1>
-        <GiSettingsKnobs />
-      </div> */}
-
-      <div className="py-5 md:py-10 px-2 md:px-5 gap-1 md:gap-5 lg:gap-7 xl:gap-10 max-h-screen  grid grid-cols-8 bg-red-800 rounded-lg">
-        {
-          gods.map((god, index) => (
-            <div className="flex justify-center">
-              <Image key={index} src={god} alt="Сиддхи и божества" loading="lazy" className="w-20 h-auto md:w-40 md:h-35" />
-            </div>
-          ))
-        }
+    <>
+      <div id="altar" className="">
+        <div className="py-5 md:py-7 px-2 md:px-3 gap-1 md:gap-5 max-h-screen  grid grid-cols-8 bg-red-800 rounded-lg">
+          {
+            gods.map((god, index) => (
+              <div className="flex justify-center">
+                <Image key={index} src={god} alt="Сиддхи и божества" loading="lazy" className="w-20 h-auto md:w-28 lg:w-32" />
+              </div>
+            ))
+          }
+        </div>
+        <button className="p-1 border rounded-md bg-white text-black text-xs" onClick={fixAltar}>{isFixed ? "Расфиксировать" : "Зафиксировать"}</button>
       </div>
-
-
-
-
-
-
-    </Container>
+    </>
   )
 }
 
