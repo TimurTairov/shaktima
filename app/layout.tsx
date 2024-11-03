@@ -6,7 +6,8 @@ import "./globals.css";
 import Navbar2 from "@/components/Navbar2";
 import MyNavbar from "@/components/MyNavbar";
 import { Footer } from "@/components/Footer";
-
+import { Suspense } from "react";
+import { Metrika } from "@/components/YaMetrika";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,9 @@ export default function RootLayout({
           </div>
           <Footer />
         </ThemeProvider>
+        <Suspense>
+          <Metrika />
+        </Suspense>
       </body>
     </html>
   );
