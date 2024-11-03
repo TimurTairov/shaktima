@@ -18,7 +18,7 @@ export const Hero = () => {
 
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center justify-center lg:justify-start sm:flex-row">
               <Link
-                href="/praktiki"
+                href="/meditation"
 
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
                 Начать практиковать

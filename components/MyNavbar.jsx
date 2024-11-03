@@ -33,7 +33,7 @@ const MyNavbar = () => {
         </div>
         {/* Logo  */}
         <Link href="/" className="btn btn-ghost text-xl hidden lg:flex">
-          <div className="flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100">
+          <div className="flex items-center space-x-2 text-2xl font-medium text-gray-600 dark:text-gray-100">
             <Image
               src={logo}
               width="32"
@@ -42,7 +42,7 @@ const MyNavbar = () => {
               loading="eager"
               className="w-8 rounded-full"
             />
-            <h2 className="text-xl xl:text-2xl">Шакти Ма</h2>
+            <h2 className="text-xl xl:text-2xl pattaya-regular">Шакти Ма</h2>
           </div>
         </Link>
       </div>
@@ -57,7 +57,7 @@ const MyNavbar = () => {
               height="32"
               className="w-8 rounded-full"
             />
-            <h2 className="text-xl xl:text-2xl">Шакти Ма</h2>
+            <h2 className="text-xl xl:text-2xl pattaya-regular">Шакти Ма</h2>
           </div>
         </Link>
       </div>

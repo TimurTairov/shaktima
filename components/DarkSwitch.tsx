@@ -1,13 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import useSound from 'use-sound';
 
 
 
 const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
-
+  const [light] = useSound("/sounds/light.mp3", { volume: 0.25 });
+  const [dark] = useSound("/sounds/dark.mp3", { volume: 0.25 });
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
 
@@ -38,6 +40,7 @@ const ThemeChanger = () => {
         <button
           onClick={() => {
             setTheme("light")
+            light()
             // iframeLight()
           }}
           className="text-gray-100 rounded-full outline-none focus:outline-none ">
@@ -55,6 +58,7 @@ const ThemeChanger = () => {
         <button
           onClick={() => {
             setTheme("dark")
+            dark()
             // iframeDark()
           }}
           className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">

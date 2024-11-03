@@ -53,7 +53,7 @@ export function Footer() {
                   height="32"
                   className="w-8 rounded-full "
                 />
-                <span>Шакти Ма</span>
+                <span className="pattaya-regular">Шакти Ма</span>
               </Link>
             </div>
 
