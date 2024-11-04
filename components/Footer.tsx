@@ -25,7 +25,7 @@ export function Footer() {
     },
     {
       title: "Календарь",
-      url: "/events/kalendar"
+      url: "/calendar"
     },
     {
       title: "Контакты",

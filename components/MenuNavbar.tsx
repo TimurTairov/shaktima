@@ -1,9 +1,9 @@
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Menu, MenuButton, MenuItem, MenuItems, MenuSeparator } from '@headlessui/react'
 import Link from 'next/link'
 
 const MenuNavbar = () => {
   return (
-    <div className='flex items-center'>
+    <div className='flex flex-col lg:flex-row items-center'>
       <Link href="/" className='btn btn-ghost text-left text-lg font-normal'>О центре</Link>
       <Menu>
         <MenuButton className="btn btn-ghost text-left text-lg font-normal">Практики</MenuButton>
@@ -29,7 +29,7 @@ const MenuNavbar = () => {
         <MenuButton className="btn btn-ghost text-left text-lg font-normal">Мероприятия</MenuButton>
         <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0">
           <MenuItem>
-            <Link href='/events/kalendar' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
+            <Link href='/calendar' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
               Календарь
             </Link>
           </MenuItem>

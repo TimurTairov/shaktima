@@ -7,7 +7,35 @@ import tilaka from '@/public/img/shiva-tilak-3100736.png'
 import Menu from '@/components/Menu'
 import MenuNavbar from './MenuNavbar'
 
+import { Disclosure } from '@headlessui/react'
+
 const MyNavbar = () => {
+  const navigation = [
+    {
+      title: 'О центре',
+      url: '/',
+    },
+    {
+      title: 'Практики',
+      url: '/praktiki',
+      submenu: {
+        title: 'Медитация сиддхов',
+        url: '/meditation',
+      },
+    },
+    {
+      title: 'Семинары',
+      url: '/seminary',
+    },
+    {
+      title: 'Контакты',
+      url: '/contacts',
+    },
+    {
+      title: 'Поддержать',
+      url: '/donate',
+    },
+  ]
   return (
     <div className="container navbar relative flex items-center justify-between p-2 md:p-4 lg:p-8 mx-auto xl:px-1">
       <div className="navbar-start">
@@ -26,11 +54,12 @@ const MyNavbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-md md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400"
+            className="menu menu-sm md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400"
           >
             <Menu />
           </ul>
         </div>
+
         {/* Logo  */}
         <Link href="/" className="btn btn-ghost text-xl hidden lg:flex">
           <div className="flex items-center space-x-2 text-2xl font-medium text-gray-600 dark:text-gray-100">
