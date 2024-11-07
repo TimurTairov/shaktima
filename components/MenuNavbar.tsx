@@ -34,6 +34,11 @@ const MenuNavbar = () => {
               Медитации сиддхов
             </Link>
           </MenuItem>
+          <MenuItem>
+            <Link href='/seminary' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
+              Семинары
+            </Link>
+          </MenuItem>
         </MenuItems>
       </Menu >
       <Link href="/contacts" className='btn btn-ghost text-left text-lg font-normal'>Контакты</Link>
