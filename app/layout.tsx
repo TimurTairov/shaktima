@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Шакти Ма",
-  description: "Московский Дхарма центр Шакти Ма. Пуджи, медитации, семинары.",
+  description: "Московский Дхарма центр Шакти Ма. Пуджи, медитации, семинары в Москве.",
 };
 
 const geistSans = localFont({

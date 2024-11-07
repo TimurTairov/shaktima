@@ -55,7 +55,7 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
                     <p className="text-left">
-                      Практика длится 1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
+                      Практика длится 1-1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
                       Специальная подготовка не требуется.
                       Форма одежды - свободная.
                     </p>
@@ -67,9 +67,7 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Где</p>
                     <p className="text-left">
-                      Пространство &quot;Studio 108&quot; <br />
-                      м. Тургеневская/Чистые Пруды<br />
-                      Ул. Жуковского дом 7
+                      Онлайн
                     </p>
                   </div>
                 </div>

@@ -7,8 +7,6 @@ import tilaka from '@/public/img/shiva-tilak-3100736.png'
 import Menu from '@/components/Menu'
 import MenuNavbar from './MenuNavbar'
 
-import { Disclosure } from '@headlessui/react'
-
 const MyNavbar = () => {
   const navigation = [
     {

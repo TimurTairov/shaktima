@@ -3,6 +3,7 @@ import meditation from "@/public/img/meditation-online.svg"
 import meditationOffline from "@/public/img/meditation.svg"
 import datta from "@/public/img/datta.jpg"
 import pambatti from "@/public/img/pambatti.png"
+import kundalini from '@/public/img/kundalini-yoga.svg'
 
 const Decabr2024 = () => {
   return (
@@ -251,23 +252,27 @@ const Decabr2024 = () => {
 
       </div >
 
-      <div className="flex flex-col gap-1">
-        <p className="text-sm">Условные обозначения:</p>
-        <div className="flex items-center">
+      <p className="text-sm mb-1">Условные обозначения:</p>
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-1">
+        <div className="w-full flex items-center">
           <Image src={datta} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs"> - Даттатрейя джаянти</p>
+          <p className="text-xs">Даттатрейя джаянти</p>
         </div>
-        <div className="flex items-center">
+        <div className="w-full flex items-center">
           <Image src={pambatti} alt="Памбатти" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs"> - Памбатти джаянти</p>
+          <p className="text-xs">Памбатти джаянти</p>
         </div>
-        <div className="flex items-center">
+        <div className="w-full flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs"> - Медитация сиддхов онлайн</p>
+          <p className="text-xs">Медитация сиддхов онлайн</p>
         </div>
-        <div className="flex items-center">
+        <div className="w-full flex items-center">
+          <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
+          <p className="text-xs">Кундалини йога сиддхов онлайн</p>
+        </div>
+        <div className="w-full flex items-center">
           <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs"> - Медитация сиддхов оффлайн</p>
+          <p className="text-xs">Медитация сиддхов оффлайн</p>
         </div>
       </div>
 
