@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import { seminary } from "./index"
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -11,7 +12,10 @@ const page = () => {
 
       <ul className="mt-10">
         {seminary.map((seminar) => (
-          <li key={seminar.id} className="w-full text-center">
+          <li key={seminar.id} className="w-80 text-center flex flex-col gap-3">
+            <Link href={`/seminary/${seminar.id}`}>
+              <Image src={seminar.img} alt={seminar.title} className="w-80 h-80" />
+            </Link>
             <Link href={`/seminary/${seminar.id}`}>
               {seminar.title}
             </Link>
