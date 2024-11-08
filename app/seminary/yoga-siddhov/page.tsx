@@ -23,11 +23,15 @@ const page = () => {
             <h1 className="w-full text-center text-balance text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl 2xl:text-5xl xl:leading-tight dark:text-white">
               Семинар «Йога Сиддхов»: путь к ясности, гармонии и внутреннему покою
             </h1>
-            <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center text-balance py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Откройте для себя практики хатха йоги и медитации, а также погрузитесь в обсуждение осознанной жизни в мегаполисе.     Присоединяйтесь к сообществу, которое стремится к гармонии, росту и внутреннему балансу.
             </p>
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col space-y-3 sm:space-x-4 sm:space-y-0 items-center justify-center  sm:flex-row">
-              <a className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf5ooHKPkZXV2kb4Lbi06qErVELoZMuDyf35U-xLk___2L-vg/viewform"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
                 Записаться на семинар
               </a>
             </div>
@@ -58,7 +62,7 @@ const page = () => {
           <p className="text-left py-2">Практика для достижения ясности и концентрации, унаследованная от древних йогов-сиддхов Южной Индии. Позволяет погрузиться в глубокое состояние покоя и осознанности.
           </p>
           <h3 className="text-left font-semibold text-xl md:text-2xl mt-5 md:mt-7">3 часть - Обсуждение "Практика в большом городе" + чаепитие</h3>
-          <p className="text-left py-2">Открытое общение с участниками, где мы обсудить, как сохранять осознанность и гармонию, живя в динамичном городском окружении.</p>
+          <p className="text-left py-2">Открытое общение с участниками семинара, где мы обсудим, как сохранять осознанность и гармонию, живя в динамичном городском окружении.</p>
         </SectionTitle>
 
         <SectionTitle preTitle="profit" title="Что Вы получите на семинаре">
@@ -170,6 +174,7 @@ const page = () => {
 
         <div className="flex justify-center mt-10">
           <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf5ooHKPkZXV2kb4Lbi06qErVELoZMuDyf35U-xLk___2L-vg/viewform"
             target="_blank"
             rel="noopener"
             className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md" >Записаться на семинар</a>
