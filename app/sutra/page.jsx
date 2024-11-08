@@ -10,7 +10,12 @@ const page = () => {
           className="flex flex-wrap items-center justify-center gap-3"
         >
           <p className="text-lg">Cутра</p>
-          <audio controls src="/sounds/sutra.mp3"></audio>
+          <audio
+            controls
+            controlslist="nodownload"
+            src="/sounds/sutra.mp3"
+            className="w-full"
+          ></audio>
         </div>
 
         <div className="mt-10 w-full  flex flex-col items-center justify-center gap-5">
