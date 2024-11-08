@@ -29,7 +29,7 @@ const Menu = () => {
           <ul className="w-48 wp-2 text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-base-content border-l border-gray-300 dark:border-gray-600">
             <li><Link href='/raspisanie' className="text-gray-700 dark:text-gray-300 w-full">Расписание</Link></li>
             <li><Link href='/calendar' className="text-gray-700 dark:text-gray-300 w-full">Календарь</Link></li>
-            <li><Link href='/siminary' className="text-gray-700 dark:text-gray-300 w-full">Семинары</Link></li>
+            <li><Link href='/seminary' className="text-gray-700 dark:text-gray-300 w-full">Семинары</Link></li>
 
           </ul>
         </details>
