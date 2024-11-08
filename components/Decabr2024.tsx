@@ -69,7 +69,9 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">1</p>
             <div className="flex justify-center items-center">
-              <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              <a href="raspisanie">
+                <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              </a>
             </div>
           </div>
 
@@ -85,7 +87,7 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">4</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -101,7 +103,7 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">7</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -109,7 +111,9 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">8</p>
             <div className="flex justify-center items-center">
-              <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              <a href="raspisanie">
+                <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              </a>
             </div>
           </div>
 
@@ -125,7 +129,7 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">11</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -142,7 +146,7 @@ const Decabr2024 = () => {
             <p className="grid-date">14</p>
             <div className="flex flex-wrap justify-center gap-1">
               <Image src={datta} alt="Даттатрея джаянти" className="grid-meditation-mobile" />
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -150,23 +154,23 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">15</p>
             <div className="flex justify-center items-center">
-              <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              <a href="raspisanie">
+                <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              </a>
             </div>
           </div>
 
           {/* НЕДЕЛЯ 4 */}
           <div className="grid-item">
             <p className="grid-date">16</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">17</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">18</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -174,18 +178,16 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">19</p>
             <div className="flex justify-center">
-              <p className="grid-meditation">Памбатти джаянти</p>
               <Image src={pambatti} alt="медитация сиддхов" className="grid-meditation-mobile" />
             </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">20</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">21</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -193,39 +195,37 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">22</p>
             <div className="flex justify-center items-center">
-              <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              <a href="/raspisanie">
+                <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              </a>
             </div>
           </div>
 
           {/* НЕДЕЛЯ 5 */}
           <div className="grid-item">
             <p className="grid-date">23</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">24</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">25</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">26</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">27</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">28</p>
             <div className="flex justify-center items-center">
-              <a href="/meditation">
+              <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
@@ -233,49 +233,46 @@ const Decabr2024 = () => {
           <div className="grid-item">
             <p className="grid-date">29</p>
             <div className="flex justify-center items-center">
-              <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              <a href="/raspisanie">
+                <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
+              </a>
             </div>
           </div>
 
           {/* НЕДЕЛЯ 6 */}
           <div className="grid-item">
             <p className="grid-date">30</p>
-            <p></p>
           </div>
           <div className="grid-item">
             <p className="grid-date">31</p>
-            <p></p>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
-            <p></p>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
-            <p></p>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
-            <p></p>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
-            <p></p>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
-            <p></p>
           </div>
 
         </div>
 
       </div >
 
-      <p className="text-sm mb-1">Условные обозначения:</p>
+      <p className="text-sm my-1">Условные обозначения:</p>
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-1">
         <div className="w-full flex items-center">
-          <Image src={datta} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Даттатрейя джаянти</p>
+          <Image src={datta} alt="Даттатрея джаянти" className="grid-meditation-mobile mr-1" />
+          <a>
+            <p className="text-xs">Даттатрея джаянти</p>
+          </a>
         </div>
         <div className="w-full flex items-center">
           <Image src={pambatti} alt="Памбатти" className="grid-meditation-mobile mr-1" />
@@ -283,15 +280,21 @@ const Decabr2024 = () => {
         </div>
         <div className="w-full flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Медитация сиддхов онлайн</p>
+          <a href="/raspisanie">
+            <p className="text-xs">Медитация сиддхов онлайн</p>
+          </a>
         </div>
         <div className="w-full flex items-center">
-          <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Кундалини йога сиддхов онлайн</p>
+          <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
+          <a href="/raspisanie">
+            <p className="text-xs">Кундалини йога сиддхов онлайн</p>
+          </a>
         </div>
         <div className="w-full flex items-center">
           <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Медитация сиддхов оффлайн</p>
+          <a>
+            <p className="text-xs">Медитация сиддхов оффлайн</p>
+          </a>
         </div>
       </div>
 

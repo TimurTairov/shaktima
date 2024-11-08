@@ -18,22 +18,27 @@ const MenuNavbar = () => {
               Бхаджан Мандала
             </Link>
           </MenuItem>
-
+          <MenuItem>
+            <Link href='/meditation' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
+              Медитации сиддхов
+            </Link>
+          </MenuItem>
         </MenuItems>
       </Menu>
       <Menu>
         <MenuButton className="btn btn-ghost text-left text-lg font-normal">Мероприятия</MenuButton>
         <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0">
           <MenuItem>
+            <Link href='/raspisanie' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
+              Расписание
+            </Link>
+          </MenuItem>
+          <MenuItem>
             <Link href='/calendar' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
               Календарь
             </Link>
           </MenuItem>
-          <MenuItem>
-            <Link href='/meditation' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
-              Медитации сиддхов
-            </Link>
-          </MenuItem>
+
           <MenuItem>
             <Link href='/seminary' className="w-full btn btn-sm font-normal data-[focus]:bg-indigo-100">
               Семинары

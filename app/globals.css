@@ -32,10 +32,16 @@
 
 /* GRID CALENDAR */
 .grid-item-dn {
-  @apply text-center text-xs text-indigo-900 bg-red-300 p-1 rounded-lg font-bold;
+  @apply text-center text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 bg-red-300 p-1 rounded-lg font-bold;
 }
 .grid-item {
   @apply text-center text-xs bg-red-100 p-1 rounded-lg flex flex-col justify-between h-20;
+}
+.grid-item-rasp {
+  @apply text-xs bg-red-100 p-1 rounded-lg h-10 flex items-center justify-center;
+}
+.grid-item-time {
+  @apply text-xs font-bold md:text-sm lg:text-base xl:text-lg text-indigo-800 bg-red-300 p-1 rounded-lg h-10 flex items-center;
 }
 .grid-item-none {
   @apply text-center text-xs bg-red-50 p-1 rounded-lg flex h-20;
