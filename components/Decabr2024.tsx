@@ -82,15 +82,14 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">3</p>
-            <p></p>
-          </div>
-          <div className="grid-item">
-            <p className="grid-date">4</p>
             <div className="flex justify-center items-center">
               <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
+          </div>
+          <div className="grid-item">
+            <p className="grid-date">4</p>
           </div>
           <div className="grid-item">
             <p className="grid-date">5</p>
@@ -124,15 +123,14 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">10</p>
-            <p></p>
-          </div>
-          <div className="grid-item">
-            <p className="grid-date">11</p>
             <div className="flex justify-center items-center">
               <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
+          </div>
+          <div className="grid-item">
+            <p className="grid-date">11</p>
           </div>
           <div className="grid-item">
             <p className="grid-date">12</p>
@@ -166,14 +164,14 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">17</p>
-          </div>
-          <div className="grid-item">
-            <p className="grid-date">18</p>
             <div className="flex justify-center items-center">
               <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
+          </div>
+          <div className="grid-item">
+            <p className="grid-date">18</p>
           </div>
           <div className="grid-item">
             <p className="grid-date">19</p>
@@ -207,14 +205,14 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">24</p>
-          </div>
-          <div className="grid-item">
-            <p className="grid-date">25</p>
             <div className="flex justify-center items-center">
               <a href="/raspisanie">
                 <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
               </a>
             </div>
+          </div>
+          <div className="grid-item">
+            <p className="grid-date">25</p>
           </div>
           <div className="grid-item">
             <p className="grid-date">26</p>
@@ -245,6 +243,11 @@ const Decabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">31</p>
+            <div className="flex justify-center items-center">
+              <a href="/raspisanie">
+                <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
+              </a>
+            </div>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>

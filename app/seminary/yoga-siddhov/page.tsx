@@ -11,7 +11,6 @@ import { benefitOne, benefitTwo } from "@/components/data";
 import { GiHealthIncrease } from "react-icons/gi";
 import { RiMentalHealthFill } from "react-icons/ri";
 import { TbHealthRecognition } from "react-icons/tb";
-import { IoIosPeople } from "react-icons/io";
 import { FaOm } from "react-icons/fa6";
 
 const page = () => {

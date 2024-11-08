@@ -1,14 +1,13 @@
 import { Container } from "@/components/Container";
 import Image from "next/image";
 import meditation from "@/public/img/meditation-online.svg"
-import meditationOffline from "@/public/img/meditation.svg"
 import kundalini from '@/public/img/kundalini-yoga.svg'
 
 const page = () => {
   return (
     <Container className="min-h-screen">
       <h1 className="w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-        Расписание занятий
+        Расписание регулярных занятий
       </h1>
 
       <div className="flex justify-center mt-10">
@@ -63,7 +62,7 @@ const page = () => {
           </div>
           <div className="grid-item-rasp ">
             <a href="/calendar" className="flex justify-center">
-              <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile" />
+              <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
             </a>
           </div>
           <div className="grid-item-rasp ">
@@ -72,29 +71,8 @@ const page = () => {
             </a>
           </div>
 
-          {/* 2 */}
-          <div className="grid-item-time">
-            <p className="w-full text-center">20:00 - 21:30</p>
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-            <a href="/calendar" className="flex justify-center">
-              <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile" />
-            </a>
-          </div >
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
 
-          {/* 3 */}
+          {/* 2 */}
           <div className="grid-item-time">
             <p className="w-full text-center">20:30 - 21:30</p>
           </div>
@@ -102,7 +80,7 @@ const page = () => {
           </div>
           <div className="grid-item-rasp ">
             <a href="/calendar" className="flex justify-center">
-              <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile" />
+              <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
             </a>
           </div>
           <div className="grid-item-rasp ">
@@ -130,12 +108,8 @@ const page = () => {
           </a>
         </div>
         <div className="flex items-center">
-          <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
+          <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
           <p className="text-xs">Кундалини йога сиддхов онлайн</p>
-        </div>
-        <div className="flex items-center">
-          <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Медитация сиддхов оффлайн</p>
         </div>
       </div>
 

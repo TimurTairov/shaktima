@@ -85,11 +85,6 @@ const Noyabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">6</p>
-            <div className="flex justify-center items-center">
-              <a href="/raspisanie">
-                <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
-              </a>
-            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">7</p>
@@ -131,11 +126,6 @@ const Noyabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">13</p>
-            <div className="flex justify-center items-center">
-              <a href="/raspisanie">
-                <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
-              </a>
-            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">14</p>
@@ -177,11 +167,6 @@ const Noyabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">20</p>
-            <div className="flex justify-center items-center">
-              <a href="/raspisanie">
-                <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
-              </a>
-            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">21</p>
@@ -223,11 +208,6 @@ const Noyabr2024 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">27</p>
-            <div className="flex justify-center items-center">
-              <a href="/raspisanie">
-                <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile" />
-              </a>
-            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">28</p>
@@ -269,7 +249,7 @@ const Noyabr2024 = () => {
         <div className="flex items-center">
           <Image src={meditationOffline} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
           <a href="/seminary/yoga-siddhov">
-            <p className="text-xs">Медитация сиддхов оффлайн</p>
+            <p className="text-xs">Семинар йога сиддхов оффлайн</p>
           </a>
         </div>
       </div>
