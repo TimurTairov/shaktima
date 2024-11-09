@@ -41,7 +41,7 @@ const MyNavbar = () => {
           <div
             tabIndex={0}
             role="button"
-            className="btn btn-ghost lg:hidden w-full"
+            className="btn btn-ghost lg:hidden w-full dark:hover:bg-gray-700"
           >
             <Image
               src={tilaka}
@@ -78,7 +78,7 @@ const MyNavbar = () => {
       </div>
 
       <div className="navbar-center flex lg:hidden">
-        <Link href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="btn btn-ghost text-xl dark:hover:bg-gray-700">
           <div className="btn btn-ghost flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100 ">
             <Image
               src={logo}
@@ -99,7 +99,7 @@ const MyNavbar = () => {
       </div>
 
       <div className="navbar-end">
-        <div className="btn btn-ghost dark:hover:bg-gray-700">
+        <div className="btn btn-ghost hover:bg-gray-300 dark:hover:bg-gray-700">
           <ThemeChanger />
         </div>
       </div>
