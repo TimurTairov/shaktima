@@ -46,7 +46,11 @@ const page = () => {
                   <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
-                    <p className="text-left">По субботам в 16-00</p>
+                    <p className="text-left">
+                      <a href="/calendar">
+                        Вторник 20:30, суббота - 9:00
+                      </a>
+                    </p>
                   </div>
                 </div>
 
@@ -67,7 +71,9 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Где</p>
                     <p className="text-left">
-                      Онлайн
+                      <a href="/raspisanie">
+                        Онлайн
+                      </a>
                     </p>
                   </div>
                 </div>
