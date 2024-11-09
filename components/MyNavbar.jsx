@@ -1,9 +1,9 @@
 'use client'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '@/public/ShaktiMa-logo.jpg'
+import logo from '@/public/ShaktiMa-logo.webp'
 import ThemeChanger from './DarkSwitch'
-import tilaka from '@/public/img/shiva-tilak-3100736.png'
+import tilaka from '@/public/img/shiva_tilak.svg'
 import Menu from '@/components/Menu'
 import MenuNavbar from './MenuNavbar'
 
@@ -47,20 +47,23 @@ const MyNavbar = () => {
               src={tilaka}
               alt="tilaka"
               loading="eager"
-              className="h-8 w-8 text-gray-500 dark:text-gray-50"
+              className="h-8 w-8"
             />
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400"
+            className="menu menu-xs sm:menu-sm md:menu-lg dropdown-content rounded-box z-50 mt-3 w-56 md:w-[20rem] p-2 shadow bg-base-100 dark:bg-base-content border border-gray-400"
           >
             <Menu />
           </ul>
         </div>
 
         {/* Logo  */}
-        <Link href="/" className="btn btn-ghost text-xl hidden lg:flex">
-          <div className="flex items-center space-x-2 text-2xl font-medium text-gray-600 dark:text-gray-100">
+        <Link
+          href="/"
+          className="btn btn-ghost text-xl hidden lg:flex dark:hover:bg-gray-700"
+        >
+          <div className="flex items-center space-x-2 text-2xl font-medium text-gray-600 dark:text-gray-100 ">
             <Image
               src={logo}
               width="32"
@@ -76,7 +79,7 @@ const MyNavbar = () => {
 
       <div className="navbar-center flex lg:hidden">
         <Link href="/" className="btn btn-ghost text-xl">
-          <div className="flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100">
+          <div className="btn btn-ghost flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100 ">
             <Image
               src={logo}
               width="32"
@@ -96,7 +99,7 @@ const MyNavbar = () => {
       </div>
 
       <div className="navbar-end">
-        <div className="">
+        <div className="btn btn-ghost dark:hover:bg-gray-700">
           <ThemeChanger />
         </div>
       </div>

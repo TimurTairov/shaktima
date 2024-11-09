@@ -48,6 +48,7 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
+
       {/* <SectionTitle
         preTitle="видео"
         title="Видео нашего духовного Учителя Свами Вишнудевананда Гири"

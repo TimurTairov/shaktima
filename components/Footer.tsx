@@ -7,7 +7,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { PiHandsPrayingBold } from "react-icons/pi";
-import Menu from "@/components/Menu";
+import { FaOm } from "react-icons/fa";
+
 
 export function Footer() {
   const navigation = [
@@ -16,12 +17,20 @@ export function Footer() {
       url: "/"
     },
     {
-      title: "Медитация сиддхов",
-      url: "/meditation"
+      title: "Утренняя сутра",
+      url: "/sutra"
     },
     {
       title: "Бхаджан Мандала",
       url: "/bhadjan-mandala"
+    },
+    {
+      title: "Медитация сиддхов",
+      url: "/meditation"
+    },
+    {
+      title: "Расписание",
+      url: "/raspisanie"
     },
     {
       title: "Календарь",
@@ -39,12 +48,12 @@ export function Footer() {
   return (
     <div className="mt-auto px-2">
       <Container>
-        <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-7 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  lg:grid-cols-9">
-          <div className="md:col-span-3 lg:col-span-4 ">
-            <div>
+        <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-10 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
+          <div className="md:col-span-3">
+            <div className="btn btn-ghost">
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-xl lg:text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-xl lg:text-2xl font-medium text-indigo-500 dark:text-indigo-500"
               >
                 <Image
                   src={logo}
@@ -57,30 +66,53 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="w-ful mt-5 flex flex-col">
-              <div className="max-w-md text-gray-600 dark:text-gray-300 py-2">
+            <div className="w-ful flex flex-col">
+              <div className="max-w-md text-gray-600 dark:text-gray-300 py-1 xl:py-2 font-medium">
                 Московский Дхарма центр Шакти Ма
               </div>
 
-              <div className="max-w-md text-gray-600 dark:text-gray-300 flex items-center py-2">
-                На благо всех живых существ <PiHandsPrayingBold className="ml-2" />
+              <div className="w-full grid grid-cols-2 text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs xl:text-sm">
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Медитации сиддхов</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Семинары и ретриты</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Пуджи</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Кундалини йога сиддхов</span>
+                </div>
+
               </div>
 
-              <div className="max-w-md text-gray-600 dark:text-gray-300 py-2">
+              <div className="max-w-md text-gray-600 dark:text-gray-300 inlene-flex items-center py-1 xl:py-2 text-xs xl:text-sm">
+                <span>На благо всех живых существ</span> <PiHandsPrayingBold className="ml-1 xl:ml-2 inline" />
+              </div>
+
+              <div className="max-w-md text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs xl:text-sm">
                 © All Rights Reserved {new Date().getFullYear()}
               </div>
             </div>
           </div>
 
-          <div className="md:col-span-2 lg:col-span-3">
+          <div className="md:col-span-4">
 
             <p className="w-full font-semibold dark:text-gray-300">Меню</p>
-            <div className="flex flex-wrap w-full mt-5">
+            <div className="mt-5 grid grid-cols-2 gap-2">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
                   href={item.url}
-                  className="w-full py-2 text-gray-600 rounded-md dark:text-gray-300 hover:text-black focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-800"
+                  className="btn dark:btn-outline btn-xs md:btn-sm font-normal rounded-md  hover:text-black dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-800 transition-colors duration-500"
                 >
                   {item.title}
                 </Link>
@@ -88,45 +120,53 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="md:col-span-2 lg:col-span-2">
+          <div className="md:col-span-3">
             <div className="font-semibold dark:text-gray-300">Ресурсы</div>
-            <div className="flex flex-col mt-5 text-gray-600 dark:text-gray-300">
+            <div className="flex flex-col gap-1 mt-5">
+              <a
+                href="https://www.advayta.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100">
+                <FaGlobe className="shrink-0 mr-1" />
+                Cайт нашей традиции
+              </a>
+
               <a
                 href="https://t.me/mdc_ShaktiMa"
                 target="_blank"
                 rel="noopener"
-                className="flex items-center py-2"
+                className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100"
               >
-                <FaTelegram className="shrink-0 mr-2" />
+                <FaTelegram className="shrink-0 mr-1" />
                 <span className="">Канал в телеграм</span>
               </a>
               <a
                 href="https://t.me/shaktimamdc"
                 target="_blank"
                 rel="noopener"
-                className="flex items-center py-2"
+                className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100"
               >
-                <FaTelegram className="shrink-0 mr-2" />
+                <FaTelegram className="shrink-0 mr-1" />
                 <span className="">Чат в телеграм</span>
+              </a>
+              <a
+                href="https://www.siddhashop.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100"
+              >
+                <FaShoppingCart className="shrink-0 mr-1" />
+                Сиддха шоп
               </a>
               <a
                 href="https://www.youtube.com/@ShaktiMA_MDC"
                 target="_blank"
                 rel="noopener"
-                className="flex items-center py-2"
+                className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100"
               >
-                <FaYoutube className="shrink-0 mr-2" />
+                <FaYoutube className="shrink-0 mr-1" />
                 <span className="">YouTube</span>
-              </a>
-
-              <a href="https://www.advayta.org/" target="_blank" rel="noreferrer" className="flex items-center py-2">
-                <FaGlobe className="shrink-0 mr-2" />
-                Cайт нашей традиции
-              </a>
-
-              <a href="https://www.siddhashop.com/" className="flex items-center py-2" target="_blank" rel="noreferrer">
-                <FaShoppingCart className="shrink-0 mr-2" />
-                Сиддха шоп
               </a>
             </div>
           </div>

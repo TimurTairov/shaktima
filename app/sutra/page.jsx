@@ -1,4 +1,5 @@
-import Altar from '@/components/Altar'
+import Altar from '@/components/NewAltar'
+import { BsInfoCircleFill } from 'react-icons/bs'
 
 const page = () => {
   return (
@@ -7,12 +8,12 @@ const page = () => {
         <Altar />
         <div
           id="sutra"
-          className="flex flex-wrap items-center justify-center gap-3"
+          className="mt-10 flex flex-wrap items-center justify-center gap-3"
         >
           <p className="text-lg">Cутра</p>
           <audio
             controls
-            controlslist="nodownload"
+            controlsList="nodownload"
             src="/sounds/sutra.mp3"
             className="w-full md:w-1/2"
           ></audio>
@@ -760,6 +761,23 @@ const page = () => {
           </p>
 
           <p className="sutra-title">Практика завершена!</p>
+
+          <div className="mt-10 w-full flex gap-2 items-start justify-center xl:px-40">
+            <BsInfoCircleFill className="w-10 h-10 shrink-0 text-indigo-600" />
+            <p className="w-full">
+              Ом. Если Вы хотите углубить свои знания и навыки в садхане
+              "Утренняя сутра" и "Бхаджан Мандала", приглашаем Вас приобрести
+              <a
+                href="https://institute-vasishtha.com/shop/catalog/videokursy/yoga/69255/?oid=69269"
+                target="_blank"
+                rel="noopener"
+                className="ml-1 text-indigo-500"
+              >
+                видеокурс по упасане
+              </a>
+              , который проводила достопочтенная Свамини Сатья Теджаси.
+            </p>
+          </div>
         </div>
       </div>
     </div>

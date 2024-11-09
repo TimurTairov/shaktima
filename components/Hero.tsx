@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import heroImg from "@/public/img/hero.jpg";
+import heroImg from "@/public/img/hero.webp";
 
 export const Hero = () => {
   return (
@@ -27,17 +27,13 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="855"
-              height="638"
-              className={"object-cover w-full h-auto rounded-md"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
+          <Image
+            src={heroImg}
+            className={"object-cover w-full h-auto rounded-md"}
+            alt="Hero Illustration"
+            loading="eager"
+            placeholder="blur"
+          />
         </div>
       </Container>
 
