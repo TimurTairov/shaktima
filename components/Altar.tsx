@@ -52,27 +52,20 @@ const Altar = () => {
   return (
     <>
       <div id="altar" className="">
-        <div className="py-5 md:py-7 px-2 md:px-3 gap-1 md:gap-5 max-h-screen  grid grid-cols-8 bg-red-800 rounded-lg">
+        <div className="py-5 md:py-7 px-2 md:px-3 lg:px-4 xl:px-5 md:mx-1 lg:mx-20 xl:mx-32 2xl:mx-40 gap-1 md:gap-5 grid grid-cols-8 bg-red-800 rounded-lg">
           {
             gods.map((god, index) => (
               <div key={index} className="flex justify-center">
-                <Image src={god} alt="Сиддхи и божества" className="w-20 h-auto md:w-28 lg:w-32" />
+                <Image src={god} alt="Сиддхи и божества" className="w-20 h-auto xl:w-32" />
               </div>
             ))
           }
         </div>
-        <button className="mt-1 p-0.5 border border-gray-200 dark:border-gray-600 rounded-md bg-white dark:bg-base-content text-black verySmallText md:text-xs" onClick={fixAltar}>
-          {isFixed ? (
-            <>
-              <AiOutlineClose className="w-4 h-4 text-gray-400" />
-            </>
-          ) :
-            (
-              <>
-                <AiOutlineArrowsAlt className="w-4 h-4 text-gray-500 " />
-              </>
-            )
-
+        <button className="mt-1 p-0.5 md:mx-1 lg:mx-20 xl:mx-32 2xl:mx-40 border border-gray-200 dark:border-gray-600 rounded-md bg-white dark:bg-base-content text-black verySmallText md:text-xs" onClick={fixAltar}>
+          {isFixed ?
+            (<AiOutlineClose className="w-4 h-4 text-gray-400" />)
+            :
+            (<AiOutlineArrowsAlt className="w-4 h-4 text-gray-500 " />)
           }
         </button>
       </div>

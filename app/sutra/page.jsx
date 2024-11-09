@@ -2,7 +2,7 @@ import Altar from '@/components/Altar'
 
 const page = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto min-h-screen">
+    <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
         <Altar />
         <div
@@ -14,7 +14,7 @@ const page = () => {
             controls
             controlslist="nodownload"
             src="/sounds/sutra.mp3"
-            className="w-full"
+            className="w-full md:w-1/2"
           ></audio>
         </div>
 
