@@ -61,10 +61,10 @@
 
 /* АЛТАРЬ */
 .fixAltar {
-  @apply fixed top-0 left-0 w-full px-1 md:px-2 2xl:px-20 z-50;
+  @apply fixed top-0 left-0 w-full 2xl:px-32 z-50;
 }
 .marginTop {
-  @apply mt-52 md:mt-80 lg:mt-[31rem] xl:mt-[35rem] 2xl:mt-[49rem];
+  @apply mt-52 md:mt-[27rem] lg:mt-[30rem] xl:mt-[35rem] 2xl:mt-[49rem];
 }
 
 /* СУТРА */

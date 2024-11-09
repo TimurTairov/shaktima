@@ -46,11 +46,11 @@ export function Footer() {
     },
   ];
   return (
-    <div className="mt-auto px-2">
+    <div className="mt-auto">
       <Container>
         <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-10 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
           <div className="md:col-span-3">
-            <div className="btn btn-ghost">
+            <div className="btn btn-ghost ">
               <Link
                 href="/"
                 className="flex items-center space-x-2 text-xl lg:text-2xl font-medium text-indigo-500 dark:text-indigo-500"
