@@ -48,18 +48,18 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="видео"
         title="Видео нашего духовного Учителя Свами Вишнудевананда Гири"
       >
         Как отличить игры ума от просветления?
-      </SectionTitle>
+      </SectionTitle> */}
 
-      <Suspense fallback={<p> Загрузка... </p>}>
+      {/* <Suspense fallback={<p> Загрузка... </p>}>
         <Container>
           <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" loading="lazy" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[35rem] lg:px-20 xl:px-52 rounded-md mb-10"></iframe>
         </Container>
-      </Suspense>
+      </Suspense> */}
 
       <SectionTitle
         preTitle="Календарь"
@@ -67,7 +67,7 @@ export default function Home() {
       >
       </SectionTitle>
       <Noyabr2024 />
-
+      <p className="mt-10 lg:mt-20"></p>
       <SectionTitle
         preTitle="Галерея"
         title="Фотографии нашего дхарма центра"
