@@ -25,8 +25,12 @@ export function Footer() {
       url: "/bhadjan-mandala"
     },
     {
+      title: "Ачамана",
+      url: "/bhadjan-mandala"
+    },
+    {
       title: "Расписание",
-      url: "/raspisanie"
+      url: "/achamana"
     },
     {
       title: "Календарь",

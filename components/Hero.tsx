@@ -31,7 +31,6 @@ export const Hero = () => {
             src={heroImg}
             className={"object-cover w-full h-auto rounded-md"}
             alt="Hero Illustration"
-            loading="eager"
             placeholder="blur"
           />
         </div>

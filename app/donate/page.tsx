@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import { BiSolidDonateHeart } from "react-icons/bi";
+import { BsFillPostcardHeartFill } from "react-icons/bs";
 
 const page = () => {
   return (
@@ -16,8 +17,28 @@ const page = () => {
           <p className="mt-5">Вы можете поучаствовать и поддержать Дхарма центр.</p>
         </div>
         <div className="mx-2 mt-20">
-          <div className="flex items-center text-xl my-2 text-indigo-500">
-            <h1 className="mr-2 font-semibold">Через Ю-Money</h1>
+          <div className="flex items-center justify-center text-xl my-2 text-indigo-500">
+            <h2 className="mr-2 font-semibold">На карту T-bank </h2>
+            <BsFillPostcardHeartFill />
+          </div>
+          <p>по номеру телефону  +79163898998 Олана Р.</p>
+          <p>Просьба прислать скрин или чек с указанием платежа</p>
+          <p>
+            <a href="whatsapp://send?phone=+79163898998" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-700 hover:underline">whapsapp</a>
+            <span> или </span>
+            <a href='https://t.me/OlanaDevi'
+              target='_blank'
+              rel='noreferrer'
+              className="text-gray-700 dark:text-gray-300 hover:text-indigo-700 hover:underline"
+            >telegram
+            </a>
+
+          </p>
+
+        </div>
+        <div className="mx-2 mt-20">
+          <div className="flex items-center justify-center text-xl my-2 text-indigo-500">
+            <h2 className="mr-2 font-semibold">Через Ю-Money</h2>
             <BiSolidDonateHeart />
           </div>
           <div className="my-7 flex flex-wrap gap-5">
