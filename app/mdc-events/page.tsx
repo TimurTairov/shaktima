@@ -7,7 +7,7 @@ const page = () => {
   return (
     <Container className="min-h-screen">
       <h1 className="w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-        События и мероприятия московского дхарма центра
+        Мероприятия московского дхарма центра
       </h1>
 
       <ul className="mt-10 flex flex-wrap gap-5">

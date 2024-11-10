@@ -7,10 +7,10 @@ const MenuNavbar = () => {
       <Link href="/" className='btn btn-ghost text-lg font-normal dark:hover:bg-gray-700'>О центре</Link>
       <Menu>
         <MenuButton className="btn btn-ghost text-lg font-normal dark:hover:bg-gray-700">Практики</MenuButton>
-        <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-500 ease-out data-[closed]:scale-95 data-[closed]:opacity-0">
+        <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-500 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 flex flex-col gap-1">
           <MenuItem>
             <Link
-              className="w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
+              className="mt-1 w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
               href="/sutra">
               Утреняя Сутра
             </Link>
@@ -32,12 +32,12 @@ const MenuNavbar = () => {
         </MenuItems>
       </Menu>
       <Menu>
-        <MenuButton className="btn btn-ghost text-left text-lg font-normal dark:hover:bg-gray-700">Мероприятия</MenuButton>
-        <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0">
+        <MenuButton className="btn btn-ghost text-lg font-normal dark:hover:bg-gray-700">Мероприятия</MenuButton>
+        <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 flex flex-col gap-1">
           <MenuItem>
             <Link
               href='/raspisanie'
-              className="w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700">
+              className="mt-1 w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700">
               Расписание
             </Link>
           </MenuItem>
