@@ -25,7 +25,7 @@ const page = () => {
       <BM />
       <Lords />
 
-      <Link href="/altar" className="py-10 inline-block w-full text-center text-indigo-500">Виртуальный алтарь</Link>
+      {/* <Link href="/altar" className="py-10 inline-block w-full text-center text-indigo-500">Виртуальный алтарь</Link> */}
 
       <SectionTitle
         preTitle="Бхаджан Манадала"

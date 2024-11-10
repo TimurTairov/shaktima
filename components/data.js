@@ -4,14 +4,14 @@ import { GiHeraldicSun } from "react-icons/gi";
 import { FaDharmachakra } from "react-icons/fa6";
 import { HiFaceSmile } from "react-icons/hi2";
 import { IoBook } from "react-icons/io5";
-import svg1 from '@/public/img/chakra1.svg'
-import svg2 from '@/public/img/chakra2.svg'
-import svg3 from '@/public/img/lotus-svgrepo-com.svg'
-import svg4 from '@/public/img/yoga-ruka.svg'
-import svg5 from '@/public/img/snake.svg'
-import svg6 from '@/public/img/bull2.svg'
-import svg7 from '@/public/img/medicine.svg'
-import svg8 from '@/public/img/shiva.svg'
+import svg1 from '@/public/svg/chakra1.svg'
+import svg2 from '@/public/svg/chakra2.svg'
+import svg3 from '@/public/svg/lotus.svg'
+import svg4 from '@/public/svg/yoga-ruka.svg'
+import svg5 from '@/public/svg/snake.svg'
+import svg6 from '@/public/svg/bull2.svg'
+import svg7 from '@/public/svg/medicine.svg'
+import svg8 from '@/public/svg/shiva.svg'
 
 
 

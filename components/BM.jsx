@@ -12,7 +12,7 @@ const BM = () => {
             эта - легкая, радостная, а ее плод - как от серьезного йоговского
             тапаса. Счастлив тот, кто поет баджаны с верой и преданным сердцем»
           </p>
-          <p className="text-right md:mr-2 font-semibold text-gray-800">
+          <p className="text-right md:mr-10 xl:mr-16 font-semibold text-gray-800">
             Свами Вишнудевананда Гири Махарадж
           </p>
         </div>
@@ -23,7 +23,7 @@ const BM = () => {
             width={100}
             height={100}
             loading="lazy"
-            className=" object-cover rounded-full"
+            className="w-40 h-40 object-cover rounded-full"
           />
         </div>
       </div>

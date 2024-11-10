@@ -3,40 +3,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '@/public/ShaktiMa-logo.webp'
 import ThemeChanger from './DarkSwitch'
-import tilaka from '@/public/img/shiva_tilak.svg'
+import tilaka from '@/public/svg/shiva_tilak.svg'
 import Menu from '@/components/Menu'
 import MenuNavbar from './MenuNavbar'
 
 const MyNavbar = () => {
-  const navigation = [
-    {
-      title: 'О центре',
-      url: '/',
-    },
-    {
-      title: 'Практики',
-      url: '/praktiki',
-      submenu: {
-        title: 'Медитация сиддхов',
-        url: '/meditation',
-      },
-    },
-    {
-      title: 'Семинары',
-      url: '/seminary',
-    },
-    {
-      title: 'Контакты',
-      url: '/contacts',
-    },
-    {
-      title: 'Поддержать',
-      url: '/donate',
-    },
-  ]
   return (
-    <div className="container navbar relative flex items-center justify-between p-2 md:p-4 lg:p-8 mx-auto xl:px-1">
-      <div className="navbar-start">
+    <div className="container navbar relative flex items-center justify-between p-2 md:p-4  mx-auto xl:px-1">
+      <div className="justify-start shrink-0">
         <div className="dropdown">
           <div
             tabIndex={0}
@@ -77,7 +51,7 @@ const MyNavbar = () => {
         </Link>
       </div>
 
-      <div className="navbar-center flex lg:hidden">
+      <div className="navbar-center  flex lg:hidden">
         <Link href="/" className="btn btn-ghost text-xl dark:hover:bg-gray-700">
           <div className="btn btn-ghost flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100 ">
             <Image
@@ -92,13 +66,13 @@ const MyNavbar = () => {
         </Link>
       </div>
 
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center justify-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-base text-gray-700 dark:text-gray-300 ">
           <MenuNavbar />
         </ul>
       </div>
 
-      <div className="navbar-end">
+      <div className="justify-end shrink-0">
         <div className="btn btn-ghost hover:bg-gray-300 dark:hover:bg-gray-700">
           <ThemeChanger />
         </div>

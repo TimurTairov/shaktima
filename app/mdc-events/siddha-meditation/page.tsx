@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/Container";
-import Image from "next/image";
-import map from '@/public/map108.png'
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";

@@ -1,5 +1,4 @@
 import { Container } from "@/components/Container";
-import { Suspense } from "react";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";

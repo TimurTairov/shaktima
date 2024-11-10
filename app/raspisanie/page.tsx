@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container";
 import Image from "next/image";
-import meditation from "@/public/img/meditation-online.svg"
-import kundalini from '@/public/img/kundalini-yoga.svg'
+import meditation from "@/public/svg/meditation-online.svg"
+import kundalini from '@/public/svg/kundalini-yoga.svg'
 
 const page = () => {
   return (

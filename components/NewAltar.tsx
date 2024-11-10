@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
-import altar from '@/public/img/altar.webp'
-import altar2 from '@/public/img/Алтарь48.webp'
+import altar from '@/public/altar/altar.webp'
+import altar2 from '@/public/altar/altar48.webp'
 import { useState } from "react";
 import { AiOutlineArrowsAlt } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";

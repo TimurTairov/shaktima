@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from '@/public/ShaktiMa-logo.jpg'
+import logo from '@/public/ShaktiMa-logo.webp'
 import { FaGlobe } from "react-icons/fa6";
 import { Container } from "@/components/Container";
 import { FaYoutube } from "react-icons/fa";
@@ -25,10 +25,6 @@ export function Footer() {
       url: "/bhadjan-mandala"
     },
     {
-      title: "Медитация сиддхов",
-      url: "/meditation"
-    },
-    {
       title: "Расписание",
       url: "/raspisanie"
     },
@@ -37,11 +33,15 @@ export function Footer() {
       url: "/calendar"
     },
     {
+      title: "События центра",
+      url: "/mdc-events"
+    },
+    {
       title: "Контакты",
       url: "/contacts"
     },
     {
-      title: "Поддержать",
+      title: "Поддержать нас",
       url: "/donate"
     },
   ];
@@ -122,7 +122,7 @@ export function Footer() {
 
           <div className="md:col-span-3">
             <div className="font-semibold dark:text-gray-300">Ресурсы</div>
-            <div className="flex flex-col gap-1 mt-5">
+            <div className="flex flex-col gap-2 mt-5">
               <a
                 href="https://www.advayta.org/"
                 target="_blank"

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import meditation from "@/public/img/meditation-online.svg"
-import meditationOffline from "@/public/img/meditation.svg"
-import kundalini from '@/public/img/kundalini-yoga.svg'
+import meditation from "@/public/svg/meditation-online.svg"
+import meditationOffline from "@/public/svg/meditation.svg"
+import kundalini from '@/public/svg/kundalini-yoga.svg'
 
 const Noyabr2024 = () => {
 

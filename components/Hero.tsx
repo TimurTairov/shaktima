@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import heroImg from "@/public/img/hero.webp";
+import heroImg from "@/public/hero/hero.webp";
 
 export const Hero = () => {
   return (

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import meditation from "@/public/img/meditation-online.svg"
-import meditationOffline from "@/public/img/meditation.svg"
+import meditation from "@/public/svg/meditation-online.svg"
+import meditationOffline from "@/public/svg/meditation.svg"
 import datta from "@/public/img/datta.jpg"
 import pambatti from "@/public/img/pambatti.png"
-import kundalini from '@/public/img/kundalini-yoga.svg'
+import kundalini from '@/public/svg/kundalini-yoga.svg'
 
 const Decabr2024 = () => {
   return (
