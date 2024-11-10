@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local"
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
-import Navbar2 from "@/components/Navbar2";
 import MyNavbar from "@/components/MyNavbar";
 import { Footer } from "@/components/Footer";
 import { Suspense } from "react";
