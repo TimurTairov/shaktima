@@ -13,6 +13,10 @@ import svg6 from '@/public/svg/bull2.svg'
 import svg7 from '@/public/svg/medicine.svg'
 import svg8 from '@/public/svg/shiva.svg'
 
+import guru1 from "@/public/guru/guru1.webp"
+import guru2 from "@/public/guru/guru2.webp"
+import guru3 from "@/public/guru/guru3.webp"
+
 
 
 const benefitOne = {
@@ -20,16 +24,13 @@ const benefitOne = {
   desc: "Наш гуру - Свами Вишнудевананда Гири является реализованным мастером адвайта-веданты.",
   images: [
     {
-      original: 'https://sun9-27.userapi.com/impg/zUkus91clzhCkCVkSDLhvq9UJ7Qh6VsrLT71MA/QVXhYXAB2yI.jpg?size=600x800&quality=95&sign=a5630c5aa8ab80b6de8ce32f81f3175d&type=album',
-      thumbnail: 'https://sun9-27.userapi.com/impg/zUkus91clzhCkCVkSDLhvq9UJ7Qh6VsrLT71MA/QVXhYXAB2yI.jpg?size=600x800&quality=95&sign=a5630c5aa8ab80b6de8ce32f81f3175d&type=album',
+      original: "https://sun9-68.userapi.com/impg/JmRrJtdL_lCl68BT3mxVa5i-DkSjXOFgxvaRzA/NXXqxc-UJ5A.jpg?size=600x800&quality=95&sign=5bd6794313ea9f053a2c3bed133c3471&type=album",
     },
     {
-      original: 'https://sun9-15.userapi.com/impg/YjKweUie8tz7BmjbYhkueJ2gDWztxhtXIqP9zQ/vCr5mYa2bMA.jpg?size=600x800&quality=95&sign=ba2b8fc3e446c6b197db9795aa186901&type=album',
-      thumbnail: 'https://sun9-15.userapi.com/impg/YjKweUie8tz7BmjbYhkueJ2gDWztxhtXIqP9zQ/vCr5mYa2bMA.jpg?size=600x800&quality=95&sign=ba2b8fc3e446c6b197db9795aa186901&type=album',
+      original: "https://sun9-62.userapi.com/impg/a46HHzbiq_JRSTrYaU2HwKe46nb-U2GuPCu52A/nfPlRwmEQuo.jpg?size=600x800&quality=95&sign=b6c681e3c891430aeb22a7178670c3fd&type=album",
     },
     {
-      original: 'https://sun9-31.userapi.com/impg/G-xSlS7hTDs8hsPJExZqwkvTuFvouhXqrSSnbw/ITRuyYH7fEQ.jpg?size=600x800&quality=95&sign=232154b334db5304ffc45677e78c4ae6&type=album',
-      thumbnail: 'https://sun9-31.userapi.com/impg/G-xSlS7hTDs8hsPJExZqwkvTuFvouhXqrSSnbw/ITRuyYH7fEQ.jpg?size=600x800&quality=95&sign=232154b334db5304ffc45677e78c4ae6&type=album',
+      original: "https://sun9-1.userapi.com/impg/64PJPe0YhUmWbN_1js8KAxIQfJHwR3cF08Hf1A/rVkQV__uobo.jpg?size=600x800&quality=95&sign=911ededb1d421c9725d2fb1dc1b67263&type=album",
     },
   ],
   bullets: [
@@ -56,42 +57,42 @@ const benefitTwo = {
   desc: `В нашей традиции две основные линии передачи.`,
   images: [
     {
-      original: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
+      original: 'https://sun9-1.userapi.com/impg/SN4kGJ1YeTxUg9Nt3YFNQQ7CAOD_c2YNcjMLGQ/f6dWujT9Qh8.jpg?size=600x800&quality=95&sign=0e07fc80eb743d66280d70835e79bf14&type=album',
       description: 'Общая линия передачи',
 
     },
     {
-      original: 'https://sun9-52.userapi.com/impg/v90rgPWro6jVMXQQqMvRRpaCAxYRJtYYEHrzoQ/aoTXbjYMEzE.jpg?size=600x800&quality=95&sign=3e6ca793161fadf02355cbc5003d3721&type=album',
+      original: 'https://sun9-41.userapi.com/impg/kXUFn0S9UxlTFdxGdcC-uY7NoJQp838q8KOVYw/tNCnN7r1mbM.jpg?size=600x800&quality=95&sign=38256a2dd5c380cc2e7f4d897eb9df11&type=album',
       description: 'Свами Вишнудевананда Гири',
 
     },
     {
-      original: 'https://sun9-67.userapi.com/impg/1pns_heZSQ2oHrAoTJNpRnWP6Pbg68WXcrTz4g/_O5Gb8fAvpc.jpg?size=600x800&quality=95&sign=af8c51d5b641968b8262ef3cad7cb4d1&type=album',
+      original: 'https://sun9-33.userapi.com/impg/DRdcCAJnFDBSjrbyOQdMFCKRGdlvln1rj5oT-Q/NyF1qDnnKWc.jpg?size=600x800&quality=95&sign=509b90386489533e00742617a3dbf64b&type=album',
       description: 'Свами Брахмананда',
 
     },
     {
-      original: 'https://sun9-27.userapi.com/impg/YSMvHAN-8MJLNL_c6lugskrTw2pDiugTLjmTAQ/dt9Q0r8XC2I.jpg?size=600x800&quality=95&sign=b1d6066a19960afb5315632c81230405&type=album',
+      original: 'https://sun9-62.userapi.com/impg/w7AeHuak-sgO8Wq253N2tMZZk1Rh0GKwBcA2Xw/TkeSYY0eGaU.jpg?size=600x800&quality=95&sign=43bb81b77a6e1978888a010eb284c9a9&type=album',
       description: 'Шри Ади Шанкарачарья',
 
     },
     {
-      original: 'https://sun9-17.userapi.com/impg/q8gkmYuWiswtB8_CogCywIH-nh26nNAkslUz3w/4vKPtPTjpgg.jpg?size=600x800&quality=95&sign=7fb88537add86a832091b61387e156b8&type=album',
+      original: 'https://sun9-53.userapi.com/impg/gh-V-JIijUDDbE5ZZSDCwzyimhFgQRZXaToG0w/efj1MmheIQU.jpg?size=600x800&quality=95&sign=d269833053af468639037deee1ca7e09&type=album',
       description: 'Бхагаван авадхута Даттатрейя',
 
     },
     {
-      original: 'https://sun9-54.userapi.com/impg/6pXs8LLKEjsJTejym8WGqOnWeyJnOgxuomdlCQ/xWhQfJVSgA8.jpg?size=600x800&quality=95&sign=ab831322e2ddf910ced06e732f4ce6c6&type=album',
+      original: 'https://sun9-18.userapi.com/impg/3AlbBpcwPkI-AlzeLJ5vzJdu-Jy3545zIvvW0A/tJUI8ASxSyg.jpg?size=600x800&quality=95&sign=486753f3642723279319e181a221f41d&type=album',
       description: 'Риши Васиштха',
 
     },
     {
-      original: 'https://sun9-12.userapi.com/impg/kEF4-fnuTduKXjdAhjZ3CZ3BShPZEAbnz4ED5Q/xlaXsndUW1c.jpg?size=744x1052&quality=95&sign=23b5e21cb714dc90baa03120e7377f3a&type=album',
+      original: 'https://sun9-4.userapi.com/impg/ppN9TsbORqNSwb85AD4u_IxxEe38FPLu_8Rfbw/rdBJCEvwP9w.jpg?size=600x800&quality=95&sign=86bfca5deeaf443785ec6679189b8ec5&type=album',
       description: 'Северная линия передачи',
 
     },
     {
-      original: 'https://sun9-71.userapi.com/impg/Poij7sT5r5eQQUk6hnm9ET1An-_9vQQQkTyBgA/IEF0WJnzxK0.jpg?size=1527x2160&quality=95&sign=fe3c424b99d28f53f508c4a30f195f8d&type=album',
+      original: 'https://sun9-5.userapi.com/impg/7WKSl7uQr2SsZDZUALhK1tWCsYVbXy0mx6vd0g/FmqalOIRf7c.jpg?size=600x800&quality=95&sign=c49cb69d96f717790672429b08eba37a&type=album',
       description: 'Южная линия передачи',
 
     },

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
-import guru from '@/public/img/guru.png'
+import guru from '@/public/img/guru.webp'
 
 const BM = () => {
   return (
