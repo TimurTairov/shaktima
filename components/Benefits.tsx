@@ -2,7 +2,7 @@
 import React from "react";
 import { Container } from "@/components/Container";
 import ImageGallery from "react-image-gallery";
-import { StaticImageData } from 'next/image';
+
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
@@ -11,7 +11,7 @@ interface BenefitsProps {
     title: string;
     desc: string;
     images: {
-      original: ImageGallery | StaticImageData | string,
+      original: string,
     }[];
     bullets: {
       title: string;
