@@ -21,10 +21,6 @@ export function Footer() {
       url: "/sutra"
     },
     {
-      title: "Бхаджан Мандала",
-      url: "/bhadjan-mandala"
-    },
-    {
       title: "Ачамана",
       url: "/bhadjan-mandala"
     },

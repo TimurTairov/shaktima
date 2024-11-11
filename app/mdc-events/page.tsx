@@ -10,18 +10,20 @@ const page = () => {
         Мероприятия московского дхарма центра
       </h1>
 
-      <ul className="mt-10 flex flex-wrap gap-5">
-        {seminary.map((seminar) => (
-          <li key={seminar.id} className="w-80 text-center flex flex-col gap-3">
-            <Link href={`/mdc-events/${seminar.id}`}>
-              <Image src={seminar.img} alt={seminar.title} className="w-80 h-80 rounded-lg" />
-            </Link>
-            <Link href={`/mdc-events/${seminar.id}`}>
-              {seminar.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="w-full flex justify-center">
+        <ul className="mt-10 flex flex-wrap gap-5 xl:gap-10">
+          {seminary.map((seminar) => (
+            <li key={seminar.id} className="w-80 text-center flex flex-col gap-3">
+              <Link href={`/mdc-events/${seminar.id}`}>
+                <Image src={seminar.img} alt={seminar.title} className="w-full h-auto rounded-lg" />
+              </Link>
+              <Link href={`/mdc-events/${seminar.id}`}>
+                {seminar.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
     </Container>
   )

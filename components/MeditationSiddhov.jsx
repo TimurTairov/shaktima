@@ -27,17 +27,15 @@ export const MeditationSiddhov = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="855"
-              height="638"
-              className={'object-cover w-full h-auto rounded-md'}
-              alt="Hero Illustration"
-              loading="lazy"
-              placeholder="blur"
-            />
-          </div>
+          <Image
+            src={heroImg}
+            width="855"
+            height="638"
+            className={'object-cover w-full h-auto rounded-md'}
+            alt="Hero Illustration"
+            loading="lazy"
+            placeholder="blur"
+          />
         </div>
       </Container>
     </>
