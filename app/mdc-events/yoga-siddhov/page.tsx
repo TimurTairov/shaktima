@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container";
 import Image from "next/image";
-import yogaSiddhovImg from "@/public/mdc-events/yoga-siddhov.webp"
+import yogaSiddhovImg from "@/public/hero/yoga-siddhov.webp"
 import { SectionTitle } from "@/components/SectionTitle";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
