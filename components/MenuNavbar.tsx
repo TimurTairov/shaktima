@@ -62,6 +62,8 @@ const MenuNavbar = () => {
         </MenuItems>
       </Menu>
 
+      <Link href="/blog" className='btn btn-ghost text-left text-lg font-normal dark:hover:bg-gray-700'>Блог</Link>
+
       <Link href="/contacts" className='btn btn-ghost text-left text-lg font-normal dark:hover:bg-gray-700'>Контакты</Link>
 
       <Link href="/donate" className='btn btn-ghost text-left text-lg font-normal dark:hover:bg-gray-700'>Поддержать нас</Link>
