@@ -27,12 +27,4 @@ export const allArticles = [
     img: neoadwayta,
     url: '/blog/neoadwayta',
   },
-
-  // {
-  //   id: '001',
-  //   title: 'Календарь событий 2024',
-  //   description: 'Список ведических праздников и мероприятий на 2024 год ...',
-  //   img: 'https://sun9-63.userapi.com/impg/SJMTFSUoJtNuAQ0g8n_YdZii_wtC14uZRTPltg/vNUYeiGjhLU.jpg?size=320x320&quality=96&sign=48665e9d88fbfacc097c8aad66ec7230&type=album',
-  //   url: '/blog/eventlist2024',
-  // },
 ]
