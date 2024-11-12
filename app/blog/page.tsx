@@ -17,13 +17,13 @@ const Blog = () => {
         <ul className="flex flex-col justify-center gap-5 xl:gap-10">
           {allArticles.map((article) => {
             return <li key={article.id} className='flex gap-2 xl:gap-5'>
-              <div className=' shrink-0'>
-                <Image src={article.img} alt={article.title} className='w-full h-auto rounded-lg' />
+              <div className='shrink-0'>
+                <Image src={article.img} alt={article.title} className='shrink-0 w-full h-auto rounded-lg' />
               </div>
               <div className='flex flex-col justify-between'>
-                <h5 className='text-xl font-medium'>{article.title}</h5>
-                <p>{article.description}</p>
-                <Link href={article.url} className='text-indigo-600 dark:text-indigo-400 hover:underline'>Подробнее ...</Link>
+                <h5 className='text-sm md:text-xl font-medium'>{article.title}</h5>
+                <p className='text-xs md:text-base'>{article.description}</p>
+                <Link href={article.url} className='text-indigo-600 dark:text-indigo-400 hover:underline text-xs md:text-base'>Подробнее ...</Link>
               </div>
             </li>
           })}

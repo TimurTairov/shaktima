@@ -33,6 +33,7 @@ const Menu = () => {
           </ul>
         </details>
       </li>
+      <li><Link href='/blog' className="text-gray-700 dark:text-gray-300">Блог</Link></li>
       <li><Link href='/contacts' className="text-gray-700 dark:text-gray-300">Контакты</Link></li>
       <li><Link href='/donate' className="text-gray-700 dark:text-gray-300">Поддержать нас</Link></li>
     </>

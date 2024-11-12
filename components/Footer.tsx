@@ -17,14 +17,6 @@ export function Footer() {
       url: "/"
     },
     {
-      title: "Утренняя сутра",
-      url: "/sutra"
-    },
-    {
-      title: "Ачамана",
-      url: "/bhadjan-mandala"
-    },
-    {
       title: "Расписание",
       url: "/achamana"
     },
@@ -35,6 +27,18 @@ export function Footer() {
     {
       title: "События центра",
       url: "/mdc-events"
+    },
+    {
+      title: "Утренняя сутра",
+      url: "/sutra"
+    },
+    {
+      title: "Ачамана",
+      url: "/bhadjan-mandala"
+    },
+    {
+      title: "Блог",
+      url: "/blog"
     },
     {
       title: "Контакты",
