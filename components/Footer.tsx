@@ -33,6 +33,10 @@ export function Footer() {
       url: "/sutra"
     },
     {
+      title: "Садхана Даттатрее",
+      url: "/datta-sadhana"
+    },
+    {
       title: "Ачамана",
       url: "/bhadjan-mandala"
     },

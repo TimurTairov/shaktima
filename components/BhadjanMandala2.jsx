@@ -1,19 +1,18 @@
 'use client'
 import Image from 'next/image'
-import Link from 'next/link'
 import { Container } from '@/components/Container'
-import img1 from '@/public/img/altar/1.png'
-import img2 from '@/public/img/altar/2.png'
-import img3 from '@/public/img/altar/3.png'
-import img4 from '@/public/img/altar/4.png'
-import img5 from '@/public/img/altar/5.png'
-import img6 from '@/public/img/altar/6.png'
-import img7 from '@/public/img/altar/7.png'
-import img8 from '@/public/img/altar/8.png'
-import img9 from '@/public/img/altar/9.png'
-import img10 from '@/public/img/altar/10.png'
-import img11 from '@/public/img/altar/11.png'
-import img12 from '@/public/img/altar/12.png'
+import img1 from '@/public/TheLords-1/1.webp'
+import img2 from '@/public/TheLords-1/2.webp'
+import img3 from '@/public/TheLords-1/3.webp'
+import img4 from '@/public/TheLords-1/4.webp'
+import img5 from '@/public/TheLords-1/5.webp'
+import img6 from '@/public/TheLords-1/6.webp'
+import img7 from '@/public/TheLords-1/7.webp'
+import img8 from '@/public/TheLords-1/8.webp'
+import img9 from '@/public/TheLords-1/9.webp'
+import img10 from '@/public/TheLords-1/10.webp'
+import img11 from '@/public/TheLords-1/11.webp'
+import img12 from '@/public/TheLords-1/12.webp'
 
 const BhadjanMandala2 = () => {
   const altar = [
@@ -35,7 +34,14 @@ const BhadjanMandala2 = () => {
       <Container className="flex flex-wrap justify-between">
         <div className="grid grid-cols-4 w-full lg:w-6/12">
           {altar.map((item, index) => (
-            <Image key={index} src={item} alt="murti" loading="lazy" />
+            <Image
+              key={index}
+              src={item}
+              width={176}
+              height={215.25}
+              alt="murti"
+              loading="lazy"
+            />
           ))}
         </div>
         <div className="flex items-center justify-center w-full lg:w-5/12">

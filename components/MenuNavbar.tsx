@@ -45,13 +45,13 @@ const MenuNavbar = () => {
               Утреняя Сутра
             </Link>
           </MenuItem>
-          {/* <MenuItem>
+          <MenuItem>
             <Link
               className="w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
-              href="/bhadjan-mandala">
-              Бхаджан Мандала
+              href="/datta-sadhana">
+              Садхана Даттатрее
             </Link>
-          </MenuItem> */}
+          </MenuItem>
           <MenuItem>
             <Link
               className="w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
