@@ -6,7 +6,7 @@ import MyNavbar from "@/components/MyNavbar";
 import { Footer } from "@/components/Footer";
 import { Suspense } from "react";
 import { Metrika } from "@/components/YaMetrika";
-
+import { VkPixel } from "@/components/VkPixel"
 
 export const metadata: Metadata = {
   title: "Шакти Ма",
@@ -51,6 +51,7 @@ export default function RootLayout({
         </ThemeProvider>
         <Suspense>
           <Metrika />
+          <VkPixel />
         </Suspense>
       </body>
     </html>
