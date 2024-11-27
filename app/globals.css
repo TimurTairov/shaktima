@@ -64,3 +64,8 @@
 .sutra-title {
   @apply mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300 max-w-screen-sm;
 }
+
+/* Садхана Даттатрее */
+.datta-title {
+  @apply mt-5 md:mt-7 lg:mt-10 xl:mt-16 2xl:mt-20 mb-3 text-xl md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300;
+}
