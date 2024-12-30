@@ -1,8 +1,14 @@
 import yogaSiddhov from "@/public/mdc-events/yoga-siddhov.webp"
 import siddhaMeditation from "@/public/mdc-events/siddha-meditation.webp"
 import bhadjanMandala from "@/public/mdc-events/bhadjan-mandala.webp"
+import yogaMarafon from '@/public/mdc-events/yoga-marafon.webp'
 
 export const seminary = [
+  {
+    id: "yoga-marafon",
+    title: "Йога марфон",
+    img: yogaMarafon,
+  },
   {
     id: "siddha-meditation",
     title: "Медитация сиддхов",
