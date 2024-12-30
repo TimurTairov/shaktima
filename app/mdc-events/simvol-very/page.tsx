@@ -120,14 +120,14 @@ const page = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-5">
+                {/* <div className="flex items-start gap-5">
                   <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
                     <p className="text-left">Объем свободного пожертвования определяете самостоятельно </p>
 
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>
