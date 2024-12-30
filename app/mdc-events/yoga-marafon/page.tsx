@@ -37,6 +37,16 @@ const page = () => {
             <p className="w-full text-center lg:text-start py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               В новый год с чистыми каналами
             </p>
+            <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center sm:flex-row">
+              <a
+                href="https://t.me/tedzhovati"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+              >
+                Записаться на марафон
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
