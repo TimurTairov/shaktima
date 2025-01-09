@@ -6,8 +6,8 @@ const page = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
-        <Altar />
-        <div
+        <Altar></Altar>
+        {/* <div
           id="sutra"
           className="mt-10 flex flex-wrap items-center justify-center gap-3"
         >
@@ -18,7 +18,7 @@ const page = () => {
             src="/sounds/sutra.mp3"
             className="w-full md:w-1/2"
           ></audio>
-        </div>
+        </div> */}
 
         <div className="mt-10 w-full  flex flex-col items-center justify-center gap-5">
           <p className="sutra-title">1. Начало практики</p>
