@@ -20,7 +20,10 @@ const page = () => {
           ></audio>
         </div> */}
 
-        <div className="mt-10 w-full  flex flex-col items-center justify-center gap-5">
+        <div
+          id="sutra"
+          className="mt-10 w-full  flex flex-col items-center justify-center gap-5"
+        >
           <p className="sutra-title">1. Начало практики</p>
           <p className="text-center text-balance max-w-screen-sm">
             Перед началом практики выполняются{' '}
