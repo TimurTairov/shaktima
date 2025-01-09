@@ -22,8 +22,8 @@ const Altar = () => {
       <div id="altar">
         <Image src={altar} alt="Сиддхи и божества" className="w-full h-auto rounded-md block lg:hidden" />
         <Image src={altar2} alt="Сиддхи и божества" className="w-full h-auto rounded-md hidden lg:block" />
-        <div className="w-full flex h-6">
-          <button className="mt-1 ml-1 p-0.5 border border-red-500  rounded-md bg-white dark:bg-base-content" onClick={fixAltar}>
+        <div className="w-full flex gap-1 h-6">
+          <button className="mt-0.5 ml-1 p-0.5 border border-red-500  rounded-md bg-white dark:bg-base-content" onClick={fixAltar}>
             {isFixed ?
               (<AiOutlineClose className="text-red-500" />)
               :
@@ -34,12 +34,11 @@ const Altar = () => {
             // id="sutra"
             className="w-full flex flex-wrap items-center justify-center gap-3"
           >
-            <p className="text-lg">Cутра</p>
             <audio
               controls
               controlsList="nodownload"
               src="/sounds/sutra.mp3"
-              className="w-full md:w-1/2 h-5"
+              className="w-full h-5"
             ></audio>
           </div>
         </div>
