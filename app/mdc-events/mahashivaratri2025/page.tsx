@@ -50,18 +50,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mt-10 lg:my-20 flex flex-wrap justify-between">
-        <div className="flex items-center justify-center w-full lg:w-6/12">
-          <Image
-            src={shiva}
-            width="855"
-            height="638"
-            className="object-cover w-full h-auto rounded-md"
-            alt="Hero Illustration"
-            loading="lazy"
-            placeholder="blur"
-          />
-        </div>
+      <div className="mt-10 lg:my-20 flex flex-wrap flex-row-reverse justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
             <h2 className="w-full text-center lg:text-start text-2xl md:text-3xl lg:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
@@ -78,11 +67,20 @@ const page = () => {
             <p></p>
           </div>
         </div>
-
+        <div className="flex items-center justify-center w-full lg:w-6/12">
+          <Image
+            src={shiva}
+            width="855"
+            height="638"
+            className="object-cover w-full h-auto rounded-md"
+            alt="Hero Illustration"
+            loading="lazy"
+            placeholder="blur"
+          />
+        </div>
       </div>
 
       <div className="mt-10 lg:my-20 w-full flex justify-center">
-
         <div className="max-w-6xl">
           <h5 className="w-full text-center text-2xl md:text-3xl lg:text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight xl:leading-tight dark:text-white ">
             Программа МахаШиваратри
@@ -91,32 +89,32 @@ const page = () => {
             Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
           </p>
 
-          <p className="w-full text-center lg:text-start pt-3 pb-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start pt-3 pb-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год.</p>
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати).</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>23:00</b> — Первая пуджа (Саттва): настройка на внутреннюю гармонию.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>00:00</b> — Практика с монахиней Махешвари.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>01:00</b> — Вторая пуджа (Раджас): раскрытие силы действия.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>02:00</b> — Шива Пати: танцы и мантры в честь Шивы.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>03:30</b> — Третья пуджа (Тамас): путь через покой и тишину.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>04:30</b> — Практики йоги (Сурья Намаскара и Хатха-йога).</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>05:30</b> — Четвёртая пуджа (Абсолют): завершение в энергии Шивы.</p>
-          <p className="w-full text-center lg:text-start pt-1 pb-3  text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start pt-1 pb-3  text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>07:00</b> — Утреннее угощение и завершение праздника.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>Дополнительно:</b> на протяжении всего праздника будет работать чайный стол с мастерами чайной церемонии. Также у вас будет возможность: </p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Поучаствовать в стоянии на гвоздях "Садху" с опытными мастерами.
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            — Поучаствовать в стоянии на гвоздях cадху с опытными мастерами.
           </p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">Записаться на индивидуальную встречу с монахом.</p>
-          <p className="w-full text-center lg:text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">— Записаться на индивидуальную встречу с монахом.</p>
+          <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             <b>Примечание:</b> расписание может незначительно изменяться в зависимости от хода мероприятия.</p>
         </div>
       </div>
