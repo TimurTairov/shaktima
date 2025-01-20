@@ -3,8 +3,14 @@ import siddhaMeditation from "@/public/mdc-events/siddha-meditation.webp"
 import bhadjanMandala from "@/public/mdc-events/bhadjan-mandala.webp"
 import yogaMarafon from '@/public/mdc-events/yoga-marafon.webp'
 import simvolVery from '@/public/mdc-events/simvol-very.webp'
+import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.jpg"
 
 export const seminary = [
+  {
+    id: "mahashivaratri2025",
+    title: "Церемония принятия Символа Веры",
+    img: mahashivaratri2025,
+  },
   {
     id: "simvol-very",
     title: "Церемония принятия Символа Веры",
