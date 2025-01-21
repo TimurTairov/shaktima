@@ -29,6 +29,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <Container>
+
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
@@ -36,13 +37,14 @@ const page = () => {
               МахаШиваРатри
             </h1>
             <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
-              Священная ночь Шивы. Ночь трансформации и вдохновения.
+              Священная ночь почитания Шивы и Парвати. Ночь благословений, трансформаций и вдохновения.
             </p>
             <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
-              26 февраля, Москва, пространство "Вкус и цвет" в 3-х минутах от метро Дмитровская. Начало в 21:00.
+              26 февраля, 21:00, Москва, пространство "Вкус и цвет" (3 минуты от м.  Дмитровская).
             </p>
             <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
-              Откройте для себя атмосферу древнего праздника, наполненного мудростью и глубокой энергией. Вас ждут ритуалы, практики и вдохновение.
+              Откройте для себя атмосферу древнего ведического праздника, наполненного мудростью и высокой  энергией.
+              Вас ждут медитативные практики, традиционные ритуалы и возвышенная атмосфера.
             </p>
 
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col justify-center lg:justify-start space-y-3 sm:space-x-4 sm:space-y-0 sm:flex-row">
