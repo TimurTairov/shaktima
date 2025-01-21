@@ -4,8 +4,21 @@ import Image from 'next/image'
 import Link from 'next/link'
 import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.jpg"
 import shiva from "@/public/hero/shiva.jpg"
+import { SectionTitle } from "@/components/SectionTitle";
+import { IoCalendarNumberOutline } from "react-icons/io5";
+import { LuCalendarHeart } from "react-icons/lu";
+import { IoLocation } from "react-icons/io5";
+import { BiDonateHeart } from "react-icons/bi";
 
+import { FaOm } from "react-icons/fa6";
+import { GrYoga } from "react-icons/gr";
+import { TbYoga } from "react-icons/tb";
+import { GiHealthIncrease } from "react-icons/gi";
+import { RiMentalHealthFill } from "react-icons/ri";
+import { TbHealthRecognition } from "react-icons/tb";
+import { FaHandsPraying } from "react-icons/fa6";
 
+import MahaShivaRatriFoto from "@/components/MahaShivaRatriFoto";
 
 export const metadata: Metadata = {
   title: "МахаШиваРатри 2025 в Москве",
@@ -80,10 +93,57 @@ const page = () => {
         </div>
       </div>
 
+      <SectionTitle preTitle="profit" title="Что Вам даст МахаШиваРатри?">
+        <div className="flex justify-center">
+          <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
+            <div className="flex flex-col items-start justify-start">
+              <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
+
+                <div className="flex items-start gap-5">
+                  <FaHandsPraying className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-left">
+                      Благославение и Ануграха шакти от Махадева
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <TbHealthRecognition className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-left">
+                      Получение новых знаний и поддерживающего окружения единомышленников
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-left">Улучшение физического и психического здоровья
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <FaOm className=" shrink-0 w-14 h-14 text-indigo-500" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-left">
+                      Возможность приобщиться к духовной традиции йоги
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </SectionTitle>
+
       <div className="mt-10 lg:my-20 w-full flex justify-center">
         <div className="max-w-6xl">
           <h5 className="w-full text-center text-2xl md:text-3xl lg:text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight xl:leading-tight dark:text-white ">
-            Программа МахаШиваратри
+            Программа МахаШиваРатри
           </h5>
           <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
@@ -119,7 +179,176 @@ const page = () => {
         </div>
       </div>
 
-    </Container>
+      <SectionTitle
+        preTitle="подготовка"
+        title="Пост на МахаШиваРатри"
+      >
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Поздравляем Вас, что Вы решили принять участие в совместном праздновании Великой ночи Шивы – МахаШиваратри! Воистину эта ночь способна изменить Вашу жизнь, если посвятить ее Шиве! Хотим рассказать Вам, как лучше подготовиться к этой ночи.
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          На Махашиваратри принято поститься с утра до утра, то есть в нашем случае это с утра 28 февраля до рассвета 1 марта. Пост может быть разным по вашему выбору:<br />
+          1.	Полный пост (без воды и еды)<br />
+          2.	Пост только на чистой воде<br />
+          3.	Пост только на воде, соках, травяном чае<br />
+          4.	Фрукты, ягоды<br />
+          5.	Плюс овощи свежие, не термообработанные, молочные продукты<br />
+          6.	Любая пища крофме зернобобовых (подсолнечное масло – зернобобовое!) и животных продуктов<br />
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Каждый последующий пункт включает предыдущие. Таким образом на уровне питания самый лёгкий пост — это пост наподобие поста
+          в	Экадаши. Но не менее важны более тонкие уровни — максимальная осознанность и концентрация на почитании Шивы и практике.
+        </p>
+      </SectionTitle>
+
+
+      <SectionTitle
+        preTitle="санкальпа"
+        title="Ритуал целеполагания"
+      >
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Мы будем закладывать санкальпу (намерение) — ее стоит продумать заранее, чтобы не сочинять впопыхах. Благоприятно закладывать духовные санкальпы, а также вторую санкальпу на благо всех живых существ. Листы для санкальпы мы вам выдадим, а вот ручку лучше взять с собой (желательно абсолютно новую).
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Также матаджи смогут начать пост 16 понедельников, если есть такое желание. Если будут вопросы об этом – можно задать заранее или в начале праздника/в перерывах.
+        </p>
+      </SectionTitle>
+
+
+      <SectionTitle
+        preTitle="Дресс-код"
+        title="Что с собой взять на МахаШиваРатри?"
+      >
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Удобная светлая одежда. Если у вас есть одежда специально для ритуальных практик, будет благоприятно взять ее. А также что-то удобное для участия в динамической медитации и Сурья Намаскар утром. Кроме того, благоприятно захватить с собой коврик, повязку на глаза, теплую кофту/палантин и теплые носки.
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <b>Итак, что рекомендуется:</b><br />
+          ✅ приходить в светлой удобной одежде<br />
+          ✅ принести подношения (фрукты, вегетарианские сладости, лепестки, цветы, кроме синих)<br />
+          ✅ держать пост в течение дня (можно пить воду и чай)<br />
+          ✅ взять с собой чётки из рудракши для участия в мантра-джапе. Считается, что чтение мантр в ночь Шиваратри обладает невероятной силой.<br />
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <b> ❗️Не рекомендуется:</b><br />
+          надевать металлические мирские украшения (серёжки, часы, цепочки и пр.), т.к. металл забирает энергию. Духовные украшения можно оставить на себе.
+        </p>
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Пожалуйста, выспитесь накануне! Это важный пункт, так как наиболее благоприятно бодрствовать всю ночь!
+        </p>
+      </SectionTitle>
+
+      <MahaShivaRatriFoto />
+
+      <SectionTitle
+        preTitle="Стоимость и регистрация"
+        title="Предпродажа билетов уже открыта!"
+      >
+        <p className="w-full text-center lg:text-start pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Рекомендуем оплатить участие заранее — это не только обеспечит ваше место на празднике, но и поможет покрыть важные организационные расходы:
+          🏠 аренду пространства,
+          🕉️ приезд монаха,
+          🔥 подготовку всех необходимых элементов для проведения мероприятия.
+        </p>
+
+        <div className="flex justify-center">
+          <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
+            <div className="flex flex-col items-start justify-start">
+              <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
+
+                <div className="flex items-start gap-5">
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
+                    <p className="text-left">
+                      <a href="/calendar">
+                        В ночь с 26 на 27 февраля (со среды на четверг)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                    <p className="text-left">
+                      Практика длится всю ночь с 21:00 до 7:00 утра. 4.	Светлая/ритуальная одежда (пуджи) +
+                      свободная одежда для технических практик (хатха йога, медитации).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-500  font-semibold">Где</p>
+                    <p className="text-left">
+
+                      г. Москва,
+                      ул. Большая Новодмитровская, д. 36, стр. 7, вход 1, Дизайн-завод «Флакон».
+                      Вход со стороны Хлебзавод №9 от ст. м. Дмитровская
+
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
+                    <p className="text-left">
+                      ⏳ До 3 февраля: 4000 руб.<br />
+                      📅 С 4 февраля по 25 февраля: 5000 руб.<br />
+                      🚪 В день мероприятия: 6000 руб.<br />
+                      ✨ Благотворительные подношения очень приветствуются 🙏🏻
+                    </p>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </SectionTitle>
+
+      <SectionTitle
+        preTitle="По всем вопросам можете обращаться к Татьяне "
+        title="Контакты"
+      >
+        <div className="flex flex-wrap gap-5">
+          <Link
+            href="http://t.me/shartatiana"
+            target="_blank"
+            className="px-3 py-2 text-xs text-center text-white bg-indigo-500 rounded-md "
+          >
+            Telegram
+          </Link>
+          <Link
+            href="https://wa.me/message/PXESQR73QY3FE1"
+            target="_blank"
+            className="px-3 py-2 text-xs text-center text-white bg-indigo-500 rounded-md "
+          >
+            WhatsApp
+          </Link>
+        </div>
+      </SectionTitle>
+
+      <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col justify-center space-y-3 sm:space-x-4 sm:space-y-0 sm:flex-row">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf_G9HpJKL2HtcpxARh3lmpui9LYiq8kyhWpg2sXVYenD17vQ/viewform"
+          target="_blank"
+          className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+        >
+          Записаться на МахаШиваРатри 2025
+        </Link>
+      </div>
+
+
+
+
+    </Container >
   )
 }
 
