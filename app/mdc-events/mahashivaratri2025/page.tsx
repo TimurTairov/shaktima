@@ -33,16 +33,16 @@ const page = () => {
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
-            <h1 className="w-full text-center lg:text-start py-5 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
+            <h1 className="w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
               МахаШиваРатри
             </h1>
-            <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
               Священная ночь почитания Шивы и Парвати. Ночь благословений, трансформаций и вдохновения.
             </p>
-            <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5  text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
               26 февраля, 21:00, Москва, пространство "Вкус и цвет" (3 минуты от м.  Дмитровская).
             </p>
-            <p className="w-full text-center lg:text-start py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
               Откройте для себя атмосферу древнего ведического праздника, наполненного мудростью и высокой  энергией.
               Вас ждут медитативные практики, традиционные ритуалы и возвышенная атмосфера.
             </p>
