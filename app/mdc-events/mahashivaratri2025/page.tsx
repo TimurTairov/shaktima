@@ -18,8 +18,6 @@ import { RiMentalHealthFill } from "react-icons/ri";
 import { TbHealthRecognition } from "react-icons/tb";
 import { FaHandsPraying } from "react-icons/fa6";
 
-import { FaArrowDown } from "react-icons/fa6";
-
 import MahaShivaRatriFoto from "@/components/MahaShivaRatriFoto";
 
 export const metadata: Metadata = {
@@ -74,7 +72,7 @@ const page = () => {
       <div className="mt-10 lg:my-20 flex flex-wrap flex-row-reverse justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
-            <h2 className="w-full text-center lg:text-start text-2xl md:text-3xl xl:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
+            <h2 className="w-full text-center lg:text-start text-xl md:text-3xl xl:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
               Великая ночь Шивы
             </h2>
             <p className="w-full pt-5 leading-normal text-gray-500 lg:text-base  xl:text-2xl dark:text-gray-300">
@@ -103,7 +101,7 @@ const page = () => {
         <div className="flex justify-center">
           <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
             <div className="flex flex-col items-start justify-start">
-              <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
+              <div className="mt-3 lg:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
                   <FaHandsPraying className=" shrink-0 w-14 h-14 text-indigo-500 " />
@@ -146,44 +144,44 @@ const page = () => {
         </div>
       </SectionTitle>
 
-      <div className="mt-10 lg:my-20 w-full flex justify-center">
-        <div className="max-w-6xl">
-          <h5 className="w-full text-center text-2xl md:text-3xl lg:text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight xl:leading-tight dark:text-white ">
-            Программа МахаШиваРатри
-          </h5>
-          <p className="w-full pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
-          </p>
-
-          <p className="pt-3 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати).</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>23:00</b> — Первая пуджа (Саттва): настройка на внутреннюю гармонию.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>00:00</b> — Практика с монахиней Махешвари.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>01:00</b> — Вторая пуджа (Раджас): раскрытие силы действия.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>02:00</b> — Шива Пати: танцы и мантры в честь Шивы.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>03:30</b> — Третья пуджа (Тамас): путь через покой и тишину.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>04:30</b> — Практики йоги (Сурья Намаскара и Хатха-йога).</p>
-          <p className="py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>05:30</b> — Четвёртая пуджа (Абсолют): завершение в энергии Шивы.</p>
-          <p className="pt-1 pb-3  text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>07:00</b> — Утреннее угощение и завершение праздника.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>Дополнительно:</b> на протяжении всего праздника будет работать чайный стол с мастерами чайной церемонии. Также у вас будет возможность: </p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            — Поучаствовать в стоянии на гвоздях cадху с опытными мастерами.
-          </p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">— Записаться на индивидуальную встречу с монахом.</p>
-          <p className="py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            <b>Примечание:</b> расписание может незначительно изменяться в зависимости от хода мероприятия.</p>
+      <SectionTitle preTitle="Расписание" title="Программа МахаШиваРатри">
+        <div className="w-full flex justify-center">
+          <div className="max-w-8xl">
+            <p className="text-start w-full pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
+            </p>
+            <p className="text-start pt-3 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати).</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>23:00</b> — Первая пуджа (Саттва): настройка на внутреннюю гармонию.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>00:00</b> — Практика с монахиней Махешвари.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>01:00</b> — Вторая пуджа (Раджас): раскрытие силы действия.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>02:00</b> — Шива Пати: танцы и мантры в честь Шивы.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>03:30</b> — Третья пуджа (Тамас): путь через покой и тишину.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>04:30</b> — Практики йоги (Сурья Намаскара и Хатха-йога).</p>
+            <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>05:30</b> — Четвёртая пуджа (Абсолют): завершение в энергии Шивы.</p>
+            <p className="text-start pt-1 pb-3  text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>07:00</b> — Утреннее угощение и завершение праздника.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>Дополнительно:</b> на протяжении всего праздника будет работать чайный стол с мастерами чайной церемонии. Также у вас будет возможность: </p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              — Поучаствовать в стоянии на гвоздях cадху с опытными мастерами.
+            </p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              — Записаться на индивидуальную встречу с монахом.</p>
+            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>Примечание:</b> расписание может незначительно изменяться в зависимости от хода мероприятия.</p>
+          </div>
         </div>
-      </div>
+
+      </SectionTitle>
 
       <SectionTitle
         preTitle="подготовка"
@@ -244,7 +242,10 @@ const page = () => {
         </p>
       </SectionTitle>
 
-      <MahaShivaRatriFoto />
+      <SectionTitle preTitle="Фото" title="Фотографии с прошлогодних МахаШиваРатри">
+        <MahaShivaRatriFoto />
+      </SectionTitle>
+
 
       <SectionTitle
         preTitle="Стоимость"
@@ -260,7 +261,7 @@ const page = () => {
         <div className="flex justify-center">
           <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
             <div className="flex flex-col items-start justify-start">
-              <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
+              <div className="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
                   <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
@@ -320,8 +321,8 @@ const page = () => {
       </SectionTitle>
 
       <SectionTitle
-        preTitle="По всем вопросам можете обращаться к Татьяне "
-        title="Контакты Татьяны"
+        preTitle="помощь"
+        title="По всем вопросам можете обращаться к Татьяне"
       >
         <div className="flex flex-wrap gap-5">
           <Link
@@ -342,7 +343,7 @@ const page = () => {
       </SectionTitle>
 
 
-      <SectionTitle preTitle="регистрация" title="Зарегистрируйтесь на мероприятие по книпке ниже ⬇">
+      <SectionTitle preTitle="регистрация" title="Зарегистрируйтесь на мероприятие по книпке ниже">
 
         <div className="flex flex-col justify-center space-y-3 sm:space-x-4 sm:space-y-0 sm:flex-row">
           <Link

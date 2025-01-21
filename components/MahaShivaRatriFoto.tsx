@@ -56,8 +56,8 @@ const MahaShivaRatriFoto = () => {
 
   return (
     <Container>
-      <div className='py-10'>
-        <h5 className='w-full text-center text-xs md:text-base'>Фотографии с прошлогодних МахаШиваРатри</h5>
+      <div>
+        {/* <h5 className='w-full text-center text-xs md:text-base'></h5> */}
         <ImageGallery items={images} {...settings} />
       </div>
     </Container>
