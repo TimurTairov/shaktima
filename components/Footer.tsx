@@ -100,6 +100,17 @@ export function Footer() {
                   <span>Кундалини йога сиддхов</span>
                 </div>
 
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Махашиваратри</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Хатха йога</span>
+                </div>
+
+
               </div>
 
               <div className="max-w-md text-gray-600 dark:text-gray-300 inlene-flex items-center py-1 xl:py-2 text-xs xl:text-sm">
