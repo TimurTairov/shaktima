@@ -106,7 +106,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <FaHandsPraying className=" shrink-0 w-14 h-14 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Благославение и Ануграха шакти от Махадева
                     </p>
                   </div>
@@ -115,7 +115,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <TbHealthRecognition className=" shrink-0 w-14 h-14 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Получение новых знаний и поддерживающего окружения единомышленников
                     </p>
                   </div>
@@ -124,7 +124,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">Улучшение физического и психического здоровья
+                    <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">Улучшение физического и психического здоровья
                     </p>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <FaOm className=" shrink-0 w-14 h-14 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Возможность приобщиться к духовной традиции йоги
                     </p>
                   </div>
@@ -147,46 +147,43 @@ const page = () => {
       <SectionTitle preTitle="Расписание" title="Программа МахаШиваРатри">
         <div className="w-full flex justify-center">
           <div className="max-w-8xl">
-            <p className="text-start w-full pt-5 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="text-start w-full pt-3 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
             </p>
-            <p className="text-start pt-3 pb-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати).</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>23:00</b> — Первая пуджа (Саттва): настройка на внутреннюю гармонию.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>00:00</b> — Практика с монахиней Махешвари.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>01:00</b> — Вторая пуджа (Раджас): раскрытие силы действия.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>02:00</b> — Шива Пати: танцы и мантры в честь Шивы.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>03:30</b> — Третья пуджа (Тамас): путь через покой и тишину.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>04:30</b> — Практики йоги (Сурья Намаскара и Хатха-йога).</p>
-            <p className="text-start py-1 text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>05:30</b> — Четвёртая пуджа (Абсолют): завершение в энергии Шивы.</p>
-            <p className="text-start pt-1 pb-3  text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>07:00</b> — Утреннее угощение и завершение праздника.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="text-start pt-3 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати)</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>23:00</b> — Первая пуджа (Саттва): настройка на внутреннюю гармонию</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>00:00</b> — Практика с монахиней Махешвари</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>01:00</b> — Вторая пуджа (Раджас): раскрытие силы действия</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>02:00</b> — Шива Пати: танцы и мантры в честь Шивы</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>03:30</b> — Третья пуджа (Тамас): путь через покой и тишину</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>04:30</b> — Практики йоги (Сурья Намаскара и Хатха-йога)</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>05:30</b> — Четвёртая пуджа (Абсолют): завершение в энергии Шивы</p>
+            <p className="text-start pt-1 pb-3 text-base md:text-lg leading-normal text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>07:00</b> — Утреннее угощение и завершение праздника</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               <b>Дополнительно:</b> на протяжении всего праздника будет работать чайный стол с мастерами чайной церемонии. Также у вас будет возможность: </p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              — Поучаствовать в стоянии на гвоздях cадху с опытными мастерами.
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              — Поучаствовать в стоянии на гвоздях cадху с опытными мастерами
             </p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              — Записаться на индивидуальную встречу с монахом.</p>
-            <p className="text-start py-1 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              <b>Примечание:</b> расписание может незначительно изменяться в зависимости от хода мероприятия.</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              — Записаться на индивидуальную встречу с монахом</p>
+            <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              <b>Примечание:</b> расписание может незначительно изменяться в зависимости от хода мероприятия</p>
           </div>
         </div>
 
       </SectionTitle>
 
-      <SectionTitle
-        preTitle="подготовка"
-        title="Пост на МахаШиваРатри"
-      >
+      <SectionTitle preTitle="подготовка" title="Пост на МахаШиваРатри">
         <p className="w-full text-start pt-5 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Поздравляем Вас, что Вы решили принять участие в совместном праздновании Великой ночи Шивы – МахаШиваРатри! Воистину эта ночь способна изменить Вашу жизнь, если посвятить ее Шиве! Хотим рассказать Вам, как лучше подготовиться к этой ночи.
         </p>
@@ -205,12 +202,8 @@ const page = () => {
         </p>
       </SectionTitle>
 
-
-      <SectionTitle
-        preTitle="санкальпа"
-        title="Ритуал целеполагания"
-      >
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+      <SectionTitle preTitle="санкальпа" title="Ритуал целеполагания">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Мы будем закладывать санкальпу (намерение) — ее стоит продумать заранее, чтобы не сочинять впопыхах. Благоприятно закладывать духовные санкальпы, а также вторую санкальпу на благо всех живых существ. Листы для санкальпы мы вам выдадим, а вот ручку лучше взять с собой (желательно абсолютно новую).
         </p>
         <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -219,25 +212,22 @@ const page = () => {
       </SectionTitle>
 
 
-      <SectionTitle
-        preTitle="Дресс-код"
-        title="Что с собой взять на МахаШиваРатри?"
-      >
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+      <SectionTitle preTitle="Дресс-код" title="Что с собой взять на МахаШиваРатри?">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Удобная светлая одежда. Если у вас есть одежда специально для ритуальных практик, будет благоприятно взять ее. А также что-то удобное для участия в динамической медитации и Сурья Намаскар утром. Кроме того, благоприятно захватить с собой коврик, повязку на глаза, теплую кофту/палантин и теплые носки.
         </p>
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           <b>Итак, что рекомендуется:</b><br />
           ✅ приходить в светлой удобной одежде<br />
           ✅ принести подношения (фрукты, вегетарианские сладости, лепестки, цветы, кроме синих)<br />
           ✅ держать пост в течение дня (можно пить воду и чай)<br />
           ✅ взять с собой чётки из рудракши для участия в мантра-джапе. Считается, что чтение мантр в ночь Шиваратри обладает невероятной силой.<br />
         </p>
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           <b> ❗️Не рекомендуется:</b><br />
           Надевать металлические мирские украшения (серёжки, часы, цепочки и пр.), т.к. металл забирает энергию. Духовные украшения можно оставить на себе.
         </p>
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Пожалуйста, выспитесь накануне! Это важный пункт, так как наиболее благоприятно бодрствовать всю ночь!
         </p>
       </SectionTitle>
@@ -247,11 +237,8 @@ const page = () => {
       </SectionTitle>
 
 
-      <SectionTitle
-        preTitle="Стоимость"
-        title="Предпродажа билетов уже открыта!"
-      >
-        <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+      <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта!">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Рекомендуем оплатить участие заранее — это не только обеспечит ваше место на празднике, но и поможет покрыть важные организационные расходы:
           🏠 аренду пространства,
           🕉️ приезд монаха,
@@ -320,10 +307,7 @@ const page = () => {
         </div>
       </SectionTitle>
 
-      <SectionTitle
-        preTitle="помощь"
-        title="По всем вопросам можете обращаться к Татьяне"
-      >
+      <SectionTitle preTitle="помощь" title="По всем вопросам можете обращаться к Татьяне">
         <div className="flex flex-wrap gap-5">
           <Link
             href="http://t.me/shartatiana"
@@ -343,7 +327,7 @@ const page = () => {
       </SectionTitle>
 
 
-      <SectionTitle preTitle="регистрация" title="Зарегистрируйтесь на мероприятие по книпке ниже">
+      <SectionTitle preTitle="регистрация" title="Зарегистрируйтесь на мероприятие по кнопке ниже">
 
         <div className="flex flex-col justify-center space-y-3 sm:space-x-4 sm:space-y-0 sm:flex-row">
           <Link
@@ -351,7 +335,7 @@ const page = () => {
             target="_blank"
             className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
           >
-            Записаться на МахаШиваРатри 2025
+            Зарегистрироваться на МахаШиваРатри 2025
           </Link>
         </div>
 

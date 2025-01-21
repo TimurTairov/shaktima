@@ -92,12 +92,12 @@ export function Footer() {
 
                 <div>
                   <FaOm className="inline mr-1" />
-                  <span>Пуджи</span>
+                  <span>Пуджи и бхаджаны</span>
                 </div>
 
                 <div>
                   <FaOm className="inline mr-1" />
-                  <span>Кундалини йога сиддхов</span>
+                  <span>Кундалини и хатха йога</span>
                 </div>
 
                 <div>
@@ -107,7 +107,7 @@ export function Footer() {
 
                 <div>
                   <FaOm className="inline mr-1" />
-                  <span>Хатха йога</span>
+                  <span>Ведические праздники</span>
                 </div>
 
 
