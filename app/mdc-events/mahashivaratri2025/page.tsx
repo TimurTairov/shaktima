@@ -251,7 +251,6 @@ const page = () => {
         </div>
       </div>
 
-
       <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта!">
         <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Рекомендуем оплатить участие заранее — это не только обеспечит ваше место на празднике, но и поможет покрыть важные организационные расходы:
