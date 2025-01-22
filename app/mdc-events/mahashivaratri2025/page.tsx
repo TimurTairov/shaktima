@@ -9,7 +9,7 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
-import { Suspense } from 'react';
+import MahaShivaRatri2024Video from "@/components/MahaShivaRatri2024Video";
 
 import { FaOm } from "react-icons/fa6";
 import { GrYoga } from "react-icons/gr";
@@ -242,14 +242,12 @@ const page = () => {
         <MahaShivaRatriFoto />
       </div>
 
-      <div className="w-full mt-10 lg:mt-20 flex flex-col">
-        <h5 className="max-w-5xl text-center my-5 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Видео с Махашиваратри 2024</h5>
-        <div className='w-full flex justify-center items-center'>
-          <Suspense fallback={<p>Загрузка ...</p>}>
-            <iframe src="https://rutube.ru/play/embed/65cff768edabe0447d5211b2162e5742?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className='w-full h-56 md:h-96 lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem] mx-2 rounded-md'></iframe>
-          </Suspense>
-        </div>
-      </div>
+      {/* <div className="w-full mt-10 lg:mt-20 flex flex-col">
+        <h5 className="max-w-5xl text-center my-5 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+          Видео с Махашиваратри 2024
+        </h5>
+        <MahaShivaRatri2024Video />
+      </div> */}
 
       <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта!">
         <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -281,7 +279,7 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500 font-semibold">Формат</p>
                     <p className="text-left">
-                      Практика длится всю ночь с 21:00 до 7:00 утра. 4.	Светлая/ритуальная одежда (пуджи) +
+                      Практика длится всю ночь с 21:00 до 7:00 утра. Светлая/ритуальная одежда (пуджи) +
                       свободная одежда для технических практик (хатха йога, медитации).
                     </p>
                   </div>
@@ -292,8 +290,7 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500 font-semibold">Где</p>
                     <p className="text-left">
-                      г. Москва,
-                      ул. Большая Новодмитровская, д. 36, стр. 7, вход 1, Дизайн-завод «Флакон».
+                      г. Москва, ул. Большая Новодмитровская, д. 36, стр. 7, вход 1, Дизайн-завод «Флакон».
                       Вход со стороны Хлебзавод №9 от ст. м. Дмитровская
                     </p>
                   </div>
