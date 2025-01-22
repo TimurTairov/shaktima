@@ -38,13 +38,13 @@ const page = () => {
             <h1 className="w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
               МахаШиваРатри'25
             </h1>
-            <p className="w-full text-center lg:text-start py-2 lg:py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               Священная ночь почитания Шивы и Парвати. Ночь благословений, трансформаций и вдохновения.
             </p>
-            <p className="w-full text-center lg:text-start py-2 lg:py-5  text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               26 февраля, 21:00, Москва, пространство "Вкус и цвет" (3 минуты от м.  Дмитровская).
             </p>
-            <p className="w-full text-center lg:text-start py-2 lg:py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               Откройте для себя атмосферу древнего ведического праздника, наполненного мудростью и высокой  энергией.
               Вас ждут медитативные практики, традиционные ритуалы и возвышенная атмосфера.
             </p>
@@ -79,13 +79,13 @@ const page = () => {
             <h2 className="w-full text-center lg:text-start text-xl md:text-3xl xl:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
               Великая ночь Шивы
             </h2>
-            <p className="w-full pt-5 leading-normal text-gray-500 lg:text-base  xl:text-2xl dark:text-gray-300">
+            <p className="w-full pt-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               <b>Махашиваратри</b> — это одна из самых почитаемых ночей в году, посвящённая Шиве, великому йогину и разрушителю иллюзий. В нашей традиции эта ночь считается временем, когда энергия вселенной находится в состоянии максимального равновесия, что даёт уникальную возможность для духовного роста.
             </p>
-            <p className="w-full pb-1 pt-3 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300">Эта ночь объединяет три главных аспекта практики:</p>
-            <p className="w-full py-1 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300"> <b>Созерцание (Дхьяна):</b> глубокие медитации, раскрывающие внутреннюю тишину и ясность.</p>
-            <p className="w-full py-1 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300"><b>Почитание (Пуджа):</b> священные ритуалы, которые направляют внимание к высшему.</p>
-            <p className="w-full py-1 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300"><b>Постижение (Адвайта):</b> единство с источником всего сущего.</p>
+            <p className="w-full pb-1 pt-3 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">Эта ночь объединяет три главных аспекта практики:</p>
+            <p className="w-full py-1 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300"> <b>Созерцание (Дхьяна):</b> глубокие медитации, раскрывающие внутреннюю тишину и ясность.</p>
+            <p className="w-full py-1 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300"><b>Почитание (Пуджа):</b> священные ритуалы, которые направляют внимание к высшему.</p>
+            <p className="w-full py-1 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300"><b>Постижение (Адвайта):</b> единство с источником всего сущего.</p>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-6/12">
