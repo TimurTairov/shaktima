@@ -10,6 +10,7 @@ import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
 import MahaShivaRatri2024Video from "@/components/MahaShivaRatri2024Video";
+import mahwshvari from "@/public/hero/maheshvari.webp"
 
 import { FaOm } from "react-icons/fa6";
 import { GrYoga } from "react-icons/gr";
@@ -197,7 +198,7 @@ const page = () => {
           <b>3.</b>	Пост только на воде, соках, травяном чае<br />
           <b>4.</b>	Фрукты, ягоды<br />
           <b>5.</b>	Плюс овощи свежие, не термообработанные, молочные продукты<br />
-          <b>6.</b>	Любая пища крофме зернобобовых (подсолнечное масло – зернобобовое!) и животных продуктов<br />
+          <b>6.</b>	Любая пища кроме зернобобовых (подсолнечное масло – зернобобовое!) и животных продуктов<br />
         </p>
         <p className="w-full text-start pt-5 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Каждый последующий пункт включает предыдущие. Таким образом на уровне питания самый лёгкий пост — это пост наподобие поста
@@ -238,7 +239,7 @@ const page = () => {
 
 
       <div className="w-full mt-10 lg:mt-20 flex flex-col">
-        <h5 className="max-w-5xl text-center my-4 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Фотографии с прошлогодних МахаШиваРатри</h5>
+        <h5 className="w-full text-center my-4 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Фотографии с прошлогодних МахаШиваРатри</h5>
         <MahaShivaRatriFoto />
       </div>
 
@@ -249,15 +250,26 @@ const page = () => {
         <MahaShivaRatri2024Video />
       </div> */}
 
-      <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта!">
+      <SectionTitle preTitle="Особенный гость" title="Монахиня Традиции Пратьякша Адвайта — Махешвари">
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Махешвари Гири – пурна-санньяси (монахиня), ученица Шри Гуру Свами Вишнудевананда Гири, имеет благословение на проповедь и передачу учения пратьякша-адвайты (практической адвайты сиддхов).
+        </p>
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          Практикует в монашестве 17 лет, прошла первый 12-летний курс обучения, в том числе несколько длительных (2-х, 3-х и 6-ти месячных) ритритов. С 2000 года занимается проповедью – проводит занятия и лекции по Учению, обучающие курсы, пуджи, семинары и ритриты. Является организатором различных программ Гурудева.
+        </p>
+        <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          «Жизнь санньяси – это жизнь, посвященная Дхарме, жизнь, которую мы проводим у стоп Мастера, а значит у стоп Бога. Это большая радость – делится накопленным опытом и теми знаниями, которые передает наш Духовный Учитель – Шри Гуру Свами Вишнудевананда Гири. И пусть Истинные Знания будут доступны всем духовным искателям… Намасте»
+        </p>
+        <Image src={mahwshvari} alt="Махешвари Гири" className="mt-3 lg:mt-7 w-full h-auto rounded-md" />
+      </SectionTitle>
+
+      <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта">
         <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Рекомендуем оплатить участие заранее — это не только обеспечит ваше место на празднике, но и поможет покрыть важные организационные расходы:
           🏠 аренду пространства,
           🕉️ приезд монаха,
           🔥 подготовку всех необходимых элементов для проведения мероприятия.
         </p>
-
-
         <div className="flex justify-center">
           <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
             <div className="flex flex-col items-start justify-start">
