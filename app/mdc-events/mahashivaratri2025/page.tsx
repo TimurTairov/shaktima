@@ -9,6 +9,7 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
+import { Suspense } from 'react';
 
 import { FaOm } from "react-icons/fa6";
 import { GrYoga } from "react-icons/gr";
@@ -34,7 +35,7 @@ const page = () => {
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
             <h1 className="w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
-              МахаШиваРатри
+              МахаШиваРатри'25
             </h1>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-2xl dark:text-gray-300">
               Священная ночь почитания Шивы и Парвати. Ночь благословений, трансформаций и вдохновения.
@@ -78,7 +79,7 @@ const page = () => {
               Великая ночь Шивы
             </h2>
             <p className="w-full pt-5 leading-normal text-gray-500 lg:text-base  xl:text-2xl dark:text-gray-300">
-              МахаШиваратри — это одна из самых почитаемых ночей в году, посвящённая Шиве, великому йогину и разрушителю иллюзий. В нашей традиции эта ночь считается временем, когда энергия вселенной находится в состоянии максимального равновесия, что даёт уникальную возможность для духовного роста.
+              <b>Махашиваратри</b> — это одна из самых почитаемых ночей в году, посвящённая Шиве, великому йогину и разрушителю иллюзий. В нашей традиции эта ночь считается временем, когда энергия вселенной находится в состоянии максимального равновесия, что даёт уникальную возможность для духовного роста.
             </p>
             <p className="w-full pb-1 pt-3 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300">Эта ночь объединяет три главных аспекта практики:</p>
             <p className="w-full py-1 text-lg leading-normal text-gray-500 lg:text-base xl:text-2xl dark:text-gray-300"> <b>Созерцание (Дхьяна):</b> глубокие медитации, раскрывающие внутреннюю тишину и ясность.</p>
@@ -109,7 +110,7 @@ const page = () => {
                   <FaHandsPraying className=" shrink-0 w-14 h-14 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
-                      Благославение и Ануграха шакти от Махадева
+                      Благословение и Ануграха-шакти от Махадева (Шивы)
                     </p>
                   </div>
                 </div>
@@ -206,7 +207,7 @@ const page = () => {
 
       <SectionTitle preTitle="санкальпа" title="Ритуал целеполагания">
         <p className="w-full pt-3 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-          Мы будем закладывать санкальпу (намерение) — ее стоит продумать заранее, чтобы не сочинять впопыхах. Благоприятно закладывать духовные санкальпы, а также вторую санкальпу на благо всех живых существ. Листы для санкальпы мы вам выдадим, а вот ручку лучше взять с собой (желательно абсолютно новую).
+          Мы будем закладывать санкальпу (намерение) — ее стоит продумать заранее. Благоприятно закладывать духовные санкальпы, а также вторую санкальпу на благо всех живых существ. Листы для санкальпы мы вам выдадим, а вот ручку лучше взять с собой (желательно абсолютно новую).
         </p>
         <p className="w-full pt-5 pb-1 text-start text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
           Также матаджи смогут начать пост 16 понедельников, если есть такое желание. Если будут вопросы об этом – можно задать заранее или в начале праздника/в перерывах.
@@ -234,9 +235,21 @@ const page = () => {
         </p>
       </SectionTitle>
 
-      <SectionTitle preTitle="Фото" title="Фотографии с прошлогодних МахаШиваРатри">
+
+
+      <div className="w-full mt-10 lg:mt-20 flex flex-col">
+        <h5 className="max-w-5xl text-center my-4 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Фотографии с прошлогодних МахаШиваРатри</h5>
         <MahaShivaRatriFoto />
-      </SectionTitle>
+      </div>
+
+      <div className="w-full mt-10 lg:mt-20 flex flex-col">
+        <h5 className="max-w-5xl text-center my-5 text-lg md:text-2xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Видео с Махашиваратри 2024</h5>
+        <div className='w-full flex justify-center items-center'>
+          <Suspense fallback={<p>Загрузка ...</p>}>
+            <iframe src="https://rutube.ru/play/embed/65cff768edabe0447d5211b2162e5742?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className='w-full h-56 md:h-96 lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem] mx-2 rounded-md'></iframe>
+          </Suspense>
+        </div>
+      </div>
 
 
       <SectionTitle preTitle="Стоимость" title="Предпродажа билетов уже открыта!">
@@ -255,7 +268,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
+                    <p className="text-2xl text-indigo-500 font-semibold">Когда</p>
                     <p className="text-left">
                       <a href="/calendar">
                         В ночь с 26 на 27 февраля (со среды на четверг)
@@ -267,7 +280,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                    <p className="text-2xl text-indigo-500 font-semibold">Формат</p>
                     <p className="text-left">
                       Практика длится всю ночь с 21:00 до 7:00 утра. 4.	Светлая/ритуальная одежда (пуджи) +
                       свободная одежда для технических практик (хатха йога, медитации).
@@ -278,13 +291,11 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Где</p>
+                    <p className="text-2xl text-indigo-500 font-semibold">Где</p>
                     <p className="text-left">
-
                       г. Москва,
                       ул. Большая Новодмитровская, д. 36, стр. 7, вход 1, Дизайн-завод «Флакон».
                       Вход со стороны Хлебзавод №9 от ст. м. Дмитровская
-
                     </p>
                   </div>
                 </div>
@@ -292,7 +303,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
+                    <p className="text-2xl text-indigo-500 font-semibold">Стоимость</p>
                     <div className="text-left">
                       ⏳ До 3 февраля: 4000 руб.<br />
                       📅 С 4 февраля по 25 февраля: 5000 руб.<br />
