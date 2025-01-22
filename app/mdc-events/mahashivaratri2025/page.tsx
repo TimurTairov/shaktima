@@ -257,6 +257,7 @@ const page = () => {
           🔥 подготовку всех необходимых элементов для проведения мероприятия.
         </p>
 
+
         <div className="flex justify-center">
           <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-5">
             <div className="flex flex-col items-start justify-start">
