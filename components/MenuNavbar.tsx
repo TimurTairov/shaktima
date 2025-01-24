@@ -41,11 +41,11 @@ const MenuNavbar = () => {
           <MenuItem>
             <Link
               className="mt-1 w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
-              href="/sutra">
-              Утреняя Сутра
+              href="/upasana">
+              Алтарная садхана
             </Link>
           </MenuItem>
-          <MenuItem>
+          {/* <MenuItem>
             <Link
               className="w-full btn dark:btn-outline dark:bg-base-content dark:text-gray-400 dark:hover:border-white btn-sm font-normal data-[focus]:bg-indigo-100 dark:data-[focus]:bg-gray-700"
               href="/datta-sadhana">
@@ -58,7 +58,7 @@ const MenuNavbar = () => {
               href="/achamana">
               Ачамана
             </Link>
-          </MenuItem>
+          </MenuItem> */}
         </MenuItems>
       </Menu>
 

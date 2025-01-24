@@ -6,7 +6,11 @@ import { useState } from "react";
 import { AiOutlineArrowsAlt } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Altar = () => {
+interface NewAltarProps {
+  audio?: boolean;
+}
+
+const Altar = (props: Readonly<NewAltarProps>) => {
   const [isFixed, setIsFixed] = useState(false)
 
   const fixAltar = () => {
@@ -30,17 +34,19 @@ const Altar = () => {
               (<AiOutlineArrowsAlt className="text-red-500" />)
             }
           </button>
-          <div
-            // id="sutra"
-            className="w-full flex flex-wrap items-center justify-center gap-3"
-          >
-            <audio
-              controls
-              controlsList="nodownload"
-              src="/sounds/sutra.mp3"
-              className="w-full h-5"
-            ></audio>
-          </div>
+          {props.audio && (
+            <div
+              // id="sutra"
+              className="w-full flex flex-wrap items-center justify-center gap-3"
+            >
+              <audio
+                controls
+                controlsList="nodownload"
+                src="/sounds/sutra.mp3"
+                className="w-full h-5"
+              ></audio>
+            </div>
+          )}
         </div>
       </div>
 

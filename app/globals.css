@@ -54,15 +54,15 @@
 
 /* АЛТАРЬ */
 .fixAltar {
-  @apply fixed top-0 left-0 w-full 2xl:px-32 z-50;
+  @apply fixed top-0 left-0 w-full 2xl:px-48 z-50;
 }
 .marginTop {
-  @apply mt-52 md:mt-[27rem] lg:mt-[30rem] xl:mt-[35rem] 2xl:mt-[49rem];
+  @apply mt-52 md:mt-[27rem] lg:mt-[30rem];
 }
 
 /* СУТРА */
 .sutra-title {
-  @apply mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300 max-w-screen-sm;
+  @apply mt-5 md:mt-7 lg:mt-10 xl:mt-20 text-xl md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300;
 }
 
 /* Садхана Даттатрее */

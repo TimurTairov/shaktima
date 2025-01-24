@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
-        <Altar></Altar>
+        <Altar audio />
         {/* <div
           id="sutra"
           className="mt-10 flex flex-wrap items-center justify-center gap-3"

@@ -29,17 +29,17 @@ export function Footer() {
       url: "/mdc-events"
     },
     {
-      title: "Утренняя сутра",
-      url: "/sutra"
+      title: "Алтарная садхана",
+      url: "/upasana"
     },
-    {
-      title: "Садхана Даттатрее",
-      url: "/datta-sadhana"
-    },
-    {
-      title: "Ачамана",
-      url: "/bhadjan-mandala"
-    },
+    // {
+    //   title: "Садхана Даттатрее",
+    //   url: "/datta-sadhana"
+    // },
+    // {
+    //   title: "Ачамана",
+    //   url: "/bhadjan-mandala"
+    // },
     {
       title: "Блог",
       url: "/blog"
