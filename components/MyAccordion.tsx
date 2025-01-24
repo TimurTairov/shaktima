@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 type AccordionProps = {
   children: React.ReactNode,
   title: string,
-  id: string,
+  id?: string,
   active?: boolean,
   big?: boolean,
   className?: string;
