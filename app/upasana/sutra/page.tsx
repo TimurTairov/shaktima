@@ -7,22 +7,9 @@ const page = () => {
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
         <Altar audio />
-        {/* <div
-          id="sutra"
-          className="mt-10 flex flex-wrap items-center justify-center gap-3"
-        >
-          <p className="text-lg">Cутра</p>
-          <audio
-            controls
-            controlsList="nodownload"
-            src="/sounds/sutra.mp3"
-            className="w-full md:w-1/2"
-          ></audio>
-        </div> */}
-
         <div
           id="sutra"
-          className="mt-10 w-full  flex flex-col items-center justify-center gap-5"
+          className="mt-10 w-full flex flex-col items-center justify-center gap-5"
         >
           <p className="sutra-title">1. Начало практики</p>
           <p className="text-center text-balance max-w-screen-sm">

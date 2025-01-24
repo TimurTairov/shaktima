@@ -6,7 +6,7 @@ const LekciyaGuru = () => {
       <MyAccordion id='LekciyaGuru' title='Лекция Гуру' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Бог не чужой!
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Бог не чужой!</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -18,7 +18,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Кундалини самадхи и сахадж самадхи
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Кундалини самадхи и сахадж самадхи</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -30,7 +30,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - О любви
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>О любви</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -43,7 +43,7 @@ const LekciyaGuru = () => {
 
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Неоадвайта
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Неоадвайта</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -55,7 +55,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Стать Мастером
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Стать Мастером</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -67,7 +67,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Люди заложники своих шаблонов
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Люди заложники своих шаблонов</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -79,7 +79,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - О паломничестве
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>О паломничестве</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -91,7 +91,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Самое главное в медитации
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Самое главное в медитации</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
@@ -103,7 +103,7 @@ const LekciyaGuru = () => {
           </div>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - Меня никогда не было! Какое счастье!
+            Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Меня никогда не было! Какое счастье!</b>
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
