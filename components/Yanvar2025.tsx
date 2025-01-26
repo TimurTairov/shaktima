@@ -274,19 +274,19 @@ const Yanvar2025 = () => {
         <div className="w-full flex items-center">
           <Image src={yogaMarafon} alt="Йога марафон" className="grid-meditation-mobile mr-1" />
           <Link href="/mdc-events/yoga-marafon">
-            <p className="text-xs">Йога марафон: в НГ с чиcтыми каналами</p>
+            <p className="verySmallText md:text-xs">Йога марафон: в НГ с чиcтыми каналами</p>
           </Link>
         </div>
         <div className="w-full flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
-            <p className="text-xs">Медитация сиддхов онлайн</p>
+            <p className="verySmallText md:text-xs">Медитация сиддхов онлайн</p>
           </Link>
         </div>
         <div className="w-full flex items-center">
           <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
-            <p className="text-xs">Кундалини йога сиддхов онлайн</p>
+            <p className="verySmallText md:text-xs">Кундалини йога сиддхов онлайн</p>
           </Link>
         </div>
         {/* <div className="w-full flex items-center">

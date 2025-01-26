@@ -17,12 +17,7 @@ const MyNavbar = () => {
             role="button"
             className="btn btn-ghost lg:hidden w-full dark:hover:bg-gray-700"
           >
-            <Image
-              src={tilaka}
-              alt="tilaka"
-              loading="eager"
-              className="h-8 w-8"
-            />
+            <Image src={tilaka} alt="tilaka" className="h-8 w-8" />
           </div>
           <ul
             tabIndex={0}

@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import meditation from "@/public/svg/meditation-online.svg"
-import meditationOffline from "@/public/svg/meditation.svg"
 import kundalini from '@/public/svg/kundalini-yoga.svg'
-import yogaMarafon from '@/public/svg/yoga-asana.svg'
 import sarasvati from '@/public/img/sarasvati2.webp'
 import shiva from '@/public/svg/shiva2.svg'
 
@@ -75,12 +73,12 @@ const Fevral2025 = () => {
           <div className="grid-item">
             <p className="grid-date">2</p>
             <div className="flex flex-wrap justify-center">
-              <div className="flex justify-center items-center">
+              <div className="flex flex-col justify-center items-center gap-1">
                 <a href="raspisanie">
                   <Image src={kundalini} alt="кундалини йога сиддхов" className="grid-meditation-mobile" />
                 </a>
                 <div className="flex justify-center items-center">
-                  <Image src={sarasvati} alt="Сарасвати" className="ml-1 grid-meditation-mobile" />
+                  <Image src={sarasvati} alt="Сарасвати" className="grid-meditation-mobile" />
                 </div>
               </div>
             </div>
@@ -244,24 +242,24 @@ const Fevral2025 = () => {
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-1">
         <div className="w-full flex items-center">
           <Image src={sarasvati} alt="Йога марафон" className="grid-meditation-mobile mr-1" />
-          <p className="text-xs">Васант Панчами, Сарасвати Джаянти</p>
+          <p className="verySmallText md:text-xs">Васант Панчами, Сарасвати Джаянти</p>
         </div>
         <div className="w-full flex items-center">
           <Image src={shiva} alt="Махашиваратри 2025 в Москве" className="grid-meditation-mobile mr-1" />
           <Link href="/mdc-events/mahashivaratri2025">
-            <p className="text-xs">Махашиваратри'25 в Москве</p>
+            <p className="verySmallText md:text-xs">Махашиваратри'25 в Москве</p>
           </Link>
         </div>
         <div className="w-full flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
-            <p className="text-xs">Медитация сиддхов онлайн</p>
+            <p className="verySmallText md:text-xs">Медитация сиддхов онлайн</p>
           </Link>
         </div>
         <div className="w-full flex items-center">
           <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
-            <p className="text-xs">Кундалини йога сиддхов онлайн</p>
+            <p className="verySmallText md:text-xs">Кундалини йога сиддхов онлайн</p>
           </Link>
         </div>
       </div>
