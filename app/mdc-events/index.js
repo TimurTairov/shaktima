@@ -8,7 +8,7 @@ import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp"
 export const seminary = [
   {
     id: "mahashivaratri2025",
-    title: "Церемония принятия Символа Веры",
+    title: "Махашиваратри 2025 в Москве",
     img: mahashivaratri2025,
   },
   {

@@ -4,7 +4,8 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { benefitOne, benefitTwo } from "@/components/data";
 import GalaryMDC from '@/components/GalaryMDC'
-import Yanvar2025 from "@/components/Yanvar2025"
+import Fevral2025 from "@/components/Fevral2025";
+import BanerMahashivaratri25 from "@/components/BanerMahashivaratri25";
 
 
 export default function Home() {
@@ -61,13 +62,15 @@ export default function Home() {
         </Container>
       </Suspense> */}
 
+      <BanerMahashivaratri25 />
       <SectionTitle
         preTitle="Календарь"
-        title="Мероприятия в ноябре 2024 года"
+        title="Мероприятия в феврале 2025 года"
       >
       </SectionTitle>
-      <Yanvar2025 />
-      <p className="mt-10 lg:mt-20"></p>
+
+      <Fevral2025 />
+
       <SectionTitle
         preTitle="Галерея"
         title="Фотографии нашего дхарма центра"
