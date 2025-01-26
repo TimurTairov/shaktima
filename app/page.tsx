@@ -65,7 +65,7 @@ export default function Home() {
       <BanerMahashivaratri25 />
       <SectionTitle
         preTitle="Календарь"
-        title="Мероприятия в феврале 2025 года"
+        title="Мероприятия дхарма центра"
       >
       </SectionTitle>
 

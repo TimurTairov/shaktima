@@ -5,7 +5,7 @@ import meditationOffline from "@/public/svg/meditation.svg"
 import kundalini from '@/public/svg/kundalini-yoga.svg'
 import yogaMarafon from '@/public/svg/yoga-asana.svg'
 import sarasvati from '@/public/img/sarasvati2.webp'
-import shiva from '@/public/img/shiva.webp'
+import shiva from '@/public/svg/shiva2.svg'
 
 const Fevral2025 = () => {
   return (
