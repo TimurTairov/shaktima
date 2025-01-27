@@ -16,8 +16,8 @@ import Finish from "@/components/BhadjanMandala/Finish";
 const page = () => {
   return (
     <Container >
-      <h1 className="w-full text-center text-lg font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-        Бхаджан Мандала. Понедельник. Пуджа Шиве
+      <h1 className="w-full py-5 text-center text-lg font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+        Понедельник. Пуджа Шиве
       </h1>
       <div id="sutra"></div>
       <Altar />

@@ -42,7 +42,8 @@ const Altar = (props: Readonly<NewAltarProps>) => {
               <audio
                 controls
                 controlsList="nodownload"
-                src="/sounds/sutra.mp3"
+                // src="/sounds/sutra.mp3"
+                src="https://bm-brown.vercel.app/sounds/sutra.mp3"
                 className="w-full h-5"
               ></audio>
             </div>

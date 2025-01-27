@@ -75,7 +75,6 @@ export default function Home() {
         preTitle="Галерея"
         title="Фотографии нашего дхарма центра"
       >
-        Здесь представлены фотографии с наших мероприятий.
       </SectionTitle>
 
       <GalaryMDC />

@@ -9,7 +9,7 @@ const PanchabrahmaMantry = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/Bhadjan Mandala/PanchabrahmaMantry.mp3"
+              src="https://bm-brown.vercel.app/sounds/BhadjanMandala/PanchabrahmaMantry.mp3"
               className="w-full"
             ></audio>
           </div>

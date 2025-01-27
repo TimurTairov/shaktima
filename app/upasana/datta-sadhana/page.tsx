@@ -1,5 +1,5 @@
-import { Container } from "@/components/Container";
 import Image from "next/image";
+import { Container } from "@/components/Container";
 import data from '@/public/img/Lords/datta.webp'
 import { BsInfoCircleFill } from 'react-icons/bs'
 
@@ -90,7 +90,7 @@ const page = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/Om Dram Dattatreyaya Namaha 108 times.mp3"
+              src="https://bm-brown.vercel.app/sounds/Om_Dram_Dattatreyaya_Namaha_108_times.mp3"
               className="w-full md:w-1/2"
             ></audio>
           </div>

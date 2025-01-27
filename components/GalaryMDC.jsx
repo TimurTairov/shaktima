@@ -1,5 +1,4 @@
 'use client'
-import { Container } from '@/components/Container'
 import ImageGallery from 'react-image-gallery'
 
 const GalaryMDC = () => {
@@ -63,11 +62,7 @@ const GalaryMDC = () => {
         'https://sun9-7.userapi.com/impg/WfQLyNmQ5su8qBk3g8NCXzhJcVFrmgoQQF2khA/V_l9tX3rjiI.jpg?size=1280x720&quality=95&sign=25ab89b2e7a470318ede295cb500d541&type=album',
     },
   ]
-  return (
-    <Container>
-      <ImageGallery items={images} {...settings} />
-    </Container>
-  )
+  return <ImageGallery items={images} {...settings} />
 }
 
 export default GalaryMDC
