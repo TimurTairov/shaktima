@@ -90,7 +90,7 @@ const page = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/Om_Dram_Dattatreyaya_Namaha_108_times.mp3"
+              src="/sounds/Om_Dram_Dattatreyaya_Namaha_108_times.mp3"
               className="w-full md:w-1/2"
             ></audio>
           </div>

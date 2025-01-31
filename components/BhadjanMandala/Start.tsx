@@ -48,7 +48,7 @@ const Start = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/3OM.mp3"
+              src="/sounds/3OM.mp3"
               className="w-full"
             ></audio>
           </div>

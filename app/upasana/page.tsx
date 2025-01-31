@@ -14,7 +14,7 @@ const page = () => {
           {upasana.map((sadhana) => (
             <li key={sadhana.id} className="w-full md:w-80 flex flex-col items-center gap-3">
               <Link href={`/upasana/${sadhana.id}`}>
-                <Image src={sadhana.img} alt={sadhana.title} className="w-full h-auto rounded-lg border border-amber-400" />
+                <Image src={sadhana.img} alt={sadhana.title} className="size-60 md:size-80 rounded-lg border border-amber-400" />
               </Link>
               <Link href={`/upasana/${sadhana.id}`} className="w-full text-center text-xs md:text-sm ">
                 {sadhana.title}

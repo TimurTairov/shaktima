@@ -1,7 +1,8 @@
 import sutra from "@/public/upasana/sutra.jpg"
 import dattaSadhana from "@/public/upasana/datta-sadhana.jpg"
 import achamana from "@/public/upasana/achamana.jpg"
-import bmShiva from "@/public/upasana/bm-shiva.jpg"
+import bmShiva from "@/public/upasana/bm-ponedelnik.jpg"
+import bmDatta from "@/public/upasana/bm-vtornik.jpg"
 
 export const upasana = [
   {
@@ -11,8 +12,13 @@ export const upasana = [
   },
   {
     id: "bm-shiva",
-    title: "Бхаджан Мандала. Понедельник. Пуджа Махадеву",
+    title: "Понедельник. Пуджа Махадеву",
     img: bmShiva,
+  },
+  {
+    id: "bm-datta",
+    title: "Вторник. Пуджа Даттатрее",
+    img: bmDatta,
   },
   {
     id: "datta-sadhana",

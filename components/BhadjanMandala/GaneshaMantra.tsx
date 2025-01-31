@@ -9,7 +9,7 @@ const GaneshaMantra = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/BhadjanMandala/GaneshaMantra.mp3"
+              src="/sounds/BhadjanMandala/GaneshaMantra.mp3"
               className="w-full"
             ></audio>
           </div>

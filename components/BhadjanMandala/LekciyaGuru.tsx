@@ -12,7 +12,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/god.mp3"
+              src="/sounds/LekciiGuru/god.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -24,7 +24,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/kundalini_i_sahadja_samadhi.mp3"
+              src="/sounds/LekciiGuru/kundalini_i_sahadja_samadhi.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -36,7 +36,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/love.mp3"
+              src="/sounds/LekciiGuru/love.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -49,7 +49,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/neoadvayta.mp3"
+              src="/sounds/LekciiGuru/neoadvayta.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -61,7 +61,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/master.mp3"
+              src="/sounds/LekciiGuru/master.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -73,7 +73,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/shablon.mp3"
+              src="/sounds/LekciiGuru/shablon.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -85,7 +85,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/palomnichestvo.mp3"
+              src="/sounds/LekciiGuru/palomnichestvo.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -97,7 +97,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/meditation.mp3"
+              src="/sounds/LekciiGuru/meditation.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -109,7 +109,7 @@ const LekciyaGuru = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/LekciiGuru/menya_ne_bylo.mp3"
+              src="/sounds/LekciiGuru/menya_ne_bylo.mp3"
               className="w-full"
             ></audio>
           </div>

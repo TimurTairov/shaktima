@@ -6,8 +6,8 @@ import useSound from 'use-sound';
 const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
-  const [light] = useSound("https://bm-brown.vercel.app/sounds/light.mp3", { volume: 0.2 });
-  const [dark] = useSound("https://bm-brown.vercel.app/sounds/dark.mp3", { volume: 0.2 });
+  const [light] = useSound("/sounds/light.mp3", { volume: 0.2 });
+  const [dark] = useSound("/sounds/dark.mp3", { volume: 0.2 });
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
 

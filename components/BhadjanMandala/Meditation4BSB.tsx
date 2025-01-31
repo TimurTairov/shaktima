@@ -12,7 +12,7 @@ const Meditation4BSB = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="https://bm-brown.vercel.app/sounds/4BSB.mp3"
+              src="/sounds/4BSB.mp3"
               className="w-full"
             ></audio>
           </div>

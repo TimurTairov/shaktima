@@ -15,7 +15,7 @@ const page = () => {
           {seminary.map((seminar) => (
             <li key={seminar.id} className="w-full md:w-80 items-center flex flex-col gap-3">
               <Link href={`/mdc-events/${seminar.id}`}>
-                <Image src={seminar.img} alt={seminar.title} className="w-full h-auto rounded-lg" />
+                <Image src={seminar.img} alt={seminar.title} className="size-60 md:size-80 rounded-lg" />
               </Link>
               <Link href={`/mdc-events/${seminar.id}`} className="w-full text-center text-xs md:text-sm ">
                 {seminar.title}
