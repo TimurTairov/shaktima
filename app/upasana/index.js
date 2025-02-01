@@ -3,6 +3,7 @@ import dattaSadhana from "@/public/upasana/datta-sadhana.jpg"
 import achamana from "@/public/upasana/achamana.jpg"
 import bmShiva from "@/public/upasana/bm-ponedelnik.jpg"
 import bmDatta from "@/public/upasana/bm-vtornik.jpg"
+import bmVishnu from "@/public/upasana/bm-vishnu.jpg"
 
 export const upasana = [
   {
@@ -19,6 +20,11 @@ export const upasana = [
     id: "bm-datta",
     title: "Вторник. Пуджа Даттатрее",
     img: bmDatta,
+  },
+  {
+    id: "bm-vishnu",
+    title: "Среда. Пуджа Вишну",
+    img: bmVishnu,
   },
   {
     id: "datta-sadhana",
