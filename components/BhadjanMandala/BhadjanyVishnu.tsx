@@ -5,6 +5,9 @@ const BhadjanyVishnu = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyVishnu' title='Бхаджаны Вишну' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+          <a href='https://t.me/jkjlkjscksj/15/1054' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
+            Аудио файлы бхаджанов Вишну
+          </a>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             1. ОМ НАМО НАРАЯНАЯ

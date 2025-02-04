@@ -51,7 +51,7 @@ const DattaArati = () => {
           </h2>
 
           <p className="font-bold">
-            1. сиригурудЭва дАтта абадхУта мааРеге<br />
+            1. шригурудЭва дАтта авадхУта мааРеге<br />
             сиддхи чаурАси тапасьЯ каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
@@ -61,8 +61,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            2. бИтчи хэ джАаджамэ лАги хэ тАкия<br />
-            нАм нирАнджана свами вО джапЭ
+            2. бИчхи хэ джАджамэ лАги хэ тАкия<br />
+            нАм нирАнджана свами ве джапЭ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую Гуруджи, который восседает на сидении
@@ -72,8 +72,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            3. пИири хОокаре гАддхи джо бЕетхе<br />
-            тАджа тарАнга хАсти вО чаРе
+            3. пИри джо хОкаре гАддхи джо бЕйтхе<br />
+            тАджа тарАнга хАсти ве чаРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую Йога, восседающего на своем троне,
@@ -82,8 +82,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            4. пАньдите хОокари вЕда джо бхАадже<br />
-            дхАнда упАдэ сЭ ньярА рахе
+            4. пАньдите хОкари вЕда джо бАнче<br />
+            дхАнда упАдхи сЭ ньярА рахе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Тот, кто приветстует Гуруджи в форме духовного учителя,
@@ -93,8 +93,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            5. рИши джо мУни гуру дУддха джё дхАари<br />
-            УрдабахАна тапасьяА каРе
+            5. рИши джо мУни гуру дУддха джо дхАри<br />
+            Урдхва вахАне тапасьяА каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи в форме Риши: того, кто пьет чистое
@@ -103,7 +103,7 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            6. рУкхаРа шУукхаРа дхУпо джо кЕепе<br />
+            6. рУкхаРа шУкхаРа дхУпо джо кхЕве<br />
             нАга нирбхАйа тапасьЯ каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
@@ -114,7 +114,7 @@ const DattaArati = () => {
 
           <p className="font-bold">
             7. кОи хе лАкхи гуру кОи хе кхАаки<br />
-            бАНкхаНди бАн ме тапасьЯ каРе
+            вАНкхаНди вАн ме тапасьЯ каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи, медитирующего в лесу Ванкханди,
@@ -123,8 +123,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            8. Абуджо гхАРа гиринАарэ вАасаа<br />
-            мохАрегхАРа бикшА каРе
+            8. Абуджо гАРха гиринАрэ вАасаа<br />
+            мохАрегАРха бхикшА каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи, который в форме Бикшу принимает
@@ -133,8 +133,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            9. ДжАпата брхАмма гуру рАтата бИишНу<br />
-            Аади дЭэва махЕшвара
+            9. ДжАпата брАхмма гуру рАтата вИшНу<br />
+            Ади дЭва махЕшвара
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи, постоянно повторяющего имена
@@ -143,8 +143,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            10. чАнда О сУурадже нОу лакхе тАаРаа<br />
-            гУруджи тумхАРи парикрмА каРе
+            10. чАнда ДжО сУурадже нОулакхе тАРэ<br />
+            гУруджи тумхАРи парикрамА каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи, чей образ окружен Солнцем, Луной и
@@ -153,8 +153,8 @@ const DattaArati = () => {
           <ShriBheshaKioShambho />
 
           <p className="font-bold">
-            11. шири дАс нама бхЭша гуру сИля санньАасии<br />
-            сАарва дЭэва ракшА каРе
+            11. шири дАшнама бхЭша гуру шИля санньАасии<br />
+            сАрва дЭва ракшА каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи в форме Санньяси наивысшего уровня,
@@ -164,7 +164,7 @@ const DattaArati = () => {
 
           <p className="font-bold">
             12. дЭэва бхАаРати дЭва лИила<br />
-            дОу каРа джЁри астхутИ каРе
+            дОу каРа джОре астутИ каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствую ГуруДжи, ведущего божественную игру на святой
@@ -173,7 +173,7 @@ const DattaArati = () => {
           </p>
           <ShriBheshaKioShambho />
 
-          <p className="font-bold">
+          {/* <p className="font-bold">
             13. ширидЭва бхАаРати дЭва лИила<br />
             дОу кара джЁри астутИ каРе
           </p>
@@ -182,10 +182,10 @@ const DattaArati = () => {
             святой земле Бхарата, кого восхваляют и уважают все живые
             существа.
           </p>
-          <ShriBheshaKioShambho />
+          <ShriBheshaKioShambho /> */}
 
           <p className="font-bold">
-            14. Шри гурудЭва дАтта абадхУта мааРеге<br />
+            13. Шри гурудЭва дАтта абадхУта мааРеге<br />
             сиддхи чеурАси тапасьЯ каРе
           </p>
           <p className="text-balance max-w-screen-sm text-sm">

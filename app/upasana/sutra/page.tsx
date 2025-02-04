@@ -15,7 +15,7 @@ const page = () => {
           <p className="text-center text-balance max-w-screen-sm">
             Перед началом практики выполняются{' '}
             <a
-              href="/achamana"
+              href="/upasana/achamana"
               className="text-indigo-600 dark:text-indigo-300"
             >
               ачамана
