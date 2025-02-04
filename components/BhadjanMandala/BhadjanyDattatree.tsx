@@ -580,7 +580,6 @@ const BhadjanyDattatree = () => {
         </div>
       </MyAccordion>
     </div >
-
   )
 }
 

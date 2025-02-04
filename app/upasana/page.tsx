@@ -10,7 +10,7 @@ const page = () => {
         Упасана - практика у алтаря
       </h1>
       <div className="w-full flex justify-center">
-        <ul className="mt-10 flex flex-wrap justify-center gap-5 xl:gap-10">
+        <ul className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5 xl:gap-10">
           {upasana.map((sadhana) => (
             <li key={sadhana.id} className="w-full md:w-80 flex flex-col items-center gap-3">
               <Link href={`/upasana/${sadhana.id}`}>

@@ -314,8 +314,8 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500 font-semibold">Стоимость</p>
                     <div className="text-left">
-                      ⏳ До 3 февраля: 4000 руб.<br />
-                      📅 С 4 февраля по 25 февраля: 5000 руб.<br />
+                      ⏳ До 7 февраля: 4000 руб.<br />
+                      📅 С 8 февраля по 25 февраля: 5000 руб.<br />
                       🚪 В день мероприятия: 6000 руб.<br />
                       ✨ Благотворительные подношения очень приветствуются 🙏🏻
                     </div>

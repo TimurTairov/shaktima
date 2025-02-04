@@ -11,7 +11,7 @@ const page = () => {
       </h1>
 
       <div className="w-full flex justify-center">
-        <ul className="mt-10 flex flex-wrap justify-center gap-5 xl:gap-10">
+        <ul className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5 xl:gap-10">
           {seminary.map((seminar) => (
             <li key={seminar.id} className="w-full md:w-80 items-center flex flex-col gap-3">
               <Link href={`/mdc-events/${seminar.id}`}>

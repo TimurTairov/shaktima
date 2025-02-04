@@ -35,7 +35,7 @@ const PanchabrahmaMantry = () => {
             БАЛАВИКАРАНАЙА НАМО <br />
             БАЛАЙА НАМО <br />
             БАЛАПРАМАТХАНАЙА НАМО <br />
-            САРВАБХУТА ДАМАНАЙА <br />
+            САРВАБХУТА ДАМАНАЙА НАМО <br />
             МАНОНМАНАЙА НАМАХА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">

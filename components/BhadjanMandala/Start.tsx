@@ -9,7 +9,7 @@ const Start = () => {
           <p className="text-center text-balance max-w-screen-sm">
             Перед началом практики выполняются{' '}
             <a
-              href="/achamana"
+              href="/upasana/achamana"
               className="text-indigo-600 dark:text-indigo-300"
             >
               ачамана
@@ -48,7 +48,7 @@ const Start = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/3OM.mp3"
+              src="/sounds/OM.mp3"
               className="w-full"
             ></audio>
           </div>

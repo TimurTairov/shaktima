@@ -13,7 +13,7 @@ const Finish = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/3OM.mp3"
+              src="/sounds/OM.mp3"
               className="w-full"
             ></audio>
           </div>

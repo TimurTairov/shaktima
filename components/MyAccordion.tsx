@@ -32,7 +32,7 @@ export default function MyAccordion({
         >
           {
             big ?
-              <span className='text-xl md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300'>{title}</span>
+              <span className='text-lg md:text-2xl font-semibold text-center text-indigo-600 dark:text-indigo-300'>{title}</span>
               :
               <span>{title}</span>
           }
