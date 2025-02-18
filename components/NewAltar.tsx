@@ -43,7 +43,7 @@ const Altar = (props: Readonly<NewAltarProps>) => {
                 controls
                 controlsList="nodownload"
                 // src="/sounds/sutra.mp3"
-                src="/sounds/sutra.mp3"
+                src="/sounds/sutra-sreda.mp3"
                 className="w-full h-5"
               ></audio>
             </div>
