@@ -829,7 +829,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='tretiiPoklon' title='12. Третий поклон' big className='max-w-xl'>
+          <MyAccordion id='TretiiPoklon' title='12. Третий поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется третий поклон из практики пяти поклонов.
@@ -840,7 +840,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='DattaMantra' title='12. Мантра Даттатрее' big className='max-w-xl'>
+          <MyAccordion id='DattaMantra' title='13. Мантра Даттатрее' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется семенная мантра Даттатреи, 7 раз.
