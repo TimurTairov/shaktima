@@ -520,7 +520,7 @@ const MahaAratiSmall = () => {
             Мастера всех живых существ!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          {/* <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шри Шив ванданам 1-я часть
           </h2>
           <p className="font-bold">
@@ -780,7 +780,7 @@ const MahaAratiSmall = () => {
             Подношение золота величиной с гору Меру,
             подношение миллиона коров или пяти миллионов лошадей
             стоят взгляда Господа Шивы.
-          </p>
+          </p> */}
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шри Шив ванданам 3-я часть
@@ -841,7 +841,7 @@ const MahaAratiSmall = () => {
             Ом сатгуру свами Вишнудэвананда ки джей! (2 раза)
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          {/* <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шива Лингаштакам
           </h2>
           <p className="font-bold">
@@ -961,7 +961,7 @@ const MahaAratiSmall = () => {
             в присутствии Шивджи,
             обретает обитель Шивы и вечный союз с Ним.
           </p>
-
+ */}
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Джей Шамбо

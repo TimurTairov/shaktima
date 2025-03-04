@@ -99,11 +99,6 @@ const Mart2025 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">7</p>
-            <div className="flex justify-center items-center">
-              <a href="raspisanie">
-                <Image src={lakshmi} alt="Махалакшми Джаянти" className="grid-meditation-mobile mr-1" />
-              </a>
-            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">8</p>
@@ -142,6 +137,11 @@ const Mart2025 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">14</p>
+            <div className="flex justify-center items-center">
+              <a href="raspisanie">
+                <Image src={lakshmi} alt="Махалакшми Джаянти" className="grid-meditation-mobile mr-1" />
+              </a>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">15</p>
