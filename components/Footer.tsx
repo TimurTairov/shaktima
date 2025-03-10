@@ -79,7 +79,7 @@ export function Footer() {
                 Московский Дхарма центр Шакти Ма
               </div>
 
-              <div className="w-full grid grid-cols-2 text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs xl:text-sm">
+              <div className="w-full grid grid-cols-2 text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs">
                 <div>
                   <FaOm className="inline mr-1" />
                   <span>Медитации сиддхов</span>

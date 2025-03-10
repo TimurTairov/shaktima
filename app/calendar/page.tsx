@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container"
 // import Noyabr2024 from "@/components/Noyabr2024"
 // import Decabr2024 from "@/components/Decabr2024"
-import Fevral2025 from "@/components/Fevral2025"
+// import Fevral2025 from "@/components/Fevral2025"
 import Mart2025 from "@/components/Calendar/Mart2025"
 
 const page = () => {
