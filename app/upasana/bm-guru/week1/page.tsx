@@ -14,6 +14,7 @@ import Meditation4BSB from "@/components/BhadjanMandala/Meditation4BSB";
 import Start from "@/components/BhadjanMandala/Start";
 import Finish from "@/components/BhadjanMandala/Finish";
 import PosvyasheneiZaslug from "@/components/BhadjanMandala/PosvyasheneiZaslug";
+import Disclaimer from '@/components/BhadjanMandala/Disclaimer';
 
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
       <Meditation4BSB />
       <PosvyasheneiZaslug />
       <Finish />
+      <Disclaimer />
       <Link href="/upasana/bm-guru/" className="mt-10 lg:mt-20 flex justify-center text-lg text-indigo-500">
         <RiArrowGoBackFill className=" size-10" />
       </Link>

@@ -13,7 +13,7 @@ const GaneshaArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Ганеш Ванданам</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеш Ванданам</h2>
           <p className="font-bold">Харе Ом!     <br />
             ГаджАананАм бхУта ганАади севитАм     <br />
             КапИтха джамбО пхалАчара бхакшанАм     <br />
@@ -26,7 +26,7 @@ const GaneshaArati = () => {
             джамболана, сын Умадэви, причина уничтожениия всех
             горестей! Я приветствую лотосные стопы Господа Вигнешвары!
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Ганеша Арати</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Арати</h2>
           <p className="font-bold">
             1. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
@@ -126,7 +126,7 @@ const GaneshaArati = () => {
             Приветствую сына Парвати и Шивы, Предводителя ганов,
             дарующего блаженство. Я кланяюсь к его стопам!
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Ганеша Пранам</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Пранам</h2>
           <p className="font-bold">
             ГаурИ ганеш катО калеш мата пАрвати питА махеш<br />
             рИддги сиддехи дАтта<br />

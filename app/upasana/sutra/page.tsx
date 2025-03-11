@@ -1,11 +1,21 @@
 import Altar from '@/components/NewAltar'
-import { BsInfoCircleFill } from 'react-icons/bs'
+import Disclaimer from '@/components/BhadjanMandala/Disclaimer';
 import MyAccordion from '@/components/MyAccordion'
+import Link from "next/link";
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 const page = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
+        <div className="w-full py-5 flex justify-center items-center gap-3 text-lg font-semibold leading-snug tracking-tight lg:leading-tight lg:text-4xl">
+          <h1 className="text-gray-800  dark:text-white">
+            Утреняя сутра
+          </h1>
+          <Link href="/upasana/" className="inline-flex text-lg text-indigo-500">
+            <RiArrowGoBackFill />
+          </Link>
+        </div>
         <Altar audio />
         <div
           id="sutra"
@@ -878,7 +888,7 @@ const page = () => {
                 Аудио файлы бхаджанов Даттатрее
               </a>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 1. АТРИ НАНДАНА
               </h2>
               <p className="font-bold">
@@ -922,7 +932,7 @@ const page = () => {
                 поклонение Тебе - Бытие, Сознание, Блаженство!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 2. ДАТТА ДЕВА
               </h2>
               <p className="font-bold">
@@ -970,7 +980,7 @@ const page = () => {
               </p>
 
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 3. ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА
               </h2>
               <p className="font-bold">
@@ -998,7 +1008,7 @@ const page = () => {
                 Бытие, Сознание, Блаженство, прекрасноокий друг!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 4. ШРИ ГУРУ ДАТТА
               </h2>
               <p className="font-bold">
@@ -1072,7 +1082,7 @@ const page = () => {
               </p>
 
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 5. ДАТТАМ ДИНА ДЖАНАРТИ
               </h2>
               <p className="font-bold">
@@ -1107,7 +1117,7 @@ const page = () => {
                 Я неусыпно почитаю образ единого Истинного Гуру, Бытие, Сознание, Блаженство!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 6. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА
               </h2>
               <p className="font-bold">
@@ -1120,7 +1130,7 @@ const page = () => {
                 Слава Божественному, Истинному Гуру!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 7. ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
               </h2>
               <p className="font-bold">
@@ -1185,7 +1195,7 @@ const page = () => {
                 О Гуру Датта, в Тебе я принимаю Прибежище!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 8. ШРИ ДАТТА
               </h2>
               <p className="font-bold">
@@ -1207,7 +1217,7 @@ const page = () => {
                 О Духовный Учитель! Слава Тебе, вновь и вновь!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 9. ДАТТА ДИГАМБАРА
               </h2>
               <p className="font-bold">
@@ -1222,7 +1232,7 @@ const page = () => {
                 поклонение Тебе, Датта!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 10. НАМО ДАТТА
               </h2>
               <p className="font-bold">
@@ -1275,7 +1285,7 @@ const page = () => {
                 Блаженству - поклонение, поклонение!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 11. ДАТТАТРЕЙЯ ТРИМУРТИ РУПА
               </h2>
               <p className="font-bold">
@@ -1332,7 +1342,7 @@ const page = () => {
                 По сути Ты - Бытие, Сознание, Блаженство!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 12. ДАТТА ДЭВА ДЭВА ДЭВА
               </h2>
               <p className="font-bold">
@@ -1383,7 +1393,7 @@ const page = () => {
                 Бесконечный свет, Божественный поток!
               </p>
 
-              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+              <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 13. ГУРУТТАМА
               </h2>
               <p className="font-bold">
@@ -1927,351 +1937,496 @@ const page = () => {
               </p>
               <h6>1008 имен Даттатреи</h6>
               <div>
+
                 <MyAccordion title="Январь">
-                  <p className="text-sm">
-                    01.01.2025 ОМ ДИВЙА ДЖЙОТИР МАЙА НАМАХ ОМ Полному божественного
-                    Света – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    02.01.2025 ОМ САТЙА ВИДЖ НАНА БХАС КАРАЙА НАМАХ ОМ Солнцу Знания
-                    и Истины – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    03.01.2025 ОМ НИТЙА ЩУДДХАЙА НАМАХ ОМ Вечно чистому –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    04.01.2025 ОМ ПАРАЙА НАМАХ ОМ Высшему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    05.01.2025 ОМ ПУРНАЙА НАМАХ ОМ Совершенному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    06.01.2025 ОМ ПРАКАЩАЙА НАМАХ ОМ Пракаше – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    07.01.2025 ОМ ПРА КАТОД БХАВАЙА НАМАХ ОМ Являющему Свет –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    08.01.2025 ОМ ПРА МАДА ВИГАТАЙА НАМАХ ОМ Лишенному ошибок –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    09.01.2025 ОМ ПАРЕЩАЙА НАМАХ ОМ Высшему Владыке – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    10.01.2025 ОМ ПАРА ВИКРА МАЙА НАМАХ ОМ Высшему могуществу –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    11.01.2025 ОМ ЙОГИНЕ НАМАХ ОМ Йогину – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    12.01.2025 ОМ ЙОГАЙА НАМАХ ОМ Йоге – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    13.01.2025 ОМ ЙОГА ПАЙА НАМАХ ОМ Покровителю йоги – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    14.01.2025 ОМ ЙОГА БХЙАСА ПРАКАЩАНАЙА НАМАХ ОМ Являющему
-                    практику йоги – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    15.01.2025 ОМ ЙОКТРЕ НАМАХ ОМ Соединенному йогой – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    16.01.2025 ОМ МОКТРЕ НАМАХ ОМ Освобождающему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    17.01.2025 ОМ ВИДХА ТРЕ НАМАХ ОМ Творящему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    18.01.2025 ОМ ТРА ТРЕ НАМАХ ОМ Спасающему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    19.01.2025 ОМ ПА ТРЕ НАМАХ ОМ Защищающему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    20.01.2025 ОМ НИРА ЙУДХАЙА НАМАХ ОМ Невооруженному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    21.01.2025 ОМ НИТЙА МУКТАЙА НАМАХ ОМ Вечно Освобожденному –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    22.01.2025 ОМ НИТЙА ЙУКТАЙА НАМАХ ОМ Вечно впряженному в йогу –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    23.01.2025 ОМ САТЙАЙА НАМАХ ОМ Истине – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    24.01.2025 ОМ САТЙА ПАРА КАМАЙА НАМАХ ОМ Наделенному высшей
-                    Истиной – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    25.01.2025 ОМ САТТВА ЩУДДХИ КАРАЙА НАМАХ ОМ Творящему очищение
-                    бытия – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    26.01.2025 ОМ САТТВАЙА НАМАХ ОМ Саттве – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    27.01.2025 ОМ САТТВА БРТАН ГАТАЙЕ НАМАХ ОМ Содержащему в своем
-                    теле саттву – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    28.01.2025 ОМ ЩРИ ДХАРАЙА НАМАХ ОМ Держащему Шри – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    29.01.2025 ОМ ЩРИ ВАПУЩЕ НАМАХ ОМ Воплощению Шри – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    30.01.2025 ОМ ШРИ МАТЕ НАМАХ ОМ Благословенному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    31.01.2025 ОМ ШРИ НИВА САЙА НАМАХ ОМ Обители Шри – поклонение!
-                  </p>
+                  <div className='mt-5 flex flex-col gap-3 lg:gap-4'>
+                    <p className="text-sm">
+                      01.01.2025 ОМ ДИВЙА ДЖЙОТИР МАЙА НАМАХ ОМ Полному божественного
+                      Света – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      02.01.2025 ОМ САТЙА ВИДЖ НАНА БХАС КАРАЙА НАМАХ ОМ Солнцу Знания
+                      и Истины – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      03.01.2025 ОМ НИТЙА ЩУДДХАЙА НАМАХ ОМ Вечно чистому –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      04.01.2025 ОМ ПАРАЙА НАМАХ ОМ Высшему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      05.01.2025 ОМ ПУРНАЙА НАМАХ ОМ Совершенному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      06.01.2025 ОМ ПРАКАЩАЙА НАМАХ ОМ Пракаше – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      07.01.2025 ОМ ПРА КАТОД БХАВАЙА НАМАХ ОМ Являющему Свет –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      08.01.2025 ОМ ПРА МАДА ВИГАТАЙА НАМАХ ОМ Лишенному ошибок –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      09.01.2025 ОМ ПАРЕЩАЙА НАМАХ ОМ Высшему Владыке – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      10.01.2025 ОМ ПАРА ВИКРА МАЙА НАМАХ ОМ Высшему могуществу –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      11.01.2025 ОМ ЙОГИНЕ НАМАХ ОМ Йогину – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      12.01.2025 ОМ ЙОГАЙА НАМАХ ОМ Йоге – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      13.01.2025 ОМ ЙОГА ПАЙА НАМАХ ОМ Покровителю йоги – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      14.01.2025 ОМ ЙОГА БХЙАСА ПРАКАЩАНАЙА НАМАХ ОМ Являющему
+                      практику йоги – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      15.01.2025 ОМ ЙОКТРЕ НАМАХ ОМ Соединенному йогой – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      16.01.2025 ОМ МОКТРЕ НАМАХ ОМ Освобождающему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      17.01.2025 ОМ ВИДХА ТРЕ НАМАХ ОМ Творящему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      18.01.2025 ОМ ТРА ТРЕ НАМАХ ОМ Спасающему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      19.01.2025 ОМ ПА ТРЕ НАМАХ ОМ Защищающему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      20.01.2025 ОМ НИРА ЙУДХАЙА НАМАХ ОМ Невооруженному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      21.01.2025 ОМ НИТЙА МУКТАЙА НАМАХ ОМ Вечно Освобожденному –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      22.01.2025 ОМ НИТЙА ЙУКТАЙА НАМАХ ОМ Вечно впряженному в йогу –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      23.01.2025 ОМ САТЙАЙА НАМАХ ОМ Истине – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      24.01.2025 ОМ САТЙА ПАРА КАМАЙА НАМАХ ОМ Наделенному высшей
+                      Истиной – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      25.01.2025 ОМ САТТВА ЩУДДХИ КАРАЙА НАМАХ ОМ Творящему очищение
+                      бытия – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      26.01.2025 ОМ САТТВАЙА НАМАХ ОМ Саттве – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      27.01.2025 ОМ САТТВА БРТАН ГАТАЙЕ НАМАХ ОМ Содержащему в своем
+                      теле саттву – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      28.01.2025 ОМ ЩРИ ДХАРАЙА НАМАХ ОМ Держащему Шри – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      29.01.2025 ОМ ЩРИ ВАПУЩЕ НАМАХ ОМ Воплощению Шри – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      30.01.2025 ОМ ШРИ МАТЕ НАМАХ ОМ Благословенному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      31.01.2025 ОМ ШРИ НИВА САЙА НАМАХ ОМ Обители Шри – поклонение!
+                    </p>
+                  </div>
                 </MyAccordion>
+
                 <MyAccordion title="Февраль">
-                  <p className="text-sm">
-                    01.02.2025 ОМ АМАРА ЧИНТАЙА НАМАХ ОМ Созерцаемому бессмертными –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    02.02.2025 ОМ ШРИ НИДХАЙЕ НАМАХ ОМ Океану Шри – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    03.02.2025 ОМ ШРИПАТАЙЕ НАМАХ ОМ Владыке Шри – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    04.02.2025 ОМ ШРЕ ШТХАЙА НАМАХ ОМ Лучшему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    05.02.2025 ОМ ШРЕЙА СКАЙА НАМАХ ОМ Благословенному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    06.02.2025 ОМ ЧАРАМ АЩРАЙАЙА НАМАХ ОМ Вместилищу благословений –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    07.02.2025 ОМ ТЙАГА РЙАСАМ ПАННАЙА НАМАХ ОМ Являющему
-                    благородное отречение – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    08.02.2025 ОМ ТЙАГИНЕ НАМАХ ОМ Отреченному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    09.02.2025 ОМ ТЙАГ АТМАНЕ НАМАХ ОМ Душе отречения – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    10.02.2025 ОМ ТЙАГ АВИ ГРАХАЙА НАМАХ ОМ Воплощенному отречению –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    11.02.2025 ОМ ТЙАГА ЛАКШАНА СИДДХ АТМАНЕ НАМАХ ОМ Душе
-                    совершенства, отмеченному отречением – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    12.02.2025 ОМ ТЙАГА ДЖНАЙА НАМАХ ОМ Знающему отречение –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    13.02.2025 ОМ ТЙАГА КАРАНАЙА НАМАХ ОМ Причине отречения –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    14.02.2025 ОМ БХАГАЙА НАМАХ ОМ Счастью – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    15.02.2025 ОМ БХОКТРЕ НАМАХ ОМ Наслаждающемуся – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    16.02.2025 ОМ БХОГЙАЙА НАМАХ ОМ Объекту наслаждения –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    17.02.2025 ОМ БХОГА САД ХАНА КАРАНАЙА НАМАХ ОМ Причине обретения
-                    насаждения – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    18.02.2025 ОМ БХОГИНЕ НАМАХ ОМ Наслаждающемуся – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    19.02.2025 ОМ БХОГ АРТА САМПАН НАЙА НАМАХ ОМ Являющему предмет
-                    наслаждения – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    20.02.2025 ОМ БХОГА ДЖНАНА ПРАКАЩА НАЙА НАМАХ ОМ Являющему
-                    знание наслаждения – поконение!
-                  </p>
-                  <p className="text-sm">
-                    21.02.2025 ОМ КЕВА ЛАЙА НАМАХ ОМ Единственному – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    22.02.2025 ОМ КЕЩА ВАЙА НАМАХ ОМ Кешаве – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    23.02.2025 ОМ КРШНАЙА НАМАХ ОМ Кришне – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    24.02.2025 ОМ КАМВА САСЕ НАМАХ ОМ Являющемуся в водах –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    25.02.2025 ОМ КАМАЛА ЛАЙАЙА НАМАХ ОМ Обители Камалы (Лакшми) –
-                    поклонение!
-                  </p>
-                  <p className="text-sm">
-                    26.02.2025 ОМ КАМАЛА САНА ПУДЖЙАЙА НАМАХ ОМ Почитаемому
-                    восседающим в лотосе (Брахмой) – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    27.02.2025 ОМ ХАРАЙЕ НАМАХ ОМ Уносящему – поклонение!
-                  </p>
-                  <p className="text-sm">
-                    28.02.2025 ОМ АДЖНАНА КХАНДАЙА НАМАХ ОМ Уничтожителю незнания –
-                    поклонение!
-                  </p>
+                  <div className='mt-5 flex flex-col gap-3 lg:gap-4'>
+                    <p className="text-sm">
+                      01.02.2025 ОМ АМАРА ЧИНТАЙА НАМАХ ОМ Созерцаемому бессмертными –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      02.02.2025 ОМ ШРИ НИДХАЙЕ НАМАХ ОМ Океану Шри – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      03.02.2025 ОМ ШРИПАТАЙЕ НАМАХ ОМ Владыке Шри – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      04.02.2025 ОМ ШРЕ ШТХАЙА НАМАХ ОМ Лучшему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      05.02.2025 ОМ ШРЕЙА СКАЙА НАМАХ ОМ Благословенному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      06.02.2025 ОМ ЧАРАМ АЩРАЙАЙА НАМАХ ОМ Вместилищу благословений –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      07.02.2025 ОМ ТЙАГА РЙАСАМ ПАННАЙА НАМАХ ОМ Являющему
+                      благородное отречение – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      08.02.2025 ОМ ТЙАГИНЕ НАМАХ ОМ Отреченному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      09.02.2025 ОМ ТЙАГ АТМАНЕ НАМАХ ОМ Душе отречения – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      10.02.2025 ОМ ТЙАГ АВИ ГРАХАЙА НАМАХ ОМ Воплощенному отречению –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      11.02.2025 ОМ ТЙАГА ЛАКШАНА СИДДХ АТМАНЕ НАМАХ ОМ Душе
+                      совершенства, отмеченному отречением – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      12.02.2025 ОМ ТЙАГА ДЖНАЙА НАМАХ ОМ Знающему отречение –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      13.02.2025 ОМ ТЙАГА КАРАНАЙА НАМАХ ОМ Причине отречения –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      14.02.2025 ОМ БХАГАЙА НАМАХ ОМ Счастью – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      15.02.2025 ОМ БХОКТРЕ НАМАХ ОМ Наслаждающемуся – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      16.02.2025 ОМ БХОГЙАЙА НАМАХ ОМ Объекту наслаждения –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      17.02.2025 ОМ БХОГА САД ХАНА КАРАНАЙА НАМАХ ОМ Причине обретения
+                      насаждения – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      18.02.2025 ОМ БХОГИНЕ НАМАХ ОМ Наслаждающемуся – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      19.02.2025 ОМ БХОГ АРТА САМПАН НАЙА НАМАХ ОМ Являющему предмет
+                      наслаждения – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      20.02.2025 ОМ БХОГА ДЖНАНА ПРАКАЩА НАЙА НАМАХ ОМ Являющему
+                      знание наслаждения – поконение!
+                    </p>
+                    <p className="text-sm">
+                      21.02.2025 ОМ КЕВА ЛАЙА НАМАХ ОМ Единственному – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      22.02.2025 ОМ КЕЩА ВАЙА НАМАХ ОМ Кешаве – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      23.02.2025 ОМ КРШНАЙА НАМАХ ОМ Кришне – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      24.02.2025 ОМ КАМВА САСЕ НАМАХ ОМ Являющемуся в водах –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      25.02.2025 ОМ КАМАЛА ЛАЙАЙА НАМАХ ОМ Обители Камалы (Лакшми) –
+                      поклонение!
+                    </p>
+                    <p className="text-sm">
+                      26.02.2025 ОМ КАМАЛА САНА ПУДЖЙАЙА НАМАХ ОМ Почитаемому
+                      восседающим в лотосе (Брахмой) – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      27.02.2025 ОМ ХАРАЙЕ НАМАХ ОМ Уносящему – поклонение!
+                    </p>
+                    <p className="text-sm">
+                      28.02.2025 ОМ АДЖНАНА КХАНДАЙА НАМАХ ОМ Уничтожителю незнания –
+                      поклонение!
+                    </p>
+                  </div>
+                </MyAccordion>
+
+                <MyAccordion title="Март">
+                  <div className='mt-5 flex flex-col gap-3 lg:gap-4'>
+                    <p className="text-sm">01.03.2025
+                      ОМ МАХ АТМАНЕ НАМАХ ОМ
+                      Великому Духу – поклонение!</p>
+                    <p className="text-sm">02.03.2025
+                      ОМ МАХ АДАДАЙЕ НАМАХ ОМ
+                      Великому Началу – поклонение!</p>
+                    <p className="text-sm">03.03.2025
+                      ОМ МАХЕЩ ОТТАМА ВАНДИТАЙА НАМАХ ОМ
+                      Почитаемому высшему Махеше – поклонение!</p>
+                    <p className="text-sm">04.03.2025
+                      ОМ МАНО ВРДДХИ ВИХИН АТМАНЕ НАМАХ ОМ
+                      Сущности лишенной разрастания ума – поклонение!</p>
+                    <p className="text-sm">05.03.2025
+                      ОМ МАН АТМАНЕ НАМАХ ОМ
+                      Сущности Ума – поклонение!</p>
+                    <p className="text-sm">06.03.2025
+                      ОМ МАНА ВАДХИ ПАЙА НАМАХ ОМ
+                      Владыке людей – поклонение!</p>
+                    <p className="text-sm">07.03.2025
+                      ОМ БХУВА НЕЩАЙА НАМАХ ОМ
+                      Владыке мира – поклонение!</p>
+                    <p className="text-sm">08.03.2025
+                      ОМ ВИБХУ ТАЙЕ НАМАХ ОМ
+                      Великому – поклонение!</p>
+                    <p className="text-sm">09.03.2025
+                      ОМ ДХРТАЙЕ НАМАХ ОМ
+                      Твердому – поклонение!</p>
+                    <p className="text-sm">10.03.2025
+                      ОМ МЕД ХАЙА НАМАХ ОМ
+                      Мудрости – поклонение!</p>
+                    <p className="text-sm">11.03.2025
+                      ОМ СМРТАЙЕ НАМАХ ОМ
+                      Памяти – поклонение!</p>
+                    <p className="text-sm">12.03.2025
+                      ОМ ДАЙАЙЕ НАМАХ ОМ
+                      Состраданию – поклонение!</p>
+                    <p className="text-sm">13.03.2025
+                      ОМ ДУХ КХА ДАВА НАЛАЙА НАМАХ ОМ
+                      Лесному пожару для страдания – поклонение!</p>
+                    <p className="text-sm">14.03.2025
+                      ОМ БУДДХАЙА НАМАХ ОМ
+                      Разуму – поклонение!</p>
+                    <p className="text-sm">15.03.2025
+                      ОМ ПРА БУДДХАЙА НАМАХ ОМ
+                      Пробужденному – поклонение!</p>
+                    <p className="text-sm">16.03.2025
+                      ОМ ПАРА МЕЩ ВАРАЙА НАМАХ ОМ
+                      Высшему Владыке – поклонение!</p>
+                    <p className="text-sm">17.03.2025
+                      ОМ КАМА ХАЙЕ НАМАХ ОМ
+                      Устранителю желания – поклонение!</p>
+                    <p className="text-sm">18.03.2025
+                      ОМ КРОДХА ХАЙЕ НАМАХ ОМ
+                      Устранителю гнева – поклонение!</p>
+                    <p className="text-sm">19.03.2025
+                      ОМ ДАМ БХА ДАР ПАМАДА ПАХАЙА НАМАХ ОМ
+                      Устранителю немоты, гордости и безумия – поклонение!</p>
+                    <p className="text-sm">20.03.2025
+                      ОМ АДЖНА НАТИ МИРА РАЙЕ НАМАХ ОМ
+                      Врагу темноты незнания – поклонение!</p>
+                    <p className="text-sm">21.03.2025
+                      ОМ БХАВА РАЙЕ НАМАХ ОМ
+                      Врагу мирского бытия – поклонение!</p>
+                    <p className="text-sm">22.03.2025
+                      ОМ БХУВА НЕЩВА РАЙА НАМАХ ОМ
+                      Владыке миров – поклонение!</p>
+                    <p className="text-sm">23.03.2025
+                      ОМ РУПА КРТАЙЕ НАМАХ ОМ
+                      Творцу форм – поклонение!</p>
+                    <p className="text-sm">24.03.2025
+                      ОМ РУПА БРТЕ НАМАХ ОМ
+                      Поддерживающему формы – поклонение!</p>
+                    <p className="text-sm">25.03.2025
+                      ОМ РУПИНЕ НАМАХ ОМ
+                      Прекрасному – поклонение!</p>
+                    <p className="text-sm">26.03.2025
+                      ОМ РУПА ГНАЙА НАМАХ ОМ
+                      Врагу мирского бытия – поклонение!</p>
+                    <p className="text-sm">27.03.2025
+                      ОМ РУПА КАРА НАЙА НАМАХ ОМ
+                      Причине форм – поклонение!</p>
+                    <p className="text-sm">28.03.2025
+                      ОМ РУПА ДЖНАЙА НАМАХ ОМ
+                      Знающему формы – поклонение!</p>
+                    <p className="text-sm">29.03.2025
+                      ОМ РУПА САКШИНЕ НАМАХ ОМ
+                      Свидетелю форм – поклонение!</p>
+                    <p className="text-sm">30.03.2025
+                      ОМ НАМА РУПАЙА НАМАХ ОМ
+                      Имени и форме – поклонение!</p>
+                    <p className="text-sm">31.03.2025
+                      ОМ ГУНА НТАКАЙА НАМАХ ОМ
+                      Прекращающему качества – поклонение!</p>
+                  </div>
+                </MyAccordion>
+
+                <MyAccordion title="Апрель">
+                  <div className='mt-5 flex flex-col gap-3 lg:gap-4'>
+                    <p className="text-sm">01.04.2025
+                      ОМ АПРА МЕЙАЙА НАМАХ ОМ
+                      Непостижимому – поклонение!</p>
+                    <p className="text-sm">02.04.2025
+                      ОМ ПРАМЕЙАЙА НАМАХ ОМ
+                      Постигаемому – поклонение!</p>
+                    <p className="text-sm">03.04.2025
+                      ОМ ПРАМАНАЙА НАМАХ ОМ
+                      Средству постижения – поклонение!</p>
+                    <p className="text-sm">04.04.2025
+                      ОМ ПРАНАВА ЩРАЙАЙА НАМАХ ОМ
+                      Вместилищу Пранавы – поклонение!</p>
+                    <p className="text-sm">05.04.2025
+                      ОМ ПРАМАНА РАХИТАЙА НАМАХ ОМ
+                      Наделённому средством постижения – поклонение!</p>
+                    <p className="text-sm">06.04.2025
+                      ОМ АЧИНТЙАЙА НАМАХ ОМ
+                      Непостижимому – поклонение!</p>
+                    <p className="text-sm">07.04.2025
+                      ОМ ЧЕТАНА ВИГАТАЙА НАМАХ ОМ
+                      Недостижимому умом – поклонение!</p>
+                    <p className="text-sm">08.04.2025
+                      ОМ АДЖАРАЙА НАМАХ ОМ
+                      Нестареющему – поклонение!</p>
+                    <p className="text-sm">09.04.2025
+                      ОМ АКШАРАЙА НАМАХ ОМ
+                      Негибнущему – поклонение!</p>
+                    <p className="text-sm">10.04.2025
+                      ОМ АКШАРА МУКТАЙА НАМАХ ОМ
+                      Свободному от слов – поклонение!</p>
+                    <p className="text-sm">11.04.2025
+                      ОМ ВИДЖВА РАЙА НАМАХ ОМ
+                      Нестрадающему – поклонение!</p>
+                    <p className="text-sm">12.04.2025
+                      ОМ ДЖВАРА НАЩАНАЙА НАМАХ ОМ
+                      Уничтожающему страдания – поклонение!</p>
+                    <p className="text-sm">13.04.2025
+                      ОМ ВИЩИШТАЙА НАМАХ ОМ
+                      Особому – поклонение!</p>
+                    <p className="text-sm">14.04.2025
+                      ОМ ВИТТА ШАСТРИНЕ НАМАХ ОМ
+                      Богатому шастрами – поклонение!</p>
+                    <p className="text-sm">15.04.2025
+                      ОМ ДУШТАЙА НАМАХ ОМ
+                      Порицаемому – поклонение!</p>
+                    <p className="text-sm">16.04.2025
+                      ОМ ДУШТАН ТАВАР ДЖИТАЙА НАМАХ ОМ
+                      Лишенному изнутри порицаний – поклонение!</p>
+                    <p className="text-sm">17.04.2025
+                      ОМ ГУНЕ ЩАЙА НАМАХ ОМ
+                      Владыке гун – поклонение!</p>
+                    <p className="text-sm">18.04.2025
+                      ОМ ГУНА КАЙАЙА НАМАХ ОМ
+                      Тому, чье тело – гуны – поклонение!</p>
+                    <p className="text-sm">19.04.2025
+                      ОМ ГУН АТМАНЕ НАМАХ ОМ
+                      Сущности гун – поклонение!</p>
+                    <p className="text-sm">20.04.2025
+                      ОМ ГУН БХАВАНАЙА НАМАХ ОМ
+                      Бытию гун – поклонение!</p>
+                    <p className="text-sm">21.04.2025
+                      ОМ АНАНТА ГУНА САМПАННАЙА НАМАХ ОМ
+                      Проявляющего бесконечные качества – поклонение!</p>
+                    <p className="text-sm">22.04.2025
+                      ОМ ГУНА ГАРБХАЙА НАМАХ ОМ
+                      Утробе гун – поклонение!</p>
+                    <p className="text-sm">23.04.2025
+                      ОМ ГУНА ДХИПАЙА НАМАХ ОМ
+                      Владыке гун – поклонение!</p>
+                    <p className="text-sm">24.04.2025
+                      ОМ ГУНЕЩАЙА НАМАХ ОМ
+                      Владыке качеств – поклонение!</p>
+                    <p className="text-sm">25.04.2025
+                      ОМ ГУНА НАТХАЙА НАМАХ ОМ
+                      Господу качеств – поклонение!</p>
+                    <p className="text-sm">26.04.2025
+                      ОМ ГУН АТМАНЕ НАМАХ ОМ
+                      Душе качеств – поклонение!</p>
+                    <p className="text-sm">27.04.2025
+                      ОМ ГУН БХАВАНАЙА НАМАХ ОМ
+                      Бытию качеств – поклонение!</p>
+                    <p className="text-sm">28.04.2025
+                      ОМ ГУНА БАНДХАВЕ НАМАХ ОМ
+                      Другу качеств – поклонение!</p>
+                    <p className="text-sm">29.04.2025
+                      ОМ ВИВЕК АТМАНЕ НАМАХ ОМ
+                      Сущности различения – поклонение!</p>
+                    <p className="text-sm">30.04.2025
+                      ОМ ГУНА ЙУКТАЙА НАМАХ ОМ
+                      Соединенного с гунами – поклонение!</p>
+                  </div>
                 </MyAccordion>
 
                 {/* <MyAccordion title="">
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-            </MyAccordion>
-            <MyAccordion title="">
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-            </MyAccordion>
-            <MyAccordion title="">
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-            </MyAccordion>
-            <MyAccordion title="">
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-            </MyAccordion>
-            <MyAccordion title="">
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-              <p className="text-sm"></p>
-            </MyAccordion>
-             */}
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                </MyAccordion>
+                <MyAccordion title="">
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                </MyAccordion>
+                <MyAccordion title="">
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                  <p className="text-sm"></p>
+                </MyAccordion> */}
+
               </div>
             </div>
           </MyAccordion>
@@ -2303,22 +2458,7 @@ const page = () => {
 
           <p className="sutra-title">Практика завершена!</p>
 
-          <div className="mt-10 w-full flex gap-2 items-start justify-center xl:px-40">
-            <BsInfoCircleFill className="w-10 h-10 shrink-0 text-indigo-600 dark:text-indigo-300" />
-            <p className="w-full">
-              Ом. Если Вы хотите углубить свои знания и навыки в садхане
-              "Утренняя сутра" и "Бхаджан Мандала", приглашаем Вас приобрести
-              <a
-                href="https://institute-vasishtha.com/shop/catalog/videokursy/yoga/69255/?oid=69269"
-                target="_blank"
-                rel="noopener"
-                className="ml-1 text-indigo-600 dark:text-indigo-300"
-              >
-                видеокурс по упасане
-              </a>
-              , который проводила достопочтенная Свамини Сатья Теджаси.
-            </p>
-          </div>
+          <Disclaimer />
         </div>
       </div>
     </div>

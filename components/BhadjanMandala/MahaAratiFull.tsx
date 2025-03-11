@@ -15,7 +15,7 @@ const MahaAratiFull = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ганеша Ванданам
           </h2>
           <p className="font-bold">Харе Ом!     <br />
@@ -31,7 +31,7 @@ const MahaAratiFull = () => {
             горестей! Я приветствую лотосные стопы Господа Вигнешвары!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ганеша Арати
           </h2>
           <p className="font-bold">
@@ -133,7 +133,7 @@ const MahaAratiFull = () => {
             Приветствую сына Парвати и Шивы, Предводителя ганов,
             дарующего блаженство. Я кланяюсь к его стопам!
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Ганеша Пранам</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Пранам</h2>
           <p className="font-bold">
             ГаурИ ганеш катО калеш мата пАрвати питА махеш<br />
             рИддги сиддехи дАтта<br />
@@ -144,7 +144,7 @@ const MahaAratiFull = () => {
             Риддхи и Сиддхи. Повторяйте - Слава Бхагавану Ганеше!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Гурудатта Дигамбар Стотрам
           </h2>
           <p className="font-bold">
@@ -175,7 +175,7 @@ const MahaAratiFull = () => {
             Так вижу Господа Шри Гуру Даттатрею.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Даттатрейя Арати
           </h2>
           <p className="font-bold">
@@ -308,7 +308,7 @@ const MahaAratiFull = () => {
           </p>
           <ShriBheshaKioShambho />
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Датта пранам
           </h2>
           <p className="font-bold">
@@ -334,7 +334,7 @@ const MahaAratiFull = () => {
             Шри Даттатрейя Авадхута Ки Джай!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Сандхья Калин Прартхана
           </h2>
           <p className="font-bold">
@@ -374,7 +374,7 @@ const MahaAratiFull = () => {
             воплощению Истины, Сознания и Блаженства.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шива Панчакшара Стотрам
           </h2>
           <p className="font-bold">
@@ -449,8 +449,8 @@ const MahaAratiFull = () => {
             Шанкарачарьей Шива-панчакшара-стотра.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
-            Шри Шив вандана
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
+            Шри Шив Вандана
           </h2>
           <p className="font-bold">
             Ом!<br />
@@ -520,7 +520,7 @@ const MahaAratiFull = () => {
             Мастера всех живых существ!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шри Шив Вандана 1-я часть
           </h2>
           <p className="font-bold">
@@ -666,7 +666,7 @@ const MahaAratiFull = () => {
             Повелителем всех живых существ во всех мирах.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шри Шив ванданам 2-я часть
           </h2>
           <p className="font-bold">
@@ -782,7 +782,7 @@ const MahaAratiFull = () => {
             стоят взгляда Господа Шивы.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шри Шив ванданам 3-я часть
           </h2>
           <p className="font-bold">
@@ -831,7 +831,7 @@ const MahaAratiFull = () => {
             Ом! пАрвати патИ хара-хара-хара махадэв!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Пранам
           </h2>
           <p className="font-bold">
@@ -841,7 +841,7 @@ const MahaAratiFull = () => {
             Ом сатгуру свами Вишнудэвананда ки джей! (2 раза)
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шива Лингаштакам
           </h2>
           <p className="font-bold">
@@ -963,7 +963,7 @@ const MahaAratiFull = () => {
           </p>
 
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Джей Шамбо
           </h2>
           <p className="font-bold">
@@ -989,7 +989,7 @@ const MahaAratiFull = () => {
             Слава Божественному сознанию Абсолюта!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Пранам
           </h2>
           <p className="font-bold">

@@ -13,7 +13,7 @@ const PanchabrahmaMantry = () => {
               className="w-full"
             ></audio>
           </div>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Садйоджата мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Садйоджата мантра</h2>
           <p className="font-bold">
             ОМ САДЙОДЖАТАМ ПРАПАДЙАМИ <br />
             САДЙОДЖАТАЙА ВАИ НАМО НАМАХА<br />
@@ -24,7 +24,7 @@ const PanchabrahmaMantry = () => {
             Ищу прибежище в Перворожденном, почитаю Изначальную Причину рождений;
             Не дай мне рождаться снова и снова; направь меня по ту сторону рождений.
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Вамадева мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Вамадева мантра</h2>
           <p className="font-bold">
             ВАМАДЕВАЙА НАМО <br />
             ДЖИЕШТХАЙА НАМО <br />
@@ -42,7 +42,7 @@ const PanchabrahmaMantry = () => {
             Ом. Великодушнейшему поклонение, Старейшему поклонение, Наилучшему поклонение, Рудре поклонение, Времени поклонение;
             Непостижимейшему поклонение, Величайшей силе поклонение, Причине сил поклонение, Дарующему силы поклонение; Владыке существ поклонение, Источнику света поклонение.
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Агхора мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Агхора мантра</h2>
           <p className="font-bold">
             АГХОРЕБХЙО ТХА ГХОРЕБХЙО<br />
             ГХОРАГХОРЕ ТАРЕБХЙАХА<br />
@@ -53,7 +53,7 @@ const PanchabrahmaMantry = () => {
             Поклонение Неужасному и ужасному, Тому, кто ужасающий и неужасающий одновременно.
             Всегда и везде, о Шарва, почитаю Рудру во всех его формах.
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Татпуруша мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Татпуруша мантра</h2>
           <p className="font-bold">
             ТАТПУРУШАЙА ВИДМАХЕ <br />
             МАХАДЕВАЙА ДХИМАХИ <br />
@@ -63,7 +63,7 @@ const PanchabrahmaMantry = () => {
             Познаем Высочайшего, будем медитировать на Величайшего.
             Пусть приведет нас Рудра к просветлению.
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Ишана мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ишана мантра</h2>
           <p className="font-bold">
             ИШАНА САРВА ВИДЙАНАМ <br />
             ИШВАРАХ САРВА БХУТАНАМ <br />

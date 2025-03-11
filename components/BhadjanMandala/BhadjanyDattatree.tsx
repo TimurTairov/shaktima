@@ -9,7 +9,7 @@ const BhadjanyDattatree = () => {
             Аудио файлы бхаджанов Даттатрее
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. АТРИ НАНДАНА
           </h2>
           <p className="font-bold">
@@ -53,7 +53,7 @@ const BhadjanyDattatree = () => {
             поклонение Тебе - Бытие, Сознание, Блаженство!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ДАТТА ДЕВА
           </h2>
           <p className="font-bold">
@@ -101,7 +101,7 @@ const BhadjanyDattatree = () => {
           </p>
 
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА
           </h2>
           <p className="font-bold">
@@ -129,7 +129,7 @@ const BhadjanyDattatree = () => {
             Бытие, Сознание, Блаженство, прекрасноокий друг!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШРИ ГУРУ ДАТТА
           </h2>
           <p className="font-bold">
@@ -203,7 +203,7 @@ const BhadjanyDattatree = () => {
           </p>
 
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ДАТТАМ ДИНА ДЖАНАРТИ
           </h2>
           <p className="font-bold">
@@ -238,7 +238,7 @@ const BhadjanyDattatree = () => {
             Я неусыпно почитаю образ единого Истинного Гуру, Бытие, Сознание, Блаженство!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА
           </h2>
           <p className="font-bold">
@@ -251,7 +251,7 @@ const BhadjanyDattatree = () => {
             Слава Божественному, Истинному Гуру!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
           </h2>
           <p className="font-bold">
@@ -316,7 +316,7 @@ const BhadjanyDattatree = () => {
             О Гуру Датта, в Тебе я принимаю Прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ШРИ ДАТТА
           </h2>
           <p className="font-bold">
@@ -338,7 +338,7 @@ const BhadjanyDattatree = () => {
             О Духовный Учитель! Слава Тебе, вновь и вновь!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ДАТТА ДИГАМБАРА
           </h2>
           <p className="font-bold">
@@ -353,7 +353,7 @@ const BhadjanyDattatree = () => {
             поклонение Тебе, Датта!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. НАМО ДАТТА
           </h2>
           <p className="font-bold">
@@ -406,7 +406,7 @@ const BhadjanyDattatree = () => {
             Блаженству - поклонение, поклонение!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ДАТТАТРЕЙЯ ТРИМУРТИ РУПА
           </h2>
           <p className="font-bold">
@@ -463,7 +463,7 @@ const BhadjanyDattatree = () => {
             По сути Ты - Бытие, Сознание, Блаженство!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ДАТТА ДЭВА ДЭВА ДЭВА
           </h2>
           <p className="font-bold">
@@ -514,7 +514,7 @@ const BhadjanyDattatree = () => {
             Бесконечный свет, Божественный поток!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ГУРУТТАМА
           </h2>
           <p className="font-bold">

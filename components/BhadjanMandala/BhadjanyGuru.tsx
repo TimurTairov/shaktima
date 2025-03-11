@@ -9,7 +9,7 @@ const BhadjanyGuru = () => {
             Аудио файлы бхаджанов Гуру
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. АДИ ГУРУ НАМЕ
           </h2>
           <p className="font-bold">
@@ -28,7 +28,7 @@ const BhadjanyGuru = () => {
             слово Гуру – основа всех мантр, милость Гуру – основа спасения.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ГУРУ
           </h2>
           <p className="font-bold">
@@ -78,7 +78,7 @@ const BhadjanyGuru = () => {
             Я простираюсь перед Гуру-Брахманом, высшим сознанием!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ДЖЕЙ ДЖЕЙ ГУРУ ДЕВА
           </h2>
           <p className="font-bold">
@@ -93,7 +93,7 @@ const BhadjanyGuru = () => {
             Гуру – это и Отец и Мать. Нет никого превыше Гуру!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ГУРУ МАНГАЛАМ
           </h2>
           <p className="font-bold">
@@ -105,7 +105,7 @@ const BhadjanyGuru = () => {
             стопы Гуру во благо!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ВАНДЕ ГУРУДЕВ
           </h2>
           <p className="font-bold">
@@ -117,7 +117,7 @@ const BhadjanyGuru = () => {
             Вновь и вновь – почтение Гуру!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ГУРУ БАБА
           </h2>
           <p className="font-bold">
@@ -134,7 +134,7 @@ const BhadjanyGuru = () => {
             воплощение высшего покоя! Слава и победа Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ГУРУ МАХИМА
           </h2>
           <p className="font-bold">
@@ -201,7 +201,7 @@ const BhadjanyGuru = () => {
             О Великий Гуру! Слава, слава Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ГУРУ БАНДАРУ
           </h2>
           <p className="font-bold">
@@ -265,7 +265,7 @@ const BhadjanyGuru = () => {
             преданность блаженству Брахмана.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. САТЧИТАНАНДА ГУРУ
           </h2>
           <p className="font-bold">
@@ -279,7 +279,7 @@ const BhadjanyGuru = () => {
             Приветствую Гуру, проявленное Блаженство Бытия!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ГУРУ ДЕВАЯ НАМО
           </h2>
           <p className="font-bold">
@@ -301,7 +301,7 @@ const BhadjanyGuru = () => {
             святости и чистоты! В Тебе мы принимаем прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ДЖАЯ ГУРУ ОМКАРА
           </h2>
           <p className="font-bold">
@@ -319,7 +319,7 @@ const BhadjanyGuru = () => {
             Приветствия Высшему Гуру!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ОМ НАМО ГУРУ ДЭВА
           </h2>
           <p className="font-bold">
@@ -334,7 +334,7 @@ const BhadjanyGuru = () => {
             Истину Адвайты! Я простираюсь и предаюсь Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ДЖАЯ КИ ГУРУ МАХАРАДЖ
           </h2>
           <p className="font-bold">
@@ -345,7 +345,7 @@ const BhadjanyGuru = () => {
             Слава, Слава Гуру – Великому царю Дхармы!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             14. ДЖАЯ САДА ГУРУ БХАГАВАН
           </h2>
           <p className="font-bold">
@@ -358,7 +358,7 @@ const BhadjanyGuru = () => {
             Шива! Я принимаю в Тебе Прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             15. ОМКАРА ГУРУДЖИ
           </h2>
           <p className="font-bold">
@@ -369,7 +369,7 @@ const BhadjanyGuru = () => {
             Воплощению Изначального, Священного Звука Ом!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             16. МАНАСА БХАДЖОРЕ ГУРУ ЧАРАНАМ
           </h2>
           <p className="font-bold">
@@ -390,7 +390,7 @@ const BhadjanyGuru = () => {
             Вселенную своей материнской Шакти, наш поклон!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             17. ДЖАЯ ГУРУДЕВ
           </h2>
           <p className="font-bold">
@@ -405,7 +405,7 @@ const BhadjanyGuru = () => {
             высшее Божество! Слава Божественному Гуру!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             18. ОМ НАМО БХАГАВАТЕ ГУРУДЕВАЯ
           </h2>
           <p className="font-bold">
@@ -417,7 +417,7 @@ const BhadjanyGuru = () => {
             Поклоны Гурудеву!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             19. ГУРУ ЕК ДИПА
           </h2>
           <p className="font-bold">
@@ -447,7 +447,7 @@ const BhadjanyGuru = () => {
             Гуру есть совершенная форма, данная Господом
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             20. ОМ ГУРУНАТХА
           </h2>
           <p className="font-bold">

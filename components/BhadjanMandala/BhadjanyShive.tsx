@@ -9,7 +9,7 @@ const BhadjanyShive = () => {
             Аудио файлы бхаджанов Шиве
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ НАМАХ ШИВАЯ
           </h2>
           <p className="font-bold">
@@ -25,7 +25,7 @@ const BhadjanyShive = () => {
             В том Боге, кто есть Бытие, Сознание, Блаженство!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ШИВА ОМ
           </h2>
           <p className="font-bold">
@@ -38,7 +38,7 @@ const BhadjanyShive = () => {
             Приветствия Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ
           </h2>
           <p className="font-bold">
@@ -58,7 +58,7 @@ const BhadjanyShive = () => {
             В Тебе - Владыке всего Сущего я принимаю Прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </h2>
           <p className="font-bold">
@@ -119,7 +119,7 @@ const BhadjanyShive = () => {
             святом городе Удджайн.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ШИВА ШИВА ШИВА ШАМБХО
           </h2>
           <p className="font-bold">
@@ -134,7 +134,7 @@ const BhadjanyShive = () => {
             Господь Мира, я ищу Твоих благословений и Твоей защиты!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ШИВА ШАНКАРА
           </h2>
           <p className="font-bold">
@@ -149,7 +149,7 @@ const BhadjanyShive = () => {
             – Шанкаре я поклоняюсь.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ШИВА ШИВА ШИВА ШАМБХО
           </h2>
           <p className="font-bold">
@@ -165,7 +165,7 @@ const BhadjanyShive = () => {
             О Шамбху, обитель мира! В славе Тебе, о Изначальный, нет равных!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ДЖАЯ ШИВА ШАНКАРА БОМ БОМ ХАРЕ ХАРЕ
           </h2>
           <p className="font-bold">
@@ -179,7 +179,7 @@ const BhadjanyShive = () => {
             когда Шива танцует танец Тандава. Поклонение Великому!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ХАРА МАХАДЕВ
           </h2>
           <p className="font-bold">
@@ -202,7 +202,7 @@ const BhadjanyShive = () => {
             Вечно благой! Ты источник вечного блаженства!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ХАРА ХАРА ХАРА МАХАДЕВА
           </h2>
           <p className="font-bold">
@@ -229,7 +229,7 @@ const BhadjanyShive = () => {
             трехокий танцор! Я ищу прибежища у Твоих стоп!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11.ХАРА ХАРА ШАНКАРА ПАРАМЕШВАРА
           </h2>
           <p className="font-bold">
@@ -241,7 +241,7 @@ const BhadjanyShive = () => {
             всего сущего!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ДЖАЯ ДЖАЯ ШАНКАРА
           </h2>
           <p className="font-bold">
@@ -253,7 +253,7 @@ const BhadjanyShive = () => {
             разрушающему невежество!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ШИВА САМБА САДА
           </h2>
           <p className="font-bold">
@@ -268,7 +268,7 @@ const BhadjanyShive = () => {
             Ты – Шамбху, источник всего благоприятного!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             14. ШИВА МАХЕШВАРА ГУРУДЕВ
           </h2>
           <p className="font-bold">
@@ -292,7 +292,7 @@ const BhadjanyShive = () => {
             миров! Ом! Поклонение Всеблагому!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             15. НАТАРАДЖА
           </h2>
           <p className="font-bold">
@@ -309,7 +309,7 @@ const BhadjanyShive = () => {
             О Властитель вселенной, да обретем мы в Тебе защиту!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             16. ХАРА-МАХАДЕВА
           </h2>
           <p className="font-bold">
@@ -333,7 +333,7 @@ const BhadjanyShive = () => {
             умиротворение и вечное блаженство.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             17. ХАРА ХАРА МАХАДЕВА ШАМБО
           </h2>
           <p className="font-bold">
@@ -349,7 +349,7 @@ const BhadjanyShive = () => {
             Бам», Ты – Владыка звука! Поклонение Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             18. ЧАНДРА ШЕКХАРАЙЯ
           </h2>
           <p className="font-bold">
@@ -367,7 +367,7 @@ const BhadjanyShive = () => {
             склоняюсь перед Великим Богом!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             19. СВАРНА МАЛА СТУТИ
           </h2>
           <p className="font-bold">
@@ -436,7 +436,7 @@ const BhadjanyShive = () => {
             слагают песни.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             20. ШИВА МАНГАЛАМ
           </h2>
           <p className="font-bold">
@@ -554,7 +554,7 @@ const BhadjanyShive = () => {
             пранавой Ом в этот понедельник.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             21. БХОЛЕНАТХ
           </h2>
           <p className="font-bold">
@@ -572,7 +572,7 @@ const BhadjanyShive = () => {
             суету мира! Поклонение Шиве!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             22. ХЕ ШИВА ШАНКАРА
           </h2>
           <p className="font-bold">
@@ -588,7 +588,7 @@ const BhadjanyShive = () => {
             Преданно склоняемся пред Тобой!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             23. ШИВА ПАНЧАКШАРА МАНТРА СТОТРА
           </h2>
           <p className="font-bold">

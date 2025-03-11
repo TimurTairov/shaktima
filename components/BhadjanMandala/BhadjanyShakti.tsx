@@ -9,7 +9,7 @@ const BhadjanyShakti = () => {
             Аудио файлы бхаджанов Шакти
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ДЖАЯ ДЖАЯДЕВИ МАТА
           </h2>
           <p className="font-bold">
@@ -24,7 +24,7 @@ const BhadjanyShakti = () => {
             Поклонение, поклонение Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ДЖАЯ ДЭВИ БХАВАНИ МА
           </h2>
           <p className="font-bold">
@@ -43,7 +43,7 @@ const BhadjanyShakti = () => {
             Прибежище и Милость!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. САИ МАТА
           </h2>
           <p className="font-bold">
@@ -60,7 +60,7 @@ const BhadjanyShakti = () => {
             О, Божественная Мать, я склоняюсь пред Тобой вновь и вновь!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШРИ АМБЕ ДЖАГАДАМБЕ
           </h2>
           <p className="font-bold">
@@ -89,7 +89,7 @@ const BhadjanyShakti = () => {
             Великая святая Тара, слава, слава Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. САРАСВАТИ НАМО ОМ
           </h2>
           <p className="font-bold">
@@ -101,7 +101,7 @@ const BhadjanyShakti = () => {
             Ом! Я поклоняюсь богине Сарасвати!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. САТГУРУ РУПИНИ САРАСВАТИ
           </h2>
           <p className="font-bold">
@@ -145,7 +145,7 @@ const BhadjanyShakti = () => {
             Аим Хрим Шрим ОМ Сарасвати!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ПАРАМЕШВАРИ ДЖАЯ ДУРГЕ
           </h2>
           <p className="font-bold">
@@ -165,7 +165,7 @@ const BhadjanyShakti = () => {
             Слава, слава Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ДЖАЯ ДЖАЯ МА
           </h2>
           <p className="font-bold">
@@ -182,7 +182,7 @@ const BhadjanyShakti = () => {
             Трехокая богиня Дурга, Божественная мать, слава, слава Тебе!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ДЖАЯ ЛАКШМИ КАМАЛЕ
           </h2>
           <p className="font-bold">
@@ -235,7 +235,7 @@ const BhadjanyShakti = () => {
             Гаджа-Лакшми, своим воплощением защищай меня!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ДЕВИ МАХАЛАКШМИ
           </h2>
           <p className="font-bold">

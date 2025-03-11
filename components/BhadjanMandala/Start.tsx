@@ -4,9 +4,11 @@ const Start = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='Start' title='Начало практики' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
-
-          <p className="text-center text-balance max-w-screen-sm">
+        <div className="w-full flex flex-col gap-5">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
+            Ачамана
+          </h2>
+          <p className="text-balance max-w-screen-sm">
             Перед началом практики выполняются{' '}
             <a
               href="/upasana/achamana"
@@ -17,30 +19,30 @@ const Start = () => {
             и ежедневная практика принятия Прибежища:
           </p>
 
-          <p className="font-bold uppercase text-center">
+          <p className="font-bold uppercase">
             Ом Шивам шаранам прападйам
           </p>
-          <p className="text-center text-balance max-w-screen-sm text-sm">
+          <p className="text-balance max-w-screen-sm text-sm">
             Ом! Прибегаю к Шиве, всевышнему Богу, за защитой! <br />
             Ладони молитвенно сложены над сахасрара-чакрой, над макушкой головы.
           </p>
-          <p className="font-bold uppercase text-center">
+          <p className="font-bold uppercase">
             Ом Дхармам шаранам прападйам
           </p>
-          <p className="text-center text-balance max-w-screen-sm text-sm">
+          <p className="text-balance max-w-screen-sm text-sm">
             Ом! прибегаю к дхарме, истинному освобождающему Учению, за защитой!
             <br />
             Ладони молитвенно сложены перед аджна-чакрой на уровне лба.
           </p>
-          <p className="font-bold uppercase text-center">
+          <p className="font-bold uppercase">
             Ом Сангхам шаранам прападйам
           </p>
-          <p className="text-center text-balance max-w-screen-sm text-sm">
+          <p className="text-balance max-w-screen-sm text-sm">
             Ом! прибегаю к сангхе, общине садху, преданных Богу и дхарме за
             защитой! <br />
             Ладони молитвенно сложены в центре груди, перед анахата-чакрой.
           </p>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Выполняется Гуру-йога с Ом
           </h2>
 

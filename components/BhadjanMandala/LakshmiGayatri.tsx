@@ -26,7 +26,7 @@ const LakshmiGayatri = () => {
             И пусть Лакшми осветит наш разум!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">Лакшми мантра</h2>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Лакшми мантра</h2>
 
           <p className="font-bold">
             ОМ ХРИМ ШРИ ЛАКШМИ БХЙО НАМАХА<br />

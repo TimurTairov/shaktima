@@ -16,6 +16,7 @@ import Start from "@/components/BhadjanMandala/Start";
 import Finish from "@/components/BhadjanMandala/Finish";
 import SarasvatiGayatri from "@/components/BhadjanMandala/SarasvatiGayatri";
 import SarasvatiAshtottaraShatanama from "@/components/BhadjanMandala/SarasvatiAshtottaraShatanama";
+import Disclaimer from '@/components/BhadjanMandala/Disclaimer';
 
 const page = () => {
   return (
@@ -44,6 +45,7 @@ const page = () => {
       <ShantiMantra />
       <Meditation4BSB />
       <Finish />
+      <Disclaimer />
       <Link href="/upasana/bm-shakti/" className="mt-10 lg:mt-20 flex justify-center text-lg text-indigo-500">
         <RiArrowGoBackFill className=" size-10" />
       </Link>

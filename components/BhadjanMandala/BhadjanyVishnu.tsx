@@ -9,7 +9,7 @@ const BhadjanyVishnu = () => {
             Аудио файлы бхаджанов Вишну
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ НАМО НАРАЯНАЯ
           </h2>
           <p className="font-bold">
@@ -21,7 +21,7 @@ const BhadjanyVishnu = () => {
             людей своей обителью.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ХАРИ НАРАЯНА
           </h2>
           <p className="font-bold">
@@ -40,7 +40,7 @@ const BhadjanyVishnu = () => {
             страдания невежества!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. НАРАЯНА
           </h2>
           <p className="font-bold">
@@ -54,7 +54,7 @@ const BhadjanyVishnu = () => {
             Ты разрушаешь страх перед циклом рождения и смерти.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ОМ НАМО НАРАЯНАЯ
           </h2>
           <p className="font-bold">
@@ -72,7 +72,7 @@ const BhadjanyVishnu = () => {
             Всепроникающему - поклонение!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
           <p className="font-bold">
@@ -86,7 +86,7 @@ const BhadjanyVishnu = () => {
             достигну я Твоих лотосных стоп!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
           <p className="font-bold">
@@ -104,7 +104,7 @@ const BhadjanyVishnu = () => {
             умиротворением, наивысшим знанием и Освобождением!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
           <p className="font-bold">
@@ -119,7 +119,7 @@ const BhadjanyVishnu = () => {
             Тебя, О Святой Даттарейя!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. НАРАЯНА
           </h2>
           <p className="font-bold">
@@ -134,7 +134,7 @@ const BhadjanyVishnu = () => {
             Просветления и Осовбождения!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ГОПАЛА ГОВИНДА
           </h2>
           <p className="font-bold">
@@ -148,7 +148,7 @@ const BhadjanyVishnu = () => {
             Ты един со Всеблагим Шивой! Я принимаю в тебе Прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
           <p className="font-bold">
@@ -163,7 +163,7 @@ const BhadjanyVishnu = () => {
             Прародителю всего Сущего, Слава Властелину Бесконечности!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ХАРИ ОМ НАМО НАРАЯНА
           </h2>
           <p className="font-bold">
@@ -203,7 +203,7 @@ const BhadjanyVishnu = () => {
             О, Господь Нараяна, все игры твои непостижимы!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. НАРАЯНА ХАРИ
           </h2>
           <p className="font-bold">

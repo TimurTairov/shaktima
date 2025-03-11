@@ -3,13 +3,13 @@ import MyAccordion from '@/components/MyAccordion'
 const BhadjanySiddham = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
-      <MyAccordion id='BhadjanySiddham' title='Бхаджаны сиддхам и божествам' big className='max-w-xl'>
+      <MyAccordion id='BhadjanySiddham' title='Бхаджаны сиддхам' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
           <a href='https://t.me/jkjlkjscksj/195/1363' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов сиддхам и божествам
           </a>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ ГАМ ГАНАПАТАЙЕ НАМАХА
           </h2>
           <p className="font-bold">
@@ -22,7 +22,7 @@ const BhadjanySiddham = () => {
             Ом, я поклоняюсь Господу Ганеше!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ОМ ШИВА ПРАБХАКАРАЯ
           </h2>
           <p className="font-bold">
@@ -39,7 +39,7 @@ const BhadjanySiddham = () => {
             Я принимаю прибежище в Бхагаване Шива Прабхакаре!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ГАНЕША ШРИ ГАНЕША
           </h2>
           <p className="font-bold">
@@ -57,7 +57,7 @@ const BhadjanySiddham = () => {
             Субрамании!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШИВАЯ НАМО ОМ
           </h2>
           <p className="font-bold">
@@ -69,7 +69,7 @@ const BhadjanySiddham = () => {
             Ом! Поклонение благому Шиве!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5.САХАДЖИЯ ЛАЙЯ АМРИТА
           </h2>
           <p className="font-bold">
@@ -82,7 +82,7 @@ const BhadjanySiddham = () => {
             Ом! Я призываю благословение Изначальной Реальности!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ ШИВА ШАНКАРА
           </h2>
           <p className="font-bold">
@@ -93,7 +93,7 @@ const BhadjanySiddham = () => {
             Ом! Слава Великому! Шиве Всеблагому поклонение!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ОМ НАМАХ ШИВАЯ
           </h2>
           <p className="font-bold">
@@ -105,7 +105,7 @@ const BhadjanySiddham = () => {
             реальности!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. НАМО БХАГАВАН РАМАЛИНГА
           </h2>
           <p className="font-bold">

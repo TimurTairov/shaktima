@@ -14,7 +14,7 @@ const DattaArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Гуру Датта Дигамбар Стотра
           </h2>
 
@@ -46,7 +46,7 @@ const DattaArati = () => {
             Так вижу Господа Шри Гуру Даттатрею.
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Даттатрейя Арати
           </h2>
 
@@ -193,7 +193,7 @@ const DattaArati = () => {
           </p>
           <ShriBheshaKioShambho />
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Датта пранам
           </h2>
           <p className="font-bold">
