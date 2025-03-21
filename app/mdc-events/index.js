@@ -4,8 +4,14 @@ import bhadjanMandala from "@/public/mdc-events/bhadjan-mandala.webp"
 import yogaMarafon from '@/public/mdc-events/yoga-marafon.webp'
 import simvolVery from '@/public/mdc-events/simvol-very.webp'
 import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp"
+import sadhutapovan from "@/public/mdc-events/sadhutapovan.webp"
 
 export const seminary = [
+  {
+    id: "sadhu-tapovan",
+    title: "Йога туры на Алтае",
+    img: sadhutapovan,
+  },
   {
     id: "mahashivaratri2025",
     title: "Махашиваратри 2025 в Москве",
