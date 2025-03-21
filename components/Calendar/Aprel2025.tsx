@@ -4,6 +4,7 @@ import meditation from "@/public/svg/meditation-online.svg"
 import meditationOffline from "@/public/svg/meditation.svg"
 import kundalini from '@/public/svg/kundalini-yoga.svg'
 import sriYantra from '@/public/svg/sri_yantra_4.svg'
+import durga from '@/public/img/durga.png'
 
 const Aprel2025 = () => {
   return (
@@ -81,6 +82,11 @@ const Aprel2025 = () => {
           {/* НЕДЕЛЯ 2 */}
           <div className="grid-item">
             <p className="grid-date">7</p>
+            <div className="flex flex-wrap justify-center gap-1">
+              <a>
+                <Image src={durga} alt="Махапуджа Дурге" className="grid-meditation-mobile" />
+              </a>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">8</p>
@@ -252,13 +258,13 @@ const Aprel2025 = () => {
 
       <p className="text-sm my-1">Условные обозначения:</p>
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-1">
-        <div className="w-full flex items-center">
+        <div className="flex items-center">
           <Image src={meditation} alt="медитация сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
             <p className="verySmallText md:text-xs">Медитация сиддхов онлайн</p>
           </Link>
         </div>
-        <div className="w-full flex items-center">
+        <div className="flex items-center">
           <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
             <p className="verySmallText md:text-xs">Кундалини йога сиддхов онлайн</p>
@@ -271,7 +277,13 @@ const Aprel2025 = () => {
           </a>
         </div> */}
 
-        <div className="w-full flex items-center">
+        <div className=" flex items-center">
+          <Image src={durga} alt="Махапуджа Дурге" className="grid-meditation-mobile mr-1" />
+          <a>
+            <p className="verySmallText md:text-xs">Махапуджа Дурге</p>
+          </a>
+        </div>
+        <div className="flex items-center">
           <Image src={sriYantra} alt="Акшая-тритья" className="grid-meditation-mobile mr-1" />
           <a>
             <p className="verySmallText md:text-xs">Акшая-тритья</p>

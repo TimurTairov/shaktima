@@ -18,7 +18,7 @@ const Blog = () => {
           {allArticles.map((article) => {
             return <li key={article.id} className='flex gap-2 xl:gap-5'>
               <div className='shrink-0'>
-                <Image src={article.img} alt={article.title} className='shrink-0 w-full h-auto rounded-lg' />
+                <Image src={article.img} alt={article.title} className='shrink-0 h-[108px] w-[108px] rounded-lg bg-orange-100' />
               </div>
               <div className='flex flex-col justify-between'>
                 <h5 className='text-sm md:text-xl font-medium'>{article.title}</h5>
