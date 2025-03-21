@@ -285,9 +285,9 @@ const Aprel2025 = () => {
         </div>
         <div className="flex items-center">
           <Image src={sriYantra} alt="Акшая-тритья" className="grid-meditation-mobile mr-1" />
-          <a>
+          <Link href="/blog/akshaya-tritiya">
             <p className="verySmallText md:text-xs">Акшая-тритья</p>
-          </a>
+          </Link>
         </div>
       </div>
 
