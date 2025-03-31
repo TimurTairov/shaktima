@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container"
 import Image from "next/image"
-import at from '@/public/blog/pngwing.com (17).png'
+import at from '@/public/blog/pngwing.com (17).webp'
 
 const page = () => {
   return (
