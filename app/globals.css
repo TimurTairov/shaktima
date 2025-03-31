@@ -10,6 +10,10 @@
   }
 }
 
+.rutube {
+  @apply w-full h-56 sm:h-60 md:h-96 lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem] rounded-md;
+}
+
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100vh;
   border-radius: 0.5rem;

@@ -13,11 +13,20 @@ const Start = () => {
             Перед началом практики выполняются{' '}
             <a
               href="/upasana/achamana"
-              className="text-indigo-600 dark:text-indigo-300"
+              className="text-indigo-600 dark:text-indigo-300 hover:underline"
             >
               ачамана
             </a>{' '}
-            и далее ежедневная практика принятия Прибежища:
+            и далее
+
+            <a
+              href="/upasana/pancha-ratna-pranama-mantra"
+              className="text-indigo-600 dark:text-indigo-300 hover:underline ml-1"
+            >
+              ежедневная практика принятия Прибежища:
+            </a>{' '}
+
+
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
@@ -27,45 +36,22 @@ const Start = () => {
           <p className="font-bold uppercase">
             Ом Шивам шаранам прападйам
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом! Прибегаю к Шиве, всевышнему Богу, за защитой! <br />
-            Ладони молитвенно сложены над сахасрара-чакрой, над макушкой головы.
-          </p>
+
           <p className="font-bold uppercase">
             Ом Дхармам шаранам прападйам
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом! прибегаю к дхарме, истинному освобождающему Учению, за защитой!
-            <br />
-            Ладони молитвенно сложены перед аджна-чакрой на уровне лба.
-          </p>
+
           <p className="font-bold uppercase">
             Ом Сангхам шаранам прападйам
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом! прибегаю к сангхе, общине садху, преданных Богу и дхарме за
-            защитой! <br />
-            Ладони молитвенно сложены в центре груди, перед анахата-чакрой.
-          </p>
+
           <p className="font-bold uppercase">
             Ом Шактим шаранам прападйам
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом! прибегаю к Вселенской Божественной силе - материнской энергии-Шакти за защитой!
-            <br />
-            Ладони молитвенно сложены напротив муладхара-чакры, основания позвоночника, их пальцы при этом направлены вниз.
-          </p>
+
           <p className="font-bold uppercase">
             Ом Садгурум шаранам прападйам
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом! прибегаю к изначальному Гуру-истинному учителю за защитой!
-            <br />
-            Произнося последнюю строчку, медитируем на образ Шивы, изначального вселенского Гуру всех Гуру, Даттатреи и своего коренного Гуру (Мула-гуру), видя их в единстве, как единую Гуру-таттву, принцип Гуру.
-            <br />
-            Ладони молитвенно сложены в намасте над макушкой головы (сахасрара-чакрой).
-          </p>
-
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Выполняется Гуру-йога с Ом

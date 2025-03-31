@@ -31,7 +31,7 @@ const MahaShivaRatri2024 = () => {
         <h5 className="font-semibold text-xs lg:text-lg text-center text-gray-700 lg:ml-2 mb-2">Видео с Махашиваратри</h5>
         <div className='lg:mx-20 xl:mx-40'>
           <Suspense fallback={<p>Загрузка ...</p>}>
-            <iframe src="https://rutube.ru/play/embed/65cff768edabe0447d5211b2162e5742?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className='w-full lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem] rounded-md'></iframe>
+            <iframe src="https://rutube.ru/play/embed/65cff768edabe0447d5211b2162e5742?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className='rutube'></iframe>
           </Suspense>
         </div>
       </div>

@@ -7,6 +7,7 @@ import bmVishnu from "@/public/upasana/bm-vishnu.jpg"
 import bmGuru from "@/public/upasana/bm-guru.jpg"
 import bmShakti from "@/public/upasana/bm-shakti.jpg"
 import bmSiddhi from "@/public/upasana/bm-siddhi.jpg"
+import panchaRatnaPranamaMantra from "@/public/upasana/pancha-ratna-pranama-mantra.jpg"
 
 export const upasana = [
   {
@@ -53,5 +54,10 @@ export const upasana = [
     id: "achamana",
     title: "Ачамана - ритуальное очищение перед садханой",
     img: achamana,
+  },
+  {
+    id: "pancha-ratna-pranama-mantra",
+    title: "ПАНЧА-РАТНА-ПРАНАМА-МАНТРА",
+    img: panchaRatnaPranamaMantra,
   },
 ] 
