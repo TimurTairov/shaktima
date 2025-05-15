@@ -21,7 +21,7 @@ const page = () => {
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-6/12">
           <div className="flex flex-col justify-between pb-10">
-            <h1 className="textColor w-full text-center pb-2 lg:pb-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight">
+            <h1 className="textColor w-full text-center pb-2 lg:pb-5  text-2xl md:text-3xl lg:text-4xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight">
               МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДАЛИЛА ГИРИ В МОСКВЕ
             </h1>
             <div className="text-left md:text-center  py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -142,10 +142,9 @@ const page = () => {
                 Исследование тонких аспектов сознания, раскрытие внутренних ресурсов и формирование прочной основы для дальнейшего самосовершенствования и гармоничной жизни.
               </div>
               <div className="w-full text-left flex flex-col pb-1 pt-1 mt-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
-                <b>Семинар пройдет с 30 мая по 1 июня. Начало занятий:</b>
-                <p>30 мая - 19:00</p>
-                <p>31 мая - 10:00</p>
-                <p>1 июня - 10:00</p>
+                <b>Семинар пройдет с 30 мая по 1 июня. </b>
+                <b>Начало занятий:</b>
+                <p>30 мая - 19:00, 31 мая - 10:00, 1 июня - 10:00</p>
                 <p>Длительность ~ 4 часа.</p>
               </div>
 
