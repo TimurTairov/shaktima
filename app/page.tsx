@@ -4,7 +4,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { benefitOne, benefitTwo } from "@/components/data";
 import GalaryMDC from '@/components/GalaryMDC'
-import Mart2025 from "@/components/Calendar/Mart2025"
+import May2025 from "@/components/Calendar/May2025"
 
 
 
@@ -69,7 +69,7 @@ export default function Home() {
       >
       </SectionTitle>
 
-      <Mart2025 />
+      <May2025 />
 
       <SectionTitle
         preTitle="Галерея"

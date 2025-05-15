@@ -6,7 +6,7 @@ import { BsInfoCircleFill } from 'react-icons/bs'
 const page = () => {
   return (
     <Container>
-      <h1 className="w-full text-center text-3xl font-semibold my-2">Садхана Даттатрее</h1>
+      <h1 className="textColor w-full text-center text-3xl font-semibold my-2">Садхана Даттатрее</h1>
       <div className="flex justify-center mt-10">
         <Image src={data} alt="Даттатрейя" className="w-full md:w-3/4 lg:w-2/3 xl:w-1/3 h-auto" />
       </div>

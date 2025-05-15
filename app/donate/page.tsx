@@ -5,7 +5,7 @@ import { BsFillPostcardHeartFill } from "react-icons/bs";
 const page = () => {
   return (
     <Container className="min-h-screen">
-      <h1 className="w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Поддержите нас</h1>
+      <h1 className="textColor w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Поддержите нас</h1>
 
       <div className="flex flex-col items-center justify-center">
         <div className="mt-10">

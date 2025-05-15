@@ -6,7 +6,7 @@ import kundalini from '@/public/svg/kundalini-yoga.svg'
 const page = () => {
   return (
     <Container className="min-h-screen">
-      <h1 className="w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+      <h1 className="textColor w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
         Расписание регулярных занятий
       </h1>
 

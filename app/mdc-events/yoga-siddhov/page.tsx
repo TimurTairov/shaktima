@@ -19,7 +19,7 @@ const page = () => {
       <Container className="flex flex-wrap justify-between">
         <div className=" flex items-center justify-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8 lg:h-3/5 flex flex-col justify-between">
-            <h1 className="w-full text-center text-balance text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl 2xl:text-5xl xl:leading-tight dark:text-white">
+            <h1 className="w-full text-center text-balance text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl 2xl:text-5xl xl:leading-tight dark:text-white textColor">
               Семинар «Йога Сиддхов»: путь к ясности, гармонии и внутреннему покою
             </h1>
             <p className="w-full text-center text-balance py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">

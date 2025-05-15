@@ -21,7 +21,7 @@ const page = () => {
   return (
     <Container >
       <div className="w-full py-5 flex justify-center items-center gap-3 text-lg font-semibold leading-snug tracking-tight lg:leading-tight lg:text-4xl">
-        <h1 className="text-gray-800  dark:text-white">
+        <h1 className="textColor">
           Пуджа Вишну. 2-ая неделя
         </h1>
         <Link href="/upasana/bm-vishnu/" className="inline-flex text-lg text-indigo-500">

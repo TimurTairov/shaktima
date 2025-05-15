@@ -27,6 +27,10 @@
   font-size: 0.5rem;
 }
 
+.textColor {
+  @apply text-indigo-400 dark:text-indigo-100;
+}
+
 /* GRID CALENDAR */
 .grid-item-dn {
   @apply text-center text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 bg-red-300 p-1 rounded-lg font-bold;

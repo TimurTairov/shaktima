@@ -6,8 +6,14 @@ import simvolVery from '@/public/mdc-events/simvol-very.webp'
 import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp"
 import sadhutapovan from "@/public/mdc-events/sadhutapovan.webp"
 import maheshvari from "@/public/mdc-events/maheshvari.jpg"
+import anandalila from "@/public/mdc-events/anandalila.webp"
 
 export const seminary = [
+  {
+    id: "anandalila",
+    title: "Приезд Анандалила Гири в Москву",
+    img: anandalila,
+  },
   {
     id: "maheshvari",
     title: "Приезд Махешвари Гири в Москву",

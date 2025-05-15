@@ -6,8 +6,8 @@ import Image from "next/image";
 const page = () => {
   return (
     <Container className="min-h-screen">
-      <h1 className="w-full text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight  dark:text-white">
-        Мероприятия московского дхарма центра
+      <h1 className="w-full text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight  dark:text-white textColor">
+        Мероприятия московской сангхи
       </h1>
 
       <div className="w-full flex justify-center">

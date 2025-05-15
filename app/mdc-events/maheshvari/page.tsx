@@ -17,7 +17,7 @@ const page = () => {
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="flex flex-col justify-between pb-10 md:pb-0">
-            <h1 className="w-full text-center pb-2 lg:pb-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
+            <h1 className="w-full text-center pb-2 lg:pb-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white textColor">
               Приезд Махешвари в Москву
             </h1>
             <p className="text-left md:text-center  py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">

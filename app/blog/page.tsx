@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const Blog = () => {
   return (
     <Container>
-      <h1 className="w-full text-center text-2xl font-semibold my-2">Блог</h1>
+      <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Блог</h1>
       <div className='flex justify-center mt-10 xl:mt-20'>
         <ul className="flex flex-col justify-center gap-5 xl:gap-10">
           {allArticles.map((article) => {

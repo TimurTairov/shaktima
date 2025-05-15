@@ -17,7 +17,7 @@ const page = () => {
   return (
     <Container className="min-h-screen">
       <div className='mx-2'>
-        <h1 className="w-full text-center text-2xl font-semibold my-2">Контакты для связи</h1>
+        <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Контакты для связи</h1>
         <div className="flex justify-center">
           <div className="mt-5 flex flex-col gap-5 justify-center items-start">
             <div className="flex items-center">

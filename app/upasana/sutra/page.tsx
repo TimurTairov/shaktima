@@ -9,7 +9,7 @@ const page = () => {
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
         <div className="w-full py-5 flex justify-center items-center gap-3 text-lg font-semibold leading-snug tracking-tight lg:leading-tight lg:text-4xl">
-          <h1 className="text-gray-800  dark:text-white">
+          <h1 className="textColor">
             Утреняя сутра
           </h1>
           <Link href="/upasana/" className="inline-flex text-lg text-indigo-500">

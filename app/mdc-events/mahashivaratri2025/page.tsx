@@ -35,7 +35,7 @@ const page = () => {
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
-            <h1 className="w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
+            <h1 className="textColor w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight lg:leading-tight xl:leading-tight">
               МахаШиваРатри'25
             </h1>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">

@@ -9,7 +9,7 @@ export const Hero = () => {
       <Container className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-5xl 2xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="textColor w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-5xl 2xl:text-6xl xl:leading-tight dark:text-white">
               Московский Дхарма центр Шакти Ма
             </h1>
             <p className="w-full text-center lg:text-start py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
