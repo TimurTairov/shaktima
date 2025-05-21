@@ -9,8 +9,8 @@ import seminar from "@/public/hero/seminar.jpeg"
 import { SectionTitle } from "@/components/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Приезд Анандалила Гири в Москву",
-  description: "МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДАЛИЛА ГИРИ В МОСКВЕ",
+  title: "Приезд Свамини Ананда Лила Гири в Москву",
+  description: "МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДА ЛИЛА ГИРИ В МОСКВЕ",
 };
 
 
@@ -22,7 +22,7 @@ const page = () => {
         <div className="flex items-center justify-center w-full lg:w-6/12">
           <div className="flex flex-col justify-between pb-10">
             <h1 className="textColor w-full text-center pb-2 lg:pb-5  text-2xl md:text-3xl lg:text-4xl font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight">
-              МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДАЛИЛА ГИРИ В МОСКВЕ
+              МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДА ЛИЛА ГИРИ В МОСКВЕ
             </h1>
             <div className="text-left md:text-center  py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               <b>29 мая</b> — Открытый сатсанг «Ценность духовного пути. Драгоценность человеческого рождения»
@@ -58,7 +58,7 @@ const page = () => {
         <div className="flex items-center justify-center w-full lg:w-6/12">
           <div className="pb-10">
             <h2 className="w-full text-center text-xl md:text-3xl xl:text-4xl  font-bold leading-snug tracking-tight text-gray-800  lg:leading-tight xl:leading-tight dark:text-white">
-              МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДАЛИЛА ГИРИ
+              МАХАМАНДАЛЕШВАР СВАМИНИ АНАНДА ЛИЛА ГИРИ
             </h2>
             <p className="w-full pb-1 pt-1 mt-10 lg:mt-16 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               Первая европейская женщина, получившая статус «Махамандалешвар»
@@ -89,7 +89,7 @@ const page = () => {
       </div>
 
 
-      <SectionTitle preTitle="Сатсанг со Свамини АнандаЛилой" title="Ценность духовного пути. Драгоценность человеческого рождения">
+      <SectionTitle preTitle="Сатсанг со Свамини Ананда Лила Гири" title="Ценность духовного пути. Драгоценность человеческого рождения">
 
         <div className="flex flex-wrap flex-row justify-between">
           <div className="flex items-center justify-center w-full lg:w-6/12">

@@ -3,10 +3,8 @@ import Link from "next/link";
 import meditation from "@/public/svg/meditation-online.svg"
 import meditationOffline from "@/public/svg/meditation.svg"
 import kundalini from '@/public/svg/kundalini-yoga.svg'
-import sriYantra from '@/public/svg/sri_yantra_4.svg'
-import durga from '@/public/img/durga.png'
-import pranavidiya from "@/public/svg/pranavidiya.svg"
-import homa from "@/public/svg/homa.svg"
+import anandalila from "@/public/img/anandalila.webp"
+import anandalila2 from "@/public/img/anandalila2.webp"
 
 const May2025 = () => {
   return (
@@ -192,12 +190,27 @@ const May2025 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">29</p>
+            <div className="flex justify-center items-center">
+              <a href="/mdc-events/anandalila">
+                <Image src={anandalila2} alt="Открытый сатсанг Ценность духовного пути. Драгоценность человеческого рождения" className="grid-meditation-mobile" />
+              </a>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">30</p>
+            <div className="flex justify-center items-center">
+              <a href="/mdc-events/anandalila">
+                <Image src={anandalila} alt="Семинар 20 крий кундалини йоги" className="grid-meditation-mobile" />
+              </a>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">31</p>
+            <div className="flex justify-center items-center">
+              <a href="/mdc-events/anandalila">
+                <Image src={anandalila} alt="Семинар 20 крий кундалини йоги" className="grid-meditation-mobile" />
+              </a>
+            </div>
           </div>
           <div className="grid-item-none">
             <p className="grid-date"></p>
@@ -244,6 +257,18 @@ const May2025 = () => {
           <Image src={kundalini} alt="Кундалини йога сиддхов" className="grid-meditation-mobile mr-1" />
           <Link href="/raspisanie">
             <p className="verySmallText md:text-xs">Кундалини йога сиддхов онлайн</p>
+          </Link>
+        </div>
+        <div className="flex items-center">
+          <Image src={anandalila2} alt="Семинар 20 крий кундалини йоги" className="grid-meditation-mobile mr-1" />
+          <Link href="/mdc-events/anandalila">
+            <p className="verySmallText md:text-xs">Открытый сатсанг Свамини Ананда Лила Гири</p>
+          </Link>
+        </div>
+        <div className="flex items-center">
+          <Image src={anandalila} alt="Семинар 20 крий кундалини йоги" className="grid-meditation-mobile mr-1" />
+          <Link href="/mdc-events/anandalila">
+            <p className="verySmallText md:text-xs">Семинар 20 крий Кундалини йоги</p>
           </Link>
         </div>
       </div>
