@@ -24,6 +24,12 @@ const benefitOne = {
   desc: "Наш гуру - Свами Вишнудевананда Гири является реализованным мастером адвайта-веданты.",
   images: [
     {
+      original: "https://sun9-77.userapi.com/impg/_IZhohXV7KqKcBEhXnVGj4jxLYRaLJe6sVlLsA/NXIKBj5V2l8.jpg?size=600x800&quality=95&sign=83c801386e1148bf077bf362396c02e3&type=album",
+    },
+    {
+      original: "https://sun9-35.userapi.com/impg/9uBiuNx8ggRPCBLUhs7T6K6-oTNGoqgd3ifcKA/iP01QSN0V4A.jpg?size=600x800&quality=95&sign=3691999da478222df1644d3aa3da5f16&type=album",
+    },
+    {
       original: "https://sun9-68.userapi.com/impg/JmRrJtdL_lCl68BT3mxVa5i-DkSjXOFgxvaRzA/NXXqxc-UJ5A.jpg?size=600x800&quality=95&sign=5bd6794313ea9f053a2c3bed133c3471&type=album",
     },
     {

@@ -63,13 +63,13 @@ export default function Home() {
       </Suspense> */}
 
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Календарь"
         title="Мероприятия дхарма центра"
       >
-      </SectionTitle>
+      </SectionTitle> */}
 
-      <May2025 />
+      {/* <May2025 /> */}
 
       <SectionTitle
         preTitle="Галерея"
