@@ -4,12 +4,19 @@ import Fevral2025 from "@/components/Fevral2025"
 import Mart2025 from "@/components/Calendar/Mart2025"
 import Aprel2025 from "@/components/Calendar/Aprel2025"
 import May2025 from "@/components/Calendar/May2025"
+import June2025 from "@/components/Calendar/June2025"
+import Jule2025 from "@/components/Calendar/Jule2025"
+import August2025 from "@/components/Calendar/August2025"
 
 const page = () => {
 
   return (
     <Container className="min-h-screen">
       <h1 className="textColor w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Календарь</h1>
+
+      <August2025 />
+      <Jule2025 />
+      <June2025 />
       <May2025 />
       <Aprel2025 />
       <Mart2025 />
