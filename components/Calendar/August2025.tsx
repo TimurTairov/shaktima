@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ganesha from '@/public/svg/ganesha.svg'
 import sriPada from "@/public/img/sripada.webp"
+import om from '@/public/svg/om2.svg'
 
 const August2025 = () => {
   return (
@@ -103,16 +104,35 @@ const August2025 = () => {
           </div>
           <div className="grid-item">
             <p className="grid-date">14</p>
+            <div className="flex flex-wrap justify-center gap-1">
+              <>
+                <Image src={om} alt="Дни Индии" className="grid-meditation-mobile p-0.5" />
+              </>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">15</p>
+            <div className="flex flex-wrap justify-center gap-1">
+              <>
+                <Image src={om} alt="Дни Индии" className="grid-meditation-mobile p-0.5" />
+              </>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">16</p>
+            <div className="flex flex-wrap justify-center gap-1">
+              <>
+                <Image src={om} alt="Дни Индии" className="grid-meditation-mobile p-0.5" />
+              </>
+            </div>
           </div>
           <div className="grid-item">
             <p className="grid-date">17</p>
-
+            <div className="flex flex-wrap justify-center gap-1">
+              <>
+                <Image src={om} alt="Дни Индии" className="grid-meditation-mobile p-0.5" />
+              </>
+            </div>
           </div>
 
           {/* НЕДЕЛЯ 4 */}
@@ -203,9 +223,13 @@ const August2025 = () => {
       </div >
       {/* grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6  */}
       <p className="text-sm my-1">Условные обозначения:</p>
-      <div className="w-full 
-      flex flex-col md:flex-row flex-wrap
-      gap-3">
+      <div className="w-full flex flex-col md:flex-row flex-wrap gap-3">
+        <div className="flex items-center">
+          <Image src={om} alt="Дни Индии в Москве" className="grid-meditation-mobile p-0.5 mr-1" />
+          <>
+            <p className="verySmallText md:text-xs">Дни Индии в Москве</p>
+          </>
+        </div>
         <div className="flex items-center">
           <Image src={ganesha} alt="Гуру пурнима" className="grid-meditation-mobile mr-1" />
           <>
