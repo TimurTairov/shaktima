@@ -398,7 +398,7 @@ const page = () => {
           </MyAccordion>
 
           {/* 9 */}
-          <MyAccordion id='Datta-stotra' title='9.1 Даттатрея стотра' big className='max-w-xl'>
+          <MyAccordion id='Datta-stotra' title='9 Даттатрея стотра' big className='max-w-xl'>
             <div className="w-full  flex flex-col justify-center gap-5">
               <p className="font-bold">
                 АСЬЯ ШРИ ДАТТАТРЕЙЯ СТОТРАМ
@@ -422,9 +422,11 @@ const page = () => {
               <p className="font-bold md:text-left">
                 АСЙА ШРИ ДАТТАТРЕЙА СТОТРА МАНТРАСЙА
                 <br />
-                БХАГАВАН НАРАДА РУШИХИ АНУШТУП
+                БХАГАВАН НАРАДА РУШИХИ
                 <br />
-                ЧАНДАХА ШРИ ДАТТА ПАРАМАТМА ДЕВАТА
+                АНУШТУП ЧАНДАХА
+                <br />
+                ШРИ ДАТТА ПАРАМАТМА ДЕВАТА
                 <br />
                 ШРИ ДАТТА ПРИТЙАРТХЕ ДЖАПЭ ВИНИЙОГАХА
               </p>
@@ -696,7 +698,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='DattaStava' title='9.2 Датта-става (по средам)' big className='max-w-xl'>
+          {/* <MyAccordion id='DattaStava' title='9.2 Датта-става (по средам)' big className='max-w-xl'>
             <div className="w-full  flex flex-col justify-center gap-5">
               <p className='font-bold'>
                 Шри Ганешайа Намаха Шри Сарасватйаи Намаха<br />
@@ -817,7 +819,7 @@ const page = () => {
                 Шри Гуру Даттатрейaя Намаха
               </p>
             </div>
-          </MyAccordion>
+          </MyAccordion> */}
 
           <MyAccordion id='VtoroiPoklon' title='10. Второй поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
