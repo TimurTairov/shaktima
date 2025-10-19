@@ -29,11 +29,11 @@ export const seminary = [
     title: "Махашиваратри 2025 в Москве",
     img: mahashivaratri2025,
   },
-  {
-    id: "simvol-very",
-    title: "Церемония принятия Символа Веры",
-    img: simvolVery,
-  },
+  // {
+  //   id: "simvol-very",
+  //   title: "Церемония принятия Символа Веры",
+  //   img: simvolVery,
+  // },
   {
     id: "yoga-marafon",
     title: "Йога марфон",
