@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import MyAccordion from '@/components/MyAccordion'
 import SendMessageToTirthadeva from "@/components/SendMessageToTirthadeva";
+import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
 
 const page = () => {
   return (
@@ -97,7 +98,7 @@ const page = () => {
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
-            <p className="w-full text-center">Мадхаваприя</p>
+            <SendMessageToMadhavapriya />
           </div>
 
           {/* <div className="grid-item-rasp ">
@@ -130,7 +131,7 @@ const page = () => {
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">11:00 - 12:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Мадхаваприя</p>
+            <SendMessageToMadhavapriya />
           </div>
           {/* <div className="grid-item-rasp ">
           </div>
@@ -164,33 +165,29 @@ const page = () => {
           {/* 5 */}
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">18:00 - 21:00</p>
-            <b className="w-full text-center">Бжаджан Мандала</b>
+            <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center"></p>
           </div>
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">18:00 - 21:00</p>
-            <b className="w-full text-center">Бжаджан Мандала</b>
+            <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center"></p>
           </div>
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бжаджан Мандала</b>
+            <b className="w-full text-center">Бхаджан Мандала</b>
             <SendMessageToTirthadeva />
           </div >
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">18:00 - 21:00</p>
-            <b className="w-full text-center">Бжаджан Мандала</b>
+            <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center">Сатьянанда</p>
           </div>
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">18:00 - 21:00</p>
-            <b className="w-full text-center">Бжаджан Мандала</b>
+            <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center"></p>
           </div>
-          {/* <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div> */}
 
         </div >
       </div >
