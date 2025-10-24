@@ -14,6 +14,10 @@
   @apply w-full h-56 sm:h-60 md:h-96 lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem] rounded-md;
 }
 
+.mainTitle {
+  @apply textColor w-full text-center text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl font-semibold my-2;
+}
+
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: 100vh;
   border-radius: 0.5rem;
@@ -24,7 +28,7 @@
 }
 
 .verySmallText {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 }
 
 .textColor {
@@ -33,13 +37,13 @@
 
 /* GRID CALENDAR */
 .grid-item-dn {
-  @apply text-center text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 bg-red-300 p-1 rounded-lg font-bold;
+  @apply text-center text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 bg-red-300 p-1 rounded-lg;
 }
 .grid-item {
-  @apply text-center text-xs bg-red-100 p-1 rounded-lg flex flex-col justify-between h-20;
+  @apply text-center  p-1 rounded-lg flex flex-col justify-between h-20;
 }
 .grid-item-rasp {
-  @apply text-xs bg-red-100 p-1 rounded-lg h-10 flex items-center justify-center;
+  @apply verySmallText md:text-xs  p-1 rounded-lg h-16 flex flex-col gap-1 items-center justify-center;
 }
 .grid-item-time {
   @apply verySmallText sm:text-xs font-bold md:text-sm lg:text-base xl:text-lg text-indigo-800 bg-red-300 p-1 rounded-lg h-10 flex items-center;
