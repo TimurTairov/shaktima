@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 const page = () => {
   return (
     <Container>
-      <h1 className="textColor w-full text-center text-3xl font-semibold my-2">ПАНЧА-РАТНА-ПРАНАМА-МАНТРА</h1>
+      <h1 className="mainTitle">ПАНЧА-РАТНА-ПРАНАМА-МАНТРА</h1>
       <div className="mt-10  flex flex-col gap-5">
         <div>
           Во время сандхьи (восход, астрономический полдень и закат Солнца), когда ветры активны в центральном канале (в сушумне), сядьте лицом на восток и выполните панчаратна-пранама-мантру.

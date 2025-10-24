@@ -8,7 +8,7 @@ const page = () => {
     <Container className="min-h-screen">
 
       <div className="w-full py-5 flex justify-center items-center gap-3 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-semibold leading-snug tracking-tight lg:leading-tight">
-        <h1 className="textColor">
+        <h1 className="mainTitle">
           Бхаджан Мандала. Понедельник
         </h1>
         <Link href="/upasana/" className="inline-flex text-lg text-indigo-500">

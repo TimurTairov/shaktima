@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 const page = () => {
   return (
     <Container>
-      <h1 className="textColor w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">АЧАМАНА</h1>
+      <h1 className="mainTitle">АЧАМАНА</h1>
 
       <p className="mt-5 w-full text-center text-lg font-medium">Ритуальная ежедневная практика очищения.</p>
       <p className="mt-5">Очистительная церемония является очень важным аспектом для
