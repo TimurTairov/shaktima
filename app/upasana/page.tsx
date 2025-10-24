@@ -6,7 +6,7 @@ import { upasana } from "./index"
 const page = () => {
   return (
     <Container className="min-h-screen">
-      <h1 className="w-full text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold leading-snug tracking-tight lg:leading-tight textColor">
+      <h1 className="mainTitle">
         Упасана - практика у алтаря
       </h1>
       <div className="w-full flex justify-center">

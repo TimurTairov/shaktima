@@ -7,6 +7,8 @@ import { FaTelegram } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaOm } from "react-icons/fa";
 import { Metadata } from 'next'
+import map from "@/public/map.webp"
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: 'Контакты',
@@ -17,10 +19,19 @@ const page = () => {
   return (
     <Container className="min-h-screen">
       <div className='mx-2'>
-        <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Контакты для связи</h1>
+        <h1 className="mainTitle">Контакты для связи</h1>
         <div className="flex justify-center">
           <div className="mt-5 flex flex-col gap-5 justify-center items-start">
             <div className="flex items-center">
+              <FaWhatsappSquare className="mr-2" />
+              <h5 className="dark:text-gray-300 text-gray-700">
+                Атмаприя:
+                <a href="whatsapp://send?phone=+79163898998" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-700 hover:underline ml-2 ">
+                  написать в WhapsApp
+                </a>
+              </h5>
+            </div>
+            {/* <div className="flex items-center">
               <FaWhatsappSquare className="mr-2" />
               <h5 className="dark:text-gray-300 text-gray-700">
                 Мадхувидья:
@@ -28,7 +39,7 @@ const page = () => {
                   написать в WhapsApp
                 </a>
               </h5>
-            </div>
+            </div> */}
             <div className="flex items-center">
               <FaWhatsappSquare className="mr-2" />
               <h5 className="dark:text-gray-300 text-gray-700">
@@ -41,7 +52,9 @@ const page = () => {
           </div>
         </div>
 
-        <h1 className="w-full text-center text-2xl font-semibold mt-10 lg:mt-20">Наши ресурсы</h1>
+
+
+        <h5 className="w-full text-center text-2xl font-semibold mt-10 lg:mt-20">Наши ресурсы</h5>
         <div className="flex justify-center">
           <ul className="mt-5 flex flex-col gap-5 justify-center items-start">
             <li className="dark:text-gray-300 text-gray-700 hover:text-indigo-700 hover:underline flex items-center">
@@ -89,8 +102,22 @@ const page = () => {
           </ul>
         </div>
 
+        <h5 className="w-full text-center text-2xl font-semibold mt-10 lg:mt-20">Адрес</h5>
+        <div >
+
+          <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=37.668904%2C55.774561&whatshere%5Bzoom%5D=18.819712&ll=37.669085762467624%2C55.77426729014845&z=18.819712&si=r7j7h7y8fjzvh7vpk1ybn5npj8"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full flex justify-center items-center gap-1 mt-5"
+          >
+            <p className="text-xs md:text-base lg:text-lg">Нижняя Красносельская улица, 40/12к2, подъезд 3</p>
+            <FaMapMarkerAlt />
+          </a>
+          <Image src={map} alt="" className="mt-5 rounded-xl xl:rounded-2xl 2xl:rounded-3xl"></Image>
+        </div>
+
       </div>
-    </Container>
+    </Container >
   )
 }
 

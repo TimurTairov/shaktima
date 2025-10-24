@@ -13,7 +13,7 @@ const page = () => {
         Расписание регулярных занятий
       </h1>
 
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 dark:text-black">
         <div className="w-full grid grid-cols-5 gap-1 rounded-md">
           {/* ДНИ НЕДЕЛИ */}
           {/* <div className="">
@@ -52,8 +52,8 @@ const page = () => {
 
           {/* 1 */}
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">8:00 - 9:30</p>
-            <b className="w-full text-center">Хатха йога</b>
+            <p className="w-full text-center dark:text-black">8:00 - 9:30</p>
+            <b className="w-full text-center dark:text-black">Хатха йога</b>
             <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp ">
@@ -251,6 +251,7 @@ const page = () => {
             <p>Основные практики:<br />
               · Асаны, пранаямы крии.<br />
               · Практика очищения с 21 ОМ.<br />
+              · Элементы шат-чакра-йоги.<br />
               · Шанти карма садхана.<br />
               · Медитация Чандали.<br />
               · Медитация на дыхании.<br />
