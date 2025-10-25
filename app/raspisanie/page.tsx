@@ -2,6 +2,8 @@ import { Container } from "@/components/Container";
 import MyAccordion from '@/components/MyAccordion'
 import SendMessageToTirthadeva from "@/components/SendMessageToTirthadeva";
 import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
+import SendMessageToArati from "@/components/SendMessageToArati";
+import SendMessageToTarini from "@/components/SendMessageToTarini";
 
 const page = () => {
   return (
@@ -83,7 +85,7 @@ const page = () => {
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
-            <p className="w-full text-center">Арати</p>
+            <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">10:00 - 11:30</p>
@@ -93,7 +95,7 @@ const page = () => {
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
-            <p className="w-full text-center">Тарини</p>
+            <SendMessageToTarini />
           </div>
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">9:00 - 10:30</p>
@@ -116,7 +118,7 @@ const page = () => {
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">11:00 - 12:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Арати</p>
+            <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">11:30 - 12:30</p>
@@ -126,7 +128,7 @@ const page = () => {
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Тарини</p>
+            <SendMessageToTarini />
           </div>
           <div className="grid-item-rasp bg-red-100">
             <p className="w-full text-center">11:00 - 12:00</p>
@@ -153,7 +155,7 @@ const page = () => {
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">15:00 - 16:30</p>
             <b className="w-full text-center">Пранавидья</b>
-            <p className="w-full text-center">Тарини</p>
+            <SendMessageToTarini />
           </div>
           <div className="grid-item-rasp ">
           </div>
