@@ -4,6 +4,7 @@ import SendMessageToTirthadeva from "@/components/SendMessageToTirthadeva";
 import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
 import SendMessageToArati from "@/components/SendMessageToArati";
 import SendMessageToTarini from "@/components/SendMessageToTarini";
+import { BsExclamationTriangle } from "react-icons/bs";
 
 const page = () => {
   return (
@@ -217,7 +218,7 @@ const page = () => {
         <button className="btn btn-xs"><SendMessageToTarini /></button>
         <button className="btn btn-xs"><SendMessageToMadhavapriya /></button>
       </div>
-      <p className="mt-3 text-sm">PS: в сообщении обязательно укажите время и день занятия!</p>
+      <span className="mt-3 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" /> В сообщении обязательно укажите время и день занятия!</span>
 
 
       <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
