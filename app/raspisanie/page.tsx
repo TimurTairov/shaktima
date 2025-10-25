@@ -194,22 +194,33 @@ const page = () => {
         </div >
       </div >
 
-      <h3 className="text-sm my-1 mt-10">Условные обозначения:</h3>
+      <h3 className="text-base my-1 mt-10">Условные обозначения</h3>
       <div className="w-full grid grid-cols-1 gap-2">
         <div className="w-full flex items-center gap-1">
           <div className="size-8 bg-green-100 shrink-0 rounded-md"></div>
-          <p className="w-full text-xs">телесные практики: асаны, виньясы, вьяямы, физические крии. </p>
+          <p className="w-full text-xs">Телесные практики: асаны, виньясы, вьяямы, физические крии. </p>
         </div>
         <div className="flex items-center gap-1">
           <div className="size-8 bg-blue-100 shrink-0 rounded-md"></div>
-          <p className="w-full text-xs">дыхательные и ментальные практики: пранаямы, медитации, мантры. </p>
+          <p className="w-full text-xs">Дыхательные и ментальные практики: пранаямы, медитации, мантры. </p>
         </div>
         <div className="flex items-center gap-1">
           <div className="size-8 bg-red-100 shrink-0 rounded-md"></div>
-          <p className="w-full text-xs">алтарные садханы: ритуальные практики у алтаря. </p>
+          <p className="w-full text-xs">Алтарные садханы: ритуальные практики у алтаря. </p>
         </div>
       </div>
-      <h3 className="text-sm my-1 mt-10">Краткое описание практик:</h3>
+
+      <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
+      <div className="grid grid-cols-2 lg:grid-cols-4 w-full gap-2">
+        <a className="btn"><SendMessageToTirthadeva /></a>
+        <a className="btn"><SendMessageToArati /></a>
+        <a className="btn"><SendMessageToTarini /></a>
+        <a className="btn"><SendMessageToMadhavapriya /></a>
+      </div>
+      <p className="mt-3 text-sm">PS: в сообщении обязательно укажите время и день занятия!</p>
+
+
+      <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
       <div className="w-full">
         <MyAccordion title='Хатха йога' className="w-full flex flex-col text-xs gap-1">
           <p>Хатха йога — это древняя индийская духовная практика, являющаяся фундаментальной и самой популярной в мире системой йоги.
