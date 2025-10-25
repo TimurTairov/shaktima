@@ -7,8 +7,14 @@ import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp"
 import sadhutapovan from "@/public/mdc-events/sadhutapovan.webp"
 import maheshvari from "@/public/mdc-events/maheshvari.jpg"
 import anandalila from "@/public/mdc-events/anandalila.webp"
+import yogaSeminar from "@/public/mdc-events/yoga-seminar.webp"
 
 export const seminary = [
+  {
+    id: "yoga-seminar",
+    title: "Практический семинар по хатха йоге",
+    img: yogaSeminar,
+  },
   {
     id: "anandalila",
     title: "Приезд Анандалила Гири в Москву",

@@ -102,7 +102,7 @@ const page = () => {
           </ul>
         </div>
 
-        <h5 className="w-full text-center text-2xl font-semibold mt-10 lg:mt-20">Адрес</h5>
+        <h5 id="address" className="w-full text-center text-2xl font-semibold mt-10 lg:mt-20">Адрес</h5>
         <div >
 
           <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=37.668904%2C55.774561&whatshere%5Bzoom%5D=18.819712&ll=37.669085762467624%2C55.77426729014845&z=18.819712&si=r7j7h7y8fjzvh7vpk1ybn5npj8"
