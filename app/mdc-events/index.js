@@ -11,7 +11,7 @@ import yogaSeminar from "@/public/mdc-events/yoga-seminar.webp"
 
 export const seminary = [
   {
-    id: "yoga-seminar",
+    id: "hatha-yoga-workshop-02-11-25",
     title: "Практический семинар по хатха йоге",
     img: yogaSeminar,
   },
