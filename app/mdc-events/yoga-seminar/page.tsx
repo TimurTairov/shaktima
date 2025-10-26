@@ -21,8 +21,8 @@ import { TbHealthRecognition } from "react-icons/tb";
 import { FaOm } from "react-icons/fa6";
 
 export const metadata: Metadata = {
-  title: "Йога марафон",
-  description: "В новый год с чистыми каналами",
+  title: "Семинар по хатха йоге",
+  description: "Практический семинар по хатха йоге пройдет в ДЦ ШактиМа 2 ноября в 11:00.",
 };
 
 
