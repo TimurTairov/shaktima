@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Container } from "@/components/Container"
 import { SectionTitle } from "@/components/SectionTitle"
 import Image from 'next/image'
-import yoga from "@/public/mdc-events/yoga.jpg"
+import yoga from "@/public/mdc-events/yoga.webp"
 import yogaAsana from "@/public/svg/yoga-asana2.svg"
 import tirthadeva from "@/public/mdc-events/tirthadeva.webp"
 import asana2 from '@/public/svg/Yoga SVG/1801507.svg'
@@ -40,7 +40,7 @@ const page = () => {
             </p>
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col space-y-3 sm:space-x-4 sm:space-y-0 items-center justify-center  sm:flex-row">
               <a
-                href="https://forms.gle/wSkrDZhiwFgDCtV1A"
+                href="https://wa.me/79672067710?text=Ом+намасте%2C+хочу+записаться+к+вам+на+семинар+по+хатха+йоге."
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
@@ -221,7 +221,7 @@ const page = () => {
 
         <div className="flex justify-center mt-10">
           <a
-            href="https://forms.gle/wSkrDZhiwFgDCtV1A"
+            href="https://wa.me/79672067710?text=Ом+намасте%2C+хочу+записаться+к+вам+на+семинар+по+хатха+йоге."
             target="_blank"
             rel="noopener"
             className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md" >Записаться на семинар</a>
