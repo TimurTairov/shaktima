@@ -7,13 +7,15 @@ import May2025 from "@/components/Calendar/May2025"
 import June2025 from "@/components/Calendar/June2025"
 import Jule2025 from "@/components/Calendar/Jule2025"
 import August2025 from "@/components/Calendar/August2025"
+import Noyabr2025 from "@/components/Calendar/Noyabr2025"
 
 const page = () => {
 
   return (
     <Container className="min-h-screen">
       <h1 className="mainTitle">Календарь</h1>
-
+      <Noyabr2025 />
+      {/* 
       <August2025 />
       <Jule2025 />
       <June2025 />
@@ -21,7 +23,7 @@ const page = () => {
       <Aprel2025 />
       <Mart2025 />
       <Fevral2025 />
-      <Yanvar2025 />
+      <Yanvar2025 /> */}
 
     </Container >
   )

@@ -207,8 +207,8 @@ const page = () => {
                   <div className="flex items-start gap-5">
                     <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
                     <div className="flex flex-col items-start gap-3">
-                      <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
-                      <p className="text-left">2800₽
+                      <p className="text-2xl text-indigo-500  font-semibold">Ценность</p>
+                      <p className="text-left">2800₽. Реквизиты для перевода на карту по номеру телефона: +79672067710 Т-банк (Тимур)
                       </p>
                     </div>
                   </div>
