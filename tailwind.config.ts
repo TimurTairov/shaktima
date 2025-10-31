@@ -19,6 +19,10 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      fontFamily: {
+        izmir: 'var(--font-izmir)',
+        jaipur: 'var(--font-jaipur)',
+      },
     },
   },
   plugins: [require('daisyui')],

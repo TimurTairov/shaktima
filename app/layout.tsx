@@ -24,6 +24,17 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const izmir = localFont({
+  src: "./fonts/dsizmir_normal.ttf",
+  variable: "--font-izmir",
+});
+
+const jaipur = localFont({
+  src: "./fonts/jaipur.ttf",
+  variable: "--font-jaipur",
+});
+
+
 
 export default function RootLayout({
   children,
@@ -40,7 +51,7 @@ export default function RootLayout({
           sizes="<generated>"
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-geist-sans antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${izmir.variable} ${jaipur.variable} font-geist-sans antialiased`}>
         <ThemeProvider attribute="class">
           {/* <Navbar2 /> */}
           <MyNavbar />

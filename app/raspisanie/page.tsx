@@ -56,9 +56,10 @@ const page = () => {
 
           {/* 1 */}
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center dark:text-black">8:00 - 9:30</p>
+            {/* <p className="w-full text-center dark:text-black">8:00 - 9:30</p>
             <b className="w-full text-center dark:text-black">Хатха йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
+            <p className="w-full text-center text-red-500">02.11.2025 - Отмена занятия!</p>
           </div>
           <div className="grid-item-rasp ">
           </div>
@@ -84,7 +85,7 @@ const page = () => {
             <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">9:00 - 10:30</p>
+            <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
             <SendMessageToArati />
           </div>
@@ -117,7 +118,7 @@ const page = () => {
             <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:00 - 12:00</p>
+            <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
             <SendMessageToArati />
           </div>
@@ -154,7 +155,7 @@ const page = () => {
             <SendMessageToTirthadeva />
           </div >
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">15:00 - 16:30</p>
+            <p className="w-full text-center">14:00 - 15:30</p>
             <b className="w-full text-center">Пранавидья</b>
             <SendMessageToTarini />
           </div>

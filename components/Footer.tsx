@@ -61,7 +61,7 @@ export function Footer() {
             <div className="btn btn-ghost ">
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-xl lg:text-2xl font-medium text-indigo-500 dark:text-indigo-500"
+                className="flex items-center space-x-2 text-xl xl:text-2xl 2xl:text-3xl font-izmir text-red-500"
               >
                 <Image
                   src={logo}
@@ -70,7 +70,7 @@ export function Footer() {
                   height="32"
                   className="w-8 rounded-full "
                 />
-                <span className="pattaya-regular">Шакти Ма</span>
+                <span className="pattaya-regular">ШактиМа</span>
               </Link>
             </div>
 
