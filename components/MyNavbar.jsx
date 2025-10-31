@@ -32,7 +32,7 @@ const MyNavbar = () => {
           href="/"
           className="btn btn-ghost text-xl hidden lg:flex dark:hover:bg-gray-700"
         >
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 font-medium">
             <Image
               src={logo}
               width="32"
