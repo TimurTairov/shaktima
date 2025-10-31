@@ -70,7 +70,7 @@ export function Footer() {
                   height="32"
                   className="w-8 rounded-full "
                 />
-                <span className="pattaya-regular">ШактиМа</span>
+                <span>ШактиМа</span>
               </Link>
             </div>
 
