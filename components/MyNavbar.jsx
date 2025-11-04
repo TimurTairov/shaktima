@@ -41,7 +41,7 @@ const MyNavbar = () => {
               loading="eager"
               className="w-8 rounded-full"
             />
-            <h2 className="text-xl xl:text-2xl 2xl:text-3xl font-izmir text-red-500">
+            <h2 className="text-3xl xl:text-4xl font-izmir text-red-500">
               ШактиМа
             </h2>
           </div>
@@ -58,9 +58,7 @@ const MyNavbar = () => {
               height="32"
               className="w-8 rounded-full"
             />
-            <h2 className="text-xl xl:text-2xl font-izmir text-red-500">
-              ШактиМа
-            </h2>
+            <h2 className="text-3xl font-izmir text-red-500">ШактиМа</h2>
           </div>
         </Link>
       </div>

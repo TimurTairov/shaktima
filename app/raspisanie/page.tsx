@@ -56,15 +56,14 @@ const page = () => {
 
           {/* 1 */}
           <div className="grid-item-rasp bg-green-100">
-            {/* <p className="w-full text-center dark:text-black">8:00 - 9:30</p>
+            <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
             <b className="w-full text-center dark:text-black">Хатха йога</b>
-            <SendMessageToTirthadeva /> */}
-            <p className="w-full text-center text-red-500">02.11.2025 - Отмена занятия!</p>
+            <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">8:00 - 9:30</p>
+            <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Хатха йога</b>
             <SendMessageToTirthadeva />
           </div >
@@ -80,7 +79,7 @@ const page = () => {
 
           {/* 2 */}
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
+            <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
             <SendMessageToTirthadeva />
           </div>
@@ -90,7 +89,7 @@ const page = () => {
             <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
+            <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
             <SendMessageToTirthadeva />
           </div >
@@ -113,7 +112,7 @@ const page = () => {
 
           {/* 3 */}
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
+            <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
             <SendMessageToTirthadeva />
           </div>
@@ -123,7 +122,7 @@ const page = () => {
             <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
+            <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
             <SendMessageToTirthadeva />
           </div >
@@ -212,15 +211,19 @@ const page = () => {
         </div>
       </div>
 
-      <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
-      <div className="grid grid-cols-2 lg:grid-cols-4 w-full gap-2 lg;gap-5 xl:gap-7 2xl:gap-10">
-        <button className="btn btn-xs"><SendMessageToTirthadeva /></button>
-        <button className="btn btn-xs"><SendMessageToArati /></button>
-        <button className="btn btn-xs"><SendMessageToTarini /></button>
-        <button className="btn btn-xs"><SendMessageToMadhavapriya /></button>
+      <>
+        <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
+        <div className="grid grid-cols-2 lg:grid-cols-4 w-full gap-2 lg;gap-5 xl:gap-7 2xl:gap-10">
+          <button className="btn btn-xs"><SendMessageToTirthadeva /></button>
+          <button className="btn btn-xs"><SendMessageToArati /></button>
+          <button className="btn btn-xs"><SendMessageToTarini /></button>
+          <button className="btn btn-xs"><SendMessageToMadhavapriya /></button>
+        </div>
+        <span className="mt-3 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" />В сообщении обязательно укажите время и день занятия!</span>
+      </>
+      <div className="mt-10">
+        <a href="/contacts/#address" className="btn btn-sm">Как до нас добраться</a>
       </div>
-      <span className="mt-3 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" /> В сообщении обязательно укажите время и день занятия!</span>
-
 
       <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
       <div className="w-full">

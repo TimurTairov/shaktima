@@ -18,7 +18,7 @@ export function Footer() {
     },
     {
       title: "Расписание",
-      url: "/achamana"
+      url: "/raspisanie"
     },
     {
       title: "Календарь",
@@ -56,12 +56,12 @@ export function Footer() {
   return (
     <div className="mt-auto">
       <Container>
-        <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-10 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
+        <div className="text-sm lg:text-base grid max-w-screen-2xl grid-cols-1 md:grid-cols-10 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
           <div className="md:col-span-3">
-            <div className="btn btn-ghost ">
+            <div className="w-full btn">
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-xl xl:text-2xl 2xl:text-3xl font-izmir text-red-500"
+                className="flex items-center space-x-2 text-3xl xl:text-4xl 2xl:text-5xl font-medium font-izmir text-red-500"
               >
                 <Image
                   src={logo}
@@ -161,7 +161,7 @@ export function Footer() {
                 <span className="">Канал в телеграм</span>
               </a>
               <a
-                href="https://t.me/shaktimamdc"
+                href="https://t.me/+GgiaV5DkPoE1OTBi"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center btn dark:btn-outline btn-xs xl:btn-sm font-normal dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100"
