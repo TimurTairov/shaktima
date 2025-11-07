@@ -11,9 +11,9 @@ const page = () => {
         <Image src={data} alt="Даттатрейя" className="w-full md:w-3/4 lg:w-2/3 xl:w-1/3 h-auto" />
       </div>
       <h5 id="om-dram" className="datta-title">1. Семенная восьмисложная мантра Даттатрейи</h5>
-      <h5 className="mt-5 w-full text-center font-bold text-xl my-2">Ом Драм Даттатреяя намаха</h5>
+      <h5 className="mt-5 w-full text-center font-bold lg:text-xl my-2">Ом Драм Даттатреяя намаха</h5>
       <div className="mt-5 flex justify-center">
-        <div className="max-w-5xl flex flex-col gap-3">
+        <div className="max-w-5xl flex flex-col gap-2 lg:gap-3 italic">
           <p>«Восьмисложная мантра — <b>«Драм»</b> или <b>«Драам»</b> с добавлением к ней слогов <b>«Да, ттаа, тре, йаа, йа, на, мах»</b>.</p>
           <p>В этой мантре слово <b>«Даттатреяя»</b> относится к истинному (изначальному) блаженству сознания, а слово <b>«намах»</b> — к полностью проявленному блаженству.</p>
           <p><b>Размер мантры</b> — гаятри</p>
@@ -25,18 +25,18 @@ const page = () => {
       </div>
       <div className="mt-10 flex items-center justify-center gap-5">
         <BsInfoCircleFill className="w-10 h-10 shrink-0 text-indigo-600 dark:text-indigo-300" />
-        <p>Внимание! Благоприятно получить передачу в данную мантру от гуру.</p>
+        <p className="text-red-500"><b>Внимание!</b> Благоприятно получить передачу в данную мантру от гуру!</p>
       </div>
 
 
       <h5 id="datta-gayatri" className="datta-title">2. Датта Гаятри-мантра</h5>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:mx-40">
-        <div className="mt-5 w-full text-center font-bold text-2xl my-2">
+        <div className="mt-5 w-full text-center font-bold lg:text-xl my-2">
           <p>Ом Даттатреяя видмахе</p>
           <p>Атрипутрая дхимахи</p>
           <p>Танно Датта прачодаят</p>
         </div>
-        <div className="mt-5 w-full text-center text-xl my-2">
+        <div className="mt-5 w-full text-center my-2">
           Ом Да познаем мы Даттатрейю <br />
           Да будем медитировать мы на сына Атри <br />
           И пусть Датта направит нас.
@@ -44,7 +44,7 @@ const page = () => {
       </div>
       <div className="mt-10 flex items-center justify-center gap-5">
         <BsInfoCircleFill className="w-10 h-10 shrink-0 text-indigo-600 dark:text-indigo-300" />
-        <p>Внимание! Благоприятно получить передачу в данную мантру от гуру.</p>
+        <p className="text-red-500"> <b>Внимание!</b> Благоприятно получить передачу в данную мантру от Гуру!</p>
       </div>
 
       <h5 id="datta-meditation" className="datta-title">3. Медитация на внешний образ Даттатрейи</h5>
