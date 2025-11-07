@@ -105,7 +105,7 @@ const page = () => {
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:00 - 12:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
 
           {/* <div className="grid-item-rasp ">
@@ -118,22 +118,22 @@ const page = () => {
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div >
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp ">
           </div>
@@ -170,27 +170,27 @@ const page = () => {
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">19:00 - 22:00</p>
             <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center">Вечерняя пуджа Шиве</p>
+            <p className="w-full text-center font-light italic">Вечерняя пуджа Шиве</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">19:00 - 22:00</p>
             <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center">Вечерняя пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Вечерняя пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">19:00 - 22:00</p>
             <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center">Вечерняя пуджа Вишну</p>
+            <p className="w-full text-center font-light italic">Вечерняя пуджа Вишну</p>
           </div >
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">19:00 - 22:00</p>
             <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center">Вечерняя пуджа Гуру</p>
+            <p className="w-full text-center font-light italic">Вечерняя пуджа Гуру</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">19:00 - 22:00</p>
             <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center">Вечерняя пуджа Шакти</p>
+            <p className="w-full text-center font-light italic">Вечерняя пуджа Шакти</p>
           </div>
 
         </div >
