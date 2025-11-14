@@ -5,6 +5,8 @@ import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
 import SendMessageToArati from "@/components/SendMessageToArati";
 import SendMessageToTarini from "@/components/SendMessageToTarini";
 import { BsExclamationTriangle } from "react-icons/bs";
+import { FcIdea } from "react-icons/fc";
+import { TbAlertSquareFilled } from "react-icons/tb";
 
 const page = () => {
   return (
@@ -56,23 +58,20 @@ const page = () => {
 
           {/* 1 */}
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
+            {/* <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
             <b className="w-full text-center dark:text-black">Хатха йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
           </div>
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">9:00 - 10:30</p>
+            {/* <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
           </div >
           <div className="grid-item-rasp ">
           </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">9:00 - 10:30</p>
-            <b className="w-full text-center">Йога сиддхов</b>
-            <SendMessageToMadhavapriya />
+          <div className="grid-item-rasp">
 
           </div>
 
@@ -83,29 +82,29 @@ const page = () => {
 
           {/* 2 */}
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:30 - 12:00</p>
+            {/* <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
+            {/* <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Шат-чакра-йога</b>
-            <SendMessageToArati />
+            <SendMessageToArati /> */}
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:30 - 12:00</p>
+            {/* <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
           </div >
+          <div className="grid-item-rasp bg-blue-100">
+            {/* <p className="w-full text-center">10:00 - 11:30</p>
+            <b className="w-full text-center">Йога сиддхов</b>
+            <SendMessageToTarini /> */}
+          </div>
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
-            <SendMessageToTarini />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:00 - 12:00</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
+            <SendMessageToMadhavapriya />
           </div>
 
           {/* <div className="grid-item-rasp ">
@@ -116,26 +115,29 @@ const page = () => {
 
           {/* 3 */}
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">12:00 - 13:00</p>
+            {/* <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
+            {/* <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">12:00 - 13:00</p>
+            {/* <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
           </div >
           <div className="grid-item-rasp bg-amber-100">
+            {/* <p className="w-full text-center">11:30 - 12:30</p>
+            <b className="w-full text-center">Сутра</b>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+          </div>
+          <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
             <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div>
-          <div className="grid-item-rasp ">
           </div>
           {/* <div className="grid-item-rasp ">
           </div>
@@ -150,14 +152,14 @@ const page = () => {
 
           </div>
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">17:00 - 18:30</p>
+            {/* <p className="w-full text-center">17:00 - 18:30</p>
             <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
           </div >
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">14:00 - 15:30</p>
+            {/* <p className="w-full text-center">14:00 - 15:30</p>
             <b className="w-full text-center">Пранавидья</b>
-            <SendMessageToTarini />
+            <SendMessageToTarini /> */}
           </div>
           <div className="grid-item-rasp ">
           </div>
@@ -210,6 +212,24 @@ const page = () => {
           <div className="size-8 bg-amber-100 shrink-0 rounded-md"></div>
           <p className="w-full text-xs">Алтарные садханы: ритуальные практики у алтаря. </p>
         </div>
+      </div>
+
+      <h3 className="text-base my-1 mt-10 text-red-500 font-semibold flex items-center gap-1">
+        <TbAlertSquareFilled className="size-5" />
+        Внимание:
+      </h3>
+      <div className="flex flex-col text-sm">
+        <p>1. По техническим причинам утренние занятия 17 (Понедельник), 18 (вторник), 19 (среда) ноября будут отменены.
+        </p>
+        <p>
+          2. В четверг 20 ноября будет занятие по Пранавидье в 9:30 с Нитьяшри Гири по предварительной записи. Записаться можно у
+          <a
+            href="https://t.me/Shartatiana"
+            target='_blank'
+            rel='noreferrer'
+            className="ml-1 dark:text-indigo-400 text-indigo-700 hover:underline">Тарамати</a>
+        </p>
+
       </div>
 
       <>
