@@ -21,11 +21,6 @@ const page = () => {
 
       <div className="flex justify-center mt-10 dark:text-black">
         <div className="w-full grid grid-cols-5 gap-1 rounded-md">
-          {/* ДНИ НЕДЕЛИ */}
-          {/* <div className="">
-            <p className="hidden md:block"></p>
-            <p className="block md:hidden"></p>
-          </div> */}
           <div className="grid-item-dn">
             <p className="hidden md:block">Понедельник</p>
             <p className="block md:hidden">Пн</p>
@@ -47,59 +42,45 @@ const page = () => {
             <p className="block md:hidden">Пт</p>
           </div>
 
-          {/* <div className="grid-item-dn">
-            <p className="hidden md:block">Суббота</p>
-            <p className="block md:hidden">Сб</p>
-          </div>
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Воскресение</p>
-            <p className="block md:hidden">Вс</p>
-          </div> */}
-
           {/* 1 */}
           <div className="grid-item-rasp bg-green-100">
-            {/* <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
+            <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
             <b className="w-full text-center dark:text-black">Хатха йога</b>
-            <SendMessageToTirthadeva /> */}
+            <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp bg-green-100">
-            {/* <p className="w-full text-center">9:00 - 10:30</p>
+            <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva /> */}
+            <SendMessageToTirthadeva />
           </div >
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp">
-
           </div>
 
-          {/* <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div> */}
 
           {/* 2 */}
           <div className="grid-item-rasp bg-blue-100">
-            {/* <p className="w-full text-center">10:30 - 12:00</p>
+            <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva /> */}
+            <SendMessageToTirthadeva />
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            {/* <p className="w-full text-center">10:00 - 11:30</p>
+            <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Шат-чакра-йога</b>
-            <SendMessageToArati /> */}
+            <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            {/* <p className="w-full text-center">10:30 - 12:00</p>
+            <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva /> */}
+            <SendMessageToTirthadeva />
           </div >
           <div className="grid-item-rasp bg-blue-100">
-            {/* <p className="w-full text-center">10:00 - 11:30</p>
+            <p className="w-full text-center">10:00 - 11:30</p>
             <b className="w-full text-center">Йога сиддхов</b>
-            <SendMessageToTarini /> */}
+            <SendMessageToTarini />
           </div>
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">10:00 - 11:30</p>
@@ -107,32 +88,26 @@ const page = () => {
             <SendMessageToMadhavapriya />
           </div>
 
-          {/* <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp ">
-          </div> */}
-
-
           {/* 3 */}
           <div className="grid-item-rasp bg-amber-100">
-            {/* <p className="w-full text-center">12:00 - 13:00</p>
+            <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            {/* <p className="w-full text-center">11:30 - 12:30</p>
+            <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            {/* <p className="w-full text-center">12:00 - 13:00</p>
+            <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div >
           <div className="grid-item-rasp bg-amber-100">
-            {/* <p className="w-full text-center">11:30 - 12:30</p>
+            <p className="w-full text-center">11:30 - 12:30</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:30 - 12:30</p>
@@ -152,14 +127,14 @@ const page = () => {
 
           </div>
           <div className="grid-item-rasp bg-green-100">
-            {/* <p className="w-full text-center">17:00 - 18:30</p>
+            <p className="w-full text-center">17:00 - 18:30</p>
             <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva /> */}
+            <SendMessageToTirthadeva />
           </div >
           <div className="grid-item-rasp bg-blue-100">
-            {/* <p className="w-full text-center">14:00 - 15:30</p>
+            <p className="w-full text-center">14:00 - 15:30</p>
             <b className="w-full text-center">Пранавидья</b>
-            <SendMessageToTarini /> */}
+            <SendMessageToTarini />
           </div>
           <div className="grid-item-rasp ">
           </div>
@@ -214,11 +189,11 @@ const page = () => {
         </div>
       </div>
 
-      <h3 className="text-base my-1 mt-10 text-red-500 font-semibold flex items-center gap-1">
+      {/* <h3 className="text-base my-1 mt-10 text-red-500 font-semibold flex items-center gap-1">
         <TbAlertSquareFilled className="size-5" />
         Внимание:
-      </h3>
-      <div className="flex flex-col text-sm">
+      </h3> */}
+      {/* <div className="flex flex-col text-sm">
         <p>1. По техническим причинам утренние занятия 17 (Понедельник), 18 (вторник), 19 (среда) ноября будут отменены.
         </p>
         <p>
@@ -230,7 +205,7 @@ const page = () => {
             className="ml-1 dark:text-indigo-400 text-indigo-700 hover:underline">Тарамати</a>
         </p>
 
-      </div>
+      </div> */}
 
       <>
         <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
