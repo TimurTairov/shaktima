@@ -37,19 +37,22 @@
 
 /* GRID CALENDAR */
 .grid-item-dn {
-  @apply text-center text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 bg-red-300 p-1 rounded-lg;
+  @apply text-xs md:text-sm lg:text-base xl:text-lg text-indigo-900 font-bold bg-red-300 p-1 rounded-lg flex flex-col items-center justify-center;
 }
 .grid-item {
-  @apply text-center  p-1 rounded-lg flex flex-col justify-between h-20 bg-red-100;
+  @apply text-center p-1 rounded-lg flex flex-col justify-between bg-red-100;
 }
 .grid-item-rasp {
-  @apply verySmallText md:text-xs  p-1 rounded-lg h-16 flex flex-col gap-1 items-center justify-center;
+  @apply verySmallText md:text-xs p-1 rounded-lg flex flex-col gap-1 items-center justify-center;
+}
+.grid-item-rasp-2 {
+  @apply max-w-60 row-span-4 verySmallText md:text-xs p-1 rounded-lg flex flex-col gap-1 items-center justify-center;
 }
 .grid-item-time {
-  @apply verySmallText sm:text-xs font-bold md:text-sm lg:text-base xl:text-lg text-indigo-800 bg-red-300 p-1 rounded-lg h-10 flex items-center;
+  @apply verySmallText sm:text-xs font-bold md:text-sm lg:text-base xl:text-lg text-indigo-800 bg-red-300 p-1 rounded-lg flex items-center;
 }
 .grid-item-none {
-  @apply text-center text-xs bg-red-50 p-1 rounded-lg flex h-20;
+  @apply text-center text-xs bg-red-50 p-1 rounded-lg flex;
 }
 .grid-date {
   @apply w-full text-end text-indigo-800 font-bold text-xs md:text-sm lg:text-base;
