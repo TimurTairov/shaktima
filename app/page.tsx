@@ -4,7 +4,8 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { benefitOne, benefitTwo } from "@/components/data";
 import GalaryMDC from '@/components/GalaryMDC'
-import May2025 from "@/components/Calendar/May2025"
+import Image from "next/image";
+import seminar from "@/public/seminar-1.webp"
 
 
 
@@ -21,7 +22,7 @@ export default function Home() {
       <Container>
         <div className="mt-5 w-full flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Более <span className="text-indigo-500 ">20 000+</span>{" "}
+            Более <span className="text-indigo-500 ">2 000+</span>{" "}
             садху практикуют в нашей традиции
           </div>
 
@@ -70,6 +71,8 @@ export default function Home() {
       </SectionTitle> */}
 
       {/* <May2025 /> */}
+
+      <Image src={seminar} alt="Семинар по базовой концентрации" className="w-full rounded-xl g:rounded-3xl" />
 
       <SectionTitle
         preTitle="Галерея"

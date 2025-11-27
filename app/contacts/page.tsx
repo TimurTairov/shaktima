@@ -10,6 +10,7 @@ import { Metadata } from 'next'
 import map from "@/public/map.jpg"
 import { FaMapMarkerAlt } from "react-icons/fa";
 
+
 export const metadata: Metadata = {
   title: 'Контакты',
   description: 'Контакты и ресурсы'
@@ -23,7 +24,7 @@ const page = () => {
         <div className="flex justify-center">
           <div className="mt-5 flex flex-col gap-5 justify-center items-start">
             <div className="flex items-center">
-              <FaWhatsappSquare className="mr-1" />
+              <FaWhatsappSquare className="mr-1 text-green-400" />
               <h5 className="dark:text-gray-300 text-gray-700">
                 Атмаприя:
                 <a href="whatsapp://send?phone=+79163898998" target="_blank" rel="noreferrer" className=" dark:text-indigo-400 text-indigo-700 hover:underline ml-2 ">
@@ -41,11 +42,11 @@ const page = () => {
               </h5>
             </div> */}
             <div className="flex items-center">
-              <FaWhatsappSquare className="mr-1" />
+              <FaTelegram className="mr-1 text-sky-400" />
               <h5 className="dark:text-gray-300 text-gray-700">
-                Тиртхадева:
-                <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="dark:text-indigo-400 text-indigo-700 hover:underline ml-2 ">
-                  написать в WhapsApp
+                Тарамати:
+                <a href="https://t.me/Shartatiana" target="_blank" rel="noreferrer" className="dark:text-indigo-400 text-indigo-700 hover:underline ml-2 ">
+                  написать в Telegram
                 </a>
               </h5>
             </div>

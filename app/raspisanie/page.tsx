@@ -5,8 +5,9 @@ import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
 import SendMessageToArati from "@/components/SendMessageToArati";
 import SendMessageToTarini from "@/components/SendMessageToTarini";
 import { BsExclamationTriangle } from "react-icons/bs";
-import { FcIdea } from "react-icons/fc";
-import { TbAlertSquareFilled } from "react-icons/tb";
+import { FaTelegram } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { IoNavigateSharp } from "react-icons/io5";
 
 const page = () => {
   return (
@@ -360,20 +361,144 @@ const page = () => {
 
       <>
         <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
-        <div className="grid grid-cols-2 lg:grid-cols-4 w-full gap-2 lg;gap-5 xl:gap-7 2xl:gap-10">
-          <button className="btn btn-xs"><SendMessageToTirthadeva /></button>
-          <button className="btn btn-xs"><SendMessageToArati /></button>
-          <button className="btn btn-xs"><SendMessageToTarini /></button>
-          <button className="btn btn-xs"><SendMessageToMadhavapriya /></button>
+        <div className="flex flex-col gap-2">
+          <MyAccordion title="Тиртхадева" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+            <div className="flex flex-col gap-1">
+              <p className="mt-1">Расписание:</p>
+              <p className="font-light">ПН СР 9:00 Хатха йога</p>
+              <p className="font-light">ПН СР 10:30 Кундалини йога</p>
+              <p className="font-light">СР 17:00 Хатха йога</p>
+
+            </div>
+            <div className="flex gap-1 mt-1">
+              <p className="">Контакты:</p>
+              <a href="whatsapp://send?phone=79672067710"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsappSquare className="size-5 text-green-400" />
+              </a>
+              <a href="https://t.me/tirthadeva"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTelegram className="size-5 text-sky-500" />
+              </a>
+            </div>
+          </MyAccordion>
+
+          <MyAccordion title="Арати" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+            <div className="flex flex-col gap-1">
+              <p className="mt-1">Расписание:</p>
+              <p className="font-light">ВТ 10:00 Шат-чакра-йога</p>
+            </div>
+            <div className="flex gap-1 mt-1">
+              <p className="">Контакты:</p>
+              <a href="whatsapp://send?phone=79266260215"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsappSquare className="size-6 text-green-400" />
+              </a>
+              <a href="https://t.me/Arati_108"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTelegram className="size-6 text-sky-500" />
+              </a>
+            </div>
+
+          </MyAccordion>
+
+          <MyAccordion title="Тарини" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+            <div className="flex flex-col gap-1">
+              <p className="mt-1">Расписание:</p>
+              <p className="font-light">ЧТ 10:00 Йога сиддхов</p>
+              <p className="font-light">ЧТ 14:00 Пранавидья</p>
+            </div>
+            <div className="flex gap-1 mt-1">
+              <p className="">Контакты:</p>
+              <a href="whatsapp://send?phone=79154779637"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsappSquare className="size-6 text-green-400" />
+              </a>
+              <a href="https://t.me/om_tarini"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTelegram className="size-6 text-sky-500" />
+              </a>
+            </div>
+          </MyAccordion>
+
+          <MyAccordion title="Мадхаваприя" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+            <div className="flex flex-col gap-1">
+              <p className="mt-1">Расписание:</p>
+              <p className="font-light">ПТ 10:00 Йога сиддхов</p>
+            </div>
+            <div className="flex gap-1 mt-1">
+              <p className="">Контакты:</p>
+              <a href="whatsapp://send?phone=79852597978"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsappSquare className="size-6 text-green-400" />
+              </a>
+              <a href="https://t.me/margo9978"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTelegram className="size-6 text-sky-500" />
+              </a>
+            </div>
+          </MyAccordion>
+
+          <MyAccordion title="Запись на пуджу" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+            <div className="flex flex-col gap-1">
+              <p className="mt-1">Расписание:</p>
+              <p className="font-light">ПН 12:00 Утрення пуджа Даттатрее</p>
+              <p className="font-light">ПН 19:00 Вечерняя пуджа Шиве</p>
+              <p className="font-light">ВТ 11:30 Утрення пуджа Даттатрее</p>
+              <p className="font-light">ВТ 19:00 Вечерняя пуджа Даттатрее</p>
+              <p className="font-light">СР 12:00 Утрення пуджа Даттатрее</p>
+              <p className="font-light">СР 19:00 Вечерняя пуджа Вишну</p>
+              <p className="font-light">ЧТ 11:30 Утрення пуджа Даттатрее</p>
+              <p className="font-light">ЧТ 19:00 Вечерняя пуджа Гуру</p>
+              <p className="font-light">ПН 11:30 Утрення пуджа Даттатрее</p>
+              <p className="font-light">ПН 19:00 Вечерняя пуджа Шакти</p>
+            </div>
+            <div className="flex gap-1 mt-1">
+              <p className="">Контакты:</p>
+              <a href="whatsapp://send?phone=79852191619"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsappSquare className="size-6 text-green-400" />
+              </a>
+              <a href="https://t.me/Shartatiana"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTelegram className="size-6 text-sky-500" />
+              </a>
+            </div>
+          </MyAccordion>
+
         </div>
+
+
         <span className="mt-3 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" />В сообщении обязательно укажите время и день занятия!</span>
       </>
 
-      <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
-      <div className="w-full">
 
-        <MyAccordion title='Хатха йога' className="w-full flex flex-col text-xs">
-          <p>Хатха йога — это древняя индийская духовная практика, являющаяся фундаментальной и самой популярной в мире системой йоги.
+
+      <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
+      <div className="w-full flex flex-col gap-2">
+
+        <MyAccordion title='Хатха йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">Хатха йога — это древняя индийская духовная практика, являющаяся фундаментальной и самой популярной в мире системой йоги.
             Главная цель классической хатха йоги — подготовка тела и ума к высшим ступеням йоги, таким как медитация (дхьяна) и достижение состояния самадхи (просветления). Она создает «инструмент» — здоровое, сильное и подконтрольное сознанию тело, и спокойный, сконцентрированный ум.
           </p>
           <p className="mt-1">Для чего нужна хатха йога? <br />
@@ -390,8 +515,8 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Кундалини йога' className="w-full flex flex-col text-xs">
-          <p>Кундалини йога — это такой вид йоги, посредством которой мудрецы древности достигали совершенства. Её главная цель — пробудить дремлющую в каждом человеке энергию Кундалини и поднять её через все энергетические центры (чакры) для достижения высшего состояния сознания.
+        <MyAccordion title='Кундалини йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">Кундалини йога — это такой вид йоги, посредством которой мудрецы древности достигали совершенства. Её главная цель — пробудить дремлющую в каждом человеке энергию Кундалини и поднять её через все энергетические центры (чакры) для достижения высшего состояния сознания.
           </p>
           <p className="mt-1">В соответствии с нашим Учением, в основании позвоночника (в области муладхара чакры) находится свёрнутая в три с половиной оборота космическая энергия, символически изображаемая в виде змеи. Это Кундалини-шакти — наша нераскрытая духовная потенция. Задача практики — «разбудить эту змею» и, поднимая её по центральному энергетическому каналу (сушумна), соединить с высшим сознанием (Шивой) в области макушки головы (сахасрара-чакры). Это соединение приводит к полной трансформации сознания и просветлению.</p>
           <p className="mt-1">Ключевые цели Кундалини йоги:<br />
@@ -403,8 +528,8 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Шат-чакра-йога' className="w-full flex flex-col text-xs">
-          <p>ШАТ-ЧАКРА-ЙОГА —  это практика, направленная на очищение и активацию шести основных чакр человека, расположенных вдоль позвоночника.
+        <MyAccordion title='Шат-чакра-йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">ШАТ-ЧАКРА-ЙОГА —  это практика, направленная на очищение и активацию шести основных чакр человека, расположенных вдоль позвоночника.
           </p>
           <p className="mt-1">Основная цель — достижение баланса и гармонии через работу с этими энергетическими центрами, что включает в себя физические позы, дыхательные техники и медитации. Практикуется в стиле Кундалини йоги.
           </p>
@@ -434,8 +559,8 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Йога сиддхов' className="w-full flex flex-col text-xs">
-          <p>Йога сиддхов — это мощная и трансформационная духовная практика. Сочетает в себе элементы хатха, мантра, кундалини и раджа йоги.
+        <MyAccordion title='Йога сиддхов' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">Йога сиддхов — это мощная и трансформационная духовная практика. Сочетает в себе элементы хатха, мантра, кундалини и раджа йоги.
           </p>
           <p className="mt-1">Основные практики:<br />
             · Асаны, пранаямы, крийи.<br />
@@ -451,8 +576,8 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Сутра' className="w-full flex flex-col text-xs">
-          <p>Сутра — это утренняя пуджа в традиции Адвайта сиддхов.
+        <MyAccordion title='Сутра' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">Сутра — это утренняя пуджа в традиции Адвайта сиддхов.
           </p>
           <p className="mt-1">Что включает:<br />
             · Гуру йога с ОМ.<br />
@@ -467,8 +592,8 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Бхаджан Мандала' className="w-full flex flex-col text-xs">
-          <p>Бхаджан Мандала — это вечерняя пуджа в нашей традиции.
+        <MyAccordion title='Бхаджан Мандала' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <p className="mt-1">Бхаджан Мандала — это вечерняя пуджа в нашей традиции.
           </p>
           <p className="mt-1">
             В зависимости от дня недели выполняются разные практики:<br />
@@ -491,7 +616,10 @@ const page = () => {
       </div>
 
       <div className="mt-10">
-        <a href="/contacts/#address" className="w-full btn btn-sm">Как до нас добраться</a>
+        <a href="/contacts/#address" className="w-full btn btn-sm">
+          Как до нас добраться
+          <IoNavigateSharp />
+        </a>
       </div>
 
     </Container >
