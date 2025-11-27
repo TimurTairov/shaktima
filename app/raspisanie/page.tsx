@@ -4,6 +4,7 @@ import SendMessageToTirthadeva from "@/components/SendMessageToTirthadeva";
 import SendMessageToMadhavapriya from "@/components/SendMessageToMadhavapriya";
 import SendMessageToArati from "@/components/SendMessageToArati";
 import SendMessageToTarini from "@/components/SendMessageToTarini";
+import SendMessageTo from "@/components/SendMessageTo";
 import { BsExclamationTriangle } from "react-icons/bs";
 import { FaTelegram } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
@@ -146,7 +147,10 @@ const page = () => {
           </div>
           <div className="grid-item-rasp ">
           </div>
-          <div className="grid-item-rasp row-span-2 bg-fuchsia-200">
+          <div className="grid-item-rasp bg-fuchsia-200">
+            <p className="w-full text-center">15:30 - 16:15</p>
+            <b className="w-full text-center">Звуковая медитация</b>
+            <SendMessageTo name="Тарамати" phone="79852191619" />
           </div>
 
           {/* 5 */}
@@ -175,7 +179,10 @@ const page = () => {
             <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center font-light italic">Вечерняя пуджа Шакти</p>
           </div>
-          <div className="grid-item-rasp">
+          <div className="grid-item-rasp bg-fuchsia-200">
+            <p className="w-full text-center">16:30 - 19:00</p>
+            <b className="w-full text-center">Звуковая медитация</b>
+            <SendMessageTo name="Лалитасундари" phone="79637239294" />
           </div>
         </div >
       </div >
