@@ -181,7 +181,7 @@ const page = () => {
           </div>
           <div className="grid-item-rasp bg-fuchsia-200">
             <p className="w-full text-center">16:30 - 19:00</p>
-            <b className="w-full text-center">Звуковая медитация</b>
+            <b className="w-full text-center">Астро консультации</b>
             <SendMessageTo name="Лалитасундари" phone="79637239294" />
           </div>
         </div >
