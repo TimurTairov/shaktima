@@ -10,11 +10,11 @@ import anandalila from "@/public/mdc-events/anandalila.webp"
 import yogaSeminar from "@/public/mdc-events/yoga-seminar.webp"
 
 export const seminary = [
-  {
-    id: "hatha-yoga-workshop-02-11-25",
-    title: "Практический семинар по хатха йоге",
-    img: yogaSeminar,
-  },
+  // {
+  //   id: "hatha-yoga-workshop-02-11-25",
+  //   title: "Практический семинар по хатха йоге",
+  //   img: yogaSeminar,
+  // },
   {
     id: "anandalila",
     title: "Приезд Анандалила Гири в Москву",

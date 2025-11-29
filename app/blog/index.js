@@ -2,8 +2,17 @@ import indiaDay from '@/public/blog/india-day.webp'
 import mahashivaratri from '@/public/blog/mahashivaratri.webp'
 import neoadwayta from '@/public/blog/neoadwayta.webp'
 import akshayaTritiya from '@/public/blog/bd6a4ed88d7345454f28fea0d2cc6853.webp'
+import saraha from "@/public/blog/saraha.webp"
 
 export const allArticles = [
+  {
+    id: '006',
+    title: 'Сараха',
+    description:
+      'Наставления великого йогина Сарахи ученику',
+    img: saraha,
+    url: '/blog/nastavleniya-sarahi',
+  },
   {
     id: '005',
     title: 'Акшая тритья',

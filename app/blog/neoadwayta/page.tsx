@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const NeoAdwayta = () => {
   return (
     <Container >
-      <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Как не попасть в ловушку поверхностной Адвайты</h1>
+      <h1 className="mainTitle">Как не попасть в ловушку поверхностной Адвайты</h1>
       <div className=" mx-2 mt-5 ">
         <p className="mt-5 indent-5 md:indent-10">
           Адвайта — это мощнейшее мировоззрение, я бы сказал, это самое мощное мировоззрение, которое может быть вообще во вселенной для человека или любого

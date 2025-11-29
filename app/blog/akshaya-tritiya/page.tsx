@@ -5,7 +5,7 @@ import at from '@/public/blog/pngwing.com (17).webp'
 const page = () => {
   return (
     <Container>
-      <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Акшая тритья</h1>
+      <h1 className="mainTitle">Акшая тритья</h1>
       <div className="mt-5 flex justify-center">
         <Image src={at} alt="Акшая Тритья" className="" />
       </div>

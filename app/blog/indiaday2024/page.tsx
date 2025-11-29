@@ -16,7 +16,7 @@ const page = () => {
   }
   return (
     <Container>
-      <h1 className="textColor w-full text-center text-2xl font-semibold my-2">Дни Индии в Москве</h1>
+      <h1 className="mainTitle">Дни Индии в Москве</h1>
       <div className="text-gray-600 mx-2 mt-5 flex flex-col gap-3 indent-5 md:indent-10">
         <p>
           Ом, намасте 🙏 С 15 по 18 августа в Москве в парке Остров Мечты проходил 9-ый ежегодный фестиваль индийской культуры. Институт Риши Васиштхи был успешно представлен на фестивале, который за 4 дня посетило более 2 000 000 человек.
