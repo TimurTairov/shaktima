@@ -31,22 +31,22 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <Container>
-      <div className="flex flex-wrap py-10">
+      <div className="flex flex-wrap gap-5 lg:gap-0 py-10">
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
-            <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
-              Йога марафон
+          <div className="max-w-2xl h-[20rem] lg:h-full mb-8 flex flex-col justify-around">
+            <h1 className="w-full text-center lg:text-start text-3xl font-medium leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
+              <span className="bg-red-600 text-white dark:text-white p-3 rounded-full">Онлайн</span> марафон
             </h1>
-            <p className="w-full text-center lg:text-start py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start text-xl leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               В новый год с чистыми каналами
             </p>
-            <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center sm:flex-row">
+            <div className="w-full flex flex-col items-center sm:flex-row">
               <a
                 href="https://t.me/indivarini"
                 target="_blank"
                 rel="noopener"
                 // className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
-                className="px-8 py-4 text-lg font-medium text-center text-white dark:text-white bg-red-600 dark:bg-red-500 rounded-md "
+                className="w-full px-8 py-4 text-lg font-medium text-center text-white dark:text-white bg-red-600 dark:bg-red-500 rounded-md "
               >
                 Записаться на марафон
               </a>
@@ -70,7 +70,7 @@ const page = () => {
         title="Марафон: в новый год с чистыми каналами"
         preTitle="с 15 по 28 декабря 2025 года"
       >
-        <p className="py-4">Мы приглашаем Вас к участию в йога-марафоне, в котором будут подробно разобраны и разъяснены следующие темы и практики:
+        <p className="py-4 font-light">Мы приглашаем Вас к участию в йога-марафоне, в котором будут подробно разобраны и разъяснены следующие темы и практики:
           Методы шакти-янтры;
           Хатха-йога;
           Мудры и бандхи;
@@ -114,7 +114,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <GrYoga className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left font-light">
                       Чистота энергетических каналов (нади) и центров (чакр)
                     </p>
                   </div>
@@ -123,7 +123,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <TbHealthRecognition className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left font-light">
                       Получение новых знаний и поддерживающего окружения единомышленников
                     </p>
                   </div>
@@ -132,7 +132,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <FaHandsPraying className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">Улучшение физического и психического здоровья
+                    <p className="text-left font-light">Улучшение физического и психического здоровья
                     </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <FaOm className=" shrink-0 w-14 h-14 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-left">
+                    <p className="text-left font-light">
                       Возможность приобщиться к духовной традиции йоги
                     </p>
                   </div>
@@ -165,7 +165,7 @@ const page = () => {
                   <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-red-500  font-semibold">Когда</p>
-                    <div className="flex items-center gap-1">
+                    <div className="flex items-center gap-1 font-light">
                       Каждое утро с 15 по 28 декабря
                       <Link href={'/raspisanie'}>
                         <FiExternalLink />
@@ -178,7 +178,7 @@ const page = () => {
                   <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-red-500  font-semibold">Формат</p>
-                    <p className="text-left">
+                    <p className="text-left font-light">
                       Практика длится 1-1.5 часа. Форма одежды - свободная.
                     </p>
                   </div>
@@ -188,7 +188,7 @@ const page = () => {
                   <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-red-500  font-semibold">Где</p>
-                    <p className="text-left">
+                    <p className="text-left font-light">
                       <>
                         Онлайн. Трансляции через Zoom.
                       </>
@@ -199,8 +199,8 @@ const page = () => {
                 <div className="flex items-start gap-5">
                   <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-red-500  font-semibold">Стоимость</p>
-                    <p className="text-left">1800₽</p>
+                    <p className="text-2xl text-red-500  font-semibold">Подношение</p>
+                    <p className="text-left font-light">Уточните у организатора при регистрации</p>
 
                   </div>
                 </div>
