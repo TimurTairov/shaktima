@@ -19,7 +19,7 @@ export const Hero = () => {
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center justify-center lg:justify-start sm:flex-row">
               <Link
                 href="/raspisanie"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-600 dark:bg-red-500 rounded-md ">
                 Начать практиковать
               </Link>
             </div>
@@ -28,7 +28,7 @@ export const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <Image
             src={heroImg}
-            className={"object-cover w-full h-auto rounded-md"}
+            className={"object-cover w-full h-auto rounded-md shadow-lg"}
             alt="Hero Illustration"
             placeholder="blur"
             loading="eager"

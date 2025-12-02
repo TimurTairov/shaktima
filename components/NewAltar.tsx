@@ -25,13 +25,13 @@ const Altar = (props: Readonly<NewAltarProps>) => {
     <>
       <div id="altar">
         <Image src={altar} alt="Сиддхи и божества" className="w-full h-auto rounded-md block lg:hidden" />
-        <Image src={altar2} alt="Сиддхи и божества" className="w-full h-auto rounded-md hidden lg:block" />
+        <Image src={altar2} alt="Сиддхи и божества" className="w-full h-auto rounded-xl hidden lg:block" />
         <div className="w-full flex gap-1 h-6">
-          <button className="mt-0.5 ml-1 p-0.5 border border-red-500  rounded-md bg-white dark:bg-base-content" onClick={fixAltar}>
+          <button className="mt-0.5 ml-1 p-0.5 border border-red-600 dark:border-red-400  rounded-md bg-white dark:bg-base-content" onClick={fixAltar}>
             {isFixed ?
-              (<AiOutlineClose className="text-red-500" />)
+              (<AiOutlineClose className="text-red-600 dark:text-red-400" />)
               :
-              (<AiOutlineArrowsAlt className="text-red-500" />)
+              (<AiOutlineArrowsAlt className="text-red-600 dark:text-red-400" />)
             }
           </button>
           {props.audio && (

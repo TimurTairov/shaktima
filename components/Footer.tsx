@@ -61,7 +61,7 @@ export function Footer() {
             <div className="w-full btn">
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-3xl xl:text-4xl 2xl:text-5xl font-medium font-izmir text-red-500"
+                className="flex items-center space-x-2 text-3xl xl:text-4xl 2xl:text-5xl font-medium font-izmir text-red-500 dark:text-red-500"
               >
                 <Image
                   src={logo}
@@ -126,12 +126,12 @@ export function Footer() {
           <div className="md:col-span-4">
 
             <p className="w-full font-semibold dark:text-gray-300">Меню</p>
-            <div className="mt-5 grid grid-cols-2 gap-2">
+            <div className="mt-3 grid grid-cols-2 gap-2">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
                   href={item.url}
-                  className="btn dark:btn-outline btn-xs md:btn-sm font-normal rounded-md  hover:text-black dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-800 transition-colors duration-500"
+                  className="btn dark:btn-outline btn-xs md:btn-sm font-normal rounded-md  hover:text-black dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 focus:text-red-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-red-800 transition-colors duration-500"
                 >
                   {item.title}
                 </Link>
@@ -140,8 +140,8 @@ export function Footer() {
           </div>
 
           <div className="md:col-span-3">
-            <div className="font-semibold dark:text-gray-300">Ресурсы</div>
-            <div className="flex flex-col gap-2 mt-5">
+            <div className="w-full font-semibold dark:text-gray-300">Ресурсы</div>
+            <div className="flex flex-col gap-2 mt-3">
               <a
                 href="https://www.advayta.org/"
                 target="_blank"

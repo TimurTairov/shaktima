@@ -17,7 +17,7 @@ const page = () => {
           <p className="mt-5">Вы можете поучаствовать и поддержать Дхарма центр.</p>
         </div>
         <div className="mx-2 mt-20">
-          <div className="flex items-center justify-center text-xl my-2 text-indigo-500">
+          <div className="flex items-center justify-center text-xl my-2 text-red-400">
             <h2 className="mr-2 font-semibold">На карту T-bank </h2>
             <BsFillPostcardHeartFill />
           </div>

@@ -8,11 +8,11 @@ const page = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <div className="mx-2">
-        <div className="w-full py-5 flex justify-center items-center gap-3 text-lg font-semibold leading-snug tracking-tight lg:leading-tight lg:text-4xl">
+        <div className="py-5 flex justify-center items-center gap-3 text-lg font-semibold leading-snug tracking-tight lg:leading-tight lg:text-4xl">
           <h1 className="mainTitle">
             Утреняя сутра
           </h1>
-          <Link href="/upasana/" className="inline-flex text-lg text-indigo-500">
+          <Link href="/upasana/" className="inline-flex text-lg">
             <RiArrowGoBackFill />
           </Link>
         </div>
@@ -21,7 +21,7 @@ const page = () => {
           id="sutra"
           className="mt-10 w-full flex flex-col items-center justify-center gap-5 "
         >
-          <MyAccordion id='Nachalo' title='1. Начало практики' big className='max-w-xl'>
+          <MyAccordion id='Nachalo' title='Начало практики' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
                 Ачамана
@@ -70,15 +70,15 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Rakovina' title='2. Звучит раковина' big className='max-w-xl'>
+          <MyAccordion id='Rakovina' title='Звучит раковина' big className='max-w-xl'>
             <p className="sutra-title w-[36rem]"></p>
           </MyAccordion>
 
-          <MyAccordion id='GuruYogaOm' title='3. Гуру-йога с Ом' big className='max-w-xl'>
+          <MyAccordion id='GuruYogaOm' title='Гуру-йога с Ом' big className='max-w-xl'>
             <p className="sutra-title w-[36rem]"></p>
           </MyAccordion>
 
-          <MyAccordion id='PervyiPoklon' title='4. Первый поклон' big className='max-w-xl'>
+          <MyAccordion id='PervyiPoklon' title='Первый поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется первый поклон из практики пяти поклонов.
@@ -89,7 +89,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='MantraGaneshi' title='5. Мантра Ганеши' big className='max-w-xl'>
+          <MyAccordion id='MantraGaneshi' title='Мантра Ганеши' big className='max-w-xl'>
             <div className="w-full  flex flex-col justify-center gap-5">
               <p className="font-bold">
                 ВАККРАТУНДА МАХА КАЙА
@@ -126,7 +126,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='SarasvatiAratiSutra' title='6. Сарасвати арати' big className='max-w-xl'>
+          <MyAccordion id='SarasvatiAratiSutra' title='Сарасвати арати' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="font-bold">
                 ОМ ДЖЕЙ САРАСВАТИ МААТА
@@ -289,7 +289,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='ChetyreMantry' title='7. Четыре мантры' big className='max-w-xl'>
+          <MyAccordion id='ChetyreMantry' title='Четыре мантры' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="">
                 Поются четыре мантры, очищающие пространство
@@ -353,7 +353,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Prarthana' title='8. Прартхана' big className='max-w-xl'>
+          <MyAccordion id='Prarthana' title='Прартхана' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="">Поется открывающая молитва Прартхана</p>
               <p className="font-bold">
@@ -398,7 +398,7 @@ const page = () => {
           </MyAccordion>
 
           {/* 9 */}
-          <MyAccordion id='Datta-stotra' title='9 Даттатрея стотра' big className='max-w-xl'>
+          <MyAccordion id='Datta-stotra' title='Даттатрея стотра' big className='max-w-xl'>
             <div className="w-full  flex flex-col justify-center gap-5">
               <p className="font-bold">
                 АСЬЯ ШРИ ДАТТАТРЕЙЯ СТОТРАМ
@@ -821,7 +821,7 @@ const page = () => {
             </div>
           </MyAccordion> */}
 
-          <MyAccordion id='VtoroiPoklon' title='10. Второй поклон' big className='max-w-xl'>
+          <MyAccordion id='VtoroiPoklon' title='Второй поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется второй поклон из практики пяти поклонов.
@@ -832,7 +832,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Digambara' title='11. Дигамбара-мантра' big className='max-w-xl'>
+          <MyAccordion id='Digambara' title='Дигамбара-мантра' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется молитва-почитание Даттатреи в аспекте «одетого в стороны
@@ -851,7 +851,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='TretiiPoklon' title='12. Третий поклон' big className='max-w-xl'>
+          <MyAccordion id='TretiiPoklon' title='Третий поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется третий поклон из практики пяти поклонов.
@@ -862,7 +862,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='DattaMantra' title='13. Мантра Даттатрее' big className='max-w-xl'>
+          <MyAccordion id='DattaMantra' title='Мантра Даттатрее' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется семенная мантра Даттатреи, 7 раз.
@@ -874,7 +874,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='GayatriMantraDattatrei' title='14. Гаятри мантра Даттатреи' big className='max-w-xl'>
+          <MyAccordion id='GayatriMantraDattatrei' title='Гаятри мантра Даттатреи' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется гаятри мантра Даттатреи.
@@ -894,7 +894,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='BhadjanyDattatree' title='15. Бхаджаны Даттатрее' big className='max-w-xl'>
+          {/* <MyAccordion id='BhadjanyDattatree' title='Бхаджаны Даттатрее' big className='max-w-xl'>
             <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
               <a href='https://t.me/jkjlkjscksj/58/1235' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
                 Аудио файлы бхаджанов Даттатрее
@@ -1472,9 +1472,9 @@ const page = () => {
                 Ты Благо, Бытие, Сознание, Блаженство, о Датта!
               </p>
             </div>
-          </MyAccordion>
+          </MyAccordion> */}
 
-          <MyAccordion id='GayatriMantraBrahmanandy' title='16. Гаятри мантра Брахмананды' big className='max-w-xl'>
+          <MyAccordion id='GayatriMantraBrahmanandy' title='Гаятри мантра Брахмананды' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется гаятри мантра Брахмананды.
@@ -1494,7 +1494,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='MolitvaBrahmanande' title='17. Молитва к Брахмананде' big className='max-w-xl'>
+          <MyAccordion id='MolitvaBrahmanande' title='Молитва к Брахмананде' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется молитва к Парамгуру Брахмананде.
@@ -1516,7 +1516,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='MantraBrahmanandy' title='18. Мантра Брахмананды' big className='max-w-xl'>
+          <MyAccordion id='MantraBrahmanandy' title='Мантра Брахмананды' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Поется мантра Брахмананды, 3 раза.
@@ -1533,7 +1533,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Hvala' title='19. Восхваление' big className='max-w-xl'>
+          <MyAccordion id='Hvala' title='Восхваление' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Звучит восхваление.
@@ -1559,11 +1559,11 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Rakovina' title='20. Звучит раковина' big className='max-w-xl'>
+          <MyAccordion id='Rakovina' title='Звучит раковина' big className='max-w-xl'>
             <p className="sutra-title w-[36rem]"></p>
           </MyAccordion>
 
-          <MyAccordion id='ChetvertyiPoklon' title='21. Четвертый поклон' big className='max-w-xl'>
+          <MyAccordion id='ChetvertyiPoklon' title='Четвертый поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется четвертый поклон из практики пяти поклонов.
@@ -1574,7 +1574,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='TextSytry' title='22. Текст сутры' big className='max-w-xl'>
+          <MyAccordion id='TextSytry' title='Текст сутры' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <h6 className="">Шлоки для сутр</h6>
               <div className="px-2 md:px-5">
@@ -1942,7 +1942,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='DattaMeditation' title='23. Медитация' big className='max-w-xl'>
+          {/* <MyAccordion id='DattaMeditation' title='Медитация' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется краткая медитация на один из аспектов Бхагавана Даттатреи.
@@ -2990,116 +2990,17 @@ const page = () => {
                       Вечному – поклонение!
                     </p>
                   </div>
-                </MyAccordion>
-
-                {/* <MyAccordion title="">
-                  <div className='mt-5 flex flex-col gap-3 lg:gap-4'>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                    <p className="text-sm">
-
-                    </p>
-                  </div>
-                </MyAccordion> */}
-
+                </MyAccordion>    
 
               </div>
             </div>
-          </MyAccordion>
+          </MyAccordion> */}
 
-          <MyAccordion id='GuruYogaOm2' title='24. Гуру-йога с Ом' big className='max-w-xl'>
+          <MyAccordion id='GuruYogaOm2' title='Гуру-йога с Ом' big className='max-w-xl'>
             <p className="sutra-title w-[36rem]"></p>
           </MyAccordion>
 
-          <MyAccordion id='PyatyiPoklon' title='25. Пятый поклон' big className='max-w-xl'>
+          <MyAccordion id='PyatyiPoklon' title='Пятый поклон' big className='max-w-xl'>
             <div className="mt-5 w-full flex flex-col justify-center gap-5">
               <p className="w-[36rem]">
                 Выполняется пятый поклон из практики пяти поклонов.
@@ -3110,11 +3011,11 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion id='Rakovina' title='26. Звучит раковина' big className='max-w-xl'>
+          <MyAccordion id='Rakovina' title='Звучит раковина' big className='max-w-xl'>
             <p className="sutra-title w-[36rem]"></p>
           </MyAccordion>
 
-          <MyAccordion id='Prostiranie' title='27. Простирание' big className='max-w-xl'>
+          <MyAccordion id='Prostiranie' title='Простирание' big className='max-w-xl'>
             <p className=" w-[36rem]">
               Выполняется полное простирание в сторону алтаря.
             </p>

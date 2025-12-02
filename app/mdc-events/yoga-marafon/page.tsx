@@ -15,9 +15,12 @@ import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
 
 import Image from 'next/image'
-import yogaMarafon from "@/public/hero/yoga-marafon.webp"
+import yogaMarafon from "@/public/yoga-marafon/yoga-marafon.webp"
 import rasp1 from '@/public/yoga-marafon/rasp1.webp'
 import rasp2 from '@/public/yoga-marafon/rasp2.webp'
+import { FaHandsPraying } from "react-icons/fa6";
+import { FiExternalLink } from "react-icons/fi";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Йога марафон",
@@ -31,7 +34,7 @@ const page = () => {
       <div className="flex flex-wrap py-10">
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white textColor">
+            <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
               Йога марафон
             </h1>
             <p className="w-full text-center lg:text-start py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -39,10 +42,11 @@ const page = () => {
             </p>
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center sm:flex-row">
               <a
-                href="https://t.me/tedzhovati"
+                href="https://t.me/indivarini"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+                // className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white dark:text-white bg-red-600 dark:bg-red-500 rounded-md "
               >
                 Записаться на марафон
               </a>
@@ -54,7 +58,7 @@ const page = () => {
             src={yogaMarafon}
             width="855"
             height="638"
-            className={'object-cover w-full h-auto rounded-md'}
+            className={'object-cover w-full lg:w-auto lg:h-[36rem] rounded-md'}
             alt="Hero Illustration"
             loading="lazy"
             placeholder="blur"
@@ -64,9 +68,15 @@ const page = () => {
 
       <SectionTitle
         title="Марафон: в новый год с чистыми каналами"
-        preTitle="с 3 по 17 января 2025 года"
+        preTitle="с 15 по 28 декабря 2025 года"
       >
-        <p className="py-4">Приглашаем всех желающих на 15-ти дневный цикл практик с опытными преподавателями и инструкторами ВОСД. В программе хатха йога, пранаямы, крийи и другие базовые практики с подробными объяснениями.</p>
+        <p className="py-4">Мы приглашаем Вас к участию в йога-марафоне, в котором будут подробно разобраны и разъяснены следующие темы и практики:
+          Методы шакти-янтры;
+          Хатха-йога;
+          Мудры и бандхи;
+          Пранаямы и крийи;
+          Очищающие техники йоги;
+          Управление энергией.</p>
       </SectionTitle>
 
       <div className="flex flex-col gap-5 lg:flex-row justify-around py-10">
@@ -102,7 +112,7 @@ const page = () => {
               <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <GrYoga className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <GrYoga className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left">
                       Чистота энергетических каналов (нади) и центров (чакр)
@@ -111,7 +121,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <TbHealthRecognition className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <TbHealthRecognition className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left">
                       Получение новых знаний и поддерживающего окружения единомышленников
@@ -120,7 +130,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <GiHealthIncrease className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <FaHandsPraying className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left">Улучшение физического и психического здоровья
                     </p>
@@ -128,7 +138,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <FaOm className=" shrink-0 w-14 h-14 text-indigo-500" />
+                  <FaOm className=" shrink-0 w-14 h-14 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left">
                       Возможность приобщиться к духовной традиции йоги
@@ -152,21 +162,22 @@ const page = () => {
               <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
-                    <p className="text-left">
-                      <a href="/calendar">
-                        Каждое утро с 3 по 17 января
-                      </a>
-                    </p>
+                    <p className="text-2xl text-red-500  font-semibold">Когда</p>
+                    <div className="flex items-center gap-1">
+                      Каждое утро с 15 по 28 декабря
+                      <Link href={'/raspisanie'}>
+                        <FiExternalLink />
+                      </Link>
+                    </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                    <p className="text-2xl text-red-500  font-semibold">Формат</p>
                     <p className="text-left">
                       Практика длится 1-1.5 часа. Форма одежды - свободная.
                     </p>
@@ -174,21 +185,21 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Где</p>
+                    <p className="text-2xl text-red-500  font-semibold">Где</p>
                     <p className="text-left">
-                      <a href="/raspisanie">
+                      <>
                         Онлайн. Трансляции через Zoom.
-                      </a>
+                      </>
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
+                    <p className="text-2xl text-red-500  font-semibold">Стоимость</p>
                     <p className="text-left">1800₽</p>
 
                   </div>
@@ -202,10 +213,10 @@ const page = () => {
 
       <div className="flex justify-center mt-10">
         <a
-          href="https://t.me/tedzhovati"
+          href="https://t.me/indivarini"
           target="_blank"
           rel="noopener"
-          className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md" >Записаться на марафон</a>
+          className="px-8 py-4 text-lg font-medium text-center text-white dark:text-white bg-red-500 rounded-md" >Записаться на марафон</a>
       </div>
 
     </Container >

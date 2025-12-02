@@ -41,14 +41,14 @@ const MyNavbar = () => {
               loading="eager"
               className="w-8 rounded-full"
             />
-            <h2 className="text-3xl xl:text-4xl font-izmir text-red-500">
+            <h2 className="text-3xl xl:text-4xl font-izmir textColor">
               ШактиМа
             </h2>
           </div>
         </Link>
       </div>
 
-      <div className="navbar-center  flex lg:hidden">
+      <div className="navbar-center flex lg:hidden">
         <Link href="/" className="btn btn-ghost text-xl dark:hover:bg-gray-700">
           <div className="btn btn-ghost flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100 ">
             <Image
@@ -58,7 +58,7 @@ const MyNavbar = () => {
               height="32"
               className="w-8 rounded-full"
             />
-            <h2 className="text-3xl font-izmir text-red-500">ШактиМа</h2>
+            <h2 className="text-3xl font-izmir textColor">ШактиМа</h2>
           </div>
         </Link>
       </div>

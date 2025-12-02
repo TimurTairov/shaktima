@@ -21,7 +21,7 @@ const page = () => {
         Расписание регулярных занятий
       </h1>
 
-      <div className="flex justify-center mt-10 dark:text-black">
+      <div className="flex justify-center mt-5 lg:mt-10 dark:text-black">
         <div className="w-full grid grid-cols-6 gap-1 rounded-md">
           <div className="grid-item-dn">
             <p className="hidden md:block">Понедельник</p>
@@ -345,7 +345,7 @@ const page = () => {
       </div > */}
 
 
-      <h3 className="text-base my-1 mt-10">Условные обозначения</h3>
+      <h3 className="text-base mt-5 lg:mt-10 mb-1">Условные обозначения</h3>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
         <div className="w-full flex items-center gap-1">
           <div className="size-8 bg-green-100 shrink-0 rounded-md"></div>
@@ -369,7 +369,7 @@ const page = () => {
       <>
         <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
         <div className="flex flex-col gap-2">
-          <MyAccordion title="Тиртхадева" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <MyAccordion title="Тиртхадева" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
               <p className="mt-1">Расписание:</p>
               <p className="font-light">ПН СР 9:00 Хатха йога</p>
@@ -394,7 +394,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion title="Арати" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <MyAccordion title="Арати" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
               <p className="mt-1">Расписание:</p>
               <p className="font-light">ВТ 10:00 Шат-чакра-йога</p>
@@ -417,7 +417,7 @@ const page = () => {
 
           </MyAccordion>
 
-          <MyAccordion title="Тарини" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <MyAccordion title="Тарини" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
               <p className="mt-1">Расписание:</p>
               <p className="font-light">ЧТ 10:00 Йога сиддхов</p>
@@ -440,7 +440,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion title="Мадхаваприя" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <MyAccordion title="Мадхаваприя" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
               <p className="mt-1">Расписание:</p>
               <p className="font-light">ПТ 10:00 Йога сиддхов</p>
@@ -462,7 +462,7 @@ const page = () => {
             </div>
           </MyAccordion>
 
-          <MyAccordion title="Запись на пуджу" className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+          <MyAccordion title="Запись на пуджу" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
               <p className="mt-1">Расписание:</p>
               <p className="font-light">ПН 12:00 Утрення пуджа Даттатрее</p>
@@ -504,7 +504,7 @@ const page = () => {
       <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
       <div className="w-full flex flex-col gap-2">
 
-        <MyAccordion title='Хатха йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Хатха йога' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">Хатха йога — это древняя индийская духовная практика, являющаяся фундаментальной и самой популярной в мире системой йоги.
             Главная цель классической хатха йоги — подготовка тела и ума к высшим ступеням йоги, таким как медитация (дхьяна) и достижение состояния самадхи (просветления). Она создает «инструмент» — здоровое, сильное и подконтрольное сознанию тело, и спокойный, сконцентрированный ум.
           </p>
@@ -522,7 +522,7 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Кундалини йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Кундалини йога' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">Кундалини йога — это такой вид йоги, посредством которой мудрецы древности достигали совершенства. Её главная цель — пробудить дремлющую в каждом человеке энергию Кундалини и поднять её через все энергетические центры (чакры) для достижения высшего состояния сознания.
           </p>
           <p className="mt-1">В соответствии с нашим Учением, в основании позвоночника (в области муладхара чакры) находится свёрнутая в три с половиной оборота космическая энергия, символически изображаемая в виде змеи. Это Кундалини-шакти — наша нераскрытая духовная потенция. Задача практики — «разбудить эту змею» и, поднимая её по центральному энергетическому каналу (сушумна), соединить с высшим сознанием (Шивой) в области макушки головы (сахасрара-чакры). Это соединение приводит к полной трансформации сознания и просветлению.</p>
@@ -535,7 +535,7 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Шат-чакра-йога' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Шат-чакра-йога' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">ШАТ-ЧАКРА-ЙОГА —  это практика, направленная на очищение и активацию шести основных чакр человека, расположенных вдоль позвоночника.
           </p>
           <p className="mt-1">Основная цель — достижение баланса и гармонии через работу с этими энергетическими центрами, что включает в себя физические позы, дыхательные техники и медитации. Практикуется в стиле Кундалини йоги.
@@ -566,7 +566,7 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Йога сиддхов' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Йога сиддхов' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">Йога сиддхов — это мощная и трансформационная духовная практика. Сочетает в себе элементы хатха, мантра, кундалини и раджа йоги.
           </p>
           <p className="mt-1">Основные практики:<br />
@@ -583,7 +583,7 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Сутра' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Сутра' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">Сутра — это утренняя пуджа в традиции Адвайта сиддхов.
           </p>
           <p className="mt-1">Что включает:<br />
@@ -599,7 +599,7 @@ const page = () => {
           </p>
         </MyAccordion>
 
-        <MyAccordion title='Бхаджан Мандала' className="w-full flex flex-col text-sm bg-gray-100 text-slate-700 rounded-md p-2">
+        <MyAccordion title='Бхаджан Мандала' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
           <p className="mt-1">Бхаджан Мандала — это вечерняя пуджа в нашей традиции.
           </p>
           <p className="mt-1">
@@ -623,7 +623,7 @@ const page = () => {
       </div>
 
       <div className="mt-10">
-        <a href="/contacts/#address" className="w-full btn btn-sm">
+        <a href="/contacts/#address" className="w-full btn btn-sm  dark:bg-slate-700 text-slate-700 dark:text-white">
           Как до нас добраться
           <IoNavigateSharp />
         </a>
