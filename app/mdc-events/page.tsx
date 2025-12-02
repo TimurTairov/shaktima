@@ -7,7 +7,7 @@ const page = () => {
   return (
     <Container className="min-h-screen">
       <h1 className="mainTitle">
-        Мероприятия московской сангхи
+        Мероприятия
       </h1>
 
       <div className="w-full flex justify-center">

@@ -11,7 +11,7 @@ const page = () => {
     <Container>
       <h1 className="mainTitle">Наставления великого йогина Сарахи ученику</h1>
       <div className=" mx-2 mt-5 ">
-        <div className="mt-5 flex flex-col gap-3">
+        <div className="mt-5 flex flex-col gap-3 font-light">
           <p>БУДЬ ВНИМАТЕЛЕН, НЕ ПЕРЕПУТАЙ:</p>
           <div><p className='bg-indigo-600 dark:bg-indigo-400 text-gray-200 dark:text-gray-800 size-6 inline-flex justify-center items-center p-1 rounded-full'>1</p> Самодовольство, гордыню, надменность и самомнение можно принять за божественную гордость, возникающую при созерцании.
             Будь внимателен, не перепутай!</div>

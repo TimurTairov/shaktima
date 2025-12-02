@@ -21,6 +21,11 @@ export const seminary = [
     img: yogaMarafon,
   },
   {
+    id: "bhadjan-mandala",
+    title: "Коллективная Бхаджан Мандала",
+    img: bhadjanMandala,
+  },
+  {
     id: "anandalila",
     title: "Приезд Анандалила Гири в Москву",
     img: anandalila,
@@ -55,10 +60,5 @@ export const seminary = [
     id: "yoga-siddhov",
     title: "Семинар «Йога Сиддхов»",
     img: yogaSiddhov,
-  },
-  {
-    id: "bhadjan-mandala",
-    title: "Коллективная Бхаджан Мандала",
-    img: bhadjanMandala,
   },
 ]

@@ -12,14 +12,14 @@ export const Hero = () => {
             <h1 className="textColor w-full text-center lg:text-start text-3xl leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-5xl 2xl:text-6xl xl:leading-tight font-jaipur">
               Московский Дхарма центр ШактиМа
             </h1>
-            <p className="w-full text-center lg:text-start py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start py-5 text-xl leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Центр йоги в традиции Пратьякша Адвайта сиддхов
             </p>
 
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center justify-center lg:justify-start sm:flex-row">
               <Link
                 href="/raspisanie"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-600 dark:bg-red-500 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white dark:text-white bg-red-600 dark:bg-red-500 rounded-md ">
                 Начать практиковать
               </Link>
             </div>

@@ -4,15 +4,15 @@ import guru from '@/public/img/guru.webp'
 
 const BM = () => {
   return (
-    <Container className="bg-base-200 py-10 lg:py-20 rounded-md">
+    <Container className="bg-base-200 dark:bg-slate-700 text-gray-800 dark:text-gray-100 py-10 lg:py-20 rounded-xl">
       <div className="w-full flex flex-col md:flex-row justify-center md:justify-between ">
         <div className="md:mr-7">
-          <p className="text-gray-800">
+          <p className="font-light italic">
             «Величие, пользу, ценность этой садханы трудно переоценить. Садхана
             эта - легкая, радостная, а ее плод - как от серьезного йоговского
             тапаса. Счастлив тот, кто поет баджаны с верой и преданным сердцем»
           </p>
-          <p className="text-right md:mr-10 xl:mr-16 font-semibold text-gray-800">
+          <p className="mt-3 text-right lg:mr-3 font-medium italic">
             Свами Вишнудевананда Гири Махарадж
           </p>
         </div>

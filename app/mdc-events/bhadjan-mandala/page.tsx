@@ -9,6 +9,8 @@ import BhadjanMandala from "@/components/BhadjanMandala"
 import BhadjanMandala2 from "@/components/BhadjanMandala2"
 import BM from "@/components/BM"
 import Lords from "@/components/Lords"
+import { FiExternalLink } from "react-icons/fi";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Бхаджан Мандала",
@@ -36,24 +38,22 @@ const page = () => {
               <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
-                    <p className="text-left">Дата и время анонсируются в нашем
-                      <a href="https://t.me/mdc_ShaktiMa"
-                        target="_blank"
-                        rel="noopener"
+                    <p className="text-2xl text-red-500  font-semibold">Когда</p>
+                    <div className="flex gap-1 items-center">В соответсвии с расписанием
+                      <Link href="/raspisanie"
                         className="ml-1 text-left text-indigo-500">
-                        телеграм канале.
-                      </a>
-                    </p>
+                        <FiExternalLink />
+                      </Link>
+                    </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                    <p className="text-2xl text-red-500  font-semibold">Формат</p>
                     <p className="text-left">
                       Практика длится примерно 1.5 -2 часа.
                       Форма одежды - белая (алтарная).
@@ -62,26 +62,24 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Где</p>
-                    <p className="text-left">
-                      Следите за анонсами в
-                      <a href="https://t.me/mdc_ShaktiMa"
-                        target="_blank"
-                        rel="noopener"
+                    <p className="text-2xl text-red-500  font-semibold">Где</p>
+                    <div className="flex gap-1 items-center">
+                      МДЦ ШактиМА
+                      <Link href="/contacts#address"
                         className="ml-1 text-left text-indigo-500">
-                        телеграм канале.
-                      </a>
-                    </p>
+                        <FiExternalLink />
+                      </Link>
+                    </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
-                    <p className="text-left">Объем свободного пожертвования определяете самостоятельно </p>
+                    <p className="text-2xl text-red-500  font-semibold">Подношение</p>
+                    <p className="text-left">Cвободное пожертвование </p>
                   </div>
                 </div>
 

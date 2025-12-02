@@ -19,7 +19,7 @@ a {
 }
 
 .mainTitle {
-  @apply textColor text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-light md:my-2;
+  @apply textColor text-center text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-light md:my-2;
 }
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
