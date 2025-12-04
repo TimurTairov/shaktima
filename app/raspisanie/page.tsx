@@ -148,9 +148,9 @@ const page = () => {
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp bg-fuchsia-200">
-            <p className="w-full text-center">15:30 - 16:15</p>
-            <b className="w-full text-center">Звуковая медитация</b>
-            <SendMessageTo name="Тарамати" phone="79852191619" />
+            <p className="w-full text-center">15:00 - 17:00</p>
+            <b className="w-full text-center">Астро консультации</b>
+            <SendMessageTo name="Лалитасундари" phone="79637239294" />
           </div>
 
           {/* 5 */}
@@ -179,10 +179,7 @@ const page = () => {
             <b className="w-full text-center">Бхаджан Мандала</b>
             <p className="w-full text-center font-light italic">Вечерняя пуджа Шакти</p>
           </div>
-          <div className="grid-item-rasp bg-fuchsia-200">
-            <p className="w-full text-center">16:30 - 19:00</p>
-            <b className="w-full text-center">Астро консультации</b>
-            <SendMessageTo name="Лалитасундари" phone="79637239294" />
+          <div className="grid-item-rasp">
           </div>
         </div >
       </div >
