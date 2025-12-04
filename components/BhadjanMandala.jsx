@@ -8,8 +8,10 @@ const BhadjanMandala = () => {
     <Container className="flex flex-wrap justify-between">
       <div className="flex items-center justify-center w-full lg:w-5/12">
         <div className="pb-10">
-          <h1 className="mainTitle">Бхаджан Мандала</h1>
-          <p className="w-full text-center lg:text-start py-5 text-lg leading-normal font-light text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
+            Бхаджан Мандала
+          </h1>
+          <p className="w-full text-center lg:text-start mt-5 text-lg leading-normal font-light text-balance text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Открыться безусловной любви через интеграцию с бхаджанами и песнями
             преданности и пережить радость от призывания милости святых и
             божеств линии передачи

@@ -34,11 +34,17 @@ const page = () => {
       <div className="flex flex-wrap gap-5 lg:gap-0 py-10">
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="max-w-2xl h-[20rem] lg:h-full mb-8 flex flex-col justify-around">
-            <h1 className="w-full text-center lg:text-start text-3xl font-medium leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
-              <span className="bg-red-600 text-white dark:text-white p-3 rounded-full">Онлайн</span> марафон
+            <h1 className="w-full text-center lg:text-start text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight textColor">
+              Йога марафон
             </h1>
-            <p className="w-full text-center lg:text-start text-xl leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="w-full text-center lg:text-start text-lg leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               В новый год с чистыми каналами
+            </p>
+            <p className="w-full text-center lg:text-start text-lg leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              Онлайн трансляции через <b>Zoom</b>
+            </p>
+            <p className="w-full text-center lg:text-start text-lg leading-normal font-light text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+              с 15 по 28 декабря
             </p>
             <div className="w-full flex flex-col items-center sm:flex-row">
               <a
@@ -71,12 +77,12 @@ const page = () => {
         preTitle="с 15 по 28 декабря 2025 года"
       >
         <p className="py-4 font-light">Мы приглашаем Вас к участию в йога-марафоне, в котором будут подробно разобраны и разъяснены следующие темы и практики:
-          Методы шакти-янтры;
-          Хатха-йога;
-          Мудры и бандхи;
-          Пранаямы и крийи;
-          Очищающие техники йоги;
-          Управление энергией.</p>
+          методы шакти-янтры;
+          хатха-йога;
+          мудры и бандхи;
+          пранаямы и крийи;
+          очищающие техники йоги;
+          управление энергией.</p>
       </SectionTitle>
 
       <div className="flex flex-col gap-5 lg:flex-row justify-around py-10">
@@ -190,7 +196,7 @@ const page = () => {
                     <p className="text-2xl text-red-500  font-semibold">Где</p>
                     <p className="text-left font-light">
                       <>
-                        Онлайн. Трансляции через Zoom.
+                        Онлайн. Трансляции через <b>Zoom</b>.
                       </>
                     </p>
                   </div>

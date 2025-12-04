@@ -13,15 +13,12 @@ import { IoNavigateSharp } from "react-icons/io5";
 const page = () => {
   return (
     <Container className="min-h-screen">
-      {/* <h1 className="textColor w-full text-center text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-        Расписание регулярных занятий
-      </h1> */}
 
       <h1 className="mainTitle">
         Расписание регулярных занятий
       </h1>
 
-      <div className="flex justify-center mt-5 lg:mt-10 dark:text-black">
+      <div className="flex justify-center mt-2 md:mt-5 lg:mt-10 dark:text-black">
         <div className="w-full grid grid-cols-6 gap-1 rounded-md">
           <div className="grid-item-dn">
             <p className="hidden md:block">Понедельник</p>
@@ -57,9 +54,10 @@ const page = () => {
           <div className="grid-item-rasp ">
           </div>
           <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">9:00 - 10:30</p>
+            {/* <p className="w-full text-center">9:00 - 10:30</p>
             <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
+            <p className="text-red-600">Отмена занятия 10.12.2025</p>
           </div >
           <div className="grid-item-rasp ">
           </div>
@@ -81,9 +79,10 @@ const page = () => {
             <SendMessageToArati />
           </div>
           <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:30 - 12:00</p>
+            {/* <p className="w-full text-center">10:30 - 12:00</p>
             <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva />
+            <SendMessageToTirthadeva /> */}
+            <p className="text-red-600">Отмена занятия 10.12.2025</p>
           </div >
           <div className="grid-item-rasp bg-blue-100">
             <p className="w-full text-center">10:00 - 11:30</p>
@@ -96,9 +95,9 @@ const page = () => {
             <SendMessageToMadhavapriya />
           </div>
           <div className="grid-item-rasp row-span-2 bg-fuchsia-200">
-            <p className="w-full text-center">10:00 - 15:00</p>
-            <b className="w-full text-center">Семинар ретрит по базовой концентрации</b>
-            <SendMessageToMadhavapriya />
+            <p className="w-full text-center">12:00 - 15:00</p>
+            <b className="w-full text-center">Паамбати Джаянти</b>
+            <p>Мадхувидья</p>
           </div>
 
           {/* 3 */}
@@ -113,9 +112,10 @@ const page = () => {
             <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
           </div>
           <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">12:00 - 13:00</p>
+            {/* <p className="w-full text-center">12:00 - 13:00</p>
             <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
+            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p> */}
+            <p className="text-red-600">Отмена занятия 10.12.2025</p>
           </div >
           <div className="grid-item-rasp bg-amber-100">
             <p className="w-full text-center">11:30 - 12:30</p>
@@ -187,165 +187,7 @@ const page = () => {
         </div >
       </div >
 
-      {/* Grid-rows */}
-      {/* <div className="flex justify-center mt-10 dark:text-black">
-        <div className="w-full grid grid-rows-11 grid-flow-col gap-1 rounded-md">
-        
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Понедельник</p>
-            <p className="block md:hidden">Пн</p>
-          </div>
-
-          <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center dark:text-black">9:00 - 10:30</p>
-            <b className="w-full text-center dark:text-black">Хатха йога</b>
-            <SendMessageToTirthadeva />
-          </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:30 - 12:00</p>
-            <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">12:00 - 13:00</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div>
-          <div className="grid-item-rasp row-span-2">
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center font-light italic">Вечерняя пуджа Шиве</p>
-          </div>
-
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Вторник</p>
-            <p className="block md:hidden">Вт</p>
-          </div>
-          <div className="grid-item-rasp">
-          </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
-            <b className="w-full text-center">Шат-чакра-йога</b>
-            <SendMessageToArati />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center font-light italic">Вечерняя пуджа Даттатрее</p>
-          </div>
-
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Среда</p>
-            <p className="block md:hidden">Ср</p>
-          </div>
-          <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">9:00 - 10:30</p>
-            <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva />
-          </div >
-
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:30 - 12:00</p>
-            <b className="w-full text-center">Кундалини йога</b>
-            <SendMessageToTirthadeva />
-          </div >
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">12:00 - 13:00</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div >
-          <div className="grid-item-rasp bg-green-100">
-            <p className="w-full text-center">17:00 - 18:30</p>
-            <b className="w-full text-center">Хатха йога</b>
-            <SendMessageToTirthadeva />
-          </div >
-
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center font-light italic">Вечерняя пуджа Вишну</p>
-          </div >
-
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Четверг</p>
-            <p className="block md:hidden">Чт</p>
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
-            <b className="w-full text-center">Йога сиддхов</b>
-            <SendMessageToTarini />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">14:00 - 15:30</p>
-            <b className="w-full text-center">Пранавидья</b>
-            <SendMessageToTarini />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center font-light italic">Вечерняя пуджа Гуру</p>
-          </div>
-
-          <div className="grid-item-dn">
-            <p className="hidden md:block">Пятница</p>
-            <p className="block md:hidden">Пт</p>
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp bg-blue-100">
-            <p className="w-full text-center">10:00 - 11:30</p>
-            <b className="w-full text-center">Йога сиддхов</b>
-            <SendMessageToMadhavapriya />
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">11:30 - 12:30</p>
-            <b className="w-full text-center">Сутра</b>
-            <p className="w-full text-center font-light italic">Утрення пуджа Даттатрее</p>
-          </div>
-          <div className="grid-item-rasp ">
-          </div>
-          <div className="grid-item-rasp bg-amber-100">
-            <p className="w-full text-center">19:00 - 22:00</p>
-            <b className="w-full text-center">Бхаджан Мандала</b>
-            <p className="w-full text-center font-light italic">Вечерняя пуджа Шакти</p>
-          </div>
-
-          <div className="grid-item-dn max-w-60 ">
-            <p className="hidden md:block">Суббота</p>
-            <p className="block md:hidden">Сб</p>
-          </div>
-          <div className="grid-item-rasp max-w-60">
-          </div>
-          <div className="grid-item-rasp-2 bg-fuchsia-200">
-            <p className="w-full text-center">10:00 - 15:00</p>
-            <p className="w-full text-center font-bold">Семинар по базовой концентрации</p>
-            <SendMessageToMadhavapriya />
-          </div>
-          <div className="grid-item-rasp max-w-60">
-          </div>
-          <div className="grid-item-rasp max-w-60">
-          </div>
-        </div >
-      </div > */}
-
-
-      <h3 className="text-base mt-5 lg:mt-10 mb-1">Условные обозначения</h3>
+      <h3 className="textColor font-medium text-base mt-5 md:mt-5 lg:mt-10 mb-1">Условные обозначения</h3>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
         <div className="w-full flex items-center gap-1">
           <div className="size-8 bg-green-100 shrink-0 rounded-md"></div>
@@ -367,7 +209,7 @@ const page = () => {
 
 
       <>
-        <h3 className="text-base my-1 mt-10">Записаться на практику к инструктору</h3>
+        <h3 className="textColor text-base font-medium my-1 mt-5 md:mt-5 lg:mt-10">Записаться на практику к инструктору</h3>
         <div className="flex flex-col gap-2">
           <MyAccordion title="Тиртхадева" className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
             <div className="flex flex-col gap-1">
@@ -496,12 +338,12 @@ const page = () => {
         </div>
 
 
-        <span className="mt-3 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" />В сообщении обязательно укажите время и день занятия!</span>
+        <span className="mt-1 text-xs inline-flex gap-1"><BsExclamationTriangle className="text-amber-400 dark:text-amber-200" />В сообщении обязательно укажите время и день занятия!</span>
       </>
 
 
 
-      <h3 className="text-base my-1 mt-10">Краткое описание практик</h3>
+      <h3 className="textColor font-medium text-base my-1 mt-5 md:mt-5 lg:mt-10">Краткое описание практик</h3>
       <div className="w-full flex flex-col gap-2">
 
         <MyAccordion title='Хатха йога' className="w-full flex flex-col text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md p-2">
@@ -622,7 +464,7 @@ const page = () => {
         </MyAccordion>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-5 md:mt-5 lg:mt-10">
         <a href="/contacts/#address" className="w-full btn btn-sm  dark:bg-slate-700 text-slate-700 dark:text-white">
           Как до нас добраться
           <IoNavigateSharp />

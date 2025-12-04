@@ -32,13 +32,13 @@ export default function MyAccordion({
         >
           {
             big ?
-              <span className='text-lg md:text-2xl font-semibold text-center text-red-600 dark:text-red-100'>{title}</span>
+              <span className='text-lg md:text-2xl font-semibold text-center text-red-600 dark:text-red-50'>{title}</span>
               :
               <span>{title}</span>
           }
 
 
-          <svg className="dark:fill-red-100 fill-red-600 shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+          <svg className="dark:fill-red-400 fill-red-600 shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
             <rect y="7" width="16" height="2" rx="1" className={`transform origin-center transition duration-200 ease-out ${accordionOpen && '!rotate-180'}`} />
             <rect y="7" width="16" height="2" rx="1" className={`transform origin-center rotate-90 transition duration-200 ease-out ${accordionOpen && '!rotate-180'}`} />
           </svg>
