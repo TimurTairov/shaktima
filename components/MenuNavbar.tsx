@@ -5,10 +5,10 @@ const MenuNavbar = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center'>
 
-      <Link href="/" className='btn btn-ghost text-lg font-normal hover:bg-red-100 dark:hover:bg-gray-700 dark:text-white transition duration-300 ease-in'>О центре</Link>
+      <Link href="/" className='btn btn-ghost text-lg font-normal hover:bg-red-600 hover:text-white dark:hover:bg-gray-700 dark:text-white transition duration-300 ease-in'>О центре</Link>
 
       <Menu>
-        <MenuButton className="btn btn-ghost text-lg font-normal dark:text-white hover:bg-red-100 dark:hover:bg-gray-700 transition duration-300 ease-in">Мероприятия</MenuButton>
+        <MenuButton className="btn btn-ghost text-lg font-normal dark:text-white hover:bg-red-600 hover:text-white dark:hover:bg-gray-700 transition duration-300 ease-in">Мероприятия</MenuButton>
         <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 flex flex-col gap-1">
           <MenuItem>
             <Link
@@ -36,7 +36,7 @@ const MenuNavbar = () => {
       </Menu >
 
       <Menu>
-        <MenuButton className="btn btn-ghost text-lg font-normal dark:text-white hover:bg-red-100 dark:hover:bg-gray-700">Практики</MenuButton>
+        <MenuButton className="btn btn-ghost text-lg font-normal dark:text-white hover:bg-red-600 hover:text-white dark:hover:bg-gray-700">Практики</MenuButton>
         <MenuItems transition anchor="bottom" className="w-[var(--button-width)] origin-top transition duration-300 ease-in data-[closed]:scale-95 data-[closed]:opacity-0 flex flex-col gap-1">
           <MenuItem>
             <Link
@@ -48,11 +48,11 @@ const MenuNavbar = () => {
         </MenuItems>
       </Menu>
 
-      <Link href="/blog" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-100 dark:hover:bg-gray-700 transition duration-300 ease-in'>Блог</Link>
+      <Link href="/blog" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-600 hover:text-white dark:hover:bg-gray-700 transition duration-300 ease-in'>Блог</Link>
 
-      <Link href="/contacts" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-100 dark:hover:bg-gray-700 transition duration-300 ease-in'>Контакты</Link>
+      <Link href="/contacts" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-600 hover:text-white dark:hover:bg-gray-700 transition duration-300 ease-in'>Контакты</Link>
 
-      <Link href="/donate" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-100 dark:hover:bg-gray-700 transition duration-300 ease-in'>Поддержать нас</Link>
+      <Link href="/donate" className='btn btn-ghost text-left text-lg font-normal dark:text-white hover:bg-red-600 hover:text-white dark:hover:bg-gray-700 transition duration-300 ease-in'>Поддержать нас</Link>
     </div>
   )
 }

@@ -7,8 +7,13 @@ import { FaTelegram } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaOm } from "react-icons/fa";
 import { Metadata } from 'next'
-import map from "@/public/map.jpg"
+import map from "@/public/map.webp"
+import map2 from "@/public/map2.webp"
+import map3 from "@/public/map3.webp"
+import map4 from "@/public/map4.webp"
+import map5 from "@/public/map5.webp"
 import { FaMapMarkerAlt } from "react-icons/fa";
+import MyAccordion from "@/components/MyAccordion";
 
 
 export const metadata: Metadata = {
@@ -63,7 +68,21 @@ const page = () => {
             <p className="text-xs md:text-base lg:text-lg">Нижняя Красносельская улица, 40/12к2, подъезд 3</p>
             <FaMapMarkerAlt />
           </a>
-          <Image src={map} alt="" className="mt-5 rounded-xl xl:rounded-2xl 2xl:rounded-3xl"></Image>
+          <MyAccordion title="Как добраться" className="xl:mx-20 2xl:mx-40 flex flex-col  mt-2 p-2 text-sm bg-gray-100 dark:bg-slate-700 text-slate-700 dark:text-white rounded-md">
+            <div className="flex flex-col gap-2">
+              <Image src={map} alt="Студия йоги ШактиМа. Как до нас дойти пешком от метро." className="mt-2 rounded-lg lg:rounded-xl " />
+              <p><b>От метро Бауманская.</b> Выходите из метро направо через дорогу и проходите сквозь торговые лавки на Нижнюю Красносельскую улицу. </p>
+              <p><b>От метро Красносельская.</b> Выходите из метро и идете вдоль дороги по Нижней Красносельской улице. </p>
+              <Image src={map2} alt="Арка" className="rounded-lg lg:rounded-xl" />
+              <p>Вход через ворота с улицы Нижняя Красносельская</p>
+              <Image src={map3} alt="Арка" className="rounded-lg lg:rounded-xl" />
+              <p>Идете прямо</p>
+              <Image src={map4} alt="Арка" className="rounded-lg lg:rounded-xl" />
+              <p>Доходите до конца здания и поворичиваете направо. Затем, идете до конца и налево.</p>
+              <Image src={map5} alt="Арка" className="rounded-lg lg:rounded-xl" />
+              <p>Намасте! И добро пожаловать.</p>
+            </div>
+          </MyAccordion>
         </div>
 
         <h5 className="w-full text-center text-lg md:text-xl lg:text-2xl font-semibold mt-10 lg:mt-20">Наши ресурсы</h5>
