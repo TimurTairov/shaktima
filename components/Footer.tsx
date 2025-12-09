@@ -1,0 +1,184 @@
+import Link from "next/link";
+import Image from "next/image";
+import logo from '@/public/ShaktiMa-logo.webp'
+import { FaGlobe } from "react-icons/fa6";
+import { Container } from "@/components/Container";
+import { FaYoutube } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { PiHandsPrayingBold } from "react-icons/pi";
+import { FaOm } from "react-icons/fa";
+import Logo from "./Logo";
+
+
+export function Footer() {
+  const navigation = [
+    {
+      title: "О центре",
+      url: "/"
+    },
+    {
+      title: "Расписание",
+      url: "/raspisanie"
+    },
+    {
+      title: "Календарь",
+      url: "/calendar"
+    },
+    {
+      title: "События центра",
+      url: "/mdc-events"
+    },
+    {
+      title: "Алтарная садхана",
+      url: "/upasana"
+    },
+    // {
+    //   title: "Садхана Даттатрее",
+    //   url: "/datta-sadhana"
+    // },
+    // {
+    //   title: "Ачамана",
+    //   url: "/bhadjan-mandala"
+    // },
+    {
+      title: "Блог",
+      url: "/blog"
+    },
+    {
+      title: "Контакты",
+      url: "/contacts"
+    },
+    {
+      title: "Поддержать нас",
+      url: "/donate"
+    },
+  ];
+  return (
+    <div className="mt-auto dark:bg-slate-800 ">
+      <Container>
+        <div className="text-sm lg:text-base grid max-w-screen-2xl grid-cols-1 md:grid-cols-10 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
+          <div className="md:col-span-3">
+            <Logo />
+
+            <div className="w-ful flex flex-col">
+              <div className="max-w-md text-gray-600 dark:text-gray-300 py-1 xl:py-2 font-medium">
+                Московский Дхарма центр Шакти Ма
+              </div>
+
+              <div className="w-full grid grid-cols-2 text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs font-light">
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Медитации сиддхов</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Семинары и ретриты</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Пуджи и бхаджаны</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Кундалини и хатха йога</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Махашиваратри</span>
+                </div>
+
+                <div>
+                  <FaOm className="inline mr-1" />
+                  <span>Ведические праздники</span>
+                </div>
+
+              </div>
+
+              <div className="max-w-md text-gray-600 dark:text-gray-300 inlene-flex items-center py-1 xl:py-2 text-xs xl:text-sm">
+                <span>На благо всех живых существ</span> <PiHandsPrayingBold className="ml-1 xl:ml-2 inline" />
+              </div>
+
+              <div className="max-w-md text-gray-600 dark:text-gray-300 py-1 xl:py-2 text-xs xl:text-sm">
+                © All Rights Reserved {new Date().getFullYear()}
+              </div>
+            </div>
+          </div>
+
+          <div className="md:col-span-4">
+
+            <p className="w-full font-medium dark:text-gray-300">Меню</p>
+            <div className="mt-3 grid grid-cols-2 gap-1">
+              {navigation.map((item, index) => (
+                <Link
+                  key={index}
+                  href={item.url}
+                  className="text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-32 dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 focus:text-red-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-red-800 transition-colors duration-300"
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="md:col-span-3">
+            <div className="w-full font-medium dark:text-gray-300">Ресурсы</div>
+            <div className="flex flex-col gap-1 mt-3 ">
+              <a
+                href="https://www.advayta.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300">
+                <FaGlobe className="shrink-0 mr-1" />
+                Cайт нашей традиции
+              </a>
+
+              <a
+                href="https://t.me/mdc_ShaktiMa"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <FaTelegram className="shrink-0 mr-1" />
+                <span className="">Канал в телеграм</span>
+              </a>
+              <a
+                href="https://t.me/+GgiaV5DkPoE1OTBi"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <FaTelegram className="shrink-0 mr-1" />
+                <span className="">Чат в телеграм</span>
+              </a>
+              <a
+                href="https://www.siddhashop.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <FaShoppingCart className="shrink-0 mr-1" />
+                Сиддха шоп
+              </a>
+              <a
+                href="https://www.youtube.com/@ShaktiMA_MDC"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center dark:text-white dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <FaYoutube className="shrink-0 mr-1" />
+                <span className="">YouTube</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Container>
+      {/* Do not remove this */}
+    </div>
+  );
+}
+
