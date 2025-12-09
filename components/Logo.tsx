@@ -4,7 +4,7 @@ import logo from '@/public/ShaktiMa-logo.webp'
 import localFont from "next/font/local"
 
 const izmir = localFont({
-  src: "../app/fonts/dsizmir_normal.ttf",
+  src: "../fonts/dsizmir_normal.ttf",
   variable: "--font-izmir",
 });
 

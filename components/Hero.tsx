@@ -6,7 +6,7 @@ import localFont from "next/font/local"
 
 
 const jaipur = localFont({
-  src: "../app/fonts/jaipur.ttf",
+  src: "../fonts/jaipur.ttf",
   variable: "--font-jaipur",
 });
 
