@@ -51,14 +51,14 @@ export const seminary = [
   //   img: simvolVery,
   // },
 
-  // {
-  //   id: "siddha-meditation",
-  //   title: "Медитация сиддхов",
-  //   img: siddhaMeditation,
-  // },
-  // {
-  //   id: "yoga-siddhov",
-  //   title: "Семинар «Йога Сиддхов»",
-  //   img: yogaSiddhov,
-  // },
+  {
+    id: "siddha-meditation",
+    title: "Медитация сиддхов",
+    img: siddhaMeditation,
+  },
+  {
+    id: "yoga-siddhov",
+    title: "Семинар «Йога Сиддхов»",
+    img: yogaSiddhov,
+  },
 ]

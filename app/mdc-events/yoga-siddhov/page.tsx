@@ -60,7 +60,7 @@ const page = () => {
           <h3 className="text-left font-semibold text-xl md:text-2xl mt-5 md:mt-7">2 часть - Медитация Сиддхов</h3>
           <p className="text-left py-2">Практика для достижения ясности и концентрации, унаследованная от древних йогов-сиддхов Южной Индии. Позволяет погрузиться в глубокое состояние покоя и осознанности.
           </p>
-          <h3 className="text-left font-semibold text-xl md:text-2xl mt-5 md:mt-7">3 часть - Обсуждение "Практика в большом городе" + чаепитие</h3>
+          <h3 className="text-left font-semibold text-xl md:text-2xl mt-5 md:mt-7">3 часть - Обсуждение Практика в большом городе + чаепитие</h3>
           <p className="text-left py-2">Открытое общение с участниками семинара, где мы обсудим, как сохранять осознанность и гармонию, живя в динамичном городском окружении.</p>
         </SectionTitle>
 
@@ -112,8 +112,8 @@ const page = () => {
         </SectionTitle>
 
         <p className="mt-10"></p>
-        <Benefits data={benefitTwo} />
-        <Benefits imgPos="right" data={benefitOne} />
+        {/* <Benefits data={benefitTwo} />
+        <Benefits imgPos="right" data={benefitOne} /> */}
 
         <p className="mt-10"></p>
         <SectionTitle

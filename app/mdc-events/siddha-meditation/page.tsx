@@ -18,7 +18,7 @@ const page = () => {
   return (
     <Container >
       <MeditationSiddhov />
-      <Benefits data={benefitThree} />
+      {/* <Benefits data={benefitThree} /> */}
       <SectionTitle
         preTitle="Традиция сиддхов"
         title="Линия сиддхов южной Индии"
