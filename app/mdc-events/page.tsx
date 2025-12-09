@@ -1,5 +1,5 @@
 import { Container } from "@/components/Container";
-import { seminary } from "./index"
+import { seminary } from "../../helpers/mdcEvents"
 import Link from "next/link";
 import Image from "next/image";
 

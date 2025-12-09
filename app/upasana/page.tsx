@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import { upasana } from "./index"
+import { upasana } from "../../helpers/upasana"
 
 const page = () => {
   return (

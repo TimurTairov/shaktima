@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image';
 import { Container } from "@/components/Container";
-import { allArticles } from './index'
+import { allArticles } from '../../helpers/blog'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
