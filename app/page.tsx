@@ -6,6 +6,7 @@ import { benefitOne } from "@/components/data";
 import GalaryMDC from '@/components/GalaryMDC'
 import Banner2 from "@/components/Banner2";
 import NashaTradiciya from "@/components/NashaTradiciya";
+import NashGuru from "@/components/NashGuru";
 
 export default function Home() {
   return (
@@ -45,7 +46,8 @@ export default function Home() {
         </div>
       </Container>
 
-      <Benefits data={benefitOne} />
+      {/* <Benefits data={benefitOne} /> */}
+      <NashGuru />
       <NashaTradiciya />
 
       <Banner2 />
