@@ -463,8 +463,8 @@ const page = () => {
       </div>
 
       <div className="w-full flex justify-center">
-        <div className="mt-5 md:mt-5 lg:mt-10 flex flex-row items-center gap-1 border border-gray-300 px-3 py-2 rounded-sm text-slate-700 dark:text-white">
-          <Link href="/contacts/#address" className=" ">
+        <div className="mt-5 md:mt-5 lg:mt-10 flex flex-row items-center gap-1 border px-8 py-4  rounded-sm text-white dark:text-white bg-red-500 border-white dark:border-slate-800 hover:bg-gray-50 hover:text-red-500 hover:border-red-500 text-lg font-medium text-center">
+          <Link href="/contacts/#address">
             Как до нас добраться
           </Link>
           <IoNavigateSharp />

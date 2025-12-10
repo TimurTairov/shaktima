@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </Container>
 
-      {/* <Benefits data={benefitOne} /> */}
+      <Benefits data={benefitOne} />
       <NashaTradiciya />
 
       <Banner2 />

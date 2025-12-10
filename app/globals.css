@@ -54,7 +54,7 @@ body {
 
 /* GRID CALENDAR */
 .grid-item-dn {
-  @apply text-xs md:text-sm lg:text-base xl:text-lg text-red-950 font-bold bg-red-300 p-1 rounded-lg flex flex-col items-center justify-center;
+  @apply text-xs md:text-sm lg:text-base xl:text-lg text-red-800 font-medium bg-red-300 p-1 rounded-lg flex flex-col items-center justify-center;
 }
 .grid-item {
   @apply text-center p-1 rounded-lg flex flex-col justify-between bg-red-100;
