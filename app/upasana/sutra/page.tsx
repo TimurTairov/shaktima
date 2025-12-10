@@ -28,19 +28,19 @@ const page = () => {
               </h2>
               <p className=" text-balance max-w-screen-sm">
                 Перед началом практики выполняются{' '}
-                <a
+                <Link
                   href="/upasana/achamana"
                   className="text-indigo-600 dark:text-indigo-300 hover:underline"
                 >
                   ачамана
-                </a>{' '}
+                </Link>{' '}
                 и далее
-                <a
+                <Link
                   href="/upasana/pancha-ratna-pranama-mantra"
                   className="text-indigo-600 dark:text-indigo-300 hover:underline ml-1"
                 >
                   ежедневная практика принятия Прибежища:
-                </a>{' '}
+                </Link>{' '}
               </p>
 
               <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">

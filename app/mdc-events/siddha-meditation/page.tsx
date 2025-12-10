@@ -8,6 +8,7 @@ import { Benefits } from "@/components/Benefits";
 import { benefitThree, benefitFour } from "@/components/data";
 import { SectionTitle } from "@/components/SectionTitle";
 import { MeditationSiddhov } from "@/components/MeditationSiddhov"
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Медитация сиддхов",
@@ -45,9 +46,9 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
                     <p className="text-left">
-                      <a href="/calendar">
+                      <Link href="/calendar">
                         Вторник 20:30, суббота - 9:00
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -69,9 +70,9 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500  font-semibold">Где</p>
                     <p className="text-left">
-                      <a href="/raspisanie">
+                      <Link href="/raspisanie">
                         Онлайн
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

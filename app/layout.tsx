@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,11 +34,13 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system"
           enableSystem disableTransitionOnChange>
+
           <Header />
           <main className="min-h-screen bg-neutral-50 dark:bg-slate-800 text-neutral-700 font-light">
             {children}
           </main>
           <Footer />
+
         </ThemeProvider>
       </body>
     </html>

@@ -19,6 +19,7 @@ import { GiHealthIncrease } from "react-icons/gi";
 import { RiMentalHealthFill } from "react-icons/ri";
 import { TbHealthRecognition } from "react-icons/tb";
 import { FaOm } from "react-icons/fa6";
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Семинар по хатха йоге",
@@ -199,7 +200,7 @@ const page = () => {
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-2xl text-indigo-500  font-semibold">Где</p>
                       <p className="text-left">
-                        Дхарма центр ШактиМА. <a href="/contacts/#address">Нижняя Красносельская улица, 40/12к2</a>
+                        Дхарма центр ШактиМА. <Link href="/contacts/#address">Нижняя Красносельская улица, 40/12к2</Link>
                       </p>
                     </div>
                   </div>

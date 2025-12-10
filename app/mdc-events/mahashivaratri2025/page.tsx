@@ -36,13 +36,13 @@ const page = () => {
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
             <h1 className="textColor w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight lg:leading-tight xl:leading-tight">
-              МахаШиваРатри'25
+              МахаШиваРатри 2025
             </h1>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               Священная ночь почитания Шивы и Парвати. Ночь благословений, трансформаций и вдохновения.
             </p>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
-              26 февраля, 21:00, Москва, пространство "Вкус и цвет" (3 минуты от м.  Дмитровская).
+              26 февраля, 21:00, Москва, пространство Вкус и цвет (3 минуты от м.  Дмитровская).
             </p>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
               Откройте для себя атмосферу древнего ведического праздника, наполненного мудростью и высокой  энергией.
@@ -154,7 +154,7 @@ const page = () => {
             <p className="text-start w-full pt-3 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Праздник начнётся вечером 26 февраля и будет длиться всю ночь, наполняя вас вдохновением и энергией. Вас ждёт насыщенная программа, включающая:
             </p>
-            <p className="text-start pt-3 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал "Санкальпа Видья" — создание намерения на год</p>
+            <p className="text-start pt-3 pb-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300"><b>21:00</b> — Сбор гостей. Ритуал Санкальпа Видья — создание намерения на год</p>
             <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               <b>22:00</b> — Вступительное слово и ритуалы открытия (Ганеша и Дурга арати)</p>
             <p className="text-start py-1 text-base md:text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -280,9 +280,9 @@ const page = () => {
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-2xl text-indigo-500 font-semibold">Когда</p>
                     <p className="text-left">
-                      <a href="/calendar">
+                      <Link href="/calendar">
                         В ночь с 26 на 27 февраля (со среды на четверг)
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
