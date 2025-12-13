@@ -61,9 +61,9 @@ const page = () => {
 
       </div>
 
-      <div className="w-full flex justify-center mt-20">
+      {/* <div className="w-full flex justify-center mt-20">
         <Image src={namaste} alt="namaste" loading="lazy" className="w-72 xl:w-96 text-red-500" />
-      </div>
+      </div> */}
 
     </Container>
   )
