@@ -5,12 +5,6 @@ import GalaryMDC from '@/components/GalaryMDC'
 import Banner2 from "@/components/Banner2";
 import NashaTradiciya from "@/components/NashaTradiciya";
 import NashGuru from "@/components/NashGuru";
-// import { lazy } from "react";
-
-// const NashGuru = lazy(() => import("@/components/NashGuru"));
-// const NashaTradiciya = lazy(() => import("@/components/NashaTradiciya"));
-// const GalaryMDC = lazy(() => import("@/components/GalaryMDC"));
-// const Banner2 = lazy(() => import("@/components/Banner2"));
 
 export default function Home() {
   return (
@@ -50,7 +44,6 @@ export default function Home() {
         </div>
       </Container>
 
-      {/* <Benefits data={benefitOne} /> */}
       <NashGuru />
       <NashaTradiciya />
 

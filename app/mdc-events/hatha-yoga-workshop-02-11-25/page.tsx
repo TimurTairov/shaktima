@@ -3,7 +3,7 @@ import { Container } from "@/components/Container"
 import { SectionTitle } from "@/components/SectionTitle"
 import Image from 'next/image'
 import yoga from "@/public/mdc-events/yoga.webp"
-import yogaAsana from "@/public/svg/yoga-asana2.svg"
+//import yogaAsana from "@/public/svg/yoga-asana2.svg"
 import tirthadeva from "@/public/mdc-events/tirthadeva.webp"
 import asana2 from '@/public/svg/Yoga SVG/1801507.svg'
 import asana1 from '@/public/svg/Yoga SVG/2029430.svg'
@@ -13,12 +13,10 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
-import { Benefits } from "@/components/Benefits";
-import { benefitOne, benefitTwo } from "@/components/data";
-import { GiHealthIncrease } from "react-icons/gi";
-import { RiMentalHealthFill } from "react-icons/ri";
-import { TbHealthRecognition } from "react-icons/tb";
-import { FaOm } from "react-icons/fa6";
+// import { GiHealthIncrease } from "react-icons/gi";
+// import { RiMentalHealthFill } from "react-icons/ri";
+// import { TbHealthRecognition } from "react-icons/tb";
+// import { FaOm } from "react-icons/fa6";
 import Link from "next/link"
 
 export const metadata: Metadata = {

@@ -1,6 +1,12 @@
 import { Container } from "@/components/Container";
-import { BiSolidDonateHeart } from "react-icons/bi";
+//import { BiSolidDonateHeart } from "react-icons/bi";
 import { BsFillPostcardHeartFill } from "react-icons/bs";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Поддержите ШактиМа',
+  description: 'Пожертвования для ШактиМа',
+}
 
 const page = () => {
   return (

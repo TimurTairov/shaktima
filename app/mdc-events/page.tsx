@@ -2,6 +2,12 @@ import { Container } from "@/components/Container";
 import { seminary } from "../../helpers/mdcEvents"
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Мероприятия в ШактиМа',
+  description: 'Список семинаров, ритритов, праздников и других мероприятий в ШактиМа',
+}
 
 const page = () => {
   return (

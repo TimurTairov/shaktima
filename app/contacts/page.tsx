@@ -5,7 +5,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-import { FaOm } from "react-icons/fa";
+//import { FaOm } from "react-icons/fa";
 import { Metadata } from 'next'
 import map from "@/public/map.webp"
 import map2 from "@/public/map2.webp"
@@ -17,8 +17,8 @@ import MyAccordion from "@/components/MyAccordion";
 
 
 export const metadata: Metadata = {
-  title: 'Контакты',
-  description: 'Контакты и ресурсы'
+  title: 'Контакты ШактиМа',
+  description: 'Контакты, адрес и ресурсы ШактиМа'
 }
 
 const page = () => {
@@ -145,7 +145,7 @@ const page = () => {
             <li className="dark:text-indigo-400 text-indigo-700 hover:underline flex items-center">
               <FaShoppingCart className="mr-2 shrink-0" />
               <a href="https://institute-vasishtha.com/shop/catalog/videokursy/yoga/69255/?oid=69268" className=" text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
-                Курс по упасане: "сутра, бхаджан-мандала"
+                Курс по упасане: сутра, бхаджан-мандала
               </a>
             </li>
           </ul>

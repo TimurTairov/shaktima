@@ -1,5 +1,6 @@
 'use client' // Error boundaries must be Client Components
 
+import { Container } from '@/components/Container'
 import { useEffect } from 'react'
 
 export default function Error({
@@ -15,8 +16,8 @@ export default function Error({
   }, [error])
 
   return (
-    <div>
-      <h2>Что-то пошло не так!</h2>
+    <Container className='w-full h-full flex flex-col justify-center items-center'>
+      <h2 className='w-full text-center text-xl text-shadow-red-500'>Что-то пошло не так!</h2>
       <button
         onClick={
           // Attempt to recover by trying to re-render the segment
@@ -25,6 +26,6 @@ export default function Error({
       >
         Попробуйте еще раз.
       </button>
-    </div>
+    </Container>
   )
 }

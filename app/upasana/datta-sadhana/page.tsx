@@ -2,6 +2,12 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import data from '@/public/img/Lords/datta.webp'
 import { BsInfoCircleFill } from 'react-icons/bs'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Датта садхана',
+  description: 'Практика призывания божественных благословений Даттатреи',
+}
 
 const page = () => {
   return (

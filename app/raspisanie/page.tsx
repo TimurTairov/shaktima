@@ -10,6 +10,12 @@ import { FaTelegram } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { IoNavigateSharp } from "react-icons/io5";
 import Link from "next/link";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Расписание ШактиМа',
+  description: 'Актуальное расписание регулярных занятий в ШактиМа',
+}
 
 const page = () => {
   return (

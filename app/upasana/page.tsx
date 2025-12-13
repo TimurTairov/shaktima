@@ -2,6 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import { upasana } from "../../helpers/upasana"
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Упасана в ШактиМа',
+  description: 'Список алтарных садхан в ШактиМа',
+}
+
 
 const page = () => {
   return (

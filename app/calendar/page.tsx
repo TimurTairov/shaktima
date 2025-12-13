@@ -1,6 +1,11 @@
 import { Container } from "@/components/Container"
 import Decabr2025 from "@/components/Calendar/Decabr2025"
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Календарь ШактиМа',
+  description: 'Расписание мероприятий в ШактиМа на текущий месяц',
+}
 
 const page = () => {
 

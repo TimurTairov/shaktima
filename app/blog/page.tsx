@@ -5,8 +5,8 @@ import { allArticles } from '../../helpers/blog'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Блог',
-  description: 'Здесь размещены статьи об Адвайте и йоге'
+  title: 'Блог ШактиМа',
+  description: 'Статьи об Адвайте и йоге, а также отчеты с наших мероприятий'
 }
 
 const Blog = () => {

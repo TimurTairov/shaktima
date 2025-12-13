@@ -1,4 +1,10 @@
 import { Container } from "@/components/Container";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Панча ратна пранама мантра',
+  description: 'Мантра принятия пяти прибежищ: в Шиве, в Дхарме, в Сангхе, в Шакти, в Садгуру ',
+}
 
 const page = () => {
   return (
