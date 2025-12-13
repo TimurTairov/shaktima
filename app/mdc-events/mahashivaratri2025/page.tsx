@@ -9,13 +9,13 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
-import MahaShivaRatri2024Video from "@/components/MahaShivaRatri2024Video";
+// import MahaShivaRatri2024Video from "@/components/MahaShivaRatri2024Video";
 import mahwshvari from "@/public/hero/maheshvari.webp"
 
 import { FaOm } from "react-icons/fa6";
-import { GrYoga } from "react-icons/gr";
-import { TbYoga } from "react-icons/tb";
-import { GiHealthIncrease } from "react-icons/gi";
+// import { GrYoga } from "react-icons/gr";
+// import { TbYoga } from "react-icons/tb";
+// import { GiHealthIncrease } from "react-icons/gi";
 import { RiMentalHealthFill } from "react-icons/ri";
 import { TbHealthRecognition } from "react-icons/tb";
 import { FaHandsPraying } from "react-icons/fa6";
@@ -35,7 +35,7 @@ const page = () => {
       <div className="flex flex-wrap justify-between">
         <div className="flex items-center justify-center w-full lg:w-5/12">
           <div className="pb-10">
-            <h1 className="textColor w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight lg:leading-tight xl:leading-tight">
+            <h1 className="textColor w-full text-center lg:text-start py-2 lg:py-5  text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-snug tracking-tight lg:leading-tight xl:leading-tight dark:text-gray-300">
               МахаШиваРатри 2025
             </h1>
             <p className="w-full text-center lg:text-start py-2 lg:py-5 leading-normal text-gray-500 text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -53,7 +53,7 @@ const page = () => {
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSf_G9HpJKL2HtcpxARh3lmpui9LYiq8kyhWpg2sXVYenD17vQ/viewform"
                 target="_blank"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
               >
                 Записаться на МахаШиваРатри
               </Link>
@@ -108,7 +108,7 @@ const page = () => {
               <div className="mt-3 lg:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <FaHandsPraying className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <FaHandsPraying className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Благословение и Ануграха-шакти от Махадева (Шивы)
@@ -117,7 +117,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <TbHealthRecognition className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <TbHealthRecognition className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Получение новых знаний и поддерживающего окружения единомышленников
@@ -126,7 +126,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                  <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">Улучшение физического и психического здоровья
                     </p>
@@ -134,7 +134,7 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <FaOm className=" shrink-0 w-14 h-14 text-indigo-500" />
+                  <FaOm className=" shrink-0 w-14 h-14 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
                     <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                       Возможность приобщиться к духовной традиции йоги
@@ -276,9 +276,9 @@ const page = () => {
               <div className="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500 font-semibold">Когда</p>
+                    <p className="text-2xl text-red-500 font-semibold">Когда</p>
                     <p className="text-left">
                       <Link href="/calendar">
                         В ночь с 26 на 27 февраля (со среды на четверг)
@@ -288,9 +288,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500 font-semibold">Формат</p>
+                    <p className="text-2xl text-red-500 font-semibold">Формат</p>
                     <p className="text-left">
                       Практика длится всю ночь с 21:00 до 7:00 утра. Светлая/ритуальная одежда (пуджи) +
                       свободная одежда для технических практик (хатха йога, медитации).
@@ -299,9 +299,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500 font-semibold">Где</p>
+                    <p className="text-2xl text-red-500 font-semibold">Где</p>
                     <p className="text-left">
                       г. Москва, ул. Большая Новодмитровская, д. 36, стр. 7, вход 1, Дизайн-завод «Флакон».
                       Вход со стороны Хлебзавод №9 от ст. м. Дмитровская
@@ -310,9 +310,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500 font-semibold">Стоимость</p>
+                    <p className="text-2xl text-red-500 font-semibold">Стоимость</p>
                     <div className="text-left">
                       ⏳ До 7 февраля: 4000 руб.<br />
                       📅 С 8 февраля по 25 февраля: 5000 руб.<br />
@@ -334,14 +334,14 @@ const page = () => {
           <Link
             href="http://t.me/shartatiana"
             target="_blank"
-            className="px-3 py-2 text-xs text-center text-white bg-indigo-500 rounded-md "
+            className="px-3 py-2 text-xs text-center text-white bg-red-500 rounded-md "
           >
             Telegram
           </Link>
           <Link
             href="https://wa.me/message/PXESQR73QY3FE1"
             target="_blank"
-            className="px-3 py-2 text-xs text-center text-white bg-indigo-500 rounded-md "
+            className="px-3 py-2 text-xs text-center text-white bg-red-500 rounded-md "
           >
             WhatsApp
           </Link>
@@ -355,7 +355,7 @@ const page = () => {
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSf_G9HpJKL2HtcpxARh3lmpui9LYiq8kyhWpg2sXVYenD17vQ/viewform"
             target="_blank"
-            className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+            className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
           >
             Зарегистрироваться на МахаШиваРатри 2025
           </Link>

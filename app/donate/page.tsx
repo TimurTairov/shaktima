@@ -2,6 +2,8 @@ import { Container } from "@/components/Container";
 //import { BiSolidDonateHeart } from "react-icons/bi";
 import { BsFillPostcardHeartFill } from "react-icons/bs";
 import { Metadata } from 'next'
+import Image from "next/image";
+import namaste from "@/public/NicePng_namaskar-logo-png_2447010.png"
 
 export const metadata: Metadata = {
   title: 'Поддержите ШактиМа',
@@ -13,7 +15,7 @@ const page = () => {
     <Container className="min-h-screen">
       <h1 className="mainTitle">Поддержите нас</h1>
 
-      <div className="flex flex-col items-center justify-center font-light">
+      <div className="flex flex-col items-center justify-center font-light dark:text-gray-300">
         <div className="mt-10">
           <p>Московский Дхарма Центр «Шакти Ма» развивается благодаря подношениям практикующих.</p>
           <p className="mt-5">Подношения направляются на:</p>
@@ -23,7 +25,7 @@ const page = () => {
           <p className="mt-5">Вы можете поучаствовать и поддержать наш Дхарма центр.</p>
         </div>
         <div className="mx-2 mt-20">
-          <div className="flex items-center justify-center text-xl my-2 text-red-600">
+          <div className="flex items-center justify-center text-xl my-2 text-red-500">
             <h2 className="mr-2 font-semibold">На карту T-bank </h2>
             <BsFillPostcardHeartFill />
           </div>
@@ -57,6 +59,10 @@ const page = () => {
 
         </div> */}
 
+      </div>
+
+      <div className="w-full flex justify-center mt-20">
+        <Image src={namaste} alt="namaste" className="w-72 xl:w-96 text-red-500" />
       </div>
 
     </Container>

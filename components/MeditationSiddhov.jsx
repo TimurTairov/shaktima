@@ -19,7 +19,7 @@ export const MeditationSiddhov = () => {
             <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col md:items-start space-y-3 sm:space-x-4 sm:space-y-0 items-center sm:flex-row">
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdYRN2fEV48od4k59TfYdu4pDsQbpDs17vrLlhaTMHsTgB4zA/viewform"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
               >
                 Записаться на практику
               </Link>

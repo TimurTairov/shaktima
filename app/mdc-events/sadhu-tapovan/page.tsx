@@ -34,9 +34,9 @@ const page = () => {
               <Link
                 href="https://t.me/arina_vandana"
                 target="_blank"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
               >
-                Записаться на йога тур
+                Записаться
               </Link>
             </div>
           </div>
@@ -61,7 +61,7 @@ const page = () => {
                 <div className="mt-3 lg:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                   <div className="flex items-center gap-5">
-                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-indigo-500 " />
+                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                         4-10 мая
@@ -70,7 +70,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-center gap-5">
-                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-indigo-500 " />
+                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                         15-21 июня
@@ -79,7 +79,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-center gap-5">
-                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-indigo-500 " />
+                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                         20-26 июля
@@ -88,7 +88,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-center gap-5">
-                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-indigo-500" />
+                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-red-500" />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                         7-13 сентября
@@ -108,7 +108,7 @@ const page = () => {
                 <div className="mt-3 lg:mt-10 flex justify-center gap-5 xl:gap-10 lg:grid-cols-2">
 
                   <div className="flex items-center gap-5">
-                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-indigo-500 " />
+                    <FaOm className=" shrink-0 size-6 md:size-8 lg:size-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left text-base md:text-lg lg:text-xl xl:text-2xl">
                         4-10 мая
@@ -124,22 +124,22 @@ const page = () => {
       </div>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-3 p-4  place-items-center">
-        <Image src={img4} alt="Ашрам Садху Тапован" />
-        <Image src={img2} alt="Ашрам Садху Тапован" />
-        <Image src={img3} alt="Ашрам Садху Тапован" />
+        <Image src={img4} alt="Ашрам Садху Тапован" className="rounded-md" />
+        <Image src={img2} alt="Ашрам Садху Тапован" className="rounded-md" />
+        <Image src={img3} alt="Ашрам Садху Тапован" className="rounded-md" />
 
-        <Image src={img7} alt="Ашрам Садху Тапован" />
-        <Image src={img6} alt="Ашрам Садху Тапован" />
-        <Image src={img9} alt="Ашрам Садху Тапован" />
+        <Image src={img7} alt="Ашрам Садху Тапован" className="rounded-md" />
+        <Image src={img6} alt="Ашрам Садху Тапован" className="rounded-md" />
+        <Image src={img9} alt="Ашрам Садху Тапован" className="rounded-md" />
       </div>
 
-      <div className="mt-20 flex flex-col gap-5">
+      <div className="mt-20 flex flex-col gap-5 dark:text-gray-300">
         <p>Приглашаем приезжать как на программы, обозначенные выше, так и на индивидуальные ритриты от 3 дней до одного месяца (для тех, кто не в традиции, оговаривается отдельно).</p>
         <p>При содействии ашрама Садху Тапован возможна организация детского лагеря на территории близкой к ашраму. Зависит от количества заявок.  Ашрам – это большое благословение для всех, кто живет Дхармой, идет по пути Мокши, стремится углубить созерцание, укрепиться в благости и переживании Божественных энергий. </p>
         <p>По вопросам приезда в ашрам на ритриты, индивидуальную практику и детские программы пишите:
           <a href="https://t.me/Irina_Leshova"
             target="_blank"
-            className="font-medium text-indigo-500 ml-1"
+            className="font-medium text-red-500 ml-1"
           >
             Ишвари
           </a>
@@ -147,7 +147,7 @@ const page = () => {
         <p>Регистрация на йога-туры:
           <a href="https://t.me/arina_vandana"
             target="_blank"
-            className="font-medium text-indigo-500 ml-1"
+            className="font-medium text-red-500 ml-1"
           >
             Вандана
           </a>

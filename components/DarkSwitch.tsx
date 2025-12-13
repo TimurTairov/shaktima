@@ -9,28 +9,25 @@ const ThemeChanger = () => {
   const [light] = useSound("/sounds/light.mp3", { volume: 0.2 });
   const [dark] = useSound("/sounds/dark.mp3", { volume: 0.2 });
   // When mounted on client, now we can show the UI
-  useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
+  // useEffect(() => setMounted(true), []);
 
-  const iframeDark = () => {
-    // let x = document.getElementById("donate108");
-    // x.style.backgroundColor = "#1e1b4b";
+  // if (!mounted) return null;
 
-    let iframe = document.getElementsByTagName('iframe')[1];
-    iframe.style.background = '#1e1b4b';
+  // const iframeDark = () => {
 
+  //   let iframe = document.getElementsByTagName('iframe')[1];
+  //   iframe.style.background = '#1e1b4b';
 
-    // iframe.contentWindow.document.body.style.backgroundColor = 'white';
-  }
+  // }
 
-  const iframeLight = () => {
-    // let x = document.getElementById("donate108");
-    // x.style.backgroundColor = "white";
+  // const iframeLight = () => {
+  //   // let x = document.getElementById("donate108");
+  //   // x.style.backgroundColor = "white";
 
-    let iframe = document.getElementsByTagName('iframe')[1];
-    iframe.style.background = 'white';
-  }
+  //   let iframe = document.getElementsByTagName('iframe')[1];
+  //   iframe.style.background = 'white';
+  // }
 
   return (
     <div className="flex items-center order-last border border-gray-400 dark:border-gray-200 rounded-md p-1">

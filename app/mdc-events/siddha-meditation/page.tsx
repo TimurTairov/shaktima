@@ -4,8 +4,8 @@ import { IoCalendarNumberOutline } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
 import { IoLocation } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
-import { Benefits } from "@/components/Benefits";
-import { benefitThree, benefitFour } from "@/components/data";
+// import { Benefits } from "@/components/Benefits";
+// import { benefitThree, benefitFour } from "@/components/data";
 import { SectionTitle } from "@/components/SectionTitle";
 import { MeditationSiddhov } from "@/components/MeditationSiddhov"
 import Link from "next/link";
@@ -30,7 +30,7 @@ const page = () => {
         <p className="text-left py-4">Риши Нанди Девар достиг сварупа-самадхи в го­роде Каши (Бенарес). Его учителем был сам Шива, а учениками Нанди Девара также являются риши Тирумулар, Патанджали, Дакшинамурти, Ромари­ши, Сатьямуни. До наших времен дошли письменные работы Нанди Девара и его учеников по медицине, кайя-кальпе, алхимии. Сейчас в наше время почи­тание последнего из этой линии преемственно­сти сиддхов — гуру авадхуты Брахмананды стало самодостаточной традицией не только в Омалуре и Патанамтитте, но и в соседних штатах и собира­ет множество духовных искателей со всего мира, объединяя их во «Всемирную ассоциацию учеников и преданных Шри Шива Прабхакара авадхута сид­дха-йоги свами Брахмананды».</p>
       </SectionTitle>
 
-      <Benefits imgPos="right" data={benefitFour} />
+      {/* <Benefits imgPos="right" data={benefitFour} /> */}
 
       <SectionTitle
         preTitle="медитация сиддхов"
@@ -42,9 +42,9 @@ const page = () => {
               <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
+                    <p className="text-2xl text-red-500  font-semibold">Когда</p>
                     <p className="text-left">
                       <Link href="/calendar">
                         Вторник 20:30, суббота - 9:00
@@ -54,9 +54,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                    <p className="text-2xl text-red-500  font-semibold">Формат</p>
                     <p className="text-left">
                       Практика длится 1-1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
                       Специальная подготовка не требуется.
@@ -66,9 +66,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                  <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Где</p>
+                    <p className="text-2xl text-red-500  font-semibold">Где</p>
                     <p className="text-left">
                       <Link href="/raspisanie">
                         Онлайн
@@ -78,9 +78,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
+                    <p className="text-2xl text-red-500  font-semibold">Стоимость</p>
                     <p className="text-left">Объем свободного пожертвования определяете самостоятельно </p>
 
                   </div>
@@ -101,7 +101,7 @@ const page = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSdYRN2fEV48od4k59TfYdu4pDsQbpDs17vrLlhaTMHsTgB4zA/viewform"
           target="_blank"
           rel="noopener"
-          className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md" >Записаться на медитацию</a>
+          className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md" >Записаться на медитацию</a>
       </div>
 
     </Container>

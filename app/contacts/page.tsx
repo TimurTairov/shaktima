@@ -58,7 +58,7 @@ const page = () => {
           </div>
         </div>
 
-        <h5 id="address" className="w-full text-center text-lg md:text-xl lg:text-2xl font-semibold mt-10 lg:mt-20 ">Адрес</h5>
+        <h5 id="address" className="w-full text-center text-lg md:text-xl lg:text-2xl font-semibold mt-10 lg:mt-20 dark:text-gray-300">Адрес</h5>
         <div >
           <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=37.668904%2C55.774561&whatshere%5Bzoom%5D=18.819712&ll=37.669085762467624%2C55.77426729014845&z=18.819712&si=r7j7h7y8fjzvh7vpk1ybn5npj8"
             target="_blank"
@@ -85,7 +85,7 @@ const page = () => {
           </MyAccordion>
         </div>
 
-        <h5 className="w-full text-center text-lg md:text-xl lg:text-2xl font-semibold mt-10 lg:mt-20">Наши ресурсы</h5>
+        <h5 className="w-full text-center text-lg md:text-xl lg:text-2xl font-semibold mt-10 lg:mt-20 dark:text-gray-300">Наши ресурсы</h5>
         <div className="flex justify-center">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 justify-center items-start mt-10">
             <li className="dark:text-indigo-400 text-indigo-700 hover:underline flex items-center">

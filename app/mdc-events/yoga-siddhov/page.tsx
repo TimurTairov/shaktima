@@ -30,7 +30,7 @@ const page = () => {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSf5ooHKPkZXV2kb4Lbi06qErVELoZMuDyf35U-xLk___2L-vg/viewform"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md ">
                 Записаться на семинар
               </a>
             </div>
@@ -71,7 +71,7 @@ const page = () => {
                 <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                   <div className="flex items-start gap-5">
-                    <GiHealthIncrease className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                    <GiHealthIncrease className=" shrink-0 w-14 h-14 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left">Улучшение физического и психического здоровья
                       </p>
@@ -79,7 +79,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                    <RiMentalHealthFill className=" shrink-0 w-14 h-14 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left">
                         Развитие навыков концентрации и устойчивости к стрессу
@@ -88,7 +88,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <TbHealthRecognition className=" shrink-0 w-14 h-14 text-indigo-500 " />
+                    <TbHealthRecognition className=" shrink-0 w-14 h-14 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left">
                         Получение новых знаний и поддерживающего окружения единомышленников
@@ -97,7 +97,7 @@ const page = () => {
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <FaOm className=" shrink-0 w-14 h-14 text-indigo-500" />
+                    <FaOm className=" shrink-0 w-14 h-14 text-red-500" />
                     <div className="flex flex-col items-start gap-3">
                       <p className="text-left">
                         Возможность приобщиться к духовной традиции йоги
@@ -126,17 +126,17 @@ const page = () => {
                 <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                   <div className="flex items-start gap-5">
-                    <IoCalendarNumberOutline className="shrink-0 w-10 h-10 text-indigo-500" />
+                    <IoCalendarNumberOutline className="shrink-0 w-10 h-10 text-red-500" />
                     <div className="flex flex-col items-start gap-3">
-                      <p className="text-2xl text-indigo-500  font-semibold">Когда</p>
+                      <p className="text-2xl text-red-500  font-semibold">Когда</p>
                       <p className="text-left">В субботу 30 ноября. Начало семинара в 12-00</p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                    <LuCalendarHeart className=" shrink-0 w-10 h-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
-                      <p className="text-2xl text-indigo-500  font-semibold">Формат</p>
+                      <p className="text-2xl text-red-500  font-semibold">Формат</p>
                       <p className="text-left">
                         Практика длится 4-4.5 часа.
                         Специальная подготовка не требуется.
@@ -146,9 +146,9 @@ const page = () => {
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <IoLocation className=" shrink-0 w-10 h-10 text-indigo-500 " />
+                    <IoLocation className=" shrink-0 w-10 h-10 text-red-500 " />
                     <div className="flex flex-col items-start gap-3">
-                      <p className="text-2xl text-indigo-500  font-semibold">Где</p>
+                      <p className="text-2xl text-red-500  font-semibold">Где</p>
                       <p className="text-left">
                         Семинар будет проходить в студии Абрау-йога. Ул. Петровка 26 стр. 2
                         Большой зал
@@ -157,9 +157,9 @@ const page = () => {
                   </div>
 
                   <div className="flex items-start gap-5">
-                    <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-500" />
+                    <BiDonateHeart className=" shrink-0 w-10 h-10 text-red-500" />
                     <div className="flex flex-col items-start gap-3">
-                      <p className="text-2xl text-indigo-500  font-semibold">Стоимость</p>
+                      <p className="text-2xl text-red-500  font-semibold">Стоимость</p>
                       <p className="text-left">Участие основано на добровольных пожертвованиях. Благоприятная сумма от 1080 рублей. Средства идут на оплату помещения и развитие Дхарма центра;
                       </p>
                     </div>
@@ -176,7 +176,7 @@ const page = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSf5ooHKPkZXV2kb4Lbi06qErVELoZMuDyf35U-xLk___2L-vg/viewform"
             target="_blank"
             rel="noopener"
-            className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md" >Записаться на семинар</a>
+            className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md" >Записаться на семинар</a>
         </div>
 
 
