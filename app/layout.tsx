@@ -34,7 +34,6 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system"
           enableSystem disableTransitionOnChange>
-
           <Header />
           <main className="min-h-screen bg-neutral-50 dark:bg-slate-800 text-neutral-700 font-light">
             {children}
