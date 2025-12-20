@@ -1,8 +1,8 @@
 // import indiaDay from '@/public/blog/india-day.webp'
 // import mahashivaratri from '@/public/blog/mahashivaratri.webp'
-// import neoadwayta from '@/public/blog/neoadwayta.webp'
+import neoadwayta from "../assets/blog/saraha.webp"
 // import akshayaTritiya from '@/public/blog/bd6a4ed88d7345454f28fea0d2cc6853.webp'
-// import saraha from "@/public/blog/saraha.webp"
+import saraha from '../assets/blog/neoadwayta.webp'
 
 export const allArticles = [
   {
@@ -10,7 +10,7 @@ export const allArticles = [
     title: 'Сараха',
     description:
       'Наставления великого йогина Сарахи ученику',
-    img: "../../public/blog/saraha.webp",
+    img: neoadwayta,
     url: '/blog/nastavleniya-sarahi',
   },
   // {
@@ -42,7 +42,7 @@ export const allArticles = [
     title: 'Как не попасть в ловушку поверхностной Адвайты',
     description:
       'О двенадцати видах поверхностного отношения, подстерегающих практиков недвойственных учений.',
-    img: '../../public/blog/neoadwayta.webp',
+    img: saraha,
     url: '/blog/neoadvayta',
   },
 ]

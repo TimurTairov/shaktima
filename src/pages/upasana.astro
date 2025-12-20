@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import { upasana } from "../helpers/upasana"
+import { Image } from "astro:assets"
 ---
 
 <Layout title="Упасана">
   <div class="main-container">
     <h1 class="mainTitle">Упасана</h1>
     <h2 class="w-full text-center">Практика у алтаря</h2>
-    <div class="flex justify-center mt-10">
+    <!-- <div class="flex justify-center mt-10">
       <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-3 lg:gap-5 xl:gap-7 justify-center">
         <li class="border border-amber-400 rounded-md bg-amber-50">
           <a href="/upasana/sutra" class="flex flex-col gap-1 ">
@@ -73,7 +75,20 @@ import Layout from "../layouts/Layout.astro"
           </a>
         </li>
       </ul>
+    </div> -->
+    <div class="w-full flex justify-center mt-10">
+        <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-5 xl:gap-7 justify-center">
+          {upasana.map((sadhana) => (
+            <li class="border border-amber-400 rounded-md bg-amber-50 flex flex-col gap-1 ">
+              <a href={`/upasana/${sadhana.id}`} class="">
+                <Image src={sadhana.img} alt={sadhana.title} class="size-80 shrink-0" />
+              </a>
+              <a href={`/upasana/${sadhana.id}`} class="text-center text-amber-700 text-sm">
+                {sadhana.title}
+              </a>
+            </li>
+          ))}
+        </ul>
     </div>
-
   </div>
 </Layout>

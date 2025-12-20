@@ -1,5 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import { Image } from "astro:assets"
+import namasteRed from "../assets/namaste/namaskar.webp"
+import namasteWhite from "../assets/namaste/namaskar_white.png"
 ---
 
 <Layout title="Поддержите нас">
@@ -39,8 +42,8 @@ import Layout from "../layouts/Layout.astro"
         </div>
 
       <div class="w-full flex flex-col justify-center items-center mt-20 xl:mt-40 gap-5">
-        <img src="../../public/namaskar.webp" class="w-32 block dark:hidden" />
-        <img src="../../public/namaskar_white.png" class="w-32 hidden dark:block" />
+        <Image src={namasteRed} alt="Namaste" class="w-32 block dark:hidden" />
+        <Image src={namasteWhite} alt="Namaste" class="w-32 hidden dark:block" />
         <p class="text-xl text-red-500 dark:text-gray-300 font-bold">N A M A S T E</p>
       </div>
 

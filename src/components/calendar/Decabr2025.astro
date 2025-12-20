@@ -1,5 +1,7 @@
 ---
 import { Icon } from "astro-icon/components"
+import { Image } from "astro:assets"
+import pambatti from '../../assets/img/pambatti.webp'
 ---
 
 <div class="w-full">
@@ -52,7 +54,7 @@ import { Icon } from "astro-icon/components"
           <div class="grid-item-2">
             <p class="grid-date">4</p>
             <div class="flex flex-wrap justify-center gap-1">
-              <img src='../../../public/img/datta.webp' alt="Даттатрея джаянти" class="grid-meditation-mobile" />
+             
             </div>
           </div >
           <div class="grid-item-2">
@@ -63,7 +65,7 @@ import { Icon } from "astro-icon/components"
             <p class="grid-date">6</p>
             <div class="flex flex-wrap justify-center gap-1">
               <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
-                <img src='../../../public/img/pambatti.webp' alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
+                <Image src={pambatti} alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
               </a>
             </div>
 
@@ -243,15 +245,9 @@ import { Icon } from "astro-icon/components"
 
       <p class="text-sm my-1 mt-5 text-gray-700 dark:text-amber-600">Условные обозначения:</p>
       <div class="w-full grid grid-cols-2 md:grid-cols-3 gap-1 text-gray-700 dark:text-amber-100">
-        <div class="w-full flex items-center">
-          <img src='../../../public/img/datta.webp' alt="Даттатрея джаянти" class="grid-meditation-mobile mr-1" />
-          <a>
-            <p class="w-full text-xs">Даттатрея джаянти</p>
-          </a>
-        </div>
         <div class="w-full flex items-center gap-1">
           <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
-            <img src='../../../public/img/pambatti.webp' alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
+            <Image src={pambatti} alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
           </a>
           <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer" class="w-full text-xs">Памбатти джаянти</a>
 

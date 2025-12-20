@@ -1,10 +1,13 @@
 ---
 import { Icon } from "astro-icon/components"
+import { Image } from "astro:assets"
+import altarBig from "../assets/altar/altar48.webp"
+import altarSmall from "../assets/altar/altar.webp"
 ---
 
 <div id="altar">
-        <img src='../../public/altar/altar48.webp' alt="Сиддхи и божества" class="w-full h-auto rounded-sm hidden lg:block" />
-        <img src='../../public/altar/altar.webp' alt="Сиддхи и божества" class="w-full h-auto rounded-sm block lg:hidden " />
+        <Image src={altarBig} alt="Сиддхи и божества" class="w-full h-auto rounded-sm hidden lg:block" />
+        <Image src={altarSmall} alt="Сиддхи и божества" class="w-full h-auto rounded-sm block lg:hidden " />
         <div class="w-full flex gap-1 h-7">
           <button class="mt-0.5 ml-1 border border-red-600 dark:border-red-400 rounded-md altar">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="sizes-4">
