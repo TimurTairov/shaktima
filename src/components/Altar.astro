@@ -1,0 +1,40 @@
+---
+import { Icon } from "astro-icon/components"
+---
+
+<div id="altar">
+        <img src='../../public/altar/altar48.webp' alt="Сиддхи и божества" class="w-full h-auto rounded-sm hidden lg:block" />
+        <img src='../../public/altar/altar.webp' alt="Сиддхи и божества" class="w-full h-auto rounded-sm block lg:hidden " />
+        <div class="w-full flex gap-1 h-7">
+          <button class="mt-0.5 ml-1 border border-red-600 dark:border-red-400 rounded-md altar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="sizes-4">
+	            <path fill="currentColor" d="M21 11V3h-8l3.29 3.29l-10 10L3 13v8h8l-3.29-3.29l10-10z" />
+            </svg>
+          </button>
+            <div
+              // id="sutra"
+              class="w-full flex flex-wrap items-center justify-center gap-3"
+            >
+              <audio
+                controls
+                controlslist="nodownload"
+                src="/sounds/sutra.mp3"
+                class="w-full h-7"
+              ></audio>
+            </div>
+        </div>
+</div>
+
+<script>
+  const buttons = document.querySelectorAll('button.altar');
+  const altar = document.getElementById('altar')
+  //const sutra = document.getElementById('sutra')
+
+  buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    altar?.classList.toggle('fixAltar')
+    //sutra?.classList.toggle('marginTop')
+  });
+  });
+  
+</script>

@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MainHero from '../components/MainHero.astro';
+import NashGuru from '../components/NashGuru.astro';
+import NasahTradiciya from '../components/NasahTradiciya.astro';
+import BannerYogaPuja from '../components/BannerYogaPuja.astro'
+---
+
+<Layout title='ШактиМа'>
+	<div class="main-container flex flex-col gap-10 lg:gap-20">
+    <div></div>
+		<MainHero />
+
+		<div class="mt-5 w-full flex flex-col justify-center gap-10">
+
+          <p class="text-base md:text-lg w-full text-center font-light">
+            Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.
+            Мы являемся носителями традиции.
+          </p>
+
+          <div class="text-xl text-center">
+            Более <span class="text-red-400 dark:text-amber-400">2 000+</span>{" "}
+            садху практикуют в нашей традиции
+          </div>
+
+          <div class="w-full flex flex-wrap lg:justify-center lg:gap-20 text-xs md:text-base gap-5 justify-around">
+            <div class="text-gray-400 dark:text-amber-100 font-light">
+              В России
+            </div>
+            <div class="text-gray-400 dark:text-amber-100 font-light">
+              В Европе
+            </div>
+            <div class="text-gray-400 dark:text-amber-100 font-light">
+              В США
+            </div>
+            <div class=" text-gray-400 dark:text-amber-100 font-light">
+              В Индии
+            </div>
+            <div class=" text-gray-400 dark:text-amber-100 font-light">
+              В Непале
+            </div>
+          </div>
+
+    </div>
+
+		<NashGuru />
+
+    <NasahTradiciya />
+
+    <BannerYogaPuja />
+    <div></div>
+	</div>
+</Layout>

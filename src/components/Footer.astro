@@ -1,0 +1,152 @@
+---
+import Logo from "./Logo.astro";
+const navigation = [
+    {
+      title: "О центре",
+      url: "/"
+    },
+    {
+      title: "Расписание",
+      url: "/raspisanie"
+    },
+    {
+      title: "Календарь",
+      url: "/calendar"
+    },
+    {
+      title: "События центра",
+      url: "/"
+    },
+    {
+      title: "Упасана",
+      url: "/upasana"
+    },
+    {
+      title: "Блог",
+      url: "/blog"
+    },
+    {
+      title: "Контакты",
+      url: "/contacts"
+    },
+    {
+      title: "Поддержать нас",
+      url: "/donate"
+    },
+  ];
+---
+
+<footer class=" mx-auto px-2 bg-gray-50 dark:bg-slate-800 dark:text-gray-300">
+        <div class="max-w-7xl text-sm lg:text-base flex flex-col md:flex-row justify-around gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  ">
+          <div class="">
+            <a href="/"><Logo /></a>
+      
+            <div class="w-ful flex flex-col">
+              <div class="max-w-md py-1 xl:py-2 font-medium text-gray-500 dark:text-gray-400">
+                Московский Дхарма центр Шакти Ма
+              </div>
+
+              <div class="w-full grid grid-cols-2 py-1 xl:py-2 text-xs font-light text-gray-500 dark:text-gray-400">
+                <div>
+                
+                  <span>Медитации сиддхов</span>
+                </div>
+
+                <div>
+      
+                  <span>Семинары и ретриты</span>
+                </div>
+
+                <div>
+              
+                  <span>Пуджи и бхаджаны</span>
+                </div>
+
+                <div>
+          
+                  <span>Кундалини и хатха йога</span>
+                </div>
+
+                <div>
+                  
+                  <span>Махашиваратри</span>
+                </div>
+
+                <div>
+                  <span>Ведические праздники</span>
+                </div>
+
+              </div>
+
+              <div class="max-w-md  inlene-flex items-center py-1 xl:py-2 text-xs xl:text-sm text-gray-500 dark:text-gray-400">
+                <span>На благо всех живых существ</span> 
+              </div>
+
+              <div class="max-w-md  py-1 xl:py-2 text-xs xl:text-sm text-gray-500 dark:text-gray-400">
+                © All Rights Reserved {new Date().getFullYear()}
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-4">
+
+            <p class="w-full font-medium text-gray-500 dark:text-gray-400">Меню</p>
+            <div class="mt-3 grid grid-cols-2 gap-1">
+              {navigation.map((item, index) => (
+                <a
+                  href={item.url}
+                  class="text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-32 text-gray-500 dark:text-gray-400 dark:hover:text-indigo-800 dark:hover:bg-indigo-100 focus:text-red-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-red-800 transition-colors duration-300"
+                >
+                  {item.title}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <div class="w-full font-medium text-gray-500 dark:text-gray-400">Ресурсы</div>
+            <div class="flex flex-col gap-1 mt-3 text-gray-500 dark:text-gray-400">
+              <a
+                href="https://www.advayta.org/"
+                target="_blank"
+                rel="noreferrer"
+                class="flex items-center dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300">
+                Cайт нашей традиции
+              </a>
+
+              <a
+                href="https://t.me/mdc_ShaktiMa"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <span class="">Канал в телеграм</span>
+              </a>
+              <a
+                href="https://t.me/+GgiaV5DkPoE1OTBi"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <span class="">Чат в телеграм</span>
+              </a>
+              <a
+                href="https://www.siddhashop.com/"
+                target="_blank"
+                rel="noreferrer"
+                class="flex items-center dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                Сиддха шоп
+              </a>
+              <a
+                href="https://www.youtube.com/@ShaktiMA_MDC"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center dark:hover:text-indigo-800 dark:hover:bg-indigo-100 text-xs lg:text-sm font-light rounded-md hover:bg-gray-200 p-1 w-44 transition-colors duration-300"
+              >
+                <span class="">YouTube</span>
+              </a>
+            </div>
+          </div>
+        </div>
+</footer>
