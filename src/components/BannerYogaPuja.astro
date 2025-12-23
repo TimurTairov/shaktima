@@ -1,56 +1,117 @@
 ---
-import { Image } from "astro:assets"
-import bannerYoga from "../assets/banners/yoga.webp"
-import bannerPuja from "../assets/banners/bm.webp"
+import { Image } from "astro:assets";
+import bannerYoga from "../assets/banners/yoga.webp";
+import bannerPuja from "../assets/banners/bm.webp";
 ---
 
-<div class="w-full flex flex-col gap-10 lg:gap-20 text-gray-700 dark:text-gray-300 font-light">
-      
-  <div class="w-full flex flex-col lg:flex-row gap-5 justify-between">
-        <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer" class="lg:w-6/12">
-          <Image src={bannerYoga} alt="Йога в ШактиМа" class="w-full rounded-xl shadow-md" />
-        </a>
-        <div class="w-full lg:w-6/12 flex flex-col justify-between text-lg text-gray-500 dark:text-amber-100">
-          <p class="text-xl xl:text-2xl 2xl:text-3xl font-bold w-full text-center text-gray-700 dark:text-amber-600">Йога в ШактиМа</p>
-          <p class="w-full text-center text-sm md:text-base">Погрузитесь в атмасферу гармонии, тишины и спокойствия, практикуя йогу вместе с нами</p>
-          <p class="w-full text-center font-semibold text-gray-700 dark:text-amber-600">Виды йоги:</p>
-          <p class="text-sm md:text-base">ॐ Хатха йога - йога статических асан</p>
-          <p class="text-sm md:text-base">ॐ Кундалини йога - йога, пробуждающая энергию Кундалини</p>
-          <p class="text-sm md:text-base">ॐ Шат-чакра-йога - йога, работающая с чакрами</p>
-          <p class="text-sm md:text-base">ॐ Йога сиддхов - йога высших достижений</p>
-          <p class="text-sm md:text-base">ॐ Мантра йога - йога, использующая мантры </p>
-          <p class="w-full text-center font-semibold lg:text-lg text-gray-700 dark:text-amber-600">Цена:</p>
-          <p class="text-sm md:text-base">• Первое посещение БЕСПЛАТНО</p>
-          <p class="text-sm md:text-base">• 700 рублей разоваое занятие</p>
-          <p class="text-sm md:text-base">• 4000 рублей - абонемент на 8 занятий</p>
-          <div class="w-full flex justify-center mt-2">
-            <a href="/raspisanie" class="border border-gray-300 px-3 py-2 w-min rounded-xs my-button">Подробнее</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col lg:flex-row-reverse gap-5 justify-between text-gray-500 dark:text-amber-100">
-        <div class="text-xs md:text-sm flex flex-col gap-2 lg:w-6/12">
-          <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
-            <Image src={bannerPuja} alt="Пуджа в ШактиМа" class="w-full rounded-xl g:rounded-3xl shadow-md" />
-          </a>
-        </div>
-        <div class="w-full lg:w-5/12 flex flex-col justify-around">
-          <p class="text-xl xl:text-2xl 2xl:text-3xl font-bold w-full text-center text-gray-700 dark:text-amber-600">Пуджи в ШактиМа</p>
-          <p class="w-full text-center text-sm md:text-base">Погрузитесь в атмасферу любви, преданности и божественных благословений, практикуя упасану вместе с нами</p>
-          <p class="w-full text-center font-semibold text-gray-700 dark:text-amber-600">Пуджи по дням недели:</p>
-          <p class="text-sm md:text-base">ॐ Понедельник: Пуджа Шиве</p>
-          <p class="text-sm md:text-base">ॐ Вторник: Пуджа Даттатрее</p>
-          <p class="text-sm md:text-base">ॐ Среда: Пуджа Вишну</p>
-          <p class="text-sm md:text-base">ॐ Четверг: Пуджа Гуру</p>
-          <p class="text-sm md:text-base">ॐ Пятница: Пуджа Шакти</p>
-          <p class="text-sm md:text-base ">ॐ Суббота: Пуджа сиддхам</p>
-          <p class="w-full text-center font-semibold text-gray-700 dark:text-amber-600">Подношения:</p>
-          <p class="text-sm md:text-base">• Свободные пожертвования</p>
-          <p class="text-sm md:text-base">• На пуджу рекомендуется брать с собой саттвичный прасад и светлую одежду</p>
-          <!-- <div class="w-full flex justify-center mt-2">
-            <a href="/mdc-events/bhadjan-mandala" class="border border-gray-300 px-3 py-2 w-min rounded-xs my-button">Подробнее</a>
-          </div> -->
-        </div>
+<div class="flex w-full flex-col gap-10 font-light text-gray-700 lg:gap-20 dark:text-gray-300">
+  <div class="flex w-full flex-col justify-between gap-5 lg:flex-row">
+    <a
+      href="https://t.me/mdc_ShaktiMa/4131"
+      target="_blank"
+      rel="noreferrer"
+      class="lg:w-6/12"
+    >
+      <Image
+        src={bannerYoga}
+        alt="Йога в ШактиМа"
+        class="w-full rounded-xl shadow-md"
+      />
+    </a>
+    <div
+      class="flex w-full flex-col justify-between text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
+    >
+      <p
+        class="w-full text-center text-xl font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
+      >
+        Йога в ШактиМа
+      </p>
+      <p class="w-full text-center text-sm md:text-base">
+        Погрузитесь в атмасферу гармонии, тишины и спокойствия, практикуя йогу
+        вместе с нами
+      </p>
+      <p
+        class="w-full text-center font-semibold text-gray-700 dark:text-amber-600"
+      >
+        Виды йоги:
+      </p>
+      <p class="text-sm md:text-base">ॐ Хатха йога - йога статических асан</p>
+      <p class="text-sm md:text-base">
+        ॐ Кундалини йога - йога, пробуждающая энергию Кундалини
+      </p>
+      <p class="text-sm md:text-base">
+        ॐ Шат-чакра-йога - йога, работающая с чакрами
+      </p>
+      <p class="text-sm md:text-base">
+        ॐ Йога сиддхов - йога высших достижений
+      </p>
+      <p class="text-sm md:text-base">
+        ॐ Мантра йога - йога, использующая мантры
+      </p>
+      <p
+        class="w-full text-center font-semibold text-gray-700 lg:text-lg dark:text-amber-600"
+      >
+        Цена:
+      </p>
+      <p class="text-sm md:text-base">• Первое посещение БЕСПЛАТНО</p>
+      <p class="text-sm md:text-base">• 700 рублей разоваое занятие</p>
+      <p class="text-sm md:text-base">• 4000 рублей - абонемент на 8 занятий</p>
+      <div class="mt-2 flex w-full justify-center">
+        <a
+          href="/raspisanie"
+          class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
+          >Подробнее</a
+        >
       </div>
     </div>
+  </div>
+
+  <div
+    class="flex flex-col justify-between gap-5 text-gray-500 lg:flex-row-reverse dark:text-amber-100"
+  >
+    <div class="flex flex-col gap-2 text-xs md:text-sm lg:w-6/12">
+      <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
+        <Image
+          src={bannerPuja}
+          alt="Пуджа в ШактиМа"
+          class="g:rounded-3xl w-full rounded-xl shadow-md"
+        />
+      </a>
+    </div>
+    <div class="flex w-full flex-col justify-around lg:w-5/12">
+      <p
+        class="w-full text-center text-xl font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
+      >
+        Пуджи в ШактиМа
+      </p>
+      <p class="w-full text-center text-sm md:text-base">
+        Погрузитесь в атмасферу любви, преданности и божественных благословений,
+        практикуя упасану вместе с нами
+      </p>
+      <p
+        class="w-full text-center font-semibold text-gray-700 dark:text-amber-600"
+      >
+        Пуджи по дням недели:
+      </p>
+      <p class="text-sm md:text-base">ॐ Понедельник: Пуджа Шиве</p>
+      <p class="text-sm md:text-base">ॐ Вторник: Пуджа Даттатрее</p>
+      <p class="text-sm md:text-base">ॐ Среда: Пуджа Вишну</p>
+      <p class="text-sm md:text-base">ॐ Четверг: Пуджа Гуру</p>
+      <p class="text-sm md:text-base">ॐ Пятница: Пуджа Шакти</p>
+      <p class="text-sm md:text-base">ॐ Суббота: Пуджа сиддхам</p>
+      <p
+        class="w-full text-center font-semibold text-gray-700 dark:text-amber-600"
+      >
+        Подношения:
+      </p>
+      <p class="text-sm md:text-base">• Свободные пожертвования</p>
+      <p class="text-sm md:text-base">
+        • На пуджу рекомендуется брать с собой саттвичный прасад и светлую
+        одежду
+      </p>
+      <!-- <div class="w-full flex justify-center mt-2">
+            <a href="/mdc-events/bhadjan-mandala" class="border border-gray-300 px-3 py-2 w-min rounded-xs my-button">Подробнее</a>
+          </div> -->
+    </div>
+  </div>
+</div>

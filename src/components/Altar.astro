@@ -1,43 +1,59 @@
 ---
-import { Icon } from "astro-icon/components"
-import { Image } from "astro:assets"
-import altarBig from "../assets/altar/altar48.webp"
-import altarSmall from "../assets/altar/altar.webp"
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import altarBig from "../assets/altar/altar48.webp";
+import altarSmall from "../assets/altar/altar.webp";
 ---
 
 <div id="altar">
-        <Image src={altarBig} alt="Сиддхи и божества" class="w-full h-auto rounded-sm hidden lg:block" />
-        <Image src={altarSmall} alt="Сиддхи и божества" class="w-full h-auto rounded-sm block lg:hidden " />
-        <div class="w-full flex gap-1 h-7">
-          <button class="mt-0.5 ml-1 border border-red-600 dark:border-red-400 rounded-md altar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="sizes-4">
-	            <path fill="currentColor" d="M21 11V3h-8l3.29 3.29l-10 10L3 13v8h8l-3.29-3.29l10-10z" />
-            </svg>
-          </button>
-            <div
-              // id="sutra"
-              class="w-full flex flex-wrap items-center justify-center gap-3"
-            >
-              <audio
-                controls
-                controlslist="nodownload"
-                src="/sounds/sutra.mp3"
-                class="w-full h-7"
-              ></audio>
-            </div>
-        </div>
+  <Image
+    src={altarBig}
+    alt="Сиддхи и божества"
+    class="hidden h-auto w-full rounded-sm lg:block"
+  />
+  <Image
+    src={altarSmall}
+    alt="Сиддхи и божества"
+    class="block h-auto w-full rounded-sm lg:hidden"
+  />
+  <div class="flex h-7 w-full gap-1">
+    <button
+      class="altar mt-0.5 ml-1 rounded-md border border-red-600 dark:border-red-400"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        class="sizes-4"
+      >
+        <path
+          fill="currentColor"
+          d="M21 11V3h-8l3.29 3.29l-10 10L3 13v8h8l-3.29-3.29l10-10z"></path>
+      </svg>
+    </button>
+    <div
+      id="sutra"
+      class="flex w-full flex-wrap items-center justify-center gap-3"
+    >
+      <audio
+        controls
+        controlslist="nodownload"
+        src="/sounds/sutra.mp3"
+        class="h-7 w-full"></audio>
+    </div>
+  </div>
 </div>
 
 <script>
-  const buttons = document.querySelectorAll('button.altar');
-  const altar = document.getElementById('altar')
+  const buttons = document.querySelectorAll("button.altar");
+  const altar = document.getElementById("altar");
   //const sutra = document.getElementById('sutra')
 
   buttons.forEach((button) => {
-  button.addEventListener('click', () => {
-    altar?.classList.toggle('fixAltar')
-    //sutra?.classList.toggle('marginTop')
+    button.addEventListener("click", () => {
+      altar?.classList.toggle("fixAltar");
+      //sutra?.classList.toggle('marginTop')
+    });
   });
-  });
-  
 </script>

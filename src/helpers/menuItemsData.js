@@ -1,47 +1,44 @@
 export const menuItemsData = [
   {
-    title: 'О центре',
-    url: '/',
+    title: "О центре",
+    url: "/",
   },
   {
-    title: 'Мероприятия',
+    title: "Мероприятия",
     submenu: [
       {
-        title: 'Расписание',
-        url: '/raspisanie',
+        title: "Расписание",
+        url: "/raspisanie",
       },
       {
-        title: 'Календарь',
-        url: '/calendar',
+        title: "Календарь",
+        url: "/calendar",
       },
       {
-        title: 'События центра',
-        url: '/mdc-events',
+        title: "События центра",
+        url: "/mdc-events",
       },
     ],
   },
   {
-    title: 'Практики',
+    title: "Практики",
     submenu: [
       {
-        title: 'Алтарная садхана',
-        url: '/upasana',
+        title: "Алтарная садхана",
+        url: "/upasana",
       },
-
     ],
   },
   {
-    title: 'Блог',
-    url: '/blog',
-
+    title: "Блог",
+    url: "/blog",
   },
   {
-    title: 'Контакты',
-    url: '/contacts',
-
+    title: "Контакты",
+    url: "/contacts",
   },
   {
-    title: 'Поддержать нас',
-    url: '/donate',
+    title: "Поддержать нас",
+    url: "/donate",
   },
 ];

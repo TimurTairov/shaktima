@@ -1,13 +1,13 @@
 ---
-import { Image } from "astro:assets"
-import logo from "../assets/logo.jpg"
+import { Image } from "astro:assets";
+import logo from "../assets/logo.jpg";
 ---
 
-<div class="flex gap-2 items-center">
-  <a href="/" >
-    <Image src={logo} alt="logo" class="size-7 rounded-full">
-  </a>
+<div class="flex items-center gap-2">
   <a href="/">
-    <p class="text-4xl izmir text-red-500 text-center">ШактиМа</p>
+    <Image src={logo} alt="logo" class="size-7 rounded-full" />
+    <a href="/">
+      <p class="izmir text-center text-4xl text-red-500">ШактиМа</p>
+    </a>
   </a>
 </div>

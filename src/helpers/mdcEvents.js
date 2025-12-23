@@ -1,13 +1,13 @@
-import yogaSiddhov from "@/public/mdc-events/yoga-siddhov.webp"
-import siddhaMeditation from "@/public/mdc-events/siddha-meditation.webp"
-import bhadjanMandala from "@/public/mdc-events/bhadjan-mandala.webp"
-import yogaMarafon from '@/public/yoga-marafon/yoga-marafon2.webp'
-import simvolVery from '@/public/mdc-events/simvol-very.webp'
-import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp"
-import sadhutapovan from "@/public/mdc-events/sadhutapovan.webp"
-import maheshvari from "@/public/mdc-events/maheshvari.jpg"
-import anandalila from "@/public/mdc-events/anandalila.webp"
-import yogaSeminar from "@/public/mdc-events/yoga-seminar.webp"
+import yogaSiddhov from "@/public/mdc-events/yoga-siddhov.webp";
+import siddhaMeditation from "@/public/mdc-events/siddha-meditation.webp";
+import bhadjanMandala from "@/public/mdc-events/bhadjan-mandala.webp";
+import yogaMarafon from "@/public/yoga-marafon/yoga-marafon2.webp";
+import simvolVery from "@/public/mdc-events/simvol-very.webp";
+import mahashivaratri2025 from "@/public/mdc-events/mahashivaratri2025.webp";
+import sadhutapovan from "@/public/mdc-events/sadhutapovan.webp";
+import maheshvari from "@/public/mdc-events/maheshvari.jpg";
+import anandalila from "@/public/mdc-events/anandalila.webp";
+import yogaSeminar from "@/public/mdc-events/yoga-seminar.webp";
 
 export const seminary = [
   // {
@@ -61,4 +61,4 @@ export const seminary = [
     title: "Семинар «Йога Сиддхов»",
     img: yogaSiddhov,
   },
-]
+];

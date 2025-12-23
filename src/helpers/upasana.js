@@ -1,13 +1,13 @@
-import sutra from "../assets/upasana/sutra.webp"
-import dattaSadhana from "../assets//upasana/datta-sadhana.webp"
-import achamana from "../assets/upasana/achamana.webp"
-import bmShiva from "../assets/upasana/bm-ponedelnik.webp"
-import bmDatta from "../assets/upasana/bm-vtornik.webp"
-import bmVishnu from "../assets/upasana/bm-vishnu.webp"
-import bmGuru from "../assets/upasana/bm-guru.webp"
-import bmShakti from "../assets/upasana/bm-shakti.webp"
-import bmSiddhi from "../assets/upasana/bm-siddhi.webp"
-import panchaRatnaPranamaMantra from "../assets/upasana/pancha-ratna-pranama-mantra.webp"
+import sutra from "../assets/upasana/sutra.webp";
+import dattaSadhana from "../assets//upasana/datta-sadhana.webp";
+import achamana from "../assets/upasana/achamana.webp";
+import bmShiva from "../assets/upasana/bm-ponedelnik.webp";
+import bmDatta from "../assets/upasana/bm-vtornik.webp";
+import bmVishnu from "../assets/upasana/bm-vishnu.webp";
+import bmGuru from "../assets/upasana/bm-guru.webp";
+import bmShakti from "../assets/upasana/bm-shakti.webp";
+import bmSiddhi from "../assets/upasana/bm-siddhi.webp";
+import panchaRatnaPranamaMantra from "../assets/upasana/pancha-ratna-pranama-mantra.webp";
 
 export const upasana = [
   {
@@ -60,4 +60,4 @@ export const upasana = [
     title: "ПАНЧА РАТНА ПРАНАМА МАНТРА",
     img: panchaRatnaPranamaMantra,
   },
-] 
+];

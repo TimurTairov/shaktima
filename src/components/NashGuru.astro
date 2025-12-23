@@ -1,81 +1,121 @@
 ---
-import GuruFoto from "./GuruFoto.astro"
+import Guru from "./carousel/Guru";
 import { Icon } from "astro-icon/components";
 ---
 
-<div class="w-full flex flex-wrap mb-20 gap-5 lg:gap-0 lg:flex-nowrap">
-      <div class="flex items-center justify-start w-full lg:w-1/2">
-        <img src="https://sun9-77.userapi.com/impg/_IZhohXV7KqKcBEhXnVGj4jxLYRaLJe6sVlLsA/NXIKBj5V2l8.jpg?size=600x800&quality=95&sign=83c801386e1148bf077bf362396c02e3&type=album" alt="Гуру" class="rounded-md">
+<div class="mb-20 flex w-full flex-wrap gap-5 lg:flex-nowrap lg:gap-0">
+  <div class="flex w-full items-center justify-start lg:w-1/2">
+    <Guru client:visible />
+    <!-- <img
+      src="https://sun9-77.userapi.com/impg/_IZhohXV7KqKcBEhXnVGj4jxLYRaLJe6sVlLsA/NXIKBj5V2l8.jpg?size=600x800&quality=95&sign=83c801386e1148bf077bf362396c02e3&type=album"
+      alt="Гуру"
+      class="rounded-md"
+    /> -->
+  </div>
+
+  <div class="flex w-full flex-wrap items-center lg:w-5/12">
+    <div class="flex h-full flex-col justify-between">
+      <h3
+        class="textColor mt-3 max-w-2xl text-3xl leading-snug font-semibold tracking-tight text-gray-700 lg:text-4xl lg:leading-tight dark:text-amber-600"
+      >
+        Наш Учитель
+      </h3>
+
+      <div
+        class="max-w-2xl text-sm leading-normal font-light text-gray-700 sm:text-base md:text-lg lg:text-xl xl:text-xl dark:text-amber-100"
+      >
+        Наш гуру — Свами Вишнудевананда Гири
       </div>
 
-      <div class="flex flex-wrap items-center w-full lg:w-5/12 ">
-        <div class="h-full flex flex-col justify-between">
-          <h3 class="max-w-2xl mt-3 text-3xl font-semibold leading-snug tracking-tight textColor lg:leading-tight lg:text-4xl text-gray-700 dark:text-amber-600">
-            Наш Учитель
-          </h3>
-
-          <div class="max-w-2xl text-sm sm:text-base md:text-lg leading-normal font-light text-gray-700 lg:text-xl xl:text-xl dark:text-amber-100">
-            Наш гуру — Свами Вишнудевананда Гири
+      <div class="mt-8 flex items-start space-x-3">
+        <div
+          class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
+        >
+          <Icon name="om" class="h-7 w-7 text-indigo-50" />
+        </div>
+        <div>
+          <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
+            Духовный Учитель
+          </h4>
+          <div
+            class="mt-1 text-sm font-light text-gray-500 xl:text-base dark:text-amber-100"
+          >
+            Имеющий полномочия инициировать в саннясу в традиции адвайта-веданты
+            и йоги, садху, реализованный мастер-джняни, философ, теолог,
+            писатель, паломник-путешественник, имеющий учеников монахов и мирян
+            по всему миру
           </div>
-
-          <div class="flex items-start mt-8 space-x-3">
-            <div class="flex items-center justify-center shrink-0 mt-1 bg-red-500 dark:bg-amber-700 rounded-md w-11 h-11 ">
-              <Icon name="om" class="w-7 h-7 text-indigo-50" />
-            </div>
-            <div>
-              <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
-                Духовный Учитель
-              </h4>
-              <div class="mt-1 text-sm xl:text-base font-light text-gray-500 dark:text-amber-100">
-                Имеющий полномочия инициировать в саннясу в традиции адвайта-веданты и йоги, садху, реализованный мастер-джняни, философ, теолог, писатель, паломник-путешественник, имеющий учеников монахов и мирян по всему миру
-              </div>
-            </div>
-          </div>
-
-          <div class="flex items-start mt-8 space-x-3">
-            <div class="flex items-center justify-center shrink-0 mt-1 bg-red-500 dark:bg-amber-700  rounded-md w-11 h-11 ">
-              <Icon name="yoga" fill="white" class="w-7 h-7 text-indigo-50" />
-            </div>
-            <div>
-              <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
-                Реализованный Мастер
-              </h4>
-              <div class="mt-1 text-sm xl:text-base font-light text-gray-500 dark:text-amber-100">
-                Махамандалешвар Ордена Джуна Акхары. Духовный учитель, реализованный мастер-джняни в линии адвайта-веданты, шиваизма и ануттара-тантры
-              </div>
-            </div>
-          </div>
-
-          <div class="flex items-start mt-8 space-x-3">
-            <div class="flex items-center justify-center shrink-0 mt-1 bg-red-500 dark:bg-amber-700  rounded-md w-11 h-11 ">
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="white" d="M19 10h7v2h-7zm0 5h7v2h-7zm0 5h7v2h-7zM6 10h7v2H6zm0 5h7v2H6zm0 5h7v2H6z"/><path fill="white" d="M28 5H4a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2M4 7h11v18H4Zm13 18V7h11v18Z"/></svg> -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-	                <path fill="white" d="M22.47 5.2c-.47-.24-.96-.44-1.47-.61v12.03c-1.14-.41-2.31-.62-3.5-.62c-1.9 0-3.78.54-5.5 1.58V5.48C10.38 4.55 8.51 4 6.5 4c-1.79 0-3.48.44-4.97 1.2c-.33.16-.53.51-.53.88v12.08c0 .58.47.99 1 .99q.24 0 .48-.12C3.69 18.4 5.05 18 6.5 18c2.07 0 3.98.82 5.5 2c1.52-1.18 3.43-2 5.5-2c1.45 0 2.81.4 4.02 1.04q.24.12.48.12c.52 0 1-.41 1-.99V6.08c0-.37-.2-.72-.53-.88M10 16.62C8.86 16.21 7.69 16 6.5 16s-2.36.21-3.5.62V6.71C4.11 6.24 5.28 6 6.5 6c1.2 0 2.39.25 3.5.72zM19 .5l-5 5V15l5-4.5z" />
-              </svg>
-            </div>
-            <div>
-              <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
-                Автор более 50 книг
-              </h4>
-              <div class="mt-1 text-sm xl:text-base font-light text-gray-500 dark:text-amber-100">
-                Наиболее значительные и известные труды и книги: двухтомник «Сияние драгоценных тайн лайя-йоги», «Песни пробужденного», «Вселенная джняни», «Духовная алхимия: путь внутреннего аскетизма», «Моя жизнь в Боге»
-              </div>
-            </div>
-          </div>
-          <div class="flex items-start mt-8 space-x-3">
-            <div class="flex items-center justify-center shrink-0 mt-1 bg-red-500 dark:bg-amber-700  rounded-md w-11 h-11 ">
-              <Icon name="group-meditation" class="w-7 h-7 text-indigo-50" />
-            </div>
-            <div>
-              <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
-                Обучает
-              </h4>
-              <div class="mt-1 text-sm xl:text-base font-light text-gray-500 dark:text-amber-100">
-                Джняна, раджа, бхакти, карма, кундалини, лайя йоге, учениям ануттара-тантры сиддхов
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
+
+      <div class="mt-8 flex items-start space-x-3">
+        <div
+          class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
+        >
+          <Icon name="yoga" fill="white" class="h-7 w-7 text-indigo-50" />
+        </div>
+        <div>
+          <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
+            Реализованный Мастер
+          </h4>
+          <div
+            class="mt-1 text-sm font-light text-gray-500 xl:text-base dark:text-amber-100"
+          >
+            Махамандалешвар Ордена Джуна Акхары. Духовный учитель, реализованный
+            мастер-джняни в линии адвайта-веданты, шиваизма и ануттара-тантры
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 flex items-start space-x-3">
+        <div
+          class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
+        >
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="white" d="M19 10h7v2h-7zm0 5h7v2h-7zm0 5h7v2h-7zM6 10h7v2H6zm0 5h7v2H6zm0 5h7v2H6z"/><path fill="white" d="M28 5H4a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2M4 7h11v18H4Zm13 18V7h11v18Z"/></svg> -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="white"
+              d="M22.47 5.2c-.47-.24-.96-.44-1.47-.61v12.03c-1.14-.41-2.31-.62-3.5-.62c-1.9 0-3.78.54-5.5 1.58V5.48C10.38 4.55 8.51 4 6.5 4c-1.79 0-3.48.44-4.97 1.2c-.33.16-.53.51-.53.88v12.08c0 .58.47.99 1 .99q.24 0 .48-.12C3.69 18.4 5.05 18 6.5 18c2.07 0 3.98.82 5.5 2c1.52-1.18 3.43-2 5.5-2c1.45 0 2.81.4 4.02 1.04q.24.12.48.12c.52 0 1-.41 1-.99V6.08c0-.37-.2-.72-.53-.88M10 16.62C8.86 16.21 7.69 16 6.5 16s-2.36.21-3.5.62V6.71C4.11 6.24 5.28 6 6.5 6c1.2 0 2.39.25 3.5.72zM19 .5l-5 5V15l5-4.5z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
+            Автор более 50 книг
+          </h4>
+          <div
+            class="mt-1 text-sm font-light text-gray-500 xl:text-base dark:text-amber-100"
+          >
+            Наиболее значительные и известные труды и книги: двухтомник «Сияние
+            драгоценных тайн лайя-йоги», «Песни пробужденного», «Вселенная
+            джняни», «Духовная алхимия: путь внутреннего аскетизма», «Моя жизнь
+            в Боге»
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 flex items-start space-x-3">
+        <div
+          class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
+        >
+          <Icon name="group-meditation" class="h-7 w-7 text-indigo-50" />
+        </div>
+        <div>
+          <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
+            Обучает
+          </h4>
+          <div
+            class="mt-1 text-sm font-light text-gray-500 xl:text-base dark:text-amber-100"
+          >
+            Джняна, раджа, бхакти, карма, кундалини, лайя йоге, учениям
+            ануттара-тантры сиддхов
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,265 +1,337 @@
 ---
-import { Icon } from "astro-icon/components"
-import { Image } from "astro:assets"
-import pambatti from '../../assets/img/pambatti.webp'
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import pambatti from "../../assets/img/pambatti.webp";
 ---
 
 <div class="w-full">
-      <p class="text-lg lg:text-xl">Декабрь</p>
-      <div class="flex justify-center">
-        <div class="w-full grid grid-cols-7 gap-1 rounded-md">
-          {/* ДНИ НЕДЕЛИ */}
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Понедельник</p>
-            <p class="block md:hidden">Пн</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Вторник</p>
-            <p class="block md:hidden">Вт</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Среда</p>
-            <p class="block md:hidden">Ср</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Четверг</p>
-            <p class="block md:hidden">Чт</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Пятница</p>
-            <p class="block md:hidden">Пт</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Суббота</p>
-            <p class="block md:hidden">Сб</p>
-          </div>
-          <div class="grid-item-dn">
-            <p class="hidden md:block">Воскресение</p>
-            <p class="block md:hidden">Вс</p>
-          </div>
+  <p class="text-lg lg:text-xl">Декабрь</p>
+  <div class="flex justify-center">
+    <div class="grid w-full grid-cols-7 gap-1 rounded-md">
+      {/* ДНИ НЕДЕЛИ */}
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Понедельник</p>
+        <p class="block md:hidden">Пн</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Вторник</p>
+        <p class="block md:hidden">Вт</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Среда</p>
+        <p class="block md:hidden">Ср</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Четверг</p>
+        <p class="block md:hidden">Чт</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Пятница</p>
+        <p class="block md:hidden">Пт</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Суббота</p>
+        <p class="block md:hidden">Сб</p>
+      </div>
+      <div class="grid-item-dn">
+        <p class="hidden md:block">Воскресение</p>
+        <p class="block md:hidden">Вс</p>
+      </div>
 
-          {/* НЕДЕЛЯ 1 */}
-          <div class="grid-item-2">
-            <p class="grid-date">1</p>
-            <p> </p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">2</p>
-            <p> </p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">3</p>
-            <p> </p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">4</p>
-            <div class="flex flex-wrap justify-center gap-1">
-             
-            </div>
-          </div >
-          <div class="grid-item-2">
-            <p class="grid-date">5</p>
-            <p> </p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">6</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
-                <Image src={pambatti} alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
-              </a>
-            </div>
-
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">7</p>
-          </div>
-
-          {/* НЕДЕЛЯ 2 */}
-          <div class="grid-item-2">
-            <p class="grid-date">8</p>
-            <p></p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">9</p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">10</p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">11</p>
-            <p></p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">12</p>
-            <p></p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">13</p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">14</p>
-          </div>
-
-          {/* НЕДЕЛЯ 3 */}
-          <div class="grid-item-2">
-            <p class="grid-date">15</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-              <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">16</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">17</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">18</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">19</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">20</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-               <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">21</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-
-          {/* НЕДЕЛЯ 4 */}
-          <div class="grid-item-2">
-            <p class="grid-date">22</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-               <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">23</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">24</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">25</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">26</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">27</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">28</p>
-            <div class="flex flex-wrap justify-center gap-1">
-              <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-                <Icon name='asana' class="grid-meditation-mobile p-0.5" />
-              </a>
-            </div>
-          </div>
-
-          {/* НЕДЕЛЯ 5 */}
-          <div class="grid-item-2">
-            <p class="grid-date">29</p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">30</p>
-          </div>
-          <div class="grid-item-2">
-            <p class="grid-date">31</p>
-          </div>
-          <div class="grid-item-none">
-            <p class="grid-date"></p>
-          </div>
-          <div class="grid-item-none">
-            <p class="grid-date"></p>
-          </div>
-          <div class="grid-item-none">
-            <p class="grid-date"></p>
-          </div>
-          <div class="grid-item-none">
-            <p class="grid-date"></p>
-          </div>
-
-        </div>
-
-      </div >
-
-      <p class="text-sm my-1 mt-5 text-gray-700 dark:text-amber-600">Условные обозначения:</p>
-      <div class="w-full grid grid-cols-2 md:grid-cols-3 gap-1 text-gray-700 dark:text-amber-100">
-        <div class="w-full flex items-center gap-1">
-          <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
-            <Image src={pambatti} alt="ПААМБАТИ ДЖАЯНТИ" class="grid-meditation-mobile" />
+      {/* НЕДЕЛЯ 1 */}
+      <div class="grid-item-2">
+        <p class="grid-date">1</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">2</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">3</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">4</p>
+        <div class="flex flex-wrap justify-center gap-1"></div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">5</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">6</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4140"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src={pambatti}
+              alt="ПААМБАТИ ДЖАЯНТИ"
+              class="grid-meditation-mobile"
+            />
           </a>
-          <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer" class="w-full text-xs">Памбатти джаянти</a>
-
         </div>
-        <div class="w-full flex items-center gap-1">
-          <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-            <Icon name='asana' class="grid-meditation-mobile p-0.5" />
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">7</p>
+      </div>
+
+      {/* НЕДЕЛЯ 2 */}
+      <div class="grid-item-2">
+        <p class="grid-date">8</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">9</p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">10</p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">11</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">12</p>
+        <p></p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">13</p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">14</p>
+      </div>
+
+      {/* НЕДЕЛЯ 3 */}
+      <div class="grid-item-2">
+        <p class="grid-date">15</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
           </a>
-          <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
-            <p class="w-full text-xs">Йога марафон: В новый год с чистыми каналами</p>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">16</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">17</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">18</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">19</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">20</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">21</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
           </a>
         </div>
       </div>
 
+      {/* НЕДЕЛЯ 4 */}
+      <div class="grid-item-2">
+        <p class="grid-date">22</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">23</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">24</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">25</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">26</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">27</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">28</p>
+        <div class="flex flex-wrap justify-center gap-1">
+          <a
+            href="https://t.me/mdc_ShaktiMa/4131"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+          </a>
+        </div>
+      </div>
+
+      {/* НЕДЕЛЯ 5 */}
+      <div class="grid-item-2">
+        <p class="grid-date">29</p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">30</p>
+      </div>
+      <div class="grid-item-2">
+        <p class="grid-date">31</p>
+      </div>
+      <div class="grid-item-none">
+        <p class="grid-date"></p>
+      </div>
+      <div class="grid-item-none">
+        <p class="grid-date"></p>
+      </div>
+      <div class="grid-item-none">
+        <p class="grid-date"></p>
+      </div>
+      <div class="grid-item-none">
+        <p class="grid-date"></p>
+      </div>
     </div>
+  </div>
+
+  <p class="my-1 mt-5 text-sm text-gray-700 dark:text-amber-600">
+    Условные обозначения:
+  </p>
+  <div
+    class="grid w-full grid-cols-2 gap-1 text-gray-700 md:grid-cols-3 dark:text-amber-100"
+  >
+    <div class="flex w-full items-center gap-1">
+      <a href="https://t.me/mdc_ShaktiMa/4140" target="_blank" rel="noreferrer">
+        <Image
+          src={pambatti}
+          alt="ПААМБАТИ ДЖАЯНТИ"
+          class="grid-meditation-mobile"
+        />
+      </a>
+      <a
+        href="https://t.me/mdc_ShaktiMa/4140"
+        target="_blank"
+        rel="noreferrer"
+        class="w-full text-xs">Памбатти джаянти</a
+      >
+    </div>
+    <div class="flex w-full items-center gap-1">
+      <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
+        <Icon name="asana" class="grid-meditation-mobile p-0.5" />
+      </a>
+      <a href="https://t.me/mdc_ShaktiMa/4131" target="_blank" rel="noreferrer">
+        <p class="w-full text-xs">
+          Йога марафон: В новый год с чистыми каналами
+        </p>
+      </a>
+    </div>
+  </div>
+</div>

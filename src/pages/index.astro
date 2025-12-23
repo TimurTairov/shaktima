@@ -1,53 +1,45 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import MainHero from '../components/MainHero.astro';
-import NashGuru from '../components/NashGuru.astro';
-import NasahTradiciya from '../components/NasahTradiciya.astro';
-import BannerYogaPuja from '../components/BannerYogaPuja.astro'
+import Layout from "../layouts/Layout.astro";
+import MainHero from "../components/MainHero.astro";
+import NashGuru from "../components/NashGuru.astro";
+import NasahTradiciya from "../components/NasahTradiciya.astro";
+import BannerYogaPuja from "../components/BannerYogaPuja.astro";
+import Mdc from "../components/carousel/Mdc";
 ---
 
-<Layout title='ШактиМа'>
-	<div class="main-container flex flex-col gap-10 lg:gap-20">
+<Layout title="ШактиМа">
+  <div class="main-container flex flex-col gap-10 lg:gap-20">
     <div></div>
-		<MainHero />
+    <MainHero />
 
-		<div class="mt-5 w-full flex flex-col justify-center gap-10">
+    <div class="mt-5 flex w-full flex-col justify-center gap-10">
+      <p class="w-full text-center text-base font-light md:text-lg">
+        Наш центр организован учениками просветленного мастера Адвайты - Гуру
+        Свами Вишнудевананда Гири Махараджа. Мы являемся носителями традиции.
+      </p>
 
-          <p class="text-base md:text-lg w-full text-center font-light">
-            Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.
-            Мы являемся носителями традиции.
-          </p>
+      <div class="text-center text-xl">
+        Более <span class="text-red-400 dark:text-amber-400">2 000+</span>{" "}
+        садху практикуют в нашей традиции
+      </div>
 
-          <div class="text-xl text-center">
-            Более <span class="text-red-400 dark:text-amber-400">2 000+</span>{" "}
-            садху практикуют в нашей традиции
-          </div>
-
-          <div class="w-full flex flex-wrap lg:justify-center lg:gap-20 text-xs md:text-base gap-5 justify-around">
-            <div class="text-gray-400 dark:text-amber-100 font-light">
-              В России
-            </div>
-            <div class="text-gray-400 dark:text-amber-100 font-light">
-              В Европе
-            </div>
-            <div class="text-gray-400 dark:text-amber-100 font-light">
-              В США
-            </div>
-            <div class=" text-gray-400 dark:text-amber-100 font-light">
-              В Индии
-            </div>
-            <div class=" text-gray-400 dark:text-amber-100 font-light">
-              В Непале
-            </div>
-          </div>
-
+      <div
+        class="flex w-full flex-wrap justify-around gap-5 text-xs md:text-base lg:justify-center lg:gap-20"
+      >
+        <div class="font-light text-gray-400 dark:text-amber-100">В России</div>
+        <div class="font-light text-gray-400 dark:text-amber-100">В Европе</div>
+        <div class="font-light text-gray-400 dark:text-amber-100">В США</div>
+        <div class="font-light text-gray-400 dark:text-amber-100">В Индии</div>
+        <div class="font-light text-gray-400 dark:text-amber-100">В Непале</div>
+      </div>
     </div>
 
-		<NashGuru />
+    <NashGuru />
 
     <NasahTradiciya />
 
     <BannerYogaPuja />
-    <div></div>
-	</div>
+
+    <Mdc client:visible />
+  </div>
 </Layout>

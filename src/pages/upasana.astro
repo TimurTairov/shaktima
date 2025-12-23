@@ -1,7 +1,7 @@
 ---
-import Layout from "../layouts/Layout.astro"
-import { upasana } from "../helpers/upasana"
-import { Image } from "astro:assets"
+import Layout from "../layouts/Layout.astro";
+import { upasana } from "../helpers/upasana";
+import { Image } from "astro:assets";
 ---
 
 <Layout title="Упасана">
@@ -76,19 +76,30 @@ import { Image } from "astro:assets"
         </li>
       </ul>
     </div> -->
-    <div class="w-full flex justify-center mt-10">
-        <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-5 xl:gap-7 justify-center">
-          {upasana.map((sadhana) => (
-            <li class="border border-amber-400 rounded-md bg-amber-50 flex flex-col gap-1 ">
+    <div class="mt-10 flex w-full justify-center">
+      <ul
+        class="grid grid-cols-1 justify-center gap-2 md:grid-cols-3 md:gap-3 lg:grid-cols-4 lg:gap-5 xl:gap-7"
+      >
+        {
+          upasana.map((sadhana) => (
+            <li class="flex flex-col gap-1 rounded-md border border-amber-400 bg-amber-50">
               <a href={`/upasana/${sadhana.id}`} class="">
-                <Image src={sadhana.img} alt={sadhana.title} class="size-80 shrink-0" />
+                <Image
+                  src={sadhana.img}
+                  alt={sadhana.title}
+                  class="size-80 shrink-0"
+                />
               </a>
-              <a href={`/upasana/${sadhana.id}`} class="text-center text-amber-700 text-sm">
+              <a
+                href={`/upasana/${sadhana.id}`}
+                class="text-center text-sm text-amber-700"
+              >
                 {sadhana.title}
               </a>
             </li>
-          ))}
-        </ul>
+          ))
+        }
+      </ul>
     </div>
   </div>
 </Layout>
