@@ -8,7 +8,7 @@ import {
 } from "astro-navbar";
 ---
 
-<header class="mx-auto hidden max-w-7xl gap-5 p-5 lg:flex dark:text-amber-400">
+<header class="mx-auto hidden max-w-7xl gap-5 p-5 xl:flex dark:text-amber-400">
   <Astronav>
     <div
       class="mx-0 my-auto flex w-full items-center justify-between px-3 py-3 xl:px-20"
@@ -41,17 +41,21 @@ import {
               <DropdownItems class="relative">
                 <div class="lrft-0 absolute top-0 w-full">
                   <ul
-                    class="w-full rounded-xs border border-gray-300 bg-neutral-50 dark:border-gray-600 dark:bg-slate-800"
+                    class="rounded-xs border border-gray-300 bg-neutral-50 dark:border-gray-600 dark:bg-slate-800"
                   >
                     <li
-                      class="w-full p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
+                      class="p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
                     >
-                      <a href="/raspisanie">Расписание</a>
+                      <a href="/raspisanie" class="inline-flex w-full"
+                        >Расписание</a
+                      >
                     </li>
                     <li
-                      class="w-full p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
+                      class="p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
                     >
-                      <a href="/calendar">Календарь</a>
+                      <a href="/calendar" class="inline-flex w-full"
+                        >Календарь</a
+                      >
                     </li>
                     <!-- <li class="w-full hover:bg-slate-200 dark:hover:bg-slate-700 p-2"><a href="/mdc-events">События</a></li> -->
                   </ul>
@@ -87,7 +91,7 @@ import {
                     <li
                       class="w-full p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
                     >
-                      <a href="/upasana">Упасана</a>
+                      <a href="/upasana" class="inline-flex w-full">Упасана</a>
                     </li>
                   </ul>
                 </div>

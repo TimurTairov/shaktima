@@ -3,8 +3,16 @@
 import neoadwayta from "../assets/blog/saraha.webp";
 // import akshayaTritiya from '@/public/blog/bd6a4ed88d7345454f28fea0d2cc6853.webp'
 import saraha from "../assets/blog/neoadwayta.webp";
+import chai from '../assets/blog/chai.webp'
 
 export const allArticles = [
+  {
+    id: "007",
+    title: "Притча",
+    description: "Я заварил чай",
+    img: chai,
+    url: "/blog/ya-zavaril-chai",
+  },
   {
     id: "006",
     title: "Сараха",

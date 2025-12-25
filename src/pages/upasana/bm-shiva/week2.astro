@@ -1,0 +1,72 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Altar from "../../../components/Altar.astro";
+import Start from "../../../components/BhadjanMandala/Start";
+import GaneshaMantra from "../../../components/BhadjanMandala/GaneshaMantra";
+import GaneshaArati from "../../../components/BhadjanMandala/GaneshaArati";
+import LaksmiArati from "../../../components/BhadjanMandala/LaksmiArati";
+import PanchabrahmaMantry from "../../../components/BhadjanMandala/PanchabrahmaMantry";
+import ShivaArati from "../../../components/BhadjanMandala/ShivaArati";
+import Prarthana from "../../../components/BhadjanMandala/Prarthana";
+import BhadjanyShive from "../../../components/BhadjanMandala/BhadjanyShive";
+import ShantiMantra from "../../../components/BhadjanMandala/ShantiMantra";
+import LekciyaGuru from "../../../components/BhadjanMandala/LekciyaGuru";
+import Meditation4BSB from "../../../components/BhadjanMandala/Meditation4BSB";
+import Start from "../../../components/BhadjanMandala/Start";
+import Finish from "../../../components/BhadjanMandala/Finish";
+import Disclaimer from "../../../components/BhadjanMandala/Disclaimer";
+import { RiArrowGoBackFill } from "react-icons/ri";
+---
+
+<Layout title="Пуджа Шиве. Неделя 2.">
+  <div class="main-container">
+    <div class="flex items-center justify-center gap-1">
+      <h1 class="mainTitle">Пуджа Шиве. Неделя 2</h1>
+      <a href="/upasana/bm-shiva/">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="size-5 md:size-6 lg:size-8 xl:size-10 2xl:size-12 dark:text-amber-400"
+        >
+          <path
+            fill="currentColor"
+            d="M8 19q-.425 0-.712-.288T7 18t.288-.712T8 17h6.1q1.575 0 2.738-1T18 13.5T16.838 11T14.1 10H7.8l1.9 1.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275L4.7 9.7q-.15-.15-.213-.325T4.426 9t.063-.375T4.7 8.3l3.6-3.6q.275-.275.7-.275t.7.275t.275.7t-.275.7L7.8 8h6.3q2.425 0 4.163 1.575T20 13.5t-1.737 3.925T14.1 19z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+    <Altar />
+    <Start client:visible />
+    <GaneshaMantra client:visible />
+    <GaneshaArati client:visible />
+    <LaksmiArati client:visible />
+    <PanchabrahmaMantry client:visible />
+    <ShivaArati client:visible />
+    <LekciyaGuru client:visible />
+    <Prarthana client:visible />
+    <BhadjanyShive client:visible />
+    <ShantiMantra client:visible />
+    <Meditation4BSB client:visible />
+    <Finish client:visible />
+    <Disclaimer client:visible />
+
+    <div class="mt-10 flex w-full justify-center text-lg lg:mt-20">
+      <a href="/upasana/bm-shiva/">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="size-5 md:size-6 lg:size-8 xl:size-10 2xl:size-12 dark:text-amber-400"
+        >
+          <path
+            fill="currentColor"
+            d="M8 19q-.425 0-.712-.288T7 18t.288-.712T8 17h6.1q1.575 0 2.738-1T18 13.5T16.838 11T14.1 10H7.8l1.9 1.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275L4.7 9.7q-.15-.15-.213-.325T4.426 9t.063-.375T4.7 8.3l3.6-3.6q.275-.275.7-.275t.7.275t.275.7t-.275.7L7.8 8h6.3q2.425 0 4.163 1.575T20 13.5t-1.737 3.925T14.1 19z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</Layout>
