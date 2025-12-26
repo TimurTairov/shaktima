@@ -20,8 +20,9 @@ const { title = "ШактиМа" } = Astro.props as Props;
   </head>
   <body class="bg-white dark:bg-slate-800">
     <Header />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <Footer />
-    <body></body>
   </body>
 </html>

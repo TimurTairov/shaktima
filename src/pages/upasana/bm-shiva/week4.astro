@@ -10,19 +10,18 @@ import ShivaArati from "../../../components/BhadjanMandala/ShivaArati";
 import Prarthana from "../../../components/BhadjanMandala/Prarthana";
 import BhadjanyShive from "../../../components/BhadjanMandala/BhadjanyShive";
 import ShantiMantra from "../../../components/BhadjanMandala/ShantiMantra";
+import ShivaShadaksharaStotra from "../../../components/BhadjanMandala/ShivaShadaksharaStotra";
 import LekciyaGuru from "../../../components/BhadjanMandala/LekciyaGuru";
 import Meditation4BSB from "../../../components/BhadjanMandala/Meditation4BSB";
-import Start from "../../../components/BhadjanMandala/Start";
 import Finish from "../../../components/BhadjanMandala/Finish";
 import Disclaimer from "../../../components/BhadjanMandala/Disclaimer";
-import { RiArrowGoBackFill } from "react-icons/ri";
 ---
 
 <Layout title="Пуджа Шиве. Неделя 4.">
   <div class="main-container">
     <div class="flex items-center justify-center gap-1">
       <h1 class="mainTitle">Пуджа Шиве. Неделя 4</h1>
-      <a href="/upasana/bm-shiva/">
+      <a href="/upasana/bm-shiva/" class="pt-1 lg:pt-2 xl:pt-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -43,6 +42,7 @@ import { RiArrowGoBackFill } from "react-icons/ri";
     <GaneshaArati client:visible />
     <LaksmiArati client:visible />
     <PanchabrahmaMantry client:visible />
+    <ShivaShadaksharaStotra client:visible />
     <ShivaArati client:visible />
     <LekciyaGuru client:visible />
     <Prarthana client:visible />

@@ -9,7 +9,7 @@ const Disclaimer = () => {
           href="https://institute-vasishtha.com/shop/catalog/videokursy/yoga/69255/?oid=69269"
           target="_blank"
           rel="noopener"
-          className="ml-1"
+          className="ml-1 text-indigo-700 hover:underline dark:text-amber-400"
         >
           видеокурс по упасане
         </a>

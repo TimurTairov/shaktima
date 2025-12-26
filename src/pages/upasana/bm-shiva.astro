@@ -1,12 +1,14 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import shiva from "../../assets/img/Lords/shiva.webp";
 ---
 
 <Layout title="Понедельник. Пуджа Шиве">
   <section class="main-container">
     <div class="flex items-center justify-center gap-1">
       <h1 class="mainTitle">Понедельник. Пуджа Шиве</h1>
-      <a href="/upasana/">
+      <a href="/upasana/" class="pt-1 lg:pt-2 xl:pt-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -58,6 +60,9 @@ import Layout from "../../layouts/Layout.astro";
           </a>
         </li>
       </ul>
+    </div>
+    <div class="mt-10 flex w-full justify-center">
+      <Image src={shiva} alt="datta" class="" />
     </div>
   </section>
 </Layout>
