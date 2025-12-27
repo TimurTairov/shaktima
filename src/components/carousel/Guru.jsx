@@ -25,7 +25,7 @@ const images = [
 ];
 
 const Guru = () => {
-  return <ImageGallery items={images} />;
+  return <ImageGallery items={images} class="w-full" />;
 };
 
 export default Guru;
