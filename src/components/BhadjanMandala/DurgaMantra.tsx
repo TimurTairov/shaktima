@@ -13,7 +13,7 @@ const DurgaMantra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold w-[36rem]">
+          <p className="font-bold w-xl">
             OM Shailputri Maiya Raksha Karo<br />
             OM Jag Janani Devi Raksha Karo<br />
             OM Nav Durga Namaha<br />

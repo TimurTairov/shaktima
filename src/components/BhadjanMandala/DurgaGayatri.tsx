@@ -13,7 +13,7 @@ const DurgaGayatri = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold w-[36rem]">
+          <p className="font-bold w-xl">
             Om Girijayai Vidmahe<br />
             Shiva Priyayai Dhimahi<br />
             Tanno Durga Prachodayat<br />

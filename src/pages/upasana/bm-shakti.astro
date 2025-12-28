@@ -1,10 +1,68 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import shakti from "../../assets/img/Lords/shakti.webp";
 ---
 
 <Layout title="Пуджа Шакти">
   <section class="main-container">
-    <h1 class="mainTitle">Пуджа Шакти</h1>
-    <h2 class="mt-10 w-full text-center">Страница в процессе разработки!</h2>
+    <div class="flex items-center justify-center gap-1">
+      <h1 class="mainTitle">Пятница. Пуджа Шакти</h1>
+      <a href="/upasana/" class="pt-1 lg:pt-2 xl:pt-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="size-5 md:size-6 lg:size-8 xl:size-10 2xl:size-12 dark:text-amber-400"
+        >
+          <path
+            fill="currentColor"
+            d="M8 19q-.425 0-.712-.288T7 18t.288-.712T8 17h6.1q1.575 0 2.738-1T18 13.5T16.838 11T14.1 10H7.8l1.9 1.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275L4.7 9.7q-.15-.15-.213-.325T4.426 9t.063-.375T4.7 8.3l3.6-3.6q.275-.275.7-.275t.7.275t.275.7t-.275.7L7.8 8h6.3q2.425 0 4.163 1.575T20 13.5t-1.737 3.925T14.1 19z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+    <div class="flex w-full justify-center">
+      <ul
+        class="mt-10 flex flex-col justify-center gap-5 rounded-xl border-2 border-indigo-500 px-7 py-10 lg:justify-start xl:gap-10 dark:border-amber-400"
+      >
+        <li class="flex w-full items-center gap-3 md:w-80">
+          <a
+            href="/upasana/bm-shakti/week1"
+            class="w-full text-center text-xs text-indigo-500 md:text-sm lg:text-base xl:text-lg dark:text-amber-400"
+          >
+            Пуджа Шакти. 1-ая неделя.
+          </a>
+        </li>
+        <li class="flex w-full items-center gap-3 md:w-80">
+          <a
+            href="/upasana/bm-shakti/week2"
+            class="w-full text-center text-xs text-indigo-500 md:text-sm lg:text-base xl:text-lg dark:text-amber-400"
+          >
+            Пуджа Шакти. 2-ая неделя.
+          </a>
+        </li>
+        <li class="flex w-full items-center gap-3 md:w-80">
+          <a
+            href="/upasana/bm-shakti/week3"
+            class="w-full text-center text-xs text-indigo-500 md:text-sm lg:text-base xl:text-lg dark:text-amber-400"
+          >
+            Пуджа Шакти. 3-ая неделя.
+          </a>
+        </li>
+        <li class="flex w-full items-center gap-3 md:w-80">
+          <a
+            href="/upasana/bm-shakti/week4"
+            class="w-full text-center text-xs text-indigo-500 md:text-sm lg:text-base xl:text-lg dark:text-amber-400"
+          >
+            Пуджа Шакти. 4-ая неделя.
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mt-10 flex w-full justify-center">
+      <Image src={shakti} alt="datta" class="" />
+    </div>
   </section>
 </Layout>

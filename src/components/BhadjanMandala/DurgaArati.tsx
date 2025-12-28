@@ -13,7 +13,7 @@ const DurgaArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold w-[36rem]">
+          <p className="font-bold w-xl">
             Jai Ambe Gauri, Maiya Jai Shyama Gauri<br />
             Tumko Nishadin Dhyavat<br />
             Hari Bramha Shivari<br />

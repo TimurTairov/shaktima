@@ -14,11 +14,11 @@ const SarasvatiAshtottaraShatanama = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-bold w-xl">
             1. САРАСВАТИ МАХАБХАДРА МАХАМАЙА ВАРА ПРАДА<br />
             ШРИ ПРАДА ПАДМАНИЛАЙА ПАДМАКШИ ПАДМАВАКТРАГА
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
+          <p className="text-balance w-xl text-sm">
             1 sarasvatī - Сарасвати<br />
             2 mahā-bhadrā - Великое счастье<br />
             3 mahā-māyā - Великая иллюзия<br />
