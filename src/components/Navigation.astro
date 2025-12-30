@@ -98,9 +98,49 @@ import {
               </DropdownItems>
             </Dropdown>
           </li>
-          <li class="rounded-md p-2 hover:bg-slate-200 dark:hover:bg-slate-600">
-            <a href="/blog" class="text-xl">Блог</a>
+          <li>
+            <Dropdown class="group">
+              <button
+                class="flex items-center gap-1 rounded-md p-2 hover:bg-slate-200 dark:hover:bg-slate-600"
+              >
+                <span class="text-xl"> Контент </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3"
+                  stroke="currentColor"
+                  class="mt-0.5 h-3 w-3 group-open:rotate-180"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+                </svg>
+              </button>
+              <DropdownItems class="relative">
+                <div class="absolute top-0 w-full">
+                  <ul
+                    class="w-full rounded-xs border border-gray-300 bg-neutral-50 dark:border-gray-600 dark:bg-slate-800"
+                  >
+                    <li
+                      class="p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
+                    >
+                      <a href="/blog" class="inline-flex w-full">Блог</a>
+                    </li>
+                    <li
+                      class="w-full p-2 text-lg hover:bg-slate-200 dark:hover:bg-slate-700"
+                    >
+                      <a href="/gallery" class="inline-flex w-full">Галерея</a>
+                    </li>
+                  </ul>
+                </div>
+              </DropdownItems>
+            </Dropdown>
           </li>
+          <!-- <li class="rounded-md p-2 hover:bg-slate-200 dark:hover:bg-slate-600">
+            <a href="/blog" class="text-xl">Блог</a>
+          </li> -->
           <li class="rounded-md p-2 hover:bg-slate-200 dark:hover:bg-slate-600">
             <a href="/contacts" class="text-xl">Контакты</a>
           </li>
