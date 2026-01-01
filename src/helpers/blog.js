@@ -1,55 +1,45 @@
-// import indiaDay from '@/public/blog/india-day.webp'
-// import mahashivaratri from '@/public/blog/mahashivaratri.webp'
-import neoadwayta from "../assets/blog/saraha.webp";
-// import akshayaTritiya from '@/public/blog/bd6a4ed88d7345454f28fea0d2cc6853.webp'
-import saraha from "../assets/blog/neoadwayta.webp";
+import saraha from "../assets/blog/saraha.webp";
+import soznanie from "../assets/blog/soznanie.webp"
+import neoadwayta from "../assets/blog/neoadwayta.webp";
 import chai from '../assets/blog/chai.webp'
+import adhikara from '../assets/blog/adhikara.webp'
+
 
 export const allArticles = [
   {
-    id: "007",
+    id: "005",
+    title: "Адхикара",
+    description: "Наш уровень, квалификация и компетентность как духовного практика",
+    img: adhikara,
+    url: "/blog/adhikara",
+  },
+  {
+    id: "004",
+    title: "Расширение сознания",
+    description: "От сознания жертвы до состояния божества, творящего реальность",
+    img: soznanie,
+    url: "/blog/rasshirenie-soznaniya",
+  },
+  {
+    id: "003",
     title: "Притча",
     description: "Я заварил чай",
     img: chai,
     url: "/blog/ya-zavaril-chai",
   },
   {
-    id: "006",
+    id: "002",
     title: "Сараха",
     description: "Наставления великого йогина Сарахи ученику",
-    img: neoadwayta,
+    img: saraha,
     url: "/blog/nastavleniya-sarahi",
   },
-  // {
-  //   id: '005',
-  //   title: 'Акшая тритья',
-  //   description:
-  //     'Самый благоприятный день в году.',
-  //   img: akshayaTritiya,
-  //   url: '/blog/akshaya-tritiya',
-  // },
-  // {
-  //   id: '004',
-  //   title: 'День Индии в Москве. Как это было',
-  //   description:
-  //     'Наша сангха была представлена на дне Индии институтом Риши Васиштхи.',
-  //   img: indiaDay,
-  //   url: '/blog/indiaday2024',
-  // },
-  // {
-  //   id: '003',
-  //   title: 'Махашиваратри 2024',
-  //   description:
-  //     'Мини отчет с прошедшего МахаШиваРатри. + Бонус: видео с мероприятия.',
-  //   img: mahashivaratri,
-  //   url: '/blog/mahashivaratri2024',
-  // },
   {
-    id: "002",
+    id: "001",
     title: "Как не попасть в ловушку поверхностной Адвайты",
     description:
       "О двенадцати видах поверхностного отношения, подстерегающих практиков недвойственных учений.",
-    img: saraha,
+    img: neoadwayta,
     url: "/blog/neoadvayta",
   },
 ];
