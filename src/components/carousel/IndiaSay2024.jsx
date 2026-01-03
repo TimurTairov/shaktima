@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import ImageGallery from "react-image-gallery";
+import { settings } from "../../helpers/imageGallarySettings";
 import {
   indiaday__2024,
   indiaday_deti_2024,
@@ -9,13 +10,6 @@ import {
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const IndiaSay2024 = () => {
-  const settings = {
-    showBullets: false,
-    showIndex: true,
-    showThumbnails: false,
-    showFullscreenButton: true,
-    lazyLoad: true,
-  };
   return (
     <div className="font-light text-gray-700 dark:text-gray-300">
       <h1 className="mainTitle">Дни Индии в Москве</h1>
@@ -83,9 +77,9 @@ const IndiaSay2024 = () => {
       </div>
 
       <div className="mt-20">
-        <h1 className="text-center text-lg lg:text-2xl">
+        <h5 className="text-center text-lg lg:text-2xl">
           Дни Индии в Москве с 15 по 18 августа 2024 года
-        </h1>
+        </h5>
         <div className="my-10">
           <h5 className="text-center text-lg">Часть 1. Общие фотографии</h5>
           <div className="flex w-full items-center justify-center">

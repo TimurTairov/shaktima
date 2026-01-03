@@ -1,4 +1,5 @@
 import ImageGallery from "react-image-gallery";
+import { settings } from "../../helpers/imageGallarySettings";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
@@ -14,17 +15,10 @@ const images = [
     original:
       "https://sun9-5.userapi.com/s/v1/ig2/2358n4bP0-5gQ4UwM5U5HLB_fl1AM0p7LwReu0BRToCx97NMao_n1l__XFdNjgz07f4iRU3zJTO2g5kpuTqg-5FT.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0",
   },
-
-  // {
-  //   original: "",
-  // },
-  // {
-  //   original: "",
-  // },
 ];
 
 const Tradiciya = () => {
-  return <ImageGallery items={images} />;
+  return <ImageGallery items={images} {...settings} />;
 };
 
 export default Tradiciya;

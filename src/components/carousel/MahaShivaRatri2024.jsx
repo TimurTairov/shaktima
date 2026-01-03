@@ -1,16 +1,10 @@
 import ImageGallery from "react-image-gallery";
+import { settings } from "../../helpers/imageGallarySettings";
 import { Suspense } from "react";
 import { mshr_2024_1, mshr_2024_2 } from "../../helpers/photos24";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const MahaShivaRatri2024 = () => {
-  const settings = {
-    showBullets: false,
-    showIndex: true,
-    showThumbnails: false,
-    showFullscreenButton: true,
-    lazyLoad: true,
-  };
   return (
     <div className="font-light text-gray-700 dark:text-gray-300">
       <h1 className="mainTitle">МахаШиваРатри 2024</h1>

@@ -1,4 +1,5 @@
 import ImageGallery from "react-image-gallery";
+import { settings } from "../../helpers/imageGallarySettings";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
@@ -25,7 +26,7 @@ const images = [
 ];
 
 const Guru = () => {
-  return <ImageGallery items={images} class="w-full" />;
+  return <ImageGallery items={images} {...settings} class="w-full" />;
 };
 
 export default Guru;

@@ -9,7 +9,7 @@ import { Image } from "astro:assets";
     <h1 class="mainTitle">Галерея</h1>
     <div class="mt-10 flex justify-center">
       <ul
-        class="grid grid-cols-1 justify-center gap-2 md:gap-3 lg:gap-5 xl:gap-7"
+        class="grid grid-cols-1 justify-center gap-2 md:gap-3 lg:grid-cols-2 lg:gap-5 xl:gap-7"
       >
         {
           allFoto.map((article) => {
@@ -17,7 +17,7 @@ import { Image } from "astro:assets";
               <li class="flex gap-3 rounded-md bg-gray-50 dark:bg-slate-700">
                 <div class="shrink-0">
                   <a href="">
-                    <Image
+                    <img
                       src={article.img}
                       alt={article.title}
                       class="h-27 w-27 shrink-0 rounded-md bg-orange-100"
