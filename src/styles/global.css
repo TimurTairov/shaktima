@@ -63,7 +63,7 @@ html {
 } */
 
 .main-container {
-  @apply mx-auto min-h-screen max-w-7xl rounded-xs px-2;
+  @apply mx-auto min-h-screen max-w-6xl rounded-xs px-2;
 }
 
 .mainTitle {

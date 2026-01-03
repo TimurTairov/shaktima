@@ -3,9 +3,17 @@ import soznanie from "../assets/blog/soznanie.webp"
 import neoadwayta from "../assets/blog/neoadwayta.webp";
 import chai from '../assets/blog/chai.webp'
 import adhikara from '../assets/blog/adhikara.webp'
+import shivaShakti from '../assets/blog/shiva-shakti.webp'
 
 
 export const allArticles = [
+  {
+    id: "006",
+    title: "Шива и Шакти",
+    description: "Сознание и Энергия, дух и материя",
+    img: shivaShakti,
+    url: "/blog/shiva-shakti",
+  },
   {
     id: "005",
     title: "Адхикара",

@@ -4,8 +4,12 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 interface Props {
   title: string;
+  desc?: string;
 }
-const { title = "ШактиМа" } = Astro.props as Props;
+const {
+  title = "ШактиМа",
+  desc = "Московский дхарма центр в традиции практической адвайты сиддхов",
+} = Astro.props as Props;
 ---
 
 <!doctype html>
@@ -16,6 +20,7 @@ const { title = "ШактиМа" } = Astro.props as Props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={desc} />
     <title>{title}</title>
   </head>
   <body class="bg-white dark:bg-slate-800">
