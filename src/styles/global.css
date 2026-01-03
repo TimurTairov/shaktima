@@ -85,7 +85,7 @@ html {
 
 /*! GRID CALENDAR */
 .grid-item-dn {
-  @apply flex flex-col items-center justify-center rounded-lg bg-red-300 p-1 text-xs font-medium text-red-800 md:text-sm lg:text-base xl:text-lg;
+  @apply flex flex-col items-center justify-center gap-1 rounded-lg bg-red-300 p-1 text-xs font-light text-red-800 md:text-sm lg:flex-row lg:text-base xl:text-lg;
 }
 .grid-item {
   @apply flex flex-col justify-between rounded-lg bg-red-100 p-1 text-center;
