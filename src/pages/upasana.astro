@@ -78,11 +78,11 @@ import { Image } from "astro:assets";
     </div> -->
     <div class="mt-10 flex w-full justify-center">
       <ul
-        class="grid grid-cols-1 justify-center gap-2 md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-5 xl:grid-cols-4 xl:gap-7"
+        class="grid grid-cols-1 justify-center gap-2 md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-5 xl:gap-7"
       >
         {
           upasana.map((sadhana) => (
-            <li class="flex flex-col gap-1 rounded-md border border-amber-400 bg-amber-50">
+            <li class="flex flex-col gap-1 rounded-md border border-amber-400 bg-amber-100">
               <a href={`/upasana/${sadhana.id}`} class="">
                 <Image
                   src={sadhana.img}

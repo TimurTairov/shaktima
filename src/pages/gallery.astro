@@ -1,20 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Container from "../layouts/Container.astro";
 import { allFoto } from "../helpers/gallery";
-import { Image } from "astro:assets";
+// import { Image } from "astro:assets";
 ---
 
 <Layout title="Галерея">
-  <section class="main-container flex flex-col items-center">
+  <Container>
     <h1 class="mainTitle">Галерея</h1>
     <div class="mt-10 flex justify-center">
       <ul
-        class="grid grid-cols-1 justify-center gap-2 md:gap-3 lg:grid-cols-2 lg:gap-5 xl:gap-7"
+        class="grid grid-cols-1 justify-center gap-2 md:gap-3 lg:gap-5 xl:gap-7"
       >
         {
           allFoto.map((article) => {
             return (
-              <li class="flex gap-3 rounded-md bg-gray-50 dark:bg-slate-700">
+              <li class="flex gap-3 rounded-md bg-amber-100 dark:bg-slate-700">
                 <div class="shrink-0">
                   <a href="">
                     <img
@@ -24,18 +25,15 @@ import { Image } from "astro:assets";
                     />
                   </a>
                 </div>
-                <div class="flex flex-col justify-between">
+                <div class="flex flex-col justify-between p-1">
                   <h5 class="text-sm font-medium text-gray-700 md:text-base dark:text-amber-600">
                     {article.title}
                   </h5>
-                  <p class="text-xs text-gray-700 md:text-sm dark:text-amber-100">
+                  <p class="overflow-hidden text-xs text-gray-700 md:text-sm dark:text-amber-100">
                     {article.description}
                   </p>
-                  <a
-                    href={article.url}
-                    class="text-indigo-500 dark:text-amber-400"
-                  >
-                    Подробнее ...
+                  <a href={article.url} class="my-button w-fit px-2 py-1">
+                    Подробнее
                   </a>
                 </div>
               </li>
@@ -44,5 +42,5 @@ import { Image } from "astro:assets";
         }
       </ul>
     </div>
-  </section>
+  </Container>
 </Layout>

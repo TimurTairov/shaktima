@@ -3,10 +3,11 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import namasteRed from "../assets/namaste/namaskar.webp";
 import namasteWhite from "../assets/namaste/namaskar_white.png";
+import Container from "../layouts/Container.astro";
 ---
 
 <Layout title="Поддержите нас">
-  <div class="main-container flex flex-col items-center">
+  <Container class="main-container flex flex-col items-center">
     <h1 class="mainTitle">Поддержите нас</h1>
     <div
       class="flex flex-col items-center justify-center font-light dark:text-gray-300"
@@ -72,5 +73,5 @@ import namasteWhite from "../assets/namaste/namaskar_white.png";
         N A M A S T E
       </p>
     </div>
-  </div>
+  </Container>
 </Layout>

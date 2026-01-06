@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Container from "../layouts/Container.astro";
 import { Image } from "astro:assets";
 import map from "../assets/maps/map.webp";
 import map2 from "../assets/maps/map2.webp";
@@ -9,7 +10,7 @@ import map5 from "../assets/maps/map5.webp";
 ---
 
 <Layout title="Контакты">
-  <div class="main-container flex flex-col items-center">
+  <Container class="main-container flex flex-col items-center">
     <h1 class="mainTitle">Контакты</h1>
     <div class="flex justify-center">
       <div class="mt-5 flex flex-col items-start justify-center gap-5 lg:mt-10">
@@ -252,5 +253,5 @@ import map5 from "../assets/maps/map5.webp";
         </div>
       </div>
     </details>
-  </div>
+  </Container>
 </Layout>
