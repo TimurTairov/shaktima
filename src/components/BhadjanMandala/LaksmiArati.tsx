@@ -4,7 +4,7 @@ const LaksmiArati = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='LaksmiArati' title='Лакшми Арати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const LaksmiArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖАЙ ЛАКШМИ МААТА<br />
             МАЙЯ ДЖАЙ ЛАКШМИ МААТА  <br />
             ТУМе КО НИСеДИНЕ СЕЕВАТЕ<br />
@@ -25,7 +25,7 @@ const LaksmiArati = () => {
             Слава Матери Лакшми! Тебя почитают денно и ночно Шива,
             Вишну и Брахма. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             УМА, РАМА, БРАМхАНИ  <br />
             ТУМе КАМЛА РАНИ<br />
             МАЙЯ ТУМе КАМЛА РАНИИ  <br />
@@ -39,7 +39,7 @@ const LaksmiArati = () => {
             Мать, Ты и есть Матерь Мира. Тебя созерцают и Солнце и Луна
             и о Тебе поет риши Нарада. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДУРГА РУПА НИРАНДЖАНИ  <br />
             СУКХА-САМПАТИ ДАТАА<br />
             МАЙЯ СУКХА-САМПАТИ ДАТАА  <br />
@@ -54,7 +54,7 @@ const LaksmiArati = () => {
             получает богатство и успех в материальном и духовном.
             Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТУМ ВИШНУ ЛОКА НИВАСИНИ  <br />
             ТУМе ХИ ШУБХ ДАТА<br />
             МАЙЯ ТУМе ХИ ШУБХ ДАТА  <br />
@@ -68,7 +68,7 @@ const LaksmiArati = () => {
             о Мать, Ты дающая все блага. Ты освещающая могущество
             кармы, спасительница мира. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖИСе ГХАРе ТУМе РАХиТИта  <br />
             САБе САДеГУНе ААТА<br />
             МАЙЯ САБе САДеГУНе ААТАА  <br />
@@ -82,7 +82,7 @@ const LaksmiArati = () => {
             В том доме, где Ты обитаешь, все становится возможным и
             нет страха. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТУМА БИНА ЯГЬЯ НА ХОТЕ  <br />
             ВАСТРА НА ХО ПААТА<br />
             МАЙЯ ВАСТРА НА ХО ПААТАА  <br />
@@ -96,7 +96,7 @@ const LaksmiArati = () => {
             не получить, избыток еды и питья – все исходит от Тебя.
             Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШУБХА ГУНА МАНДИРА СУНДАРА  <br />
             ШИИРОДАДИ ДЖАТА<br />
             МАЙЯ ШИИРОДАДИ ДЖАТА  <br />
@@ -110,7 +110,7 @@ const LaksmiArati = () => {
             рожденная из молочного океана. Без Тебя 14 драгоценностей
             никто не может получить. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАХА ЛАКШМИ ДЖИ КИ ААРАТИ  <br />
             ДЖО КОИ ДЖАНе ГААТА<br />
             МАЙЯ ДЖО КОИ ДЖАНе ГААТАА  <br />
@@ -124,7 +124,7 @@ const LaksmiArati = () => {
             это арати, тот обретает блаженство и освобождается от
             греха. Слава Матери Лакшми!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖАЙ ЛАКШМИ МААТА<br />
             МАЙЯ ДЖАЙ ЛАКШМИ МААТА  <br />
             ТУМе КО НИСеДИНЕ СЕЕВАТЕ<br />

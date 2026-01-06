@@ -2,7 +2,7 @@
 const ShriBheshaKioShambho = () => {
   return (
     <>
-      <p className="font-bold">
+      <p className="font-medium">
         Шири бхЕша кИйо шамбхо тЭке кАРаНэ<br />
         ГуруджИ сикхАре пАре тапо кАре<br />
         ШрИгуру дАттатрей гиринАр мЕ джапо кАре<br />

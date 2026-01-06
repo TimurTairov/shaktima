@@ -5,7 +5,7 @@ const MahaAratiSmall = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='MahaAratiSmall' title='Маха Арати (короткое)' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -18,7 +18,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ганеш Ванданам
           </h2>
-          <p className="font-bold">Харе Ом!     <br />
+          <p className="font-medium">Харе Ом!     <br />
             ГаджАананАм бхУта ганАади севитАм     <br />
             КапИтха джамбО пхалАчара бхакшанАм     <br />
             УмА сутам шОка винАаша кAранАм     <br />
@@ -34,7 +34,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ганеша Арати
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             1. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             хари джАя гоурИнандА<br />
@@ -48,7 +48,7 @@ const MahaAratiSmall = () => {
             дарующего блаженство. Я кланяюсь к его стопам.
             Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             2. СУнда сундАЛо нетро вишАло<br />
             кУндала джАла кхантА<br />
             хари кУндала джАла кхантА<br />
@@ -63,7 +63,7 @@ const MahaAratiSmall = () => {
             сандалового дерева, а все тело умащено красным порошком
             синдура. Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             3. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             гаНапати Ананда кАндагуру<br />
@@ -76,7 +76,7 @@ const MahaAratiSmall = () => {
             дарующего блаженство. Я кланяюсь к его стопам.
             Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             4. МУкута сугАла соухАнта<br />
             мАстака сОхантА<br />
             хари мАстака сОхантА<br />
@@ -90,7 +90,7 @@ const MahaAratiSmall = () => {
             великолепная корона. Приветствую Ганеша, чьи руки и запястья
             украшены кольцами невиданной красоты. Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             5. РАтана джаРИта синьгхАсана шОубита<br />
             гАнапати АнандА<br />
             хари гаНапати АнандА<br />
@@ -105,7 +105,7 @@ const MahaAratiSmall = () => {
             жемчуга и вайджанти. Боги, люди и риши славят Его.
             Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             6. МУшака вАхана рАдьжата<br />
             шИва сута АнандА<br />
             хари шИва сута АнандА<br />
@@ -120,7 +120,7 @@ const MahaAratiSmall = () => {
             так говорит Шивананда Свами. О Господь, освободи нас
             от страха Сансары! Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             7. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             хари джАя гоурИнандА<br />
@@ -134,7 +134,7 @@ const MahaAratiSmall = () => {
             дарующего блаженство. Я кланяюсь к его стопам!
           </p>
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Пранам</h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГаурИ ганеш катО калеш мата пАрвати питА махеш<br />
             рИддги сиддехи дАтта<br />
             бхолО гаджанан бхагавАна ки джей!
@@ -147,7 +147,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Гурудатта Дигамбар Стотрам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Харе Ом!<br />
             Гуру джи дигамбара<br />
             датта джи дигамбара<br />
@@ -178,7 +178,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Даттатрейя Арати
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             1. сиригурудЭва дАтта абадхУта мааРеге<br />
             сиддхи чаурАси тапасьЯ каРе
           </p>
@@ -187,7 +187,7 @@ const MahaAratiSmall = () => {
             форме Авадхуты, который совершенен в 84х сиддхах.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             2. бИтчи хэ джАаджамэ лАги хэ тАкия<br />
             нАм нирАнджана свами вО джапЭ
           </p>
@@ -197,7 +197,7 @@ const MahaAratiSmall = () => {
             бесформенного Бога.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             3. пИири хОокаре гАддхи джо бЕетхе<br />
             тАджа тарАнга хАсти вО чаРе
           </p>
@@ -206,7 +206,7 @@ const MahaAratiSmall = () => {
             величественно, словно на слоне.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             4. пАньдите хОокари вЕда джо бхАадже<br />
             дхАнда упАдэ сЭ ньярА рахе
           </p>
@@ -216,7 +216,7 @@ const MahaAratiSmall = () => {
             возмездия, - освобождается от всякой беды.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             5. рИши джо мУни гуру дУддха джё дхАари<br />
             УрдабахАна тапасьяА каРе
           </p>
@@ -225,7 +225,7 @@ const MahaAratiSmall = () => {
             коровье молоко и совершает аскезу в месте под названием Урдвахам.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             6. рУкхаРа шУукхаРа дхУпо джо кЕепе<br />
             нАга нирбхАйа тапасьЯ каРе
           </p>
@@ -234,7 +234,7 @@ const MahaAratiSmall = () => {
             медитирующего, вдыхающего ароматные пары или благовония.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             7. кОи хе лАкхи гуру кОи хе кхАаки<br />
             бАНкхаНди бАн ме тапасьЯ каРе
           </p>
@@ -243,7 +243,7 @@ const MahaAratiSmall = () => {
             безразличного к богатству или к бедности.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             8. Абуджо гхАРа гиринАарэ вАасаа<br />
             мохАрегхАРа бикшА каРе
           </p>
@@ -252,7 +252,7 @@ const MahaAratiSmall = () => {
             подаяния на горе Абу в Мохаргархе.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             9. ДжАпата брхАмма гуру рАтата бИишНу<br />
             Аади дЭэва махЕшвара
           </p>
@@ -261,7 +261,7 @@ const MahaAratiSmall = () => {
             Бхармы, Вишну и Махешвары.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             10. чАнда О сУурадже нОу лакхе тАаРаа<br />
             гУруджи тумхАРи парикрмА каРе
           </p>
@@ -270,7 +270,7 @@ const MahaAratiSmall = () => {
             900 000 звезд.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             11. шири дАс нама бхЭша гуру сИля санньАасии<br />
             сАарва дЭэва ракшА каРе
           </p>
@@ -279,7 +279,7 @@ const MahaAratiSmall = () => {
             того, кто защищен всеми Богами.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             12. дЭэва бхАаРати дЭва лИила<br />
             дОу каРа джЁри астхутИ каРе
           </p>
@@ -289,7 +289,7 @@ const MahaAratiSmall = () => {
             существа.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             13. ширидЭва бхАаРати дЭва лИила<br />
             дОу кара джЁри астутИ каРе
           </p>
@@ -299,7 +299,7 @@ const MahaAratiSmall = () => {
             существа.
           </p>
           <ShriBheshaKioShambho />
-          <p className="font-bold">
+          <p className="font-medium">
             14. Шри гурудЭва дАтта абадхУта мааРеге<br />
             сиддхи чеурАси тапасьЯ каРе
           </p>
@@ -311,7 +311,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Датта пранам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             дАтта дАтта нибхАйаджата<br />
             чАРоно ме читта лагАи джата<br />
             джахаА дАтта хе вахА сАттйа хе<br />
@@ -322,7 +322,7 @@ const MahaAratiSmall = () => {
             твоих стоп! Где Датта – там Истина, где нет Датты – там нет
             Истины!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             дАтта хе баре парамАртхИ<br />
             шИтал джинаке анга буджхАве<br />
             дете хе оурене ко апно рангА<br />
@@ -337,7 +337,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Сандхья Калин Прартхана
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Харе Ом!<br />
             карпУра гоурАм каруна аватарАм<br />
             сансАра щарАм бхуджагЕндра хаарАм<br />
@@ -349,7 +349,7 @@ const MahaAratiSmall = () => {
             Господу всех миров, со змеей в виде ожерелья. Тому, в чьем
             сердце восседает богиня Гаури, Господу Шиве наше поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             мандАра малА калитАлл кайИ<br />
             капАламалА китаканнда хари<br />
             дивйАмбарайе ча дигАмбарайе<br />
@@ -362,7 +362,7 @@ const MahaAratiSmall = () => {
             Тому, кто одет в восемь сторон, Гаури и Господу Шиве наше
             поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Шри акхАнданАнда бходхаЯ<br />
             шОка сАнта пахАрине<br />
             сАчитАнанда сварупаЕ<br />
@@ -377,7 +377,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шива Панчакшара Стотрам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             1. НагЕндра харАя трилЁчаная<br />
             бхасмАнга рагАя махЕшварая<br />
             нитьЯя шуддхАя дигАмбарая<br />
@@ -388,7 +388,7 @@ const MahaAratiSmall = () => {
             Великому Владыке, Вечному, Чистому, Одетому в стороны
             света — Такому Шиве в слоге «На» поклон!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             2. Ма тАнга чармАмбара бхУшаная<br />
             шамАста гиришая гхана читая<br />
             трилОкенатхАя трипурАнтакая<br />
@@ -400,7 +400,7 @@ const MahaAratiSmall = () => {
             которому принадлежат все богатства, Господином
             всех трех миров, разрушителем Трипуры.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             3. ШивА мукхумбО джавикА шаная<br />
             дакшьЯ ягьясьЕ видхвАн цаная<br />
             чандраркА вишванара лОчаная<br />
@@ -412,7 +412,7 @@ const MahaAratiSmall = () => {
             жертвоприношения Дакши и чьи глаза являются солнцем,
             луной и огнем.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             4. ВашИшта кумбОдбхава гаутАмаря<br />
             мунИндра ведьЯя гирИшварая<br />
             сири нИлакантАя вриша дхваджая<br />
@@ -425,7 +425,7 @@ const MahaAratiSmall = () => {
             Господом Нилакантхой, воплотившемся в слоге «Ва» -
             четвертом в мантре «Нама Шивая»
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             5. ЯгнА сварупАя джатА дхарая<br />
             пинАка хастАя санАтаная<br />
             дивьАя девАя дигАмбарая<br />
@@ -436,7 +436,7 @@ const MahaAratiSmall = () => {
             Держащему лук в руке, Вечному, Божественному, Обитателю
             небес, Чьи одежды – космос, Такому Шиве в слоге «Йа» поклон!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             пАнчакшарам идам пуньЯм<br />
             йах патхЭчИва санньидхО<br />
             шИва лОкам авАпноти<br />
@@ -452,7 +452,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шри Шив Вандана
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом!<br />
             шИва хАра шАнкара гОуришАм<br />
             вАнде гАнга дхара мишАм<br />
@@ -468,7 +468,7 @@ const MahaAratiSmall = () => {
             время и тот, кто проявляется полнотой своих качеств в
             Варанаси.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Бхава!<br />
             пАре лОчана пАремананАнда (гуру)<br />
             нИилакАнтам тАва шаранАм
@@ -478,7 +478,7 @@ const MahaAratiSmall = () => {
             Ты – Гуру, который учит из высшей любви! О, выпивший яд
             мира и потому синешеий, твоих стоп касаются мудрецы!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Шива Асура никАнндана бхАва дукха бхАнджана<br />
             сЕвак кЕе пратипАалаа
           </p>
@@ -487,7 +487,7 @@ const MahaAratiSmall = () => {
             неправильных действий и страданий. Ты высшая цель и высшее
             достижение, Ты защитник своих преданных!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Бам!<br />
             АвагАмана каувалйа шАнкара<br />
             бхАдже шИва бАрамбАаара
@@ -496,7 +496,7 @@ const MahaAratiSmall = () => {
             Бам! Шива – тот, кто передает прямое постижение
             реальности и приводит к Освобождению. Воспевайте Его!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом!<br />
             шИва хАра шАмбхо садАшива шАмб<br />
             хАри хАра сАда садА шива шамб<br />
@@ -510,7 +510,7 @@ const MahaAratiSmall = () => {
             этого мира. Ты и Вишну, Ты и Рудра, вечность, Вечный Учитель,
             Благо. Всегда восхваляем и славим имя Твое, Шива Шамбо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом!<br />
             джей джей шамбхо садАшива шамб<br />
             хари хара сада садА шива шамб
@@ -523,7 +523,7 @@ const MahaAratiSmall = () => {
           {/* <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шри Шив ванданам 1-я часть
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             вандЕ дЭвам умА патИм сурА гурум<br />
             вандЕ джагат кАаранам<br />
             вандЭ пАннага бхУшанам марга дхарАм<br />
@@ -534,7 +534,7 @@ const MahaAratiSmall = () => {
             Я приветствую основу всей земли.
             Я приветствую Его, украшенного змеей.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             вандЭ сУрья шашАнка вАни наЙанАм<br />
             вандЭ мукунндА прийАм<br />
             вандЕ бхАкта джанА шраЯм чА варадам<br />
@@ -548,7 +548,7 @@ const MahaAratiSmall = () => {
             Я приветствую преданных Тебе.
             Я склоняюсь перед Шивой - Шанкарой.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             хе джИве баджа вИшванАтха бадрИ<br />
             кедАар бхашмЕшуара<br />
             бхимА шАнкара беджанатха ванде<br />
@@ -559,7 +559,7 @@ const MahaAratiSmall = () => {
             повелителя пепла, Бадри, Кедара, Бхиммы, Шанкары,
             Вешнатха, Нагешвара, Рамешвара,
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             омкАре мАмалЕшварам смари харАм<br />
             махАкАлам малиИкАрджунам<br />
             дхьЯе трийамбака сомнатха манишам<br />
@@ -570,7 +570,7 @@ const MahaAratiSmall = () => {
             Медитируй на трехглазого Бога, Повелителя
             Сомнатха и Манишама. Славь Шиву одиннадцатью именами!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             дэвАм чАндра калА дхарАм пханИдхарАм<br />
             браммА капАала дхарАм<br />
             шри гоурИ кАла дхарАм трилОчана дарАм<br />
@@ -581,7 +581,7 @@ const MahaAratiSmall = () => {
             чья супруга – деви Гаури, славь трехглазого Господа,
             носящего змею и малу из рудракши вокруг шеи.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             гАнга рАнга тарАнга пИннгала джятА<br />
             джутАм шри гАнгА дхарАм<br />
             нилЯнге бхаджЕ вишванатха сИддха сахитАм<br />
@@ -594,7 +594,7 @@ const MahaAratiSmall = () => {
             вместе со всеми сиддхами, пой хвалу Шиве и Парвати,
             которые защищают всех живых существ.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             гангА сИнду сарАсвати чА йамуна<br />
             гоудАварИ нАрмада<br />
             кавЕри сарйУ махИндра танаЯ<br />
@@ -605,7 +605,7 @@ const MahaAratiSmall = () => {
             Ямуна, Гаудавари, Нарвада, Кавери, Сарьи, те,
             которые являются телами Махиндры, Чарманьяти, Ведики,
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             шипрА вЕтраватИ махА суранадИ<br />
             кьятА чА йА гАнндаки<br />
             пУрна пУрна джале самУдра сахитА<br />
@@ -616,7 +616,7 @@ const MahaAratiSmall = () => {
             Эти священные воды, впадающие в океан,
             приведут нас к освобождению
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             шАнтакАрам шикхАра шаянАм<br />
             шарпа малЯам махЕшварам<br />
             вИщва дхАрам гаганО садрищАм<br />
@@ -628,7 +628,7 @@ const MahaAratiSmall = () => {
             Повелитель вселенной, бесконечный как небо,
             прозрачный как кристалл.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             шригоури кантам вишава найанам<br />
             йОги бхир дхьЯна гАмьАм<br />
             ванде шамбу бхава бхая харанам<br />
@@ -640,7 +640,7 @@ const MahaAratiSmall = () => {
             Простираемся перед Шивой, повелителем
             всех живых существ во всех мирах.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             шянтАа кАрам буджЯга шаянАм<br />
             падманАбхам сурЕшам<br />
             вИшва дхАрам гаганА садрищАм<br />
@@ -653,7 +653,7 @@ const MahaAratiSmall = () => {
             основа вселенной, огромный как небо,
             цветом похожий на облако.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             шри лакшми кАнтам камАла наянАм<br />
             йОги бхир дхьЯна гАмьАм<br />
             вандЕ вИшнум бхава бхАя харАм<br />
@@ -669,7 +669,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шри Шив ванданам 2-я часть
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Хари Ом!<br />
             асита гири шамаМ сйАат каджалам сИндху пАтрэ<br />
             сура тарувара шАкхА лекхани пАтрамурвИ<br />
@@ -683,7 +683,7 @@ const MahaAratiSmall = () => {
             поверхности земли – этого будет недостаточно,
             чтобы восхвалить все качества и славу Господа.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             кара чаранна кртАм вАак каайа джам кАрма джам вАа<br />
             шраванна найана джАм вАа маанасам вА апарАадхам<br />
             вЕхитам авЕхитам вАа сАрвам Етат кшамАсва<br />
@@ -696,7 +696,7 @@ const MahaAratiSmall = () => {
             разумности, сознательно или бессознательно, прости все эти
             грехи, Океан Милости. Слава, слава Тебе, Махадева Шамбху!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             гурур брамма гурур вишну гуру дэво махЕшвара<br />
             гУрур сакшат парАбрамма тАсмаи шри гурувЕ намАха
           </p>
@@ -706,7 +706,7 @@ const MahaAratiSmall = () => {
             Я созерцаю в Гуру самого Парабрахмана.
             И так вечно поклоняюсь Шри Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             дхьЯна мУлам гурур мурти пуджа мУлам гуру падам<br />
             мАнтра мулам гурур вакйАм мокша мулам гурУ крипа
           </p>
@@ -716,7 +716,7 @@ const MahaAratiSmall = () => {
             Основа мантры – речь Гуру.
             Основа освобождения – милость Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             акхАнда мАндала кАрам вьЯптам йена чарА чарАм<br />
             тАт падАм дАршитам йена тАсмаи шрИ гурувЕ намАх
           </p>
@@ -725,7 +725,7 @@ const MahaAratiSmall = () => {
             все движущееся и неподвижное и являет нам высшую обитель,
             Тому, чьи ступни я созерцаю - тому Шри Гуру мой поклон.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             акАшат пАтитам тойам сАгарам пратЕ гАчати<br />
             сАрва дЕвам нАмаскАрАм кЕшавАм пратЕ гАчати
           </p>
@@ -734,7 +734,7 @@ const MahaAratiSmall = () => {
             так и все молитвы направленные Богу
             достигают Господа Кришны.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             кЕшавам калеш нашайа дУкха нашайа мадхавайа<br />
             шрИ харИ пАпа нАшаЯ говИндайа мОкша дайакам
           </p>
@@ -744,7 +744,7 @@ const MahaAratiSmall = () => {
             имя Шри Хари разрушает все грехи,
             имя Говинда дает освобождение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             мАнтра сАтьам пУджа сАтьам<br />
             сАтьам дЕвам нирАнджанАм<br />
             гурУр вАкьам садА сАтьам сАтьам Екам парАм падАм
@@ -754,7 +754,7 @@ const MahaAratiSmall = () => {
             Истина есть наш Бог. Речь Гуру есть Истина,
             единственная Истина – это поклонение стопам Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Анйатха шаранам нАстИ твамЕва шаранАм мамА<br />
             тАсмат кАлена бхАвЕна ракшА ракшА махЕшуара
           </p>
@@ -763,7 +763,7 @@ const MahaAratiSmall = () => {
             Мы преклоняемся перед Шивой, нашим защитником,
             который является проявлением любви и сострадания
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             пратаха кале<br />
             шивАм дриштА ниша папам винашйатИ<br />
             АаджАнам крита мАддхйАме шАяне сАпта джанманИ
@@ -772,7 +772,7 @@ const MahaAratiSmall = () => {
             Тот, кто созерцает Шиву утром, днем и вечером, избавляется от
             всех грехов этой жизни, а также семи предыдущих жизней.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             мЕру кАнчан дАна наам гАуам кОти шатИ рапИ<br />
             пАнча кОти турАнга нАм тАт пхалАм шива дАршанам
           </p>
@@ -785,7 +785,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Шри Шив ванданам 3-я часть
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Харе Ом!<br />
             твамЕва матА ча питА твамевА<br />
             твамЕва бандхУр ча сакхА твамевА<br />
@@ -797,7 +797,7 @@ const MahaAratiSmall = () => {
             Ты истинное знание и богатство Господь,
             Ты воистину все для меня! О, Господь!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Харе Ом!<br />
             Алакам талАла сАда пАдмайоги<br />
             хЕи ишварИ пАдманам шивашаАнка чАкрум<br />
@@ -810,7 +810,7 @@ const MahaAratiSmall = () => {
             Баткешварам, в мире смертных – Маха Кале. Поклоняемся всем
             Лингамам как единому.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             джатА дхАрам пандурангам шУла хастам крипА нидхим<br />
             сАрва рОгам харам дЕвам даттатрЕйа ахАм баджЕ
           </p>
@@ -819,7 +819,7 @@ const MahaAratiSmall = () => {
             кто носит шафрановые одеяния, с трезубцем в руке,
             океан сострадания, дарующего освобождение от всех болезней
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом нАна сугандхИ пушпАни йатха калО дхбавани чА<br />
             мАнтра пушпАнджалИ гьЯвАн даттАм парамЕшуарам
           </p>
@@ -827,14 +827,14 @@ const MahaAratiSmall = () => {
             Как все ароматы цветом принимаются Им,
             пусть Господь примет нашу гирлянду мантр.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом! пАрвати патИ хара-хара-хара махадэв!
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Пранам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом шива шанкара бхагавана ки джей!<br />
             Ом саття санатанн дхарма ки джей!<br />
             Ом сатгуру санатанн дхарма ки джей!<br />
@@ -844,7 +844,7 @@ const MahaAratiSmall = () => {
           {/* <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full text-center">
             Шива Лингаштакам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом!<br />
             брАхма мурАри сурАарчита лИнгам<br />
             нИрмаля бхАшита шобхита лИнгам<br />
@@ -857,7 +857,7 @@ const MahaAratiSmall = () => {
             Лингам, уничтожающий горести рождения, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             дэва мунИ праварАарчита лИнгам<br />
             кАма дахАна карунакара лИнгам<br />
             рАвана дАрпа винАшАка лИнгам<br />
@@ -869,7 +869,7 @@ const MahaAratiSmall = () => {
             Лингам, сокрушивший гордыню Раваны, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             сАрва сугАндха сулЕпита лингам<br />
             бУддхи вивАрдхана кАрана лингам<br />
             сИддха сурА асУра вандита лИнгам<br />
@@ -881,7 +881,7 @@ const MahaAratiSmall = () => {
             Лингам, восхваляемый сиддхами, сурами и асурами, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             кАнакА мАхамани бхУшита лИнгам<br />
             пхАни пАти вЕштита сОбхита лИнгам<br />
             дАкша суЯгня винАшана лИнгам<br />
@@ -894,7 +894,7 @@ const MahaAratiSmall = () => {
             Лингам, разрушивший великую ягью Дакши, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             кУнкУма чАндана лЕпита лИнгам<br />
             пАнкадьжа хАра сусОбхита лИнгам<br />
             сАньчита пАпа винАшана лИнгам<br />
@@ -906,7 +906,7 @@ const MahaAratiSmall = () => {
             Лингам, уничтожающий различные грехи, -
             такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             дэва ганАарчита севита лИнгам<br />
             бхАваир бхАктибхирЕва ча лИнгам<br />
             дИнакАра кОти прабхАкара лИнгам<br />
@@ -918,7 +918,7 @@ const MahaAratiSmall = () => {
             Лингам, сияющий подобно миллиону солнц, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ашта дальО паривЕштита лИнгам<br />
             сАрва самудбхАва кАрана лИнгам<br />
             Ашта дарИдрья винАшана лИнгам<br />
@@ -930,7 +930,7 @@ const MahaAratiSmall = () => {
             Лингам, устраняющий восемь видов несчатья, -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             сУрагуру сУравара пУдьжита лИнгам<br />
             сУравана пУшпа садАарчита лИнгам<br />
             пАрама падАм парамАтмака лИнгам<br />
@@ -943,14 +943,14 @@ const MahaAratiSmall = () => {
             Лингам высочайший, наивысший, изначальный -
             Такому лингаму Садашивы поклоняюсь я.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             брАхма мурАри сурАарчита лИнгам<br />
             нИрмаля бхАшита шобхита лИнгам<br />
             джАнмаджа дУкха винАшака лИнгам<br />
             тАт пранамАми садАшива лИнгам (3 раза)
           </p>
 
-          <p className="font-bold">
+          <p className="font-medium">
             Пранам<br />
             линга аштакам идам пУньям<br />
             Яах патЕт шива санньидО<br />
@@ -966,7 +966,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Джей Шамбо
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом! махАдЭва шивашАнкара шАмбо<br />
             Ума гАнга хАра трипурАри<br />
             мрИтюнджай брикхава дхОудже<br />
@@ -979,7 +979,7 @@ const MahaAratiSmall = () => {
             Победитель смерти, держатель Ганги и тот, кто
             очаровывает умы всех живых существ!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             джей шамбо джей шамбо<br />
             шива гаури шанкара джей шамбо ….
           </p>
@@ -992,7 +992,7 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Пранам
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             болО гурудэва дАтта абадхуто ки джей!<br />
             болО гуру брахмананда бхагавана ки джей!<br />
             болО сат гуру свами Вишнудэвананда<br />
@@ -1013,7 +1013,7 @@ const MahaAratiSmall = () => {
             болО сАтгуру санатанн дхарма ки джей!
           </p>
 
-          <p className="font-bold">
+          <p className="font-medium">
             Дхарма ки – джей хо!<br />
             Адхарма ка – нАш хо! (2 раза)<br />
             прАньон ме – садбхавана хо! (2 раза)<br />
@@ -1027,7 +1027,7 @@ const MahaAratiSmall = () => {
             существами и благосостояние всего мира!
             Мир! Мир! Мир!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ом Намо Парвати пати Хара-хара-хара Махадэв!
             (3 раза)
           </p>

@@ -4,7 +4,7 @@ const GaneshaArati = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='GaneshaArati' title='Ганеша Арати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,10 +14,11 @@ const GaneshaArati = () => {
             ></audio>
           </div>
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеш Ванданам</h2>
-          <p className="font-bold">Харе Ом!     <br />
-            ГаджАананАм бхУта ганАади севитАм     <br />
-            КапИтха джамбО пхалАчара бхакшанАм     <br />
-            УмА сутам шОка винАаша кAранАм     <br />
+          <p className="font-medium">
+            Харе Ом!<br />
+            ГаджАананАм бхУта ганАади севитАм <br />
+            КапИтха джамбО пхалАчара бхакшанАм <br />
+            УмА сутам шОка винАаша кAранАм <br />
             НамАми вигнЕшвара пАда панкаджАм
           </p>
           <p className=" text-balance max-w-screen-sm text-sm">
@@ -27,7 +28,7 @@ const GaneshaArati = () => {
             горестей! Я приветствую лотосные стопы Господа Вигнешвары!
           </p>
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Арати</h2>
-          <p className="font-bold">
+          <p className="font-medium">
             1. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             хари джАя гоурИнандА<br />
@@ -41,7 +42,7 @@ const GaneshaArati = () => {
             дарующего блаженство. Я кланяюсь к его стопам.
             Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             2. СУнда сундАЛо нетро вишАло<br />
             кУндала джАла кхантА<br />
             хари кУндала джАла кхантА<br />
@@ -56,7 +57,7 @@ const GaneshaArati = () => {
             сандалового дерева, а все тело умащено красным порошком
             синдура. Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             3. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             гаНапати Ананда кАндагуру<br />
@@ -69,7 +70,7 @@ const GaneshaArati = () => {
             дарующего блаженство. Я кланяюсь к его стопам.
             Ом, слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             4. МУкута сугАла соухАнта<br />
             мАстака сОхантА<br />
             хари мАстака сОхантА<br />
@@ -83,7 +84,7 @@ const GaneshaArati = () => {
             великолепная корона. Приветствую Ганеша, чьи руки и запястья
             украшены кольцами невиданной красоты. Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             5. РАтана джаРИта синьгхАсана шОубита<br />
             гАнапати АнандА<br />
             хари гаНапати АнандА<br />
@@ -98,7 +99,7 @@ const GaneshaArati = () => {
             жемчуга и вайджанти. Боги, люди и риши славят Его.
             Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             6. МУшака вАхана рАдьжата<br />
             шИва сута АнандА<br />
             хари шИва сута АнандА<br />
@@ -113,7 +114,7 @@ const GaneshaArati = () => {
             так говорит Шивананда Свами. О Господь, освободи нас
             от страха Сансары! Слава сыну Гаури!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             7. Ом джЕй гоурИнандА<br />
             хари джАя гириджАнандА<br />
             хари джАя гоурИнандА<br />
@@ -127,7 +128,7 @@ const GaneshaArati = () => {
             дарующего блаженство. Я кланяюсь к его стопам!
           </p>
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Ганеша Пранам</h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГаурИ ганеш катО калеш мата пАрвати питА махеш<br />
             рИддги сиддехи дАтта<br />
             бхолО гаджанан бхагавАна ки джей!

@@ -4,7 +4,7 @@ const Start = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='Start' title='Начало практики' big className='max-w-xl'>
-        <div className="w-full flex flex-col gap-5">
+        <div className="w-full flex flex-col gap-5 font-light">
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ачамана
           </h2>
@@ -33,23 +33,23 @@ const Start = () => {
             ПАНЧА-РАТНА-ПРАНАМА-МАНТРА
           </h2>
 
-          <p className="font-bold uppercase">
+          <p className="font-medium uppercase">
             Ом Шивам шаранам прападйам
           </p>
 
-          <p className="font-bold uppercase">
+          <p className="font-medium uppercase">
             Ом Дхармам шаранам прападйам
           </p>
 
-          <p className="font-bold uppercase">
+          <p className="font-medium uppercase">
             Ом Сангхам шаранам прападйам
           </p>
 
-          <p className="font-bold uppercase">
+          <p className="font-medium uppercase">
             Ом Шактим шаранам прападйам
           </p>
 
-          <p className="font-bold uppercase">
+          <p className="font-medium uppercase">
             Ом Садгурум шаранам прападйам
           </p>
 

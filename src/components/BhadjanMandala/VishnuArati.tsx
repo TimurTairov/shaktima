@@ -4,7 +4,7 @@ const VishnuArati = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='VishnuArati' title='Вишну Арати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const VishnuArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖЕЙ ДЖАГАДИЩА ХАРЕ<br />
             СВАМИ ДЖЕЙ ДЖАГАДИЩА ХАРЕ<br />
             БХАКТА ДЖАНО КЕ САНКАТЕ<br />
@@ -25,7 +25,7 @@ const VishnuArati = () => {
             Слава Хари - Владыке мира!
             Вмиг Ты уносишь страдания преданных Тебе.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖО ДХЬЯВЕ ПХАЛЕ ПАВЕ<br />
             ДУКХа ВИНЕ СЕ МАНе КА<br />
             СВАМИ ДУКХа ВИНЕ СЕ МАНе КАА<br />
@@ -41,7 +41,7 @@ const VishnuArati = () => {
             достаток и проблемы тела оставляют его.
             Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАТА ПИТА ТУМЕ МЕРЕ<br />
             ШАРАНА ГАХУУ КИСеКИ<br />
             СВАМИ ШАРАНА ГАХУУ КИСеКИИ<br />
@@ -55,7 +55,7 @@ const VishnuArati = () => {
             Кроме Тебя другого нет (Ты есть все). Так на кого я еще могу
             надеяться? Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТУМ ПУРАНЕ ПАРАМАТМА<br />
             ТУМЕ АНТАРЙЯМИ<br />
             СВАМИ ТУМЕ АНТАРЙЯМИИ<br />
@@ -69,7 +69,7 @@ const VishnuArati = () => {
             внутри. Господь, Ты присутствуешь внутри. О, Высший
             Брахман! Ты владыка всех. Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТУМЕ КАРУНА КЕ САГАРЕ<br />
             ТУМА ПААЛАНА КАРЕТА<br />
             СВАМИ ТУМА ПААЛАНА КАРЕТАА<br />
@@ -83,7 +83,7 @@ const VishnuArati = () => {
             защитник! Я глуп, зол и полон желаний. Смилуйся надо мною,
             Вседержитель. Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТУМО ХО ЭКА АГОЧАРЕ<br />
             САБЕКЕ ПРААНЕПАТИ<br />
             СВАМИ САБЕКЕ ПРААНЕПАТИИ<br />
@@ -99,7 +99,7 @@ const VishnuArati = () => {
             Как я, который глуп, могу достичь Тебя,
             Обители сострадания? Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДИНА БАНДХУ ДУКХАХАРТА<br />
             ТУМА ТА КУРе МЕЕРЕ<br />
             СВАМИ ТУМА ТА КУРе МЕЕРЕЕ<br />
@@ -114,7 +114,7 @@ const VishnuArati = () => {
             и подними. Я простираюсь у Твоих дверей.
             Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИШАЯ ВИКАРА МИТАО<br />
             ПААПА ХАРО ДЕЕВА<br />
             СВАМИ ПААПА ХАРО ДЕЕВАА<br />
@@ -129,7 +129,7 @@ const VishnuArati = () => {
             поддержи нас! Увеличь нашу веру и преданность.
             Слава Хари – Владыке мира!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖЕЙ ДЖАГАДИЩА ХАРЕ<br />
             СВАМИ ДЖЕЙ ДЖАГАДИЩА ХАРЕ<br />
             БХАКТА ДЖАНО КЕ САНКАТЕ<br />

@@ -4,7 +4,7 @@ const BhadjanyShive = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyShive' title='Бхаджаны Шиве' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <a href='https://t.me/jkjlkjscksj/13/1114' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов Шиве
           </a>
@@ -12,7 +12,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ НАМАХ ШИВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ХАРИ ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ХАРИ ХАРАЙА ШАРАНАМ ХАРИ ХАРАЙА ШАРАНАМ<br />
@@ -28,7 +28,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ШИВА ОМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА ШИВА ШИВА… ШИВА ОМ ШИВА ОМ<br />
             ХАРЕ ХАРЕ ХАРЕ …ХАРЕ ОМ ХАРЕ ОМ<br />
             ШИВА ОМ ШИВА ОМ ХАРЕ ОМ ХАРЕ ОМ
@@ -41,7 +41,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ШИВАЯ НАМО ОМ ШИВАЯ НАМО ОМ<br />
             БОЛЕ ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
@@ -61,7 +61,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЙ<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -69,7 +69,7 @@ const BhadjanyShive = () => {
             Ом, Приветствия Господу Шиве, которого также называют Харой!
             Приветствия Харе, разрушителю того, что должно быть разрушено.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ РАМЕШВАРА ШИВА РАМЕШВАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -77,13 +77,13 @@ const BhadjanyShive = () => {
             Приветствия Рамешваре, владыке Шри Рамы! Приветствия Ему,
             кто проявил себя как джьотирлингам в святом городе Рамешваре.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ГАНГА ДХАРА ШИВА ГАНГА ДХАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Приветствия Шиве, с чьей головы струится поток Ганги!
-          </p> <p className="font-bold">
+          </p> <p className="font-medium">
             ОМ ДЖАТА ДХАРА ШИВА ДЖАТА ДХАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -91,7 +91,7 @@ const BhadjanyShive = () => {
             Приветствия Джатадхаре, Богу со спутанными волосами!
             Приветствия величайшему мудрецу всех времен!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ СОМЕШВАРА ШИВА СОМЕШВАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -100,7 +100,7 @@ const BhadjanyShive = () => {
             себе! Приветствую Его, кто заботится о своих преданных и
             спасает своего преданного, помещая его на голову. Приветствия
             Ему, кто проявил себя как джьотирлингам в святом городе Сомнатх.
-          </p> <p className="font-bold">
+          </p> <p className="font-medium">
             ОМ ВИШВЕШВАРА ШИВА ВИШВЕШВАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -109,7 +109,7 @@ const BhadjanyShive = () => {
             мира! Приветствия Ему, проявившему себя как Вишванатх -
             джьотирлингам в святом городе Каши.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАХАКАЛЕШВАРА МАХАВАЛЕШВАРА<br />
             ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
           </p>
@@ -122,7 +122,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ШИВА ШИВА ШИВА ШАМБХО
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА ШИВА ШАМБХО ШАНКАРА<br />
             ХАРА ХАРА ХАРА МАХАДЕВА<br />
             ГАНГА ДЖАТА ДХАРА ГАУРИ МАНОХАРА<br />
@@ -137,7 +137,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ШИВА ШАНКАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА ШИВА ШАНКАРАЯ ШИВА<br />
             ШИВА ШИВА ШАНКАРА<br />
             ШИВА ОМ НАМАХ ШИВАЯ ШИВА ОМ<br />
@@ -152,7 +152,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ШИВА ШИВА ШИВА ШАМБХО
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА ШИВА ШИВА ШАМБХО<br />
             ШИВА ШИВА ШИВА ШАМБХО<br />
             МАХАДЭВА ШАМБХО<br />
@@ -168,7 +168,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ДЖАЯ ШИВА ШАНКАРА БОМ БОМ ХАРЕ ХАРЕ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ШИВА ШАНКАРА<br />
             БОМ БОМ ХАРЕ ХАРЕ<br />
             ХАРЕ ХАРЕ ХАРЕ ХАРЕ<br />
@@ -182,7 +182,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ХАРА МАХАДЕВ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРА ХАРА ХАРА МАХАДЕВ<br />
             ДЖАЯ ХАРА ХАРА ХАРА МАХАДЕВ<br />
             БРАХМА ВИШНУ САДАШИВА<br />
@@ -205,7 +205,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ХАРА ХАРА ХАРА МАХАДЕВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРА ХАРА ХАРА МАХАДЕВА<br />
             ТРИШУЛА ДАМАРУ ДХАРИ<br />
             АДИ НАТХА ЧАНДРА НАТХА<br />
@@ -217,7 +217,7 @@ const BhadjanyShive = () => {
             растворения проявленного. О Изначальный Владыка трех миров,
             Повелитель Луны, Великий враг Трипуры!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГАНГАДХАРА ТРИЛОЧАНА<br />
             ВАМА ДЕВА ПХАНА БИХАРИ<br />
             ШАНКАРА ШРИ БХУТА НАТХА<br />
@@ -232,7 +232,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11.ХАРА ХАРА ШАНКАРА ПАРАМЕШВАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРА ХАРА ШАНКАРА<br />
             ПАРАБРАХМА ПАРАМЕШВАРА
           </p>
@@ -244,7 +244,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ДЖАЯ ДЖАЯ ШАНКАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ДЖАЯ ШАНКАРА<br />
             ХАРА ХАРА ШАНКАРА
           </p>
@@ -256,7 +256,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ШИВА САМБА САДА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА САМБАСАДА ШИВА ОМ<br />
             ШАМБХО ШАНКАРА ШИВА ОМ<br />
             ШИВА ОМ ШИВА ОМ
@@ -271,7 +271,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             14. ШИВА МАХЕШВАРА ГУРУДЕВ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВА МАХЕШВАРА ШИВА МАХЕШВАРА<br />
             ШИВА МАХЕШВАРА ГУРУДЕВ<br />
             ШИВА МАХЕШВАРА ШИВА ШАНКАРА<br />
@@ -295,7 +295,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             15. НАТАРАДЖА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАТАРАДЖА НАТАРАДЖА<br />
             НАРТАНА СУНДАРА НАТАРАДЖА<br />
             ШИВАРАДЖА ШИВАРАДЖА<br />
@@ -312,7 +312,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             16. ХАРА-МАХАДЕВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРА ХАРА ХАРА ХАРА МАХАДЕВА<br />
             ШИВА ШИВА ШИВА ШИВА САДАШИВА<br />
             ОМ НАМО НАМО НАМАХ ШИВАЯ<br />
@@ -336,7 +336,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             17. ХАРА ХАРА МАХАДЕВА ШАМБО
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРА ХАРА МАХАДЕВА ШАМБХО<br />
             КАШИ ВИШВАНАТХА ГАНГЕ<br />
             БАМ БАМ МАХАДЕВА ШАМБО<br />
@@ -352,7 +352,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             18. ЧАНДРА ШЕКХАРАЙЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ЧАНДРА ШЕКХАРАЙА НАМО ОМ<br />
             ГАНГА ДХАРАЙА НАМО ОМ<br />
             ШИВА ШИВА ШИВАЯ НАМО ОМ<br />
@@ -370,7 +370,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             19. СВАРНА МАЛА СТУТИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ИША ГИРИША НАРЕША ПАРЕША<br />
             МАХЕША БИЛЕШАЙА БХУШАНА БХО
           </p>
@@ -378,7 +378,7 @@ const BhadjanyShive = () => {
             О, Господь! Владыка Кайласа, повелитель человечества,
             высший бог, великий бог, тот, кого украшают змеи.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САМБА САДАШИВА ШАМБХО ШАНКАРА<br />
             ШАРАНАМ МЕ ТАВА ЧАРАНА ЙУГАМ
           </p>
@@ -386,7 +386,7 @@ const BhadjanyShive = () => {
             Тот, кто находится рядом с богиней Амбикой, всегда благосклонный,
             причина счастья! Я принимаю прибежище в твоих стопах.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             УМАЙА ДИВЙА СУМАНГАЛА ВИГРАХА<br />
             ЙАЛИНГИТА ВАМАНГА ВИБХО
           </p>
@@ -394,7 +394,7 @@ const BhadjanyShive = () => {
             О, Вездесущий! Тот, кого слева обнимает прекрасная
             богиня Парвати, кто исполнен благоприятности.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             УРИ КУРУ МАМААГЙАН АНАТАМ<br />
             ДУРИ КУРУ МЕ ДУРИТАМ БХО
           </p>
@@ -402,7 +402,7 @@ const BhadjanyShive = () => {
             О, Господь! Ты принимаешь меня, невежественного,
             беспомощного, и ты забираешь мои грехи.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАРУНА ВАРУНА ЛАЙА МАЙИ ДАСА<br />
             УДАСА СТАВОЧИТО НА ХИ БХО
           </p>
@@ -410,7 +410,7 @@ const BhadjanyShive = () => {
             О, Господь, океан сострадания! Ты не можешь быть безразличным
             ко мне, твоему слуге, не так ли?
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЙА КАИЛАСА НИВАСА ПРАМАТХА ГАНА<br />
             ДХИША БХОО СУРААРЧИТА БХО
           </p>
@@ -418,7 +418,7 @@ const BhadjanyShive = () => {
             О, Господь! Тот, кто обитает на горе Кайлас, повелитель
             Праматхов ганов, тот, кому поклоняются брамины, люди и девы.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САТЙАМ ГЙАНАМ АНАНТАМ БРАХМЕ<br />
             ТЕЙТА ЛАКШАНА ЛАКШИТА БХО
           </p>
@@ -426,7 +426,7 @@ const BhadjanyShive = () => {
             О, Господь! Тот, кто есть Брахман, прославленный
             своими качествами – Истина-Знание-Бесконечность.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАХА ХООХОО МУКХА СУРА ГАЙАКА<br />
             ГИТА ПАДАНА ПАДЙА ВИБХО
           </p>
@@ -439,14 +439,14 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             20. ШИВА МАНГАЛАМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ МАНГАЛАМ ОМКАР МАНГАЛАМ<br />
             ШИВА МАНГАЛАМ СОМВАР МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             ОМ Благой, Омкар Благой, Шива Благой, благой понедельник.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             РУПА МАНГАЛАМ ШИВА ШРИНГАРА МАНГАЛАМ<br />
             БАСМААНГАДХАРИ КАПАРИВАРА МАНГАЛАМ
           </p>
@@ -454,56 +454,56 @@ const BhadjanyShive = () => {
             Образ благой возлюбленного Шивы –
             покрытый пеплом, носящий череп! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ПАРВАТИ КАЙЛАША КА АДХАРА МАНГАЛАМ<br />
             ШАМБО МАХАШАКТИ ХЕ САКАРА МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Парвати и Кайлаша основание. О Шамбху! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАТА МАНГАЛАМ ГАНГАДХАРА МАНГАЛАМ<br />
             ЧАНДРА МАНГАЛАМ ЧАНДРАКАРА МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Джата, Держащий Гангу, Полумесяц! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             РУДРА МАНГАЛАМ РУДРАКША МАНГАЛАМ<br />
             ЧАТУРБХУДЖИ ШАМБХО КЕШУ БХАТО МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Рудра, рудракша. Во благо! О, четырехрукий Шамбху! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БХАВА МАНГАЛАМ БХАВА КАРА МАНГАЛАМ<br />
             НИЛАКАНТА ДХАРИ МАХАКАЛА МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Сущий, творящий бытие, Синешеий, Великое Время! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТРИШУЛА МАНГАЛАМ ДАМАРУ ВАКЬЯ МАНГАЛАМ<br />
             ХЕ АНТА МАНГАЛАМ МАДЬЯ АДЬЯ МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Трезубец, звук дамару, Начало, Середина и Конец! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ХЕ ВАМ АНГА ПАРВАТИ ДЕВИ МАНГАЛАМ<br />
             ЧАРАНО МЕ ШИВА ГАНХЕ САРЕ СЕВИ МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Богиня Парвати с левой стороны. Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ПУТРА КАРТИКЕЯ ШРИ ПРАТМЕЩА МАНГАЛАМ<br />
             ДЕВО КИ ДЕВА ХЕ ГАНЕЩА МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Сын Картикейя, наилучший господь! Бог богов, Ганеша! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДВАДАЩИ ДЖЬОТИРЛИНГА ХЕ ШИВА НАТХА МАНГАЛАМ<br />
             СОМЕШВАРАНАТХА ВИЩВАНАТХА МАНГАЛАМ
           </p>
@@ -511,14 +511,14 @@ const BhadjanyShive = () => {
             Двенадцать лингамов света! О благой Шива!<br />
             Господь Сомнатха, Господь Вишванатха! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             РАМЕЩВАРА ШАМБХО ХЕ КЕДАР МАНГАЛАМ<br />
             ГУЩМЕЩВАРА БХИМА ОМКАР МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Повелитель Рамешвара, Кедара, Бхиммы, Омкары! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАЛИКАРДЖУН НАГЕЩВАРАНАТХА МАНГАЛАМ<br />
             МАХАКАЛЕЩВАРА ВЭЙДЬЯНАТХА МАНГАЛАМ
           </p>
@@ -526,14 +526,14 @@ const BhadjanyShive = () => {
             Господь Маликаарджуны, Нагешвара,
             Махакалешвара, Вайдьянатха! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТРАЯМБАКЕШВАР ШИВА САНЧАРА МАНГАЛАМ<br />
             КАНе КАНе МЕ ШАМБХО НИРАКАРА МАНГАЛАМ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Трехглазый Владыка Шива! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХШИВАЯ КАУЧАР МАНГАЛАМ<br />
             МАХАМАНТРА МАХИМА АПАРА МАНГАЛАМ<br />
             МУКТИ БХУКТИ ДАТТА ШИВА ДВАРА МАНГАЛАМ<br />
@@ -544,7 +544,7 @@ const BhadjanyShive = () => {
             Во благо! Дарующий наслаждение и освобожение Шива
             - врата бога! Во благо!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ МАНГАЛАМ ОМКАР МАНГАЛАМ<br />
             ШИВА МАНГАЛАМ СОМВАР МАНГАЛАМ
           </p>
@@ -557,7 +557,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             21. БХОЛЕНАТХ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЙА ШИВА ШАНКАРА<br />
             ДЖАЙА АДИНАТХ<br />
             ШИВА КАЙЛАСА ВАСА БХОЛЕНАТХ<br />
@@ -575,7 +575,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             22. ХЕ ШИВА ШАНКАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ХЕ ШИВА ШАНКАРА ХЕ МАХЕШВАРА<br />
             ДУКХА ХАРА СУКХА КАРА ХАРА ХАРА ШАНКАРА<br />
             ОМ НАМАХ ШИВАЯ<br />
@@ -591,7 +591,7 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             23. ШИВА ПАНЧАКШАРА МАНТРА СТОТРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАГЕНДРА ХАРАЙА ТРИЛОЧАНАЙА<br />
             БХАСМАНГА РАГАЙА МАХЕШВАРАЙА<br />
             НИТЬЙАЙА ШУДДХАЙА ДИГАМБАРАЙА<br />
@@ -603,7 +603,7 @@ const BhadjanyShive = () => {
             Облачённому в стороны света - Тому, творящему
             слог "На" Шиве - поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАНДАКИНИ САЛИЛА ЧАНДАНА ЧАРЧИТАЙА<br />
             НАНДЕШВАРА ПРАМАТХА НАТХА МАХЕШВАРАЙА<br />
             МАНДАРА ПУШПА БАХУПУШПА СУПУДЖИТАЙА<br />
@@ -615,7 +615,7 @@ const BhadjanyShive = () => {
             мандары и множеством цветов Почитаемому - Тому,
             творящему слог "Ма" Шиве - поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВАЙА ГАУРИ ВАДАНАБДЖАВРИНДА<br />
             СУРЙАЙА ДАКША ДВАРА НАШАКАЙА<br />
             ШРИ НИЛАКАНТХАЙА ВРИША ДХВАДЖАЙА<br />
@@ -627,7 +627,7 @@ const BhadjanyShive = () => {
             Священносинешеему, Быкознамённому - Тому,
             творящему слог "Ши" Шиве - поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВАСИШТХА КУМБХОДБХАВА ГАУТАМАРЙА<br />
             МУНИНДРА ДЕВАРЧИТА ШЕКХАРАЙА<br />
             ЧАНДРАРКА ВИШВАНАРА ЛОЧАНАЙА<br />
@@ -639,7 +639,7 @@ const BhadjanyShive = () => {
             Лунно-солнечно-огненноокому - Тому, творящему
             слог "Ва" Шиве - поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЙАГНА СВАРУПАЙА ДЖАТАДХАРАЙА<br />
             ПИНАКА ХАСТАЙА САНАТАНАЙА<br />
             ДИВЙАЙА ДЕВАЙА ДИГАМБАРАЙА<br />
@@ -650,7 +650,7 @@ const BhadjanyShive = () => {
             Пинаку, Извечному, Божественному, Богу, Обнажённому - Тому,
             творящему слог "Йа" Шиве - поклонение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ПАНЧАКШАРАМИДАМ ПУНЬЯМ<br />
             ЙАХ ПАТХЕЧЧИВА САННИДХАУ<br />
             ШИВАЛОКАМАВАПНОТИ<br />

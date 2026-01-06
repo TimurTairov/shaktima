@@ -4,7 +4,7 @@ const NirvanaShatakam = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='NirvanaShatakam' title='Нирвана шатакам' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const NirvanaShatakam = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-medium">
             МАНО БУДДХЙ АХАНГКААРА ЧИТТААНИ НААХАМ<br />
             НА ЧА ШРОТРА ДЖИХВЕ НА ЧА ГХРААННА НЕТРЕ<br />
             НА ЧА ВЙОМА БХУУМИР НА ТЕДЖО НА ВААЙУХ<br />
@@ -27,7 +27,7 @@ const NirvanaShatakam = () => {
             Я пребываю в форме вечного сознания и блаженства,
             Я — Шива, Я — Шива.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ЧА ПРААННА САМДЖНЙО НА ВАЙ ПАНЧА ВААЙУХ<br />
             НА ВАА САПТА ДХААТУР НА ВАА ПАНЧА КОШАХ<br />
             НА ВААК ПААННИ ПААДАМ НА ЧОПАСТХА ПААЙУ<br />
@@ -40,7 +40,7 @@ const NirvanaShatakam = () => {
             не ноги. Я пребываю в форме вечного сознания и блаженства,
             Я — Шива, Я — Шива.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА МЕ ДВЕЩА РААГАУ НА МЕ ЛЬОБХА МОХАУ<br />
             МАДО НЕЙВА МИ НЕЙВА МА АТСАРЙА БХАВАХ<br />
             НА ДХАРМО НА ЧААРТХО НА КААМО НА МОКШАХ<br />
@@ -54,7 +54,7 @@ const NirvanaShatakam = () => {
             Я пребываю в форме вечного сознания и блаженства,
             Я — Шива, Я — Шива.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ПУННЙАМ НА ПААПАМ НА САУКХЙАМ НА ДУХКХАМ<br />
             НА МАНТРО НА ТИИРТХАМ НА ВЕДАА НА ЙАДЖНЙААХ<br />
             АХАМ БХОДЖАНАМ НЕЙВА БХОДЖЙАМ НА БХОКТАА<br />
@@ -68,7 +68,7 @@ const NirvanaShatakam = () => {
             Я пребываю в форме вечного сознания и блаженства,
             Я — Шива, Я — Шива.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА МЕ МРТЙУ ШАНГКАА НА МЕ ДЖААТИ БХЕДАХ<br />
             ПИТАА НЕЙВА МИ НЕЙВА МАТА НА ДЖАНМАХ<br />
             НА БАНДХУР НА МИТРАМ ГУРУР НЕЙВА ШИШЙАХ<br />
@@ -81,7 +81,7 @@ const NirvanaShatakam = () => {
             Я пребываю в форме вечного сознания и блаженства,
             Я — Шива, Я — Шива.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             АХАМ НИРВИКАЛЬПО НИРААКААРА РУУПО<br />
             ВИБХУ ТВААЧЧА САРВАТРА САРВЕ(И)НДРИЙА АННААМ<br />
             НА ЧАА САНГГАТАМ НЕЙВА МУКТИР НА МЕЙАХ<br />

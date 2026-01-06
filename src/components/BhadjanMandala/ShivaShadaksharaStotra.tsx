@@ -4,7 +4,7 @@ const ShivaShadaksharaStotra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='ShivaShadaksharaStotra' title='Шива Шадакшара Стотра' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const ShivaShadaksharaStotra = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-medium">
             ОМКААРАМ БИНДУ САМЙУКТАМ<br />
             НИТЙАМ ДХЙААЙАНТИ ЙОГИНАХа<br />
             КААМАДАМ МОКШАДАМ ЧАЙВА<br />
@@ -25,7 +25,7 @@ const ShivaShadaksharaStotra = () => {
             глубокой медитации постоянно сосредоточивают свой ум,
             который удовлетворяет все желания и дарует вечное спасение
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НАМАНТИ РШАЙО ДЕВАА<br />
             НАМАНТЙя АПСАРАСААМ ГАННААХа<br />
             НАРАА НАМАНТИ ДЕВЕ(А-Ии)ШАМ<br />
@@ -36,7 +36,7 @@ const ShivaShadaksharaStotra = () => {
             склоняются перед Верховным Господом; вновь поклоняемся Ему,
             воплощенному в слоге «на».
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАХААДЕВАМ МАХАА ААТМААНАМ<br />
             МАХАА ДХЙААНАМ ПАРААЙАННАМ<br />
             МАХАА ПААПА ХАРАМ ДЕВАМ<br />
@@ -48,7 +48,7 @@ const ShivaShadaksharaStotra = () => {
             многочисленных грехов и высшему объекту почитания и
             медитации поклоняемся мы всегда вновь и вновь.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВАМ ШААНТАМ ДЖАГАН НААТХАМ<br />
             ЛЬОКА (А)НУГРАХА КААРАКАМ<br />
             ШИВАМ ЕКА ПАДАМ НИТЙАМ<br />
@@ -59,7 +59,7 @@ const ShivaShadaksharaStotra = () => {
             слоге «ши», наделяющему мир покоем и процветанием, Единому,
             Вечному да поклонимся!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВААХАНАМ ВРШАБХО ЙАСЬЙА<br />
             ВААСУКИХ КАМТТХА БХУУШАННАМ<br />
             ВААМЕ ШАКТИ ДХАРАМ ДЕВАМ<br />
@@ -70,7 +70,7 @@ const ShivaShadaksharaStotra = () => {
             украшенному как гирляндой, царем змей Васуки, воплощенному в
             слоге «ва», поклоняемся вновь и вновь.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЙАТРА ЙАТРА СТХИТО ДЕВАХа<br />
             САРВА ВЙААПИИ МАХЕ(И) ШВАРАХа<br />
             ЙО ГУРУХ САРВА ДЕВААНААМ<br />
@@ -81,7 +81,7 @@ const ShivaShadaksharaStotra = () => {
             обладающему формой и лишенному формы, наставнику
             мудрейших, где бы Он ни пребывал, да поклонимся!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШАДДАКШАРАМ ИДАМ СТОТРАМ<br />
             ЙАХ ПАТТХЕ ШИВА САМНИДХАУ<br />
             ШИВА ЛОКАМ АВААПНОТИ ШИВЕНА САХА МОДАТЕ

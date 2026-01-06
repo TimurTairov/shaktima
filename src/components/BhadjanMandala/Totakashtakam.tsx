@@ -4,7 +4,7 @@ const Totakashtakam = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='Totakashtakam' title='Тотакаштакам' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const Totakashtakam = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-medium">
             ВИДИТАКХИЛА ШАСТРА СУДХА ДЖАЛАДХЕ<br />
             МАХИТОПАНИШАТ КАТХИТАРТХА НИДХЕ<br />
             ХРИДАЙЕ КАЛАЙЕ ВИМАЛАМ ЧАРАНАМ<br />
@@ -26,7 +26,7 @@ const Totakashtakam = () => {
             Я медитирую на твоих чистейших лотосных стопах.
             О учитель Шанкара, будь моим прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАРУНА ВАРУНА ЛАЙЯ ПА ЛАЙЯ МАМ<br />
             БХАВА САГАРА ДУКХКХА ВИДУНА ХРИДАМ<br />
             РАЧАЙАКХИЛА ДАРШАНА ТАТТВА ВИДАМ<br />
@@ -38,7 +38,7 @@ const Totakashtakam = () => {
             сердцу! Посредством своей милости, сделай меня знающим
             смысл Веданты. O Учитель Шанкара, будь моим Прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БХАВАТА ДЖАНАТА СУХИТА БХАВИТА<br />
             НИДЬЖАБОДХА ВИЧАРАНА ЧАРУМАТЭ<br />
             КАЛЬЯЕШВАРА ДЬЖИВА ВИВЕК А ВИДАМ<br />
@@ -51,7 +51,7 @@ const Totakashtakam = () => {
             Знание Брахмана и Атмана. O Учитель Шанкара, будь моим
             Прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БХАВА ЭВА БХ АВАНИТИ МЕ НИТАРАМ<br />
             САМАДЬЖАЯТА ЧЕТАСИ КОУТУКИТА<br />
             МАМА ВАРАЙЯ МОХА МАХАДЬЖАЛАДХИМ<br />
@@ -62,7 +62,7 @@ const Totakashtakam = () => {
             переполняется неописуемым счастьем и блаженством. Осуши море
             моего заблуждения. O Учитель Шанкара, будь моим Прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СУКРИТЭ ДХИКРИТЭ БА ХУДХА БХАВАТО<br />
             БХАВИТА САМАДАРШАНА ЛАЛАСАТА<br />
             АТИДИНАМИМАМ ПАРИПАЛАЯ МАМ<br />
@@ -75,7 +75,7 @@ const Totakashtakam = () => {
             и познать Брахман. Защити меня, чрезвычайно беспомощного.
             O Учитель Шанкара, будь моим Прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЬЖАГАТИМАВИТУМ КАЛИТАКРИТАЙО<br />
             ВИЧАРАНТИ МАХАМАХАСАШЧАЛАТАХ<br />
             АХИМАМ ШУРИВАТРА ВИБ Х АСИ ГУРО<br />
@@ -87,7 +87,7 @@ const Totakashtakam = () => {
             (т.е. человеческие воплощения). O Гуру, Ты среди них сияешь
             подобно Солнцу. O Учитель Шанкара, будь моим Прибежищем!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУПУНГАВА ПУНГАВА КЕТАНА ТЭ<br />
             САМАТАМАЙЯТАМ НАХИ КО АПИ СУДХИХ<br />
             ШАРАНАГАТАВАТСАЛА ТАТТВАНИДХЭ<br />
@@ -100,7 +100,7 @@ const Totakashtakam = () => {
             у Тебя! О кладезь Истины Брахмана! O Наставник, о Гурудев,
             позволь мне пожалуйста обрести у Тебя Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИДИТА НА МАЙА ВИША ДАЙКАКАЛА<br />
             НА ЧА КИМЧАНА КАНЧАНА МАСТИ ГУРО<br />
             ДРУМАТЭВА ВИДХЭХИ КРИПАМ СА ХАДЬЖАМ<br />

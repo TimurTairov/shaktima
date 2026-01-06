@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Izmir";
-  src: url("../../public/fonts/dsizmir_normal.ttf");
+  src: url("../fonts/dsizmir_normal.ttf");
 }
 
 .izmir {
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Jaipur";
-  src: url("../../public/fonts/jaipur.ttf");
+  src: url("../fonts/jaipur.ttf");
 }
 
 .jaipur {

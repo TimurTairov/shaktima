@@ -4,7 +4,7 @@ const ChitsthairakamStotra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='ChitsthairakamStotra' title='Читтстхаирйакам Cтотра' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const ChitsthairakamStotra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             АНАСУЙААТРИСАМБХУТА<br />
             ДАТТАТРЕЙА МАХААМАТЕ<br />
             САРВАДЕВААДИДЕВА ТВАМ<br />
@@ -23,7 +23,7 @@ const ChitsthairakamStotra = () => {
             Родившийся у Анасуи и мудреца Атри Даттатрея!
             Бог всех богов! Прошу, Ты сделай моё сознание стойким.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШАРАНААГАТА ДИИНААРТА<br />
             ТААРАКААКИЛЯКААРАКО<br />
             САВРАЧААЛЯКА ДЕВА ТВАМ<br />
@@ -34,7 +34,7 @@ const ChitsthairakamStotra = () => {
             создатель всего! Бог, ведущий всех!
             Прошу, Ты сделай моё сознание стойким.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САРВАМАНГАЛЯМААННГАЛЙА<br />
             САРВА ДИВЙААДИ БХЕШАДЖА<br />
             САРВАСАНКАТАХААРИНА ТВАМ<br />
@@ -44,7 +44,7 @@ const ChitsthairakamStotra = () => {
             Самый благой из благих, лекарь всех болезней! Забирающий
             все трудности! Прошу, Ты сделай моё сознание стойким.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СМАРТРУГААМИ СВАБХАКТААНААМ<br />
             КААМАДО РИПУНААШАНА<br />
             БХУКТИМУКТИПРАДА СА ТВАМ<br />
@@ -55,7 +55,7 @@ const ChitsthairakamStotra = () => {
             учителю и уничтожаешь врагов! Дающий любовь и
             освобождение! Прошу, Ты сделай моё сознание стойким.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САРВАПААПА КШАЙАКАРА<br />
             СТААПАДАИНЙА НИВАРАНА<br />
             ЙОБХИШТАДА ПРАБХУ СА ТВАМ<br />
@@ -66,7 +66,7 @@ const ChitsthairakamStotra = () => {
             прекращающий! Тот, который даёт сокровенное!
             Прошу, Ты сделай моё сознание стойким.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЙА ЕТАТПРАЙАТА ШЛОКА<br />
             ПАНЧАКАМ ПРАПАТХЕТСУДХИИ<br />
             СТХИРАЧИТТА СА БХАГАВАТ<br />

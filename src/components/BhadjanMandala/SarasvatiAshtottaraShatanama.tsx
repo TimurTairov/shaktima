@@ -4,7 +4,7 @@ const SarasvatiAshtottaraShatanama = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='SarasvatiAshtottaraShatanama' title='108 имен Сарасвати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const SarasvatiAshtottaraShatanama = () => {
             ></audio>
           </div>
 
-          <p className="font-bold w-xl">
+          <p className="font-medium w-xl">
             1. САРАСВАТИ МАХАБХАДРА МАХАМАЙА ВАРА ПРАДА<br />
             ШРИ ПРАДА ПАДМАНИЛАЙА ПАДМАКШИ ПАДМАВАКТРАГА
           </p>
@@ -28,7 +28,7 @@ const SarasvatiAshtottaraShatanama = () => {
             7 padma-akṣī - Лотосоокая<br />
             8 padma-vaktragā – Лотосоликая
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             2. ШИВАНУДЖА ПУСТАКАДХРИТ<br />
             ДЖНАНАМУДРА РАМА ПАРА<br />
             КАМАРУПА МАХАВИДЙА МАХАПАТАКАНАШИНИ
@@ -43,7 +43,7 @@ const SarasvatiAshtottaraShatanama = () => {
             15 mahāvidyā - Великое знание<br />
             16 mahāpātakanāśinī - Уничтожающая великие грехи
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             3. МАХАШРАЙА МАЛИНИ ЧА МАХАБХОГА МАХАБХУДЖА<br />
             МАХАБХАГА МАХОТСАХА ДИВЙАНГА СУРАВАНДИТА
           </p>
@@ -57,7 +57,7 @@ const SarasvatiAshtottaraShatanama = () => {
             23 divya-aṅgā - Имеющая божественное тело<br />
             24 sura-vanditā - Почитаемая богами
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             4. МАХАКАЛИ МАХАПАША МАХАКАРА МАХАНКУЩА<br />
             СИТАА ЧА ВИМАЛА ВИШВА ВИДЙУНМАЛА ЧА ВАЙШНАВИ
           </p>
@@ -73,7 +73,7 @@ const SarasvatiAshtottaraShatanama = () => {
             32 vidyun-mālā - Носящая сверкающую гирлянду<br />
             33 vaiṣṇavī - Вайшнави (одна из Матрик)
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             5. ЧАНДРИКА ЧАНДРАВАДАНА ЧАНДРАЛЕКХА ВИБХУШИТА<br />
             САВИТРИ СУРАСА ДЕВИ ДИВЙАЛАНКАРАБХУШИТА
           </p>
@@ -85,7 +85,7 @@ const SarasvatiAshtottaraShatanama = () => {
             38 surasā devī - Богиня, олицетворяющая все прекрасное<br />
             39 divya-alaṅkāra-bhūṣitā - Носящая божественные украшения
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             6. ВАКДЕВИ ВАСУДХА ТИВРА МАХАБХАДРА МАХАБАЛА<br />
             БХОГАДА БХАРАТИ БХАМА ГОВИНДА ГОМАТИ ШИВА
           </p>
@@ -102,7 +102,7 @@ const SarasvatiAshtottaraShatanama = () => {
             49 go-matī - Мать коров<br />
             50 śivā - Благая
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             7. ДЖАТИЛЯ ВИНДХЙА ВАСА ЧА ВИНДХЙА ЧАЛАВИРАДЖИТА<br />
             ЧАНДИКА ВАЙШНАВИ БРАМХИ БРАМХАДЖНАНАй КАСАДХАНА
           </p>
@@ -117,7 +117,7 @@ const SarasvatiAshtottaraShatanama = () => {
             57 brahmajñānaikasādhanā - Единственный путь к знанию о
             Брахмане
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             8. САУДхАМИНИ СУДХАМУРТИ СУБХАДРА СУРАПУДЖИТА<br />
             СУВАСИНИ СУНАСА ЧА ВИНИДРА ПАДМАЛОЧАНА
           </p>
@@ -131,7 +131,7 @@ const SarasvatiAshtottaraShatanama = () => {
             64 vinidrā - [всегда] Бодрствующая<br />
             65 padmalocanā – Лотосоокая
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             9. ВИДЬЯРУПА ВИШАЛАКШИ БРАХМАДЖАЙА МАХАПХАЛА<br />
             ТРАЙИМУРТИ ТРИКАЛАДЖНЯ ТРИГУНА ШАСТРА РУПИНИ
           </p>
@@ -145,7 +145,7 @@ const SarasvatiAshtottaraShatanama = () => {
             72 tri-guṇā - Представляющая три гуны (качества)<br />
             73 śāstra-rūpiṇī - Воплощенная в науках
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             10. ШУМБХАСУРА ПРАМАТХИНИ ШУБХАДА ЧА СВАРАТМИКА<br />
             РАКТАБИДЖА НИХАНТРИ ЧА ЧАМУНДА ЧАМБИКА ТАТХА
           </p>
@@ -157,7 +157,7 @@ const SarasvatiAshtottaraShatanama = () => {
             78 cāmuṇḍā - Чамунда (Олицетворение гнева Дурги)<br />
             79 ambikā – Мать
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             11. МУНДАКАЙА ПРАХАРАНА ДХУМРАЛОЧАНА МАРДАНА<br />
             САРВАДЕВА СТУТА СОУМЙА СУРАА СУРАНА МАСКРТА
           </p>
@@ -169,7 +169,7 @@ const SarasvatiAshtottaraShatanama = () => {
             83 saumyā - Нежная, Прекрасная<br />
             84 sura-asura-namas-kṛtā - Уважаемая богами и демонами
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             12. КАЛА РАТРИ КАЛА ДХАРА РУПА САУБХАГЙА ДАЙИНИ<br />
             ВАГДЕВИ ЧА ВАРАРОХА ВАРАХИ ВАРИДЖАСАНА
           </p>
@@ -183,7 +183,7 @@ const SarasvatiAshtottaraShatanama = () => {
             90 vārāhī - Варахи (Одна из Матрик)<br />
             91 vārijāsanā - Сидящая на лотосе
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             13. ЧИТРАМБАРА ЧИТРАГАНДХА ЧИТРАМАЛЙА ВИБХУУШИТА<br />
             КАНТА КАМАПРАДА ВАНДЙА ВИДЙАДХАРА СУПУДЖИТА
           </p>
@@ -198,7 +198,7 @@ const SarasvatiAshtottaraShatanama = () => {
             98 vidyādharā - Контролирующая знание<br />
             99 supūjitā - Почитаемая благими способами
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             14. ШВЕТА САНА НИЛАБХУДЖА ЧАТУР ВАРГА ПАЛА ПРАДА<br />
             ЧАТУРА НАНА САМРАДЖЙА РАКТА МАДХЙА НИРАНДЖАНА
           </p>
@@ -213,7 +213,7 @@ const SarasvatiAshtottaraShatanama = () => {
             105 nirañjanā - Очищающая, Представляющая полную луну
             (день полнолуния)
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             15. ХАМСА САНА НИЛА ДЖАНГХА БРАХМА ВИШНУ ШИВАТМИКА<br />
             ЭВАМ САРАСВАТИ ДЕВЙА НАМ НАМАШТОТТАРАМ ШАТАМ
           </p>
@@ -223,7 +223,7 @@ const SarasvatiAshtottaraShatanama = () => {
             108 brahma-viṣṇu-śiva-atmikā - Сущность Брахмы, Вишну и Шивы<br />
             Таковы сто восемь имен Сарасвати Деви
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ИТИ ШРИ САРАСВАТИ
             ШАТАНАМАШТОТТАРАМ САМПУРНАМ
           </p>

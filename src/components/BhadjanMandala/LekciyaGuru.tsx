@@ -4,7 +4,7 @@ const LekciyaGuru = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='LekciyaGuru' title='Лекция Гуру' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <h2 className="mt-4 md:mt-7 lg:mt-10 text-sm md:text-base lg:text-lg w-full text-center">
             Отрывок из сатсанга Гуру Свами Вишнудевананда Гири Махараджа - <b>Бог не чужой!</b>
           </h2>

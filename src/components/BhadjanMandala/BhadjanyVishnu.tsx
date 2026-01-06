@@ -4,7 +4,7 @@ const BhadjanyVishnu = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyVishnu' title='Бхаджаны Вишну' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <a href='https://t.me/jkjlkjscksj/15/1054' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов Вишну
           </a>
@@ -12,7 +12,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ НАМО НАРАЯНАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО НАРАЯНАЯ<br />
             НАРАЯНА НАРАЯНА НАРАЯНА НАРАЯНА
           </p>
@@ -24,7 +24,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ХАРИ НАРАЯНА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖЕЙ ДЖЕЙ ВИТТХАЛЕ ХАРИ НАРАЯНА<br />
             ПАНДУРАНГА ВИТТХАЛЕ ХАРИ НАРАЯНА<br />
             ПУРАНДАРА ВИТТХАЛЕ ХАРИ НАРАЯНА<br />
@@ -43,7 +43,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. НАРАЯНА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАРАЯНА НАРАЯНА ДЖАЯ ГОВИНДА ХАРЕ<br />
             НАРАЯНА НАРАЯНА ДЖАЯ ГОПАЛА ХАРЕ
           </p>
@@ -57,7 +57,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ОМ НАМО НАРАЯНАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО НАРАЯНАЯ НАМО НАМО НАРАЯНАЯ<br />
             ОМ НАМО НАРАЯНАЯ НАМО НАМАХА<br />
             ВИШНУ НАРАЯНАЯ НАМО НАМО НАРАЯНАЯ<br />
@@ -75,7 +75,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ОМ НАМО ОМ НАМО ОМ НАМО ОМ НАМО<br />
             ОМ НАМО НАМО
@@ -89,7 +89,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ОМ НАМО БХАГАВАТЕ ДЖИВА ДАТТАЯ<br />
             ОМ НАМО БХАГАВАТЕ ДЕВА ДЕВАЯ<br />
@@ -107,7 +107,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ХАРИ ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ДРАМ ДРАМ ШРИ ДАТТА ДРАМ ДРАМ ШРИ ДАТТА<br />
@@ -122,7 +122,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. НАРАЯНА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАРАЯНА<br />
             ОМ НАМАХ ШИВАЯ<br />
             НАРАЯНА НАРАЯНА НАРАЯНА ОМ
@@ -137,7 +137,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ГОПАЛА ГОВИНДА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГОПАЛА ГОВИНДА ГОВИНДА<br />
             ГОПАЛА ГОПАЛА ГОПАЛА ГОВИНДА ГОВИНДА<br />
             ОМ НАМАХ ШИВАЯ<br />
@@ -151,7 +151,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ВАСУДЕВАЯ ВАСУДЕВАЯ ВАСУДЕВАЯ ОМ<br />
             ГУРУ ОМ НАМО БХАГАВАТЕ ВАСУДЕВААЯ<br />
@@ -166,7 +166,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ХАРИ ОМ НАМО НАРАЯНА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШРИМАН НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
             ТЭРИ ЛИЛА САБСЕ НЙАРИ НЙАРИ ХАРИ ХАРИ<br />
             БХАДЖМАН НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
@@ -181,7 +181,7 @@ const BhadjanyVishnu = () => {
             Нараяне, Хари, избавителю!
             О, Господь Нараяна, все игры твои непостижимы!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЛАКШМИ НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
             БОЛЕ НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
             БХАДЖО НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
@@ -206,7 +206,7 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. НАРАЯНА ХАРИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАРАЯНА ХАРИ НАРАЯНА БХАДЖО<br />
             НАРАЯНА НАМО НАРАЯНА<br />
             ХАРИ ОМ ОМ ОМ ОМ ОМ … НАМО НАРАЯНА<br />

@@ -4,7 +4,7 @@ const ShivaArati = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='ShivaArati' title='Шива Арати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const ShivaArati = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖЕЙ ШИВА ОМКААРА<br />
             СВАМИ ХАРА ШИВА ОМКААРАА<br />
             БРААХМА ВИШНУ САДАШИВА<br />
@@ -26,7 +26,7 @@ const ShivaArati = () => {
             Ты и Брахма и Вишну и Садашива, Вечно благой.
             Ты и Пуруша и Пракрити.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЭКААНАНА ЧАТУРАНАНА<br />
             ПАНЧААНАНА РААДЖЕ<br />
             СВАМИ ПАНЧААНАНА РАДЖЕЕ<br />
@@ -39,7 +39,7 @@ const ShivaArati = () => {
             Ты блистаешь как одноликий, четырехликий и пятиликий.
             Ты восседаешь на Лебеде, как Брахма. Ты восседаешь на Гаруде, как Вишну. Ты восседаешь на Быке Нанди.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДО БХУДЖЕ ЧАРУ ЧАТУРБХУДЖА<br />
             ДАШАБХУДЖЕ ТЕ СООХЕ<br />
             СВАМИ ДАШАБХУДЖЕ ТЕ СООХЕЕ<br />
@@ -53,7 +53,7 @@ const ShivaArati = () => {
             десятирукий. Существуя в трех формах, Ты очаровываешь
             обитателей трех миров.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЯКШАМААЛЯ ВАНАМАЛЯ<br />
             МУНДАМААЛЯ ДХААРИИ<br />
             СВАМИ МУНДАМААЛЯ ДХААРИИ<br />
@@ -66,7 +66,7 @@ const ShivaArati = () => {
             Ты носишь ожерелье (малу) из рудракш, из лесных цветов и из
             черепов. Ты умащен сандалом и мускусом.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШВЕТААМБАРА ПИТАМБАРА<br />
             БААГХАМБАРА АНГЕ<br />
             СВАМИ БААГХАМБАРА АНГЕЕ<br />
@@ -81,7 +81,7 @@ const ShivaArati = () => {
             тигра! Тебе поклоняются Санака и другие риши,
             Брахма и другие божества, бхуты и другие низшие существа.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАР МАДХЬЕ ЧА КАМАНДАЛЯ<br />
             ЧАКРА ТРИШУУЛА ДХАРИТА<br />
             СВАМИ ЧАКРА ТРИШУУЛА ДХАРИТАА<br />
@@ -93,7 +93,7 @@ const ShivaArati = () => {
           <p className="text-balance max-w-screen-sm text-sm">
             У Тебя в руке сосуд для подаяния – камандалу, а также чакра и
             трезубец. Ты творишь мир, поддерживаешь его и разрушаешь.
-          </p> <p className="font-bold">
+          </p> <p className="font-medium">
             БРАМхА ВИШНУ САДАШИВА<br />
             ДЖААНАТА АВИВЕЕКАА<br />
             СВАМИ ДЖААНАТА АВИВЕЕКАА<br />
@@ -105,7 +105,7 @@ const ShivaArati = () => {
           <p className="text-balance max-w-screen-sm text-sm">
             Несведущий знает Тебя как Брахму, Вишну и Садашиву.
             Ты присутствуешь внутри «ОМ», как один в трех.
-          </p> <p className="font-bold">
+          </p> <p className="font-medium">
             ТРИГУНА СВАМИДЖИ КИ ААРАТИ<br />
             ДЖО КОИ НАРЕ ГААВЕЕ<br />
             СВАМИ ДЖО КОИ НАРЕ ГААВЕЕ<br />
@@ -117,7 +117,7 @@ const ShivaArati = () => {
           <p className="text-balance max-w-screen-sm text-sm">
             Тот, кто поет арати Господу трех гун, говорит Шивананда
             Свами, тот получает плод, подобный подвижничеству в лесу.
-          </p> <p className="font-bold">
+          </p> <p className="font-medium">
             ОМ ДЖЕЙ ШИВА ОМКААРА<br />
             СВАМИ ХАРА ШИВА ОМКААРА<br />
             БРААХМА ВИШНУ САДАШИВА<br />

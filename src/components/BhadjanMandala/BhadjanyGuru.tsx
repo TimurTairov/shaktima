@@ -4,7 +4,7 @@ const BhadjanyGuru = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyGuru' title='Бхаджаны Гуру' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <a href='https://t.me/jkjlkjscksj/17/1031' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов Гуру
           </a>
@@ -12,7 +12,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. АДИ ГУРУ НАМЕ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             АДИ ГУРУ НАМЕ ДЖАГАД ГУРУ НАМЕ<br />
             САТ ГУРУ НАМЕ ШРИ ГУРУ ДЕВЕ НАМЕ<br />
             ДХЬЯНА МУЛЯМ ГУРУР МУРТИ<br />
@@ -31,7 +31,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ГУРУ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ, ГУРУ, ГУРУ, ГУРУ…<br />
             ГУРУ МАДХЙЕ СТХИТА МАТА<br />
             МАТРИ МАДХЙЕ СТХИТО ГУРУ<br />
@@ -44,7 +44,7 @@ const BhadjanyGuru = () => {
             Я кланяюсь Гуру в Божественной Матери,
             я кланяюсь Божественной Матери в Гуру
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖНААНА ШАКТИ САМААРУУДХАС<br />
             ТАТТВА МААЛАА ВИБХУУШИТА<br />
             БХУКТИ МУКТИ ПРАДААТАА ЧА<br />
@@ -56,7 +56,7 @@ const BhadjanyGuru = () => {
             Кто дарует и мирское благополучие и освобождение,
             Такому Гуру я поклоняюсь!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДХЬНА МУЛЯМ ГУРУР МУРТИ<br />
             ПУДЖА МУЛЯМ ГУРУР ПАДАМ<br />
             МАНТРА МУЛЯМ ГУРУР ВАКЬЯ<br />
@@ -66,7 +66,7 @@ const BhadjanyGuru = () => {
             Образ Гуру – основа медитации, стопы Гуру – основа служения,
             слово Гуру – основа всех мантр, милость Гуру – основа спасения.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НИТЙАМ ШУДХАМ НИРАБХАСАМ<br />
             НИРАКАРАМ НИРАНДЖАНАМ<br />
             НИТЙА БОДХАМ ЧИТАНАНДАМ<br />
@@ -81,7 +81,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ДЖЕЙ ДЖЕЙ ГУРУ ДЕВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖЕЙ ДЖЕЙ ГУРУ ДЕВА ШРИ ГУРУ МАХА ДЕВА<br />
             БРАХМА ВИШНУ МАХЕШВАРА ГУРУ МАХА ДЕВА<br />
             МАТА ПИТА ГУРУ ДЕВА ШРИ ГУРУ МАХА ДЕВА
@@ -96,7 +96,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ГУРУ МАНГАЛАМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ МАНГАЛАМ ОМКАРА МАНГАЛАМ<br />
             ГУРУ МАНГАЛАМ ГУРУ ПАДА МАНГАЛАМ
           </p>
@@ -108,7 +108,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ВАНДЕ ГУРУДЕВ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ВАНДЕ ГУРУДЕВ ДЖЕЙ ДЖЕЙ ГУРУДЕВ<br />
             ГУРУДЕВ ГУРУДЕВ ДЖЕЙ ДЖЕЙ ГУРУДЕВ
           </p>
@@ -120,7 +120,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ГУРУ БАБА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ БАБА ГУРУ БАБА<br />
             ЧАРАНА НАМОСТУТЭ ГУРУ БАБА<br />
             ВИДЙА ДАЙАКА ГУРУ БАБА<br />
@@ -137,7 +137,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ГУРУ МАХИМА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ МАХИМА ГУРУ МАХИМА<br />
             АПАРА МАХИМА ГУРУ МАХИМА
           </p>
@@ -145,7 +145,7 @@ const BhadjanyGuru = () => {
             Бесконечно большой, обладающий неизмеримым величием.
             Не имеющий пределов, безграничный Гуру!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             АДЖНЯНА НАШАНАМ ГУРУ МАХИМА<br />
             ВИДЖНЯНА КОШАНАМ ГУРУ МАХИМА
           </p>
@@ -153,7 +153,7 @@ const BhadjanyGuru = () => {
             Разрушающий неведение,
             сверкающий просветленным интеллектом!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САТЧИТАНАНДАМ ГУРУ МАХИМА<br />
             АНАНДА ДАРШАНАМ ГУРУ МАХИМА
           </p>
@@ -161,7 +161,7 @@ const BhadjanyGuru = () => {
             Бытие Сознание Блаженство,
             Указывающий блаженную истину реальности!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАЙЛАСА ВАСА ГУРУ МАХИМА<br />
             АГИЛЯЧА РАДЖАРА ГУРУ МАХИМА
           </p>
@@ -169,7 +169,7 @@ const BhadjanyGuru = () => {
             Пребывающий на вершине Мира
             Величие непостижимого гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЧИНТАЯ РУПАМ ГУРУ МАХИМА<br />
             АЧИНТЬЯ БХАВАМ ГУРУ МАХИМА
           </p>
@@ -177,14 +177,14 @@ const BhadjanyGuru = () => {
             Драгоценная форма, Непостижимая бхава
             за пределами рассудка
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАРУНА САГАРА ГУРУ МАХИМА<br />
             КАЙВАЛЬЯ ДАЙАГА ГУРУ МАХИМА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Океан состраданиия, Дарующий освобождение от неведения!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САДГУРУ ДАРШАНАМ ГУРУ МАХИМА<br />
             САДГУРУ ЧИНТАНАМ ГУРУ МАХИМА
           </p>
@@ -192,7 +192,7 @@ const BhadjanyGuru = () => {
             Даршан запредельной истины, Драгоценный учитель
             Созерцание Гуру, прославление Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ГУРУ НАТХА ГУРУ МАХИМА<br />
             ОМ ШИВА ПРАБХАКАРА ГУРУ МАХИМА<br />
             ДЖАЯ ДЖАЯ ДЖАЯ ДЖАЯ ГУРУ МАХИМА
@@ -204,7 +204,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ГУРУ БАНДАРУ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ БАНДАРУ ЯТИ БАНДАРУ<br />
             ТЬЯГИ БАНДАРУ ТЬЯГИ БАНДАРУ
           </p>
@@ -212,7 +212,7 @@ const BhadjanyGuru = () => {
             Преданность Гуру, преданность отреченному,
             преданность отшельнику!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ ШРИ БАНДАРУ<br />
             ГУРУ КАРУНА БАНДАРУ<br />
             ГУРУ МУРТИ БАНДАРУ<br />
@@ -222,7 +222,7 @@ const BhadjanyGuru = () => {
             Преданность святому Гуру, преданность милости Гуру,
             преданность образу Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ПАНЧАБХУТА ПАНЧАИНДРИЯ<br />
             ПАНЧА ТАТТВА БОДИСУТА<br />
             НАВАДВАРА НАВАДВАРА<br />
@@ -232,7 +232,7 @@ const BhadjanyGuru = () => {
             (Ты) пять элементов, пять чувств, ты пять таттв, сын Сознания!
             Ты восемь врат, око знания, Сын Сознания!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САКАЛА КАЛА ПРАВИНА<br />
             САДУ ДЖНЯНА НИССИМА<br />
             ПРАНАВАЙЮ ТАТТВАБОДХА<br />
@@ -242,7 +242,7 @@ const BhadjanyGuru = () => {
             Наделенный всеми частями, покровитель праведных!
             Ветер праны, осознавание Истины. Преданность Радостному.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ БРАМХА БАНДАРУ<br />
             ГУРУ ВИШНУ БАНДАРУ<br />
             ГУРУ МУРТИ БАНДАРУ<br />
@@ -253,7 +253,7 @@ const BhadjanyGuru = () => {
             Вишну, преданность Гуру, кто есть высочайшее мурти,
             преданность святому Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САТЧИТАНАНДА БАНДАРУ<br />
             САДУРАКША БАНДАРУ<br />
             САДААНАНДА БАНДАРУ<br />
@@ -268,7 +268,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. САТЧИТАНАНДА ГУРУ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             САТЧИТАНАНДА ГУРУ САТЧИТАНАНДА<br />
             АНАНДА ГУРУ ОМ ДАТТАТРЕЙЯ ГУРУ ОМ<br />
             АНАНДА ГУРУ ОМ БРАХМАНАНДА ГУРУ ОМ<br />
@@ -282,7 +282,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ГУРУ ДЕВАЯ НАМО
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ ДЕВАЯ НАМО ОМКАРАЯ НАМО<br />
             ДЖАГАДИШВАРА АКХИЛЕШВАРА ПАРАМЕШВАРА
           </p>
@@ -291,7 +291,7 @@ const BhadjanyGuru = () => {
             священного звука Ом! Слава Господу вселенной,
             Самодостаточному, Верховному владыке!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАРУНА КАРАЙЯ МУКТИ ПРАДАЙЯ ПУНЬЯ ПУРУШАЙЯ<br />
             ГУРУДЖИ ЧАРАНАМ ДЖАЯ ГУРУДЕВА
           </p>
@@ -304,7 +304,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ДЖАЯ ГУРУ ОМКАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ГУРУ ОМКАРА<br />
             ДЖАЯ ДЖАЯ САДГУРУ ОМКАРА<br />
             БРАХМА ВИШНУ САДАШИВА<br />
@@ -322,7 +322,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ОМ НАМО ГУРУ ДЭВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО ГУРУ ДЭВА ОМ АДИ ГУРУ ДЭВА<br />
             ДЖАЯ КИ ДЖАЯ АДВАЙТА РУПА<br />
             ОМ НАМО
@@ -337,7 +337,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ДЖАЯ КИ ГУРУ МАХАРАДЖ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ КИ ДЖАЯ КИ ГУРУ МАХАРАДЖ<br />
             ДЖАЯ ДЖАЯ ДЖАЯ ГУРУ МАХАРАДЖ
           </p>
@@ -348,7 +348,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             14. ДЖАЯ САДА ГУРУ БХАГАВАН
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ САДА ГУРУ БХАГАВАН<br />
             САДА ШИВА НАМАХ ШИВАЙА<br />
             САДА ГУРУ ШИВАЙА
@@ -361,7 +361,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             15. ОМКАРА ГУРУДЖИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМКАРА ГУРУДЖИ ОМКАР
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
@@ -372,7 +372,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             16. МАНАСА БХАДЖОРЕ ГУРУ ЧАРАНАМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             МАНАСА БХАДЖОРЕ ГУРУ ШАРАНАМ<br />
             ДУСТАРА БХАВА САГАРА ТАРАНАМ<br />
             ГУРУ МАХАРАДЖ ГУРУ ДЖАЯ ДЖАЯ<br />
@@ -393,7 +393,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             17. ДЖАЯ ГУРУДЕВ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ГУРУДЕВ ДАРШАНАМ САХАДЖ<br />
             ДЖАЯ ДЖАЙА БХАГАВАН ГУРУ МАХАРАДЖ
           </p>
@@ -408,7 +408,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             18. ОМ НАМО БХАГАВАТЕ ГУРУДЕВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ГУРУДЕВАЯ<br />
             ГУРУДЕВАЙА НАМО ГУРУДЕВАЯ
           </p>
@@ -420,7 +420,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             19. ГУРУ ЕК ДИПА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ ЕК ДИПА ХЕ<br />
             ДИВЬЯ ДХАМ ДИКХАЕ
           </p>
@@ -428,19 +428,19 @@ const BhadjanyGuru = () => {
             Гуру - единственный светильник,
             укажи нам божественную обитель
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ ЕК ПРИТ ХЕ БРАХМА СЕ МИЛАЙЕ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Гуру - единственный возлюбленный, пришедший от Бога
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ САНГ САТЬЯ ХЕ САБ ВЕД ГАЙЕ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Гуру сангха есть истина, дарующая все знания
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ САРВАРУП ХЕ ДАТТА ПРАБХУ ПАЙЕ
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
@@ -450,7 +450,7 @@ const BhadjanyGuru = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             20. ОМ ГУРУНАТХА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ГУРУНАТХА ДЖАЙА ГУРУНАТХА<br />
             ДЖАЙА ГУРУНАТХА ШРИ ГУРУНАТХА<br />
             ШРИ ГУРУНАТХА САТ ГУРУНАТХА<br />

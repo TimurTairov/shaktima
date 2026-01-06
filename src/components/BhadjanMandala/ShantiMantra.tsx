@@ -4,7 +4,7 @@ const ShantiMantra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='ShantiMantra' title='Шанти Мантра' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const ShantiMantra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ! САРВЕШАМ СВАСТИР БХАВАТУ<br />
             САРВЕШАМ ШАНТИР БХАВАТУ<br />
             САРВЕШАМ ПУРНАМ БХАВАТУ<br />
@@ -25,7 +25,7 @@ const ShantiMantra = () => {
             Пусть удовлетворение будет у всех,
             Пусть процветание будет у всех.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ! САРВЕ БХАВАНТУ СУКХИНАХА<br />
             САРВЕ САНТУ НИРАМАЙАХА<br />
             САРВЕ БХАДРАНИ ПАШЬЯНТУ<br />

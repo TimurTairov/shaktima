@@ -4,7 +4,7 @@ const BhadjanyShakti = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyShakti' title='Бхаджаны Шакти' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <a href='https://t.me/jkjlkjscksj/395/1332' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов Шакти
           </a>
@@ -12,7 +12,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ДЖАЯ ДЖАЯДЕВИ МАТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ДЖАЯ ДЕВИ МАТА НАМАХА<br />
             ДЖЕЙ АМБЕ ДЖАГАДАМБЕ<br />
             ОМ НАРАЯНИ ОМ НАРАЯНИ<br />
@@ -27,7 +27,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ДЖАЯ ДЭВИ БХАВАНИ МА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             МАТА ДЖАЯ ДЖАЯ ДЖАГА ДЖАГА ДЖАГАНИ МА<br />
             ДЖАЯ ДЭВИ БХАВАНИ МА<br />
             ДЖАЯ ДУРГА БХАВАНИ МА<br />
@@ -46,7 +46,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. САИ МАТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             САИ МАТА ДЖАЯ ДЖАГАДАМБЭ<br />
             ДЖАЙА ДЖАГАДАМБЭ МА О САИ МА<br />
             ДУРГЕ ДЭВИ НАМО НАМАХА<br />
@@ -63,7 +63,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШРИ АМБЕ ДЖАГАДАМБЕ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШРИ АМБЕ ДЖАГАДАМБЕ ШРИ АМБЕ ДЖАЙ ДЖАЙ МА<br />
             ШРИ АМБЕ ДЖАГАДАМБЕ ШРИ АМБЕ ДЖАЙ ДЖАГАДАМБЕ<br />
             ШРИ АМБЕ ДЖАЙ ДЖАЙ МА<br />
@@ -92,7 +92,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. САРАСВАТИ НАМО ОМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ АИМ САРАСВАТИ НАМО ОМ<br />
             ОМ АИМ САРАСВАТИ САРАСВАТИ<br />
             САРАСВАТИ НАМО ОМ
@@ -104,7 +104,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. САТГУРУ РУПИНИ САРАСВАТИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             САТГУРУ РУПИНИ САРАСВАТИ<br />
             САТЧИДАНАНДА САРАСВАТИ
           </p>
@@ -112,7 +112,7 @@ const BhadjanyShakti = () => {
             Вместилище духовных знаний, Сарасвати!
             Бытие сознание блаженство, Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВАНЧХИТА ДАЙИНИ САРАСВАТИ<br />
             ВАЧАМ ДЕВИ САРАСВАТИ
           </p>
@@ -120,7 +120,7 @@ const BhadjanyShakti = () => {
             Возлюбленная, Дарующая желаемое, Сарасвати!
             Богиня речи, Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИНДХЙА ВАСИНИ САРАСВАТИ<br />
             ВИШВАРУПИНИ САРАСВАТИ
           </p>
@@ -128,7 +128,7 @@ const BhadjanyShakti = () => {
             Восседающая в горах Виндхья, Сарасвати!
             В форме мироздания, Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИНАДХАРИНИ САРАСВАТИ<br />
             ВИРАРАДХЙА САРАСВАТИ
           </p>
@@ -136,7 +136,7 @@ const BhadjanyShakti = () => {
             Держащая вину, Сарасвати!
             Почитаемая героями, Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВЕДА СТУТЙА САРАСВАТИ<br />
             АИМ ХРИМ ШРИМ ОМ САРАСВАТИ
           </p>
@@ -148,7 +148,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ПАРАМЕШВАРИ ДЖАЯ ДУРГЕ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ПАРАМЕШВАРИ ДЖАЯ ДУРГЕ<br />
             ДЖАГАДЕШВАРИ ДЖАЯ АМБА<br />
             ХЕ МАТА ВИШВАМОХИНИ ДЕВИ ДЖАЯ АМБА<br />
@@ -168,7 +168,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ДЖАЯ ДЖАЯ МА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             АМБЕ МА ДЖАГАДАМБЕ МА<br />
             СУКХА ДАЙИНИ МА МАНОМОХИНИ МА<br />
             ДЖЕЙ ДЖЕЙ МА…<br />
@@ -185,7 +185,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ДЖАЯ ЛАКШМИ КАМАЛЕ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ЛАКШМИ КАМАЛЕ ДЖАЯ ЛАКШМИ ВИМАЛЕ<br />
             ДЖАЯ ВАРАВАРШИНИ ВАЙШНАВИ БХАРГАВИ<br />
             МАНТРАСВАРУПИНИ МАНТРАМАЙЕ<br />
@@ -198,7 +198,7 @@ const BhadjanyShakti = () => {
             Почитаемая сонмом богов, быстро дарующая награду
             Взращивающая знание, восхваляемая шастрами
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БХАВАБХАЙАХАРИНИ ПАПАВИМОЧАНИ<br />
             САДХУДЖАНАШРИТА ПАДАЙУТЕ<br />
             ДЖАЙА ДЖАЙА ОМ МАДХУСУДАНА КАМИНИ<br />
@@ -210,7 +210,7 @@ const BhadjanyShakti = () => {
             Слава, слава тебе, возлюбенная Мадхусуданы
             Дхаирья-Лакшми, всегда защищай меня!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ДЖАЯ ДУРГАТИ НАШИНИ КАМИНИ<br />
             САРВАПХАЛАПРАДА ШАСТРАМАЙЕ<br />
             РАДХАГАДЖАТУРАГА ПАДАТИ САМАВРУТА<br />
@@ -222,7 +222,7 @@ const BhadjanyShakti = () => {
             Окруженная слонами, колесницами, конями и всадниками
             В окружении служителей, восхваляемая миром.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ХАРИ ХАРА БРАХМА СУПУДЖИТА СЕВИТА<br />
             ТАПАНИВАРИНИ ПАДАЙУТЕ<br />
             ДЖАЙА ДЖАЙА ОМ МАДХУСУДАНА КАМИНИ<br />
@@ -238,7 +238,7 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ДЕВИ МАХАЛАКШМИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЕВИ МАХАЛАКШМИ НАРАЙАНИ<br />
             АНАНДА ДАЙИНИ АБХАЙА ПРАДАЙИНИ<br />
             АНГАЛА РУПИНИ САУБХАГЙА ДАЙИНИ<br />

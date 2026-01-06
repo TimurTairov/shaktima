@@ -4,7 +4,7 @@ const BhadjanySiddham = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanySiddham' title='Бхаджаны сиддхам' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <a href='https://t.me/jkjlkjscksj/195/1363' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов сиддхам и божествам
           </a>
@@ -12,7 +12,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. ОМ ГАМ ГАНАПАТАЙЕ НАМАХА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГАНЕША ШАРАНАМ ГАНЕША ШАРАНАМ<br />
             ОМ ГАМ ГАНАПАТАЙЕ НАМАХА<br />
             ОМ ГАМ ГАНАПАТАЙЕ НАМАХА<br />
@@ -25,7 +25,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ОМ ШИВА ПРАБХАКАРАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ШИВАЯ НАМАХА ШИВАЯ НАМО ОМ<br />
@@ -42,7 +42,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ГАНЕША ШРИ ГАНЕША
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГАНЕША ШРИ ГАНЕША<br />
             ДЖАЯ ШАКТИ ШИВАЯ ОМ<br />
             ГАНЕША ШРИ ГАНЕШАЯ<br />
@@ -60,7 +60,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШИВАЯ НАМО ОМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШИВАЯ НАМО ОМ ШИВАЯ НАМО ОМ<br />
             НАМАХ ШИВАЯ НАМАХ ШИВАЯ<br />
             ШИВА ШИВА ШИВА ШИВА НАМАХ ШИВАЯ
@@ -72,7 +72,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5.САХАДЖИЯ ЛАЙЯ АМРИТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             САХАДЖИЯ ЛАЙЯ АМРИТА НАМО НАМО<br />
             САХАДЖИЯ ДЖЕЙ ГУРУ МАХАРАДЖ НАМАХА<br />
             САХАДЖИЯ АДИ ШАКТИ ЛИЛА НАМО НАМО<br />
@@ -85,7 +85,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ ШИВА ШАНКАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ШИВА ОМ ШИВА ОМ ШИВА ШАНКАРА<br />
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ
           </p>
@@ -96,7 +96,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ОМ НАМАХ ШИВАЯ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ НАМАХ ШИВАЯ<br />
             ОМ НАМАХ ШИВАЯ
           </p>
@@ -108,7 +108,7 @@ const BhadjanySiddham = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. НАМО БХАГАВАН РАМАЛИНГА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАМО БХАГАВАН<br />
             БИНДУ ПАРАБРАХМА МАХАБХАВА<br />
             НАМО БХАГАВАН<br />

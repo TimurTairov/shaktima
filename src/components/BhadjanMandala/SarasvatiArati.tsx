@@ -4,7 +4,7 @@ const SarasvatiArati = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='SarasvatiArati' title='Сарасвати Арати' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const SarasvatiArati = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖЕЙ САРАСВАТИ МААТА<br />
             МАЙЯ ДЖЕЙ САРАСВАТИ МААТА<br />
             САТГУНА ВЭЙБХАВа ШААЛИНИ<br />
@@ -27,7 +27,7 @@ const SarasvatiArati = () => {
             избытком благих качеств, известной в Трех Мирах.
             Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЧАНДРА ВАДАНИ ПАДМАСИНИ<br />
             ДхйУТИ МАНГАЛАКААРИ<br />
             МАЙЯ ДхйУТИ МАНГАЛАКААРИИ<br />
@@ -41,7 +41,7 @@ const SarasvatiArati = () => {
             свет. Восседающей на белом лебеде, обладающей несравнимой
             силой. Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БААЙЕ КААРе МЭ ВИНА<br />
             ДААЙЕ КААРе МААЛЯ<br />
             МАЙЯ ДААЙЕ КААРе МААЛЯА<br />
@@ -55,7 +55,7 @@ const SarasvatiArati = () => {
             голове драгоценная корона, а на шее ожерелье из жемчуга.
             Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЕВИ ШАРАНЕ ДЖО АЙЕ<br />
             УНеКА УДДХААРе КИЙАА<br />
             МАЙЯ УНеКА УДДХААРэ КИЙАА<br />
@@ -68,7 +68,7 @@ const SarasvatiArati = () => {
             Которая поддерживает тех, кто приходит к ней за защитой.
             Та, которая убила Равану. Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИДЬЯ ГЬЯНА ПРЭДАИНИ<br />
             ГЬЯНА ПРАКААШЕ КАРОО<br />
             МАЙЯ ГЬЯНА ПРАКААШЕ КАРОО<br />
@@ -82,7 +82,7 @@ const SarasvatiArati = () => {
             знания! Уничтожь полностью слепоту, происходящую из
             невежества и мрак. Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДХУУПа ДИИПа ПХАЛе МЕЕВА<br />
             МАА СВИКААРе КАРОО<br />
             МАЙЯ МАА СВИКААРе КАРОО<br />
@@ -95,7 +95,7 @@ const SarasvatiArati = () => {
             О Мать, прими благовония, светильники, фрукты и сладости.
             О Мать, даруй нам око знания. Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАА САРАСВАТИ КИ ААРАТИ<br />
             ДЖО КОИ ДЖАНе ГААВЕЕ<br />
             МАЙЯ ДЖО КОИ ДЖАНе ГААВЕЕ<br />
@@ -109,7 +109,7 @@ const SarasvatiArati = () => {
             дающее благо и счастье, а также преданность.
             Слава Матери Сарасвати!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДЖЕЙ САРАСВАТИ МААТА<br />
             МАЙЯ ДЖЕЙ САРАСВАТИ МААТА<br />
             САТГУНА ВЭЙБХАВа ШААЛИНИ<br />

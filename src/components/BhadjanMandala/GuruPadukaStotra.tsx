@@ -4,7 +4,7 @@ const GuruPadukaStotra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='GuruPadukaStotra' title='Гуру падука стотра' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -14,7 +14,7 @@ const GuruPadukaStotra = () => {
             ></audio>
           </div>
 
-          <p className="font-bold">
+          <p className="font-medium">
             Ана-анта самса-ра самудра та-ра<br />
             Наука йитабхьям гурубха-ктида-бхьям<br />
             Ваир-агья самраджьяда пу-джа-набхьям<br />
@@ -26,7 +26,7 @@ const GuruPadukaStotra = () => {
             сансары. Которые дают мне преданность Гуру
             и благословляют на великое отречение.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Кавитва вараши ниша кара бхьям<br />
             Даурбха гьяда вам будама-лика бхьям<br />
             Ду-ри крита намра випа-тита бхьям<br />
@@ -37,7 +37,7 @@ const GuruPadukaStotra = () => {
             словно водопад, тушат огонь несчастья и разрушают
             несчастья тех, кто припадает к ним.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Ната яйоу шри патитам сами-йуху<br />
             Када-чидапьяшу даридраварья-ха<br />
             Мука-шча вачас патитам хи-та-бхьям<br />
@@ -49,7 +49,7 @@ const GuruPadukaStotra = () => {
             становятся обладателями великого богатства
             и даже превосходят великих мастеров слова.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Нали-ка-ни-ка-ша пада хрида бхьям<br />
             На-на вимоха-ди нива-рика бхьям<br />
             Нама-джана-бхишта тати прада бхьям<br />
@@ -60,7 +60,7 @@ const GuruPadukaStotra = () => {
             все виды невежественных желаний и выполняют в избытке
             желания тех, кто поклоняется им.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Нрипа-лимоули враджаратна кА-нти<br />
             Сари-твира-джа джашака-ньяка бхьям<br />
             Нрипат вада бхьям наталока пантэ-хе<br />
@@ -72,7 +72,7 @@ const GuruPadukaStotra = () => {
             которым, утопающие в мирском спасаются
             и поднимаются к великой свободе.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Папа-ндакара-рка парампара бхьям<br />
             Та-паАтраях индра кха-ге-швара бхьям<br />
             Джадья бдхисамшо-шана ва-да-ва бхьям<br />
@@ -84,7 +84,7 @@ const GuruPadukaStotra = () => {
             Гаруда перед змеями, и которые ураганным огнем
             высушивают океан смерти.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Шама-дишатка прадаваи бхава бхьям<br />
             Самади да-на врадади-кшита бхьям<br />
             Рамада вандхрис стирабха-кти да бхьям<br />
@@ -96,7 +96,7 @@ const GuruPadukaStotra = () => {
             приверженностью к стопам Господа и обетом
             благотворительности и постоянства.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Сварча-пара-нам макхиле-шта да бхьям<br />
             Сва-ха-саха-якша ду-ра-нда ра бхьям<br />
             Сва-нта-чабха-ва прадапу-джана бхьям<br />
@@ -107,7 +107,7 @@ const GuruPadukaStotra = () => {
             одаривают всеми желаниям тех, кто поглощен Высшим «Я»
             и милостью своей собственной скрытой Истинной Природы.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             Кама-дисарпа враджага-руда бхьям<br />
             Вивекавайра-гья нидхи-прада бхьям<br />
             Бо-дах прада бхьям дутамо-кшада бхьям<br />

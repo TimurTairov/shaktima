@@ -2,7 +2,7 @@ import MyAccordion from './MyAccordion'
 
 const BhadjanyDattatree = () => {
   return (
-    <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
+    <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center font-light'>
       <MyAccordion id='BhadjanyDattatree' title='Бхаджаны Даттатрее' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
           <a href='https://t.me/jkjlkjscksj/58/1235' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
@@ -12,7 +12,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             1. АТРИ НАНДАНА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             АТРИ НАНДАНА АГАЩАМАНА<br />
             ТРИГУНАТИТА ДЖНЯНАДХАНА
           </p>
@@ -20,7 +20,7 @@ const BhadjanyDattatree = () => {
             О Сын Атри! Подобный пространству!
             Превосходящий три гуны! Богатство знания!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НАМБИРЕ НИС ЧАЯ БХАВА ТАРАНА<br />
             ДАЯПААЛИСУВУДУ ГУРУ ЧАРАНА
           </p>
@@ -28,7 +28,7 @@ const BhadjanyDattatree = () => {
             Наделяющий отсутствием сомнения, спасающий из мирского
             бытия! Милосредный, я поклоняюсь стопам Гуру.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НАТАДЖАНА ПАЛАКА ДЖАЯКАРАНА<br />
             АНАГХА САХИТА БХАЙЯ ХАРАНА
           </p>
@@ -36,7 +36,7 @@ const BhadjanyDattatree = () => {
             Спаситель людей, творящий победу.
             Безупречный, устраняющий страх.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГХАНА МАХИМАНВИТА ГХАНА КАРУНА<br />
             ЩАТА РАВИ БХАСУРА ТАМА ХАРАНА
           </p>
@@ -44,7 +44,7 @@ const BhadjanyDattatree = () => {
             Средоточие величия, средоточие милосердия!
             Сияющий, как сотни солнц, устраняющий тьму.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАНАВАНУ БЕЛАГУВА ЩУБХАКИРАНА<br />
             НАМИСУВЕ САТЧИТАНАНДА ГХАНА
           </p>
@@ -56,7 +56,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ДАТТА ДЕВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАТТА ДЕВА ДАТТА ДЕВА<br />
             БХУКТИ ПРАДАЯ МУКТИ ПРАДАЯ ДАТТА ДЕВА
           </p>
@@ -64,7 +64,7 @@ const BhadjanyDattatree = () => {
             О, Датта Дева, Бог, Бог! Дарующий как освобождение,
             так и мирские блага, Датта Дева.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ АНАСУЯ СУТУЯ НАМАХ ОМ ДАТТАЯ НАМАХ<br />
             ОМ АТРИ ПУТРАЯ НАМАХ ОМ ЙОГИНДРАЯ НАМАХ<br />
             АДИ ДЕВАЯ МАХА ДЕВАЯ<br />
@@ -75,7 +75,7 @@ const BhadjanyDattatree = () => {
             Царь среди йогов! Изначальный Бог, Великий бог!
             Тому, чьи ладони и стопы подобны цветкам лотоса, поклонение!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ВИШВА РУПАЯ НАМАХ ОМ ВАРАДАЯ НАМАХ<br />
             ОМ САРВЕШАЯ НАМАХ ОМ ДИВЬЯ МУРТАЙЕ НАМАХ<br />
             САДАНАНДАЯ ГУНАТИТАЯ<br />
@@ -87,7 +87,7 @@ const BhadjanyDattatree = () => {
             сущностью всего мира, Кто есть образ божественного!
             Превосходящий гуны, Великий Владыка!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ АВАДХУТАЯ НАМАХ ОМ ДХАРМАЯ НАМАХ<br />
             ОМ ГУРУГАМЙАЯ НАМАХ ОМ СИДДХАЯ НАМАХ<br />
             ВАРИШТХАЯ САДАШИВАЯ<br />
@@ -104,7 +104,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА<br />
             АРАВИНДА ГАТРА АПАДА МИТРА
           </p>
@@ -112,7 +112,7 @@ const BhadjanyDattatree = () => {
             Даттатрейя, сын Атри.
             Пребывающий в лотосе, Друг страждущих!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СУДЖАНА ЧАРИТРА ПАРАМА ПАВИТРА<br />
             ШРИКАРАГАТРА КАРУНАРАСАТРА
           </p>
@@ -120,7 +120,7 @@ const BhadjanyDattatree = () => {
             Деяние праведных, самый священный!
             Отмеченный благоприятными знаками, сущность милосердия!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СВАПРЕМАПАТРА ДУШТА КАЛАТРА<br />
             САТЧИТАНАНДА МИТРА СУНЕТРА
           </p>
@@ -132,7 +132,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ШРИ ГУРУ ДАТТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЖАЯ ГУРУ ДАТТА ДЖАЯ ГУРУ ДАТТА<br />
             ДЖАЯ ГУРУ ДАТТА ШРИ ДАТТА<br />
             ШРИ ГУРУ ДАТТА ШРИ ГУРУ ДАТТА<br />
@@ -141,7 +141,7 @@ const BhadjanyDattatree = () => {
           <p className="text-balance max-w-screen-sm text-sm">
             Слава Гуру Датте! Слава святому Датте!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ТАЛЛИ ДАТТА НА ТАНДРИ ДАТТА<br />
             НА ЙАННА ДАТТА ШРИ ДАТТА<br />
             НА ПАРУВУ ДАТТА НА ТЕРУВУ ДАТТА<br />
@@ -151,7 +151,7 @@ const BhadjanyDattatree = () => {
             Моя мать, мой отец, мой ведущий - Шри Датта!
             Мой почтенный, мой путь, мой учитель - Шри Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА КАЛИМИ ДАТТА НА БАЛИМИ ДАТТА<br />
             НА ЦЕЛИМИ ДАТТА ШРИ ДАТТА<br />
             НА БУДДХИ ДАТТА НА ВРДДХИ ДАТТА<br />
@@ -161,7 +161,7 @@ const BhadjanyDattatree = () => {
             Моя драгоценность, мое могущество, мой друг - Шри Датта!
             Мой интеллект, мое процветание, мое совершенство - Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ЦУПУ ДАТТА НА РУПУ ДАТТА<br />
             НА ЕПУ ДАТТА ШРИ ДАТТА<br />
             НА НИДРА ДАТТА НА МУДРА ДАТТА<br />
@@ -171,7 +171,7 @@ const BhadjanyDattatree = () => {
             Моя философия, моя природа, мой родственник - Шри Датта!
             Мой сон, моя мудра, мое счастье - Шри Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ЦЕТА ДАТТА НА ВРАТА ДАТТА<br />
             НА КАИТА ДАТТА ШРИ ДАТТА<br />
             НА МАТА ДАТТА НА ПАТА ДАТТА<br />
@@ -181,7 +181,7 @@ const BhadjanyDattatree = () => {
             Мое деяние, мой обет, мой поэт - Шри Датта!
             Мое обещание, моя музыка, мой путь - Шри Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА ПАНТА ДАТТА НА ИНТА ДАТТА<br />
             НА ВЕНТА ДАТТА ШРИ ДАТТА<br />
             НА МАНАСУ ДАТТА НА ТАПАСУ ДАТТА<br />
@@ -191,7 +191,7 @@ const BhadjanyDattatree = () => {
             Мой плод, мой храм, моя кшетра – Шри Датта!
             Мой мудрый, мой аскетичный, мой прекрасный Шри Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             НА БРАХМА ДАТТА НА ВИШНУ ДАТТА<br />
             НА ШИВА ДАТТА ШРИ ДАТТА<br />
             НА ГАНАМ ДАТТА НА ДХЬЯНАМ ДАТТА<br />
@@ -206,7 +206,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ДАТТАМ ДИНА ДЖАНАРТИ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАТТАМ ДИНА ДЖАНАРТИ НАЩАНАКАРАМ<br />
             ВИШНУМ ВИДХИМ ЩАНКАРАМ
           </p>
@@ -214,7 +214,7 @@ const BhadjanyDattatree = () => {
             Датта - уничтожитель бедствий бедных,
             Он Вишну, Брахма и Шанкара.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СВАРТХАНАРТХА НИВАРАНАМ МРУДУПАДАМ<br />
             ДХАРМАВАДХУТАМ ГХАНАМ
           </p>
@@ -222,7 +222,7 @@ const BhadjanyDattatree = () => {
             Устраняющий бесполезные цели, Обладатель нежных стоп,
             Дхарма авадхута.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             АТРЕЯМ БАХУЧИТРА ВЕЩАДХАРАНАМ<br />
             САХИАДРИ САНЧАРИНАМ
           </p>
@@ -230,7 +230,7 @@ const BhadjanyDattatree = () => {
             Сын Атри, Принимающий множество форм,
             движущийся в лесу Сахиадри.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СЕВЕ САДГУРУ МУРТИМ ЕКАМАНИЩАМ<br />
             ШРИ САТЧИТАНАНДАНАМ
           </p>
@@ -241,7 +241,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ДРАМ ДАТТАТРЕЙАЯ НАМАХА<br />
             ДЖАЯ САТГУРУ ДАТТА<br />
             НАМО ДАТТАТРЕЙА БХАГАВАН
@@ -254,7 +254,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ<br />
             ДАТТА ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
           </p>
@@ -262,7 +262,7 @@ const BhadjanyDattatree = () => {
             О, Гуру Датта, Одетый в пространство, незапятнанный!
             В Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             АТРИ СУНУ АНАСУЙЯ НАНДАНА<br />
             ОМ ЙОГИ РАДЖА ГУРУ ТАВА ЩАРАНАМ
           </p>
@@ -271,7 +271,7 @@ const BhadjanyDattatree = () => {
             Духовный учитель, зажигающий пламя мудрости,
             в Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШРИ ПАДА ШРИ ВАЛЛАБХА ЯТИ ВАРА<br />
             СИДДХА САРАСВАТИ ТАВА ЩАРАНАМ
           </p>
@@ -279,7 +279,7 @@ const BhadjanyDattatree = () => {
             Являвшийся как Шри Валлабха и великий сиддха Муни
             Сарасвати. О Гуру Датта, в Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАРТАВИРЬЯ БХУКТИ МУКТИ ПРАДА<br />
             ПИНГАЛЯ ПУДЖИТА ТАВА ЩАРАНАМ
           </p>
@@ -288,7 +288,7 @@ const BhadjanyDattatree = () => {
             Змея Пингалу благословлявший.
             О Гуру Датта, в Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГОРАКХА ЧАРВА ВИНАЩАКА ДАТТА<br />
             АВАДХУТА НИРАНДЖАНА ТАВА ЩАРАНАМ
           </p>
@@ -296,7 +296,7 @@ const BhadjanyDattatree = () => {
             Уничтоживший демона Чарву, незапятнанный Авадхута!
             О Гуру Датта, в Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЭКНАТА ДЖАНАРДАНА СВАМИ<br />
             АКАЛЬКОТА ГУРУ ТАВА ЩАРАНАМ
           </p>
@@ -305,7 +305,7 @@ const BhadjanyDattatree = () => {
             Являвшийся как Сатгуру в Аккалькоте.
             О Гуру Датта, в Тебе я принимаю Прибежище!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ПУРНА ПАРАТ ПАРАСА ГУНА ГУНЕЩВАРА<br />
             НИРАКАРЕ ГУРУ ТАВА ЩАРАНАМ
           </p>
@@ -319,7 +319,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ШРИ ДАТТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ШРИ ДАТТА ШРИ ДАТТА ШРИ ДАТТА ДЖЕЙ ДЖЕЙ ДАТТА<br />
             ДЖЕЙ ДАТТА ДЖЕЙ ДАТТА ДЖЕЙ ДАТТА ШРИ ШРИ ДАТТА<br />
             ДЭВА ДАТТА ДЭВА ДАТТА ДЭВА ДАТТА ШРИ ДАТТА<br />
@@ -341,7 +341,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             9. ДАТТА ДИГАМБАРА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ОМ ГУРУ ДАТТА НАМО НАМАХА<br />
             ДАТТА ДИГАМБАРА НАМО НАМАХА<br />
             ДЖАГА ГУРУ ДАТТА НАМО НАМАХА<br />
@@ -356,7 +356,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. НАМО ДАТТА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             НАМО ДАТТА НАМО ДАТТА ДАТТА ДАТТА НАМО НАМО<br />
             ГУРУ ДАТТА ГУРУ ДАТТА ДАТТА ДАТТА ГУРУ ГУРО
           </p>
@@ -365,7 +365,7 @@ const BhadjanyDattatree = () => {
             Датта, Датта, поклонение, поколонение!
             О Гуру Датта, Гуру Датта, Датта, Датта, Гуру, Гуру!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДИВЬЯ ПАДА НАМО НАМО ДИНА РЭКША НАМО НАМО<br />
             ДИВЬЯ ПАДА ДИНА РЭКША НАМО НАМО
           </p>
@@ -373,7 +373,7 @@ const BhadjanyDattatree = () => {
             Божественному состоянию, поклонение, поклонение!
             Защитнику бедных, поклонение, поклонение!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДИРА ХРИДАЯ НАМО НАМО БХАКТА САДАЯ НАМО НАМО<br />
             ДИРА ХРИДАЯ БХАКТА САДАЯ НАМО НАМО
           </p>
@@ -381,7 +381,7 @@ const BhadjanyDattatree = () => {
             Устойчивому, Сердечному поклонение, поклонение!
             Милостивому к преданным поклонение, поклонение!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             МАНДЖУ ХАСА НАМО НАМО МОХАНАНГА НАМО НАМО<br />
             МАНДЖУ ХАСА МОХАНАНГА НАМО НАМО
           </p>
@@ -389,7 +389,7 @@ const BhadjanyDattatree = () => {
             Улыбающемуся нежно поклонение, поклонение!
             Устраняющему омрачение поклонение, поклонение!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЙОГА НЕТРА НАМО НАМО ШАКТИПАТА НАМО НАМО<br />
             ЙОГА НЕТРА ШАКТИПАТА НАМО НАМО
           </p>
@@ -397,7 +397,7 @@ const BhadjanyDattatree = () => {
             Оку йоги поклонение, поклонение!
             Шактипату поклонение, поклонение!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САТЬЯ РУПА НАМО НАМО САТЧИТАНАНДА НАМО НАМО<br />
             САТЬЯ РУПА САТЧИТАНАНДА НАМО НАМО
           </p>
@@ -409,21 +409,21 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             11. ДАТТАТРЕЙЯ ТРИМУРТИ РУПА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАТТАТРЕЙЯ ТРИМУРТИ РУПА<br />
             ТРИБХУВАНА ЛОКА РАКШАКА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             О Даттатрейя, образ Тримурти, защитник трех миров!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КАМАДХЕНУ КАЛЬПАВРУКША<br />
             КАМИТА ПАЛАДА ГА ДАЙАКА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Корова желания, древо желания! Желанный, дающий плоды!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАНДА КАМАНДАЛУ ШУЛА ДАМАРУКА<br />
             ШАНКХАЧАКРА КА ШОБИТА
           </p>
@@ -431,14 +431,14 @@ const BhadjanyDattatree = () => {
             Украшенный посохом, чашей, трезубцем, дамару,
             раковиной и чакрой.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             УТТАМА УТТАМА ПУРУШОТАММА<br />
             ПУРНАЧАНДРА ГА ПРАКАТИТА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Высший, высший, Высочайший Пуруша! Являющийся как полная луна.
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             БХАВАБАНДАНА БХАВАБАЙА ДУРА<br />
             БХАКТА КАРУНА ГА САГАРА
           </p>
@@ -446,7 +446,7 @@ const BhadjanyDattatree = () => {
             Удаляющий привязанность к мирскому бытию и страх перед
             мирским бытием. Океан милосердия для преданных!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             КРТТИКАКАРА СИДДХАНУЗАРА<br />
             СИДДХАДУТА МАНОХАРА
           </p>
@@ -454,7 +454,7 @@ const BhadjanyDattatree = () => {
             Образ созвездия плеяд, тот за кем следуют сиддхи,
             Посланник сиддхов, уносящий ум!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             САХИАДРИ ВАСА САТЧИТАНАНДА<br />
             ШРИ ГУРУ ДАТТА СВАРУПА
           </p>
@@ -466,14 +466,14 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             12. ДАТТА ДЭВА ДЭВА ДЭВА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАТТА ДЭВА ДЭВА ДЭВА<br />
             ДАНАВАНТА ДИНА РЭКША
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             О, Датта Дева, Бог, Бог! Разрушитель демонов, защитник бедных
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДОЩАДУРА ДИКША ДХАРА<br />
             САРВАБХАКТА РАКША ДИРА
           </p>
@@ -481,7 +481,7 @@ const BhadjanyDattatree = () => {
             Удаляющий грехи, имеющий дикшу!
             защитник всех преданных, устойчивый!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДХЕНУ САХИТА ДАЩА ДИЩА ВЬЯПТА<br />
             ДХАРМАПАЛА ДАНА ЩИЛА
           </p>
@@ -489,7 +489,7 @@ const BhadjanyDattatree = () => {
             Вместе с коровой Дхену, охватывающий десять направлений!
             Хранитель Дхармы, щедрый, твердый!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАСА АБХАЙЯ ДЭЩА КИРТА<br />
             ДАСЬЯ МУКТА ПУРНА ГАНА
           </p>
@@ -497,7 +497,7 @@ const BhadjanyDattatree = () => {
             Бесстрашие для своих слуг, Прославляемый по всем местам,
             Свободный от рабства, полнота щедрости!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДЭЩА КАЛА КАЛА ГОЧАРА<br />
             КАЛА РУПА КАЛА КАЛА
           </p>
@@ -505,7 +505,7 @@ const BhadjanyDattatree = () => {
             Место и время, Пребывающий в вечности, Образ Вечности,
             Конец Времени!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ДАНДАДХАРАХА САТЧИТАНАНДА<br />
             АКХАНДА ТЕДЖА ДИВЬЯ ПУНЖЬЯ
           </p>
@@ -517,7 +517,7 @@ const BhadjanyDattatree = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             13. ГУРУТТАМА
           </h2>
-          <p className="font-bold">
+          <p className="font-medium">
             ГУРУТТАМА ДАТТА ГУРУТТАМА<br />
             ДЖАЙОСТУ ДАТТА ГУРУТТАМА
           </p>
@@ -525,7 +525,7 @@ const BhadjanyDattatree = () => {
             Луший гуру Датта, Наивысший гуру!
             Победа тебе Датта, Наивысший гуру!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СУРЕЩА МАХЕЩА ПАРЕЩА ДАТТА<br />
             ГИРИЩА НИРИЩА МАДИЩА ДАТТА
           </p>
@@ -533,7 +533,7 @@ const BhadjanyDattatree = () => {
             Владыка богов, Великий владыка, Высший владыка Датта!
             Владыка гор, Неимеющий владык, мой владыка, Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             СМАРАМИ ВАДАМИ ГРУНАМИ ДАТТА<br />
             НАМАМИ БХАДЖАМИ ЙАДЖАМИ ДАТТА
           </p>
@@ -541,14 +541,14 @@ const BhadjanyDattatree = () => {
             Тебя я помятую, о тебе говорю, тебя обоняю, Датта!
             Поклоняюсь, почитаю, жертвую тебе, Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ТВАМЕВА ГАТИРХИ МАМАСИ ДАТТА<br />
             ПАТИСЧА ДХРУТИСЧА МАТИСЧА ДАТТА
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Ты мой путь, Датта! Ты мой владыка, опора и разум, Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ШРИЙАМ ЧА ДХИЙАМ ЧА ДЖАЙАМ ЧА ДАТТА<br />
             ДАДАСИ ПРАПАСИ ТАНОСИ ДАТТА
           </p>
@@ -556,7 +556,7 @@ const BhadjanyDattatree = () => {
             Ты мое счастье, разум, и победа, Датта!
             Ты даритель, защитник, и хранитель, Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ВИДХАТРА ХАРИЩА МУКХОСИ ДАТТА<br />
             КАРЕЩУ ТАДАНКА ВАХОСИ ДАТТА
           </p>
@@ -564,7 +564,7 @@ const BhadjanyDattatree = () => {
             Ты поддержатель, Владыка Хари, Ты главный, Датта!
             Ты носишь благие знаки на руках, Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ЩАМЕНА ДАМЕНА ЙАМЕНА ДАТТА<br />
             БХАВАНТА МУПАЙТИ НАРОТРА ДАТТА
           </p>
@@ -572,7 +572,7 @@ const BhadjanyDattatree = () => {
             Ты наделен спокойствием, терпением, и самоограничением,
             Датта! Ими человек тебя обретает, о Датта!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ИХАПИ ПАРЕПИ СУКХАМ ХИ ДАТТА<br />
             ПРАЙАЧЧА ШРИ САТЧИТАНАНДА ДАТТА
           </p>

@@ -4,7 +4,7 @@ const GaneshaMantra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='GaneshaMantra' title='Мантра Ганеши' big className='max-w-xl'>
-        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
+        <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
@@ -13,7 +13,7 @@ const GaneshaMantra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-bold">
+          <p className="font-medium">
             ВАККРАТУНДА МАХА КАЙА
             <br />
             СУРЬЯ КОТИ САМА ПРАБХА
@@ -28,11 +28,11 @@ const GaneshaMantra = () => {
             миллионов Солнц! Устрани препятствия, о Бог, во всех моих
             начинаниях!
           </p>
-          <p className="font-bold">ОМ ГАМ ГАНАПАТАЙЕ НАМАХА</p>
+          <p className="font-medium">ОМ ГАМ ГАНАПАТАЙЕ НАМАХА</p>
           <p className="text-sm">
             Поклонение Ганеше, Предводителю ганов!
           </p>
-          <p className="font-bold">
+          <p className="font-medium">
             ГАНЕШАМ ПРАМАТХАДХИШАМ
             <br />
             НИРГУНАМ САГУНАМ ШИВАМ
