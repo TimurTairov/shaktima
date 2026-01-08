@@ -26,8 +26,10 @@ const { posts } = Astro.props;
 ---
 
 <Layout title={tag}>
-  <Container>
-    <h1 class="mainTitle">Посты с тегом - {tag}:</h1>
+  <div class="main-container flex flex-col gap-10">
+    <h1 class="mainTitle">
+      Посты с тегом «<span class="italic">{tag}</span>»:
+    </h1>
     <ul class="flex w-full flex-col items-center">
       <!-- {
         posts.map((post) => (
@@ -56,7 +58,7 @@ const { posts } = Astro.props;
         ))
       }
     </ul>
-  </Container>
+  </div>
 </Layout>
 
 <style>
