@@ -1,0 +1,97 @@
+---
+const { frontmatter } = Astro.props;
+import Layout from "./Layout.astro";
+---
+
+<Layout title={frontmatter.title}>
+  <div class="md-container">
+    <h1 class="mainTitle">{frontmatter.title}</h1>
+    <div class="md-wrapper">
+      <p class="w-full text-right text-xs text-gray-400">
+        {frontmatter.pubDate.toLocaleDateString()}
+      </p>
+      <!-- <p>{frontmatter.pubDate}</p> -->
+      <p class="w-full text-center text-base md:text-xl">
+        <em>{frontmatter.description}</em>
+      </p>
+      <img
+        src={frontmatter.image}
+        width="300"
+        alt={frontmatter.title}
+        class="my-2 w-full rounded-sm"
+      />
+    </div>
+    <div class="my-10 flex list-disc flex-col gap-2 text-base md:gap-5">
+      <slot />
+    </div>
+    <div
+      class="flex w-full gap-3 rounded-sm border border-gray-300 p-2 dark:border-gray-500"
+    >
+      <h5 class="text-gray-500 dark:text-gray-400">Теги:</h5>
+      <div class="flex flex-wrap gap-3">
+        {
+          frontmatter.tags.map((tag: string) => (
+            <p class="">
+              <a
+                href={`/tags/${tag}`}
+                class="text-indigo-600 dark:text-amber-400"
+              >
+                {tag}
+              </a>
+            </p>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .md-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 720px;
+  }
+  .md-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* a {
+    color: #00539f;
+    text-decoration: none;
+  } */
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    /* margin: 0.25em; */
+    /* border: dotted 1px #a1a1a1;
+    border-radius: 0.3em; */
+    /* padding: 0.5em 1em;
+    font-size: 1.15em; */
+    /* background-color: #f8fcfd; */
+  }
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .tags-wrapper {
+    border: 0.5px solid rgb(194, 192, 192);
+    padding: 5px;
+    border-radius: 0.3em;
+    margin-bottom: 1rem;
+  }
+</style>

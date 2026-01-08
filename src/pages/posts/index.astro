@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import BlogPost from "../../components/BlogPost.astro";
+const allPosts = await getCollection("blog");
+const pageTitle = "Посты";
+---
+
+<Layout title={pageTitle}>
+  <div class="main-container">
+    <h1 class="mainTitle">{pageTitle}</h1>
+    <ul class="flex w-full flex-col items-center">
+      {
+        allPosts.map((post: any) => (
+          <BlogPost url={`/posts/${post.id}/`} title={post.data.title} />
+        ))
+      }
+    </ul>
+  </div>
+</Layout>
+
+<!-- <style>
+  ul .centr {
+    text-decoration: none;
+  }
+</style> -->
