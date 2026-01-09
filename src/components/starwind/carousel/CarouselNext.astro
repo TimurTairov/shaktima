@@ -2,7 +2,6 @@
 import ArrowRight from "@tabler/icons/outline/arrow-right.svg";
 import type { ComponentProps } from "astro/types";
 import { tv } from "tailwind-variants";
-import { Icon } from "astro-icon/components";
 
 import { Button } from "@/components/starwind/button";
 
@@ -35,11 +34,7 @@ const {
   {...rest}
 >
   <slot name="icon">
-    <!-- <ArrowRight /> -->
-    <Icon
-      name="mdi:arrow-right-bold"
-      class="size-8 rounded-full border text-white"
-    />
+    <ArrowRight class="rounded-full border text-white" />
     <slot>
       <span class="sr-only">Next slide</span>
     </slot>
