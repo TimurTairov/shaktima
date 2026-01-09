@@ -16,7 +16,10 @@ import mdc6 from "../assets/mdc/6.jpg";
 import mdc7 from "../assets/mdc/7.jpg";
 ---
 
-<Carousel opts={{ align: "start", loop: true }} class="mx-auto w-full">
+<Carousel
+  opts={{ align: "start", loop: true, duration: 30 }}
+  class="mx-auto w-full"
+>
   <CarouselContent>
     <CarouselItem>
       <Image src={mdc1} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
