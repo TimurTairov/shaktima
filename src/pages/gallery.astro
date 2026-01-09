@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Container from "../layouts/Container.astro";
 import { allFoto } from "../helpers/gallery";
-// import { Image } from "astro:assets";
+import { Image } from "astro:assets";
 ---
 
 <Layout title="Галерея">
@@ -16,9 +16,10 @@ import { allFoto } from "../helpers/gallery";
               <li class="flex gap-3 rounded-md bg-amber-100 dark:bg-slate-700">
                 <div class="shrink-0">
                   <a href="">
-                    <img
+                    <Image
                       src={article.img}
                       alt={article.title}
+                      inferSize
                       class="h-27 w-27 shrink-0 rounded-md bg-orange-100"
                     />
                   </a>

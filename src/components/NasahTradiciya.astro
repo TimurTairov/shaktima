@@ -1,15 +1,18 @@
 ---
 import Tradiciya from "./carousel/Tradiciya";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
 ---
 
 <div class="mb-20 flex flex-wrap justify-between gap-5 lg:flex-nowrap">
   <div class="flex w-full justify-end lg:order-1 lg:w-1/2">
-    <!-- <img
+    <Image
       src="https://sun9-1.userapi.com/impg/SN4kGJ1YeTxUg9Nt3YFNQQ7CAOD_c2YNcjMLGQ/f6dWujT9Qh8.jpg?size=600x800&quality=95&sign=0e07fc80eb743d66280d70835e79bf14&type=album"
-      alt=""
+      alt="Традиция"
+      inferSize
       class="rounded-md"
-    /> -->
-    <Tradiciya client:visible />
+    />
+    <!-- <Tradiciya client:visible /> -->
   </div>
 
   <div class="flex w-full flex-wrap items-center lg:w-6/12 lg:justify-end">
@@ -30,7 +33,8 @@ import Tradiciya from "./carousel/Tradiciya";
         <div
           class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
         >
-          <svg
+          <Icon name="mdi:mountain" class="size-8 text-white" />
+          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -40,7 +44,7 @@ import Tradiciya from "./carousel/Tradiciya";
               fill="white"
               d="m14 6l-3.75 5l2.85 3.8l-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22z"
             ></path>
-          </svg>
+          </svg> -->
         </div>
         <div>
           <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">
@@ -73,7 +77,8 @@ import Tradiciya from "./carousel/Tradiciya";
         <div
           class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
         >
-          <svg
+          <Icon name="mdi:weather-sunny" class="size-8 text-white" />
+          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -83,7 +88,7 @@ import Tradiciya from "./carousel/Tradiciya";
               fill="white"
               d="M10 2L7.6 5.4C8.4 5.2 9.2 5 10 5s1.6.2 2.4.4M19 5c-1.11 0-2 .89-2 2v6.76c-.64.57-1 1.39-1 2.24c0 1.66 1.34 3 3 3s3-1.34 3-3c0-.85-.36-1.67-1-2.23V7c0-1.11-.89-2-2-2m0 1c.55 0 1 .45 1 1v1h-2V7c0-.55.45-1 1-1m-13.5.7L1.3 7l1.8 3.8c.1-.8.4-1.6.8-2.3c.5-.7 1-1.3 1.6-1.8M10 7c-2.8 0-5 2.2-5 5s2.2 5 5 5s5-2.2 5-5s-2.2-5-5-5m-6.8 6.2L1.4 17l4.1.4c-.5-.5-1.1-1.2-1.5-1.9c-.5-.7-.7-1.5-.8-2.3m4.4 5.4L10 22l2.4-3.4c-.8.2-1.6.4-2.4.4c-.9 0-1.7-.2-2.4-.4"
             ></path>
-          </svg>
+          </svg> -->
         </div>
         <div>
           <h4 class="text-xl font-medium text-gray-800 dark:text-amber-600">

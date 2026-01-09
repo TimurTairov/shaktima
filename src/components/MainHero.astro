@@ -34,7 +34,9 @@ import hero from "../assets/hero.webp";
     <Image
       src={hero}
       alt="Hero"
-      loading="eager"
+      loading="lazy"
+      format="avif"
+      decoding="async"
       class="h-auto w-full rounded-md object-cover shadow-lg"
     />
   </div>

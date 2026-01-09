@@ -4,6 +4,7 @@
 @font-face {
   font-family: "Izmir";
   src: url("../fonts/dsizmir_normal.ttf");
+  font-display: swap;
 }
 
 .izmir {
@@ -13,6 +14,7 @@
 @font-face {
   font-family: "Jaipur";
   src: url("../fonts/jaipur.ttf");
+  font-display: swap;
 }
 
 .jaipur {
@@ -61,6 +63,7 @@ html {
 }
 body {
   font-family: "Atkinson", sans-serif;
+  font-display: swap;
   /* margin: 0;
   padding: 0;
   text-align: left; */

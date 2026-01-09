@@ -67,8 +67,22 @@ import Container from "../layouts/Container.astro";
     <div
       class="mt-20 flex w-full flex-col items-center justify-center gap-5 xl:mt-40"
     >
-      <Image src={namasteRed} alt="Namaste" class="block w-32 dark:hidden" />
-      <Image src={namasteWhite} alt="Namaste" class="hidden w-32 dark:block" />
+      <Image
+        src={namasteRed}
+        alt="Namaste"
+        format="avif"
+        loading="lazy"
+        decoding="async"
+        class="block w-32 dark:hidden"
+      />
+      <Image
+        src={namasteWhite}
+        alt="Namaste"
+        format="avif"
+        loading="lazy"
+        decoding="async"
+        class="hidden w-32 dark:block"
+      />
       <p class="text-xl font-bold text-red-500 dark:text-gray-300">
         N A M A S T E
       </p>

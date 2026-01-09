@@ -5,7 +5,15 @@ import logo from "../assets/logo.jpg";
 
 <div class="flex items-center gap-2">
   <a href="/">
-    <Image src={logo} alt="logo" class="size-7 shrink-0 rounded-full" />
+    <Image
+      src={logo}
+      alt="logo"
+      priority
+      loading="eager"
+      format="avif"
+      decoding="async"
+      class="size-7 shrink-0 rounded-full"
+    />
     <a href="/">
       <p class="izmir text-center text-4xl text-red-500 dark:text-amber-600">
         ШактиМа
