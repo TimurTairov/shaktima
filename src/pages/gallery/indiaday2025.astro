@@ -1,0 +1,103 @@
+---
+import ImageGallery from "react-image-gallery";
+import { settings } from "../../helpers/imageGallarySettings";
+import { indiaDay_2025_1, indiaDay_2025_2 } from "../../helpers/photos25";
+import "react-image-gallery/styles/css/image-gallery.css";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="День Индии 2025">
+  <div class="main-container">
+    <h1 class="mainTitle">Дни Индии в Москве 2025</h1>
+
+    <div class="mt-20">
+      <div class="my-10">
+        <h5 class="text-center text-lg">Фото. Часть 1</h5>
+        <div class="flex w-full items-center justify-center">
+          <ImageGallery items={indiaDay_2025_1} {...settings} client:visible />
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">Фото. Часть 2</h5>
+        <div class="flex w-full items-center justify-center">
+          <ImageGallery items={indiaDay_2025_2} {...settings} client:visible />
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">Видео. День 1. Часть 1</h5>
+        <div class="flex w-full items-center justify-center">
+          <iframe
+            src="https://dzen.ru/embed/opUbxQOYJAAA?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media"
+            data-testid="embed-iframe"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+            class="rutube"
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">Видео. День 1. Часть 2</h5>
+        <div class="flex w-full items-center justify-center">
+          <iframe
+            src="https://dzen.ru/embed/opVsTROYJAAA?from_block=partner&from=zen&mute=1&autoplay=1&tv=0"
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media"
+            data-testid="embed-iframe"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+            class="rutube"
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">Видео. День 2.</h5>
+        <div class="flex w-full items-center justify-center">
+          <iframe
+            class="rutube"
+            src="https://dzen.ru/embed/opUYuRuYJAAA?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media"
+            data-testid="embed-iframe"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">Видео. День 3.</h5>
+        <div class="flex w-full items-center justify-center">
+          <iframe
+            class="rutube"
+            src="https://dzen.ru/embed/opUaLSuYJAAA?from_block=partner&from=zen&mute=1&autoplay=1&tv=0"
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media"
+            data-testid="embed-iframe"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="my-10">
+        <h5 class="text-center text-lg">
+          Институт риши Васиштхи на Фестивале "Дни Индии в Москве" в 2025 году
+        </h5>
+        <div class="flex w-full items-center justify-center">
+          <iframe
+            class="rutube"
+            src="https://rutube.ru/play/embed/d45549d6b92142273842d4bb42ae3e2c/?skinColor=e53935"
+            style="border: none;"
+            allow="clipboard-write; autoplay"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -43,9 +43,9 @@ const MahaShivaRatri2024 = () => {
       </div>
 
       <div className="mt-10 lg:mt-20">
-        <h1 className="text-center text-lg lg:text-2xl">
+        <h5 className="text-center text-lg lg:text-2xl">
           Фотографии с МахаШиваРатри 2024
-        </h1>
+        </h5>
         <div className="my-10">
           <h5 className="text-center text-lg">Часть 1</h5>
           <div className="flex w-full items-center justify-center">

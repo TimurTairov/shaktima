@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
+    "@types/react-image-gallery": "^1.2.4",
     "prettier": "3.7.4",
     "prettier-plugin-astro": "0.14.1"
   }

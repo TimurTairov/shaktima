@@ -9,7 +9,7 @@ import { Image } from "astro:assets";
   <Container>
     <h1 class="mainTitle">Галерея</h1>
     <div class="mt-10 flex justify-center">
-      <ul class="grid grid-cols-1 justify-center gap-5 xl:gap-7">
+      <ul class="grid grid-cols-1 justify-center gap-5 xl:grid-cols-2 xl:gap-7">
         {
           allFoto.map((article) => {
             return (
@@ -20,12 +20,12 @@ import { Image } from "astro:assets";
                       src={article.img}
                       alt={article.title}
                       inferSize
-                      class="h-27 w-27 shrink-0 rounded-md bg-orange-100"
+                      class="size-40 shrink-0 rounded-md bg-orange-100"
                     />
                   </a>
                 </div>
                 <div class="flex flex-col justify-between p-1">
-                  <h5 class="text-sm font-medium text-gray-700 md:text-base dark:text-amber-600">
+                  <h5 class="text-sm font-semibold text-gray-700 md:text-base dark:text-amber-600">
                     {article.title}
                   </h5>
                   <p class="overflow-hidden text-xs text-gray-700 md:text-sm dark:text-amber-100">

@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import Container from "../../layouts/Container.astro";
 import { getCollection } from "astro:content";
@@ -16,18 +17,23 @@ const posts = (await getCollection("blog")).sort(
             <li>
               <a href={`/blog/${post.id}/`} class="flex w-full flex-col">
                 {post.data.image && (
-                  <img
+                  <Image
                     width={720}
                     height={360}
                     src={post.data.image}
                     alt={post.data.title}
+                    format="avif"
+                    loading="lazy"
+                    decoding="async"
                   />
                 )}
                 <div class="flex w-full items-center justify-between">
                   <h6 class="title font-semibold dark:text-amber-600">
                     {post.data.title}
                   </h6>
-                  <p class="date">{post.data.pubDate.toLocaleDateString()}</p>
+                  <p class="date">
+                    {post.data.pubDate.toLocaleDateString("ru-RU")}
+                  </p>
                 </div>
                 <p class="text-base">{post.data.description}</p>
               </a>
