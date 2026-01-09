@@ -27,8 +27,8 @@ export const allFoto = [
   },
   {
     id: '004',
-    title: 'Паамбати Джаянти 2023',
-    description: '14 фотографий с Паамбатиджаянти',
+    title: 'Памбатти Джаянти 2023',
+    description: '14 фотографий с Памбаттиджаянти',
     img: 'https://sun9-21.userapi.com/impg/RfmWlXZox3osgjBeUTY4a_x99MM3hUUpeLdhHQ/iv0YDOEXl2U.jpg?size=1080x1080&quality=95&sign=71a9a3a4083a90cbcf46cb6620d9afec&type=album',
     url: '/gallery/pambattijayanti2023',
   },
@@ -52,6 +52,20 @@ export const allFoto = [
     description: 'Более 100 фотографий с МахаШиваРатри',
     img: 'https://sun9-61.userapi.com/impg/KXPUJ90xdv-xwLMY5TqB0uiSDGIA9waZ1e8-5g/JkOrFH9cFfw.jpg?size=2500x2500&quality=95&sign=65f145b6c073057bd755fd4c2ea5aadf&type=album',
     url: '/gallery/mahashivaratri2023',
+  },
+  {
+    id: '001b',
+    title: 'Наша традиция',
+    description: '6 фотографий',
+    img: 'https://sun9-1.userapi.com/s/v1/ig2/ujAtJs34YEdJg9ugAoX-EETagh4Ur7-6Buj2FfAOEQXSvPpUw0tNDlX65C9XLXAvDxpYflb-kMnn5vl8kgvkMvDx.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0',
+    url: '/gallery/tradition',
+  },
+  {
+    id: '001a',
+    title: 'Гуру Свами Вишнудевананда Гири',
+    description: '6 фотографий',
+    img: 'https://sun9-66.userapi.com/s/v1/ig2/5Z4XDNoPZLlG-s11Vm6Fa_goDe8KPTnjiW06g0hMEr5AJ1YEU1sNqZxwLSCsFcM1i8X13F_vYrjbAu9wZYmGU_bP.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,600x600&from=bu&cs=600x0',
+    url: '/gallery/guru',
   },
 ];
 

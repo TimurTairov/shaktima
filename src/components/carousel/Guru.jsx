@@ -23,10 +23,14 @@ const images = [
     original:
       "https://sun9-62.userapi.com/s/v1/ig2/IDZjSf3c33B_Q_Qz6Z1NKlIvoA5M8iji9GYsW7uONvNdm9biOG7WBzxUz3_eSX7s1dC7BX6oB_U1FEGBF-xC3Nzx.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0",
   },
+  {
+    original:
+      "https://sun9-85.userapi.com/s/v1/ig2/SAaZQXtZzIuTvyAkNNXB0-gf4EV71N1Z6ej5IqCWfkoQR-2aQqIJtEZDdhf8xURMXF4uTK6GGBJPT_diMHjyQEW-.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,600x800&from=bu&cs=600x0",
+  },
 ];
 
-const Guru = () => {
+const GuruImageGallery = () => {
   return <ImageGallery items={images} {...settings} class="w-full" />;
 };
 
-export default Guru;
+export default GuruImageGallery;

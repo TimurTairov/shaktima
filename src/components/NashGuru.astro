@@ -13,11 +13,19 @@ import guru from "../assets/tradition/guru.jpg";
 
   <div class="flex w-full flex-wrap items-center lg:w-5/12">
     <div class="flex h-full flex-col justify-between">
-      <h3
-        class="textColor mt-3 max-w-2xl text-3xl leading-snug font-semibold tracking-tight text-gray-700 lg:text-4xl lg:leading-tight dark:text-amber-600"
-      >
-        Наш Учитель
-      </h3>
+      <div class="flex items-center gap-2">
+        <h3
+          class="textColor mt-3 max-w-2xl text-3xl leading-snug font-semibold tracking-tight text-gray-700 lg:text-4xl lg:leading-tight dark:text-amber-600"
+        >
+          Наш Учитель
+        </h3>
+        <a href="/gallery/guru">
+          <Icon
+            name="mdi:vector-link"
+            class="size-6 text-indigo-700 lg:size-7 dark:text-amber-400"
+          />
+        </a>
+      </div>
 
       <div
         class="max-w-2xl text-sm leading-normal font-light text-gray-700 sm:text-base md:text-lg lg:text-xl xl:text-xl dark:text-amber-100"
@@ -96,6 +104,7 @@ import guru from "../assets/tradition/guru.jpg";
           </div>
         </div>
       </div>
+
       <div class="mt-8 flex items-start space-x-3">
         <div
           class="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-red-500 dark:bg-amber-700"
