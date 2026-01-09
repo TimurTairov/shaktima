@@ -2,17 +2,13 @@
 import Guru from "./carousel/Guru";
 import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
+import guru from "../assets/tradition/guru.jpg";
 ---
 
 <div class="mb-20 flex w-full flex-wrap gap-5 lg:flex-nowrap">
   <div class="flex w-full items-center justify-start lg:w-1/2">
     <!-- <Guru client:visible /> -->
-    <Image
-      src="https://sun9-77.userapi.com/impg/_IZhohXV7KqKcBEhXnVGj4jxLYRaLJe6sVlLsA/NXIKBj5V2l8.jpg?size=600x800&quality=95&sign=83c801386e1148bf077bf362396c02e3&type=album"
-      alt="Гуру"
-      inferSize={true}
-      class="rounded-md"
-    />
+    <Image src={guru} alt="Гуру" format="webp" class="rounded-md" />
   </div>
 
   <div class="flex w-full flex-wrap items-center lg:w-5/12">

@@ -1,0 +1,48 @@
+---
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/starwind/carousel";
+import { Image } from "astro:assets";
+import mdc1 from "../assets/mdc/1.jpg";
+import mdc2 from "../assets/mdc/2.jpg";
+import mdc3 from "../assets/mdc/3.jpg";
+import mdc4 from "../assets/mdc/4.jpg";
+import mdc5 from "../assets/mdc/5.jpg";
+import mdc6 from "../assets/mdc/6.jpg";
+import mdc7 from "../assets/mdc/7.jpg";
+---
+
+<Carousel
+  opts={{ align: "start", loop: true, duration: 50 }}
+  class="mx-auto w-full"
+>
+  <CarouselContent>
+    <CarouselItem>
+      <Image src={mdc1} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc2} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc3} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc4} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc5} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc6} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+    <CarouselItem>
+      <Image src={mdc7} alt="МДЦ ШактиМа" format="webp" class="rounded-md" />
+    </CarouselItem>
+  </CarouselContent>
+  <CarouselPrevious />
+  <CarouselNext />
+</Carousel>

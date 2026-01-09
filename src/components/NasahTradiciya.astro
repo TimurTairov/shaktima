@@ -2,16 +2,12 @@
 import Tradiciya from "./carousel/Tradiciya";
 import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
+import parampara from "../assets/tradition/parampara.jpg";
 ---
 
 <div class="mb-20 flex flex-wrap justify-between gap-5 lg:flex-nowrap">
   <div class="flex w-full justify-end lg:order-1 lg:w-1/2">
-    <Image
-      src="https://sun9-1.userapi.com/impg/SN4kGJ1YeTxUg9Nt3YFNQQ7CAOD_c2YNcjMLGQ/f6dWujT9Qh8.jpg?size=600x800&quality=95&sign=0e07fc80eb743d66280d70835e79bf14&type=album"
-      alt="Традиция"
-      inferSize
-      class="rounded-md"
-    />
+    <Image src={parampara} alt="Традиция" class="rounded-md" />
     <!-- <Tradiciya client:visible /> -->
   </div>
 
