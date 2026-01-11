@@ -131,22 +131,22 @@ ol li {
 
 /*! GRID CALENDAR */
 .grid-item-dn {
-  @apply flex flex-col items-center justify-center gap-1 rounded-lg bg-red-300 p-1 text-xs font-light text-red-800 md:text-sm lg:flex-row lg:text-base xl:text-lg;
+  @apply flex flex-col items-center justify-center gap-1 rounded-md bg-red-300 p-1 text-xs font-light text-red-800 md:text-sm lg:flex-row lg:text-base xl:text-lg;
 }
 .grid-item {
-  @apply flex flex-col justify-between rounded-lg bg-red-100 p-1 text-center;
+  @apply flex flex-col justify-between rounded-md bg-red-100 p-1 text-center;
 }
 .grid-item-2 {
-  @apply flex h-20 flex-col justify-between rounded-lg bg-red-100 p-1 text-center;
+  @apply flex h-20 flex-col justify-between rounded-md bg-red-100 p-1 text-center;
 }
 .grid-item-rasp {
-  @apply flex flex-col items-center justify-center gap-1 rounded-lg p-1 text-[0.4rem] md:text-xs;
+  @apply flex flex-col items-center justify-center gap-1 rounded-md p-1 text-[0.4rem] md:text-xs;
 }
 .grid-item-rasp-2 {
-  @apply row-span-4 flex max-w-60 flex-col items-center justify-center gap-1 rounded-lg p-1 text-[0.4rem] md:text-xs;
+  @apply row-span-4 flex max-w-60 flex-col items-center justify-center gap-1 rounded-md p-1 text-[0.4rem] md:text-xs;
 }
 .grid-item-time {
-  @apply flex items-center rounded-lg bg-red-300 p-1 text-[0.4rem] font-bold text-indigo-800 sm:text-xs md:text-sm lg:text-base xl:text-lg;
+  @apply flex items-center rounded-lg bg-red-300 p-1 text-[0.3rem] font-bold text-indigo-800 sm:text-xs md:text-sm lg:text-base xl:text-lg;
 }
 .grid-item-none {
   @apply flex rounded-lg bg-red-50 p-1 text-center text-xs;
