@@ -4,6 +4,7 @@ import "../styles/global.css";
 import "@/styles/starwind.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import YandexMetrika from "@/components/YandexMetrika.astro";
 interface Props {
   title: string;
   desc?: string;
@@ -26,6 +27,7 @@ const {
     <title>{title}</title>
   </head>
   <body class="bg-gray-50 dark:bg-slate-700">
+    <YandexMetrika />
     <Header />
     <main class="p-1">
       <slot />
