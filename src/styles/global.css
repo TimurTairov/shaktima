@@ -131,7 +131,7 @@ ol li {
 
 /*! GRID CALENDAR */
 .grid-item-dn {
-  @apply flex flex-col items-center justify-center gap-1 rounded-md bg-red-300 p-1 text-xs font-light text-red-800 md:text-sm lg:flex-row lg:text-base xl:text-lg;
+  @apply flex flex-col items-center justify-center gap-1 rounded-md bg-red-300 p-1 text-[0.5rem] font-light text-red-800 sm:text-xs md:text-sm lg:flex-row lg:text-base xl:text-lg;
 }
 .grid-item {
   @apply flex flex-col justify-between rounded-md bg-red-100 p-1 text-center;
@@ -155,7 +155,7 @@ ol li {
   @apply w-full text-end text-xs font-bold text-indigo-800 md:text-sm lg:text-base;
 }
 .grid-meditation {
-  @apply hidden rounded-md bg-indigo-200 px-1 text-[0.4rem] text-indigo-800 2xl:text-xs;
+  @apply hidden rounded-md bg-indigo-200 px-1 text-[0.45rem] text-indigo-800 2xl:text-xs;
 }
 .grid-meditation-mobile {
   @apply block size-6 rounded-md border border-indigo-200 bg-indigo-100 object-cover text-sm text-indigo-800 md:size-7 lg:size-8 xl:size-10;
