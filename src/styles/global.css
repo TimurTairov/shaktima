@@ -131,7 +131,7 @@ ol li {
 
 /*! GRID CALENDAR */
 .grid-item-dn {
-  @apply flex flex-col items-center justify-center gap-1 rounded-md bg-red-300 p-1 text-[0.5rem] font-light text-red-800 sm:text-xs md:text-sm lg:flex-row lg:text-base xl:text-lg;
+  @apply flex flex-col items-center justify-center gap-1 rounded-md bg-red-300 p-1 text-[0.5rem] font-light text-red-800 sm:text-xs md:text-sm lg:flex-row lg:text-base;
 }
 .grid-item {
   @apply flex flex-col justify-between rounded-md bg-red-100 p-1 text-center;
