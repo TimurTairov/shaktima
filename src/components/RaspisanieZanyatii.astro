@@ -1,3 +1,12 @@
+---
+import { Image } from "astro:assets";
+import tirthadeva from "../assets/yoga-teachers/tirthadeva-96.webp";
+import arati from "../assets/yoga-teachers/arati.jpg";
+import tarini from "../assets/yoga-teachers/tarini.jpg";
+import lalitasundari from "../assets/yoga-teachers/lalitasundari.jpg";
+import { Icon } from "astro-icon/components";
+---
+
 <h1 class="mainTitle">Расписание занятий</h1>
 
 <div class="mt-2 flex w-full justify-center md:mt-5 lg:mt-10 dark:text-black">
@@ -158,7 +167,11 @@
     <!-- Пятница -->
     <div class="grid-item-rasp">...</div>
     <!-- Суббота -->
-    <div class="grid-item-rasp">...</div>
+    <div class="grid-item-rasp bg-blue-100">
+      <p class="w-full text-center">15:30 - 16:30</p>
+      <b class="w-full text-center">Медитация 4БСБ</b>
+      <b class="w-full text-center font-light">Лалитасундари</b>
+    </div>
     <!-- Воскресение -->
     <div class="grid-item-rasp">...</div>
 
@@ -249,15 +262,19 @@
 </h3>
 
 <div class="flex flex-col gap-2">
-  <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+  <div
+    class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+  >
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
-      <button class="flex w-full items-center gap-1 rounded-md">
-        <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Image src={tirthadeva} alt="" class="rounded-full" />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Тиртхадева
-        </span>
-      </button>
+        </p>
+      </div>
+      <div class="flex w-full items-center gap-1 rounded-md"></div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
@@ -292,11 +309,12 @@
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
-      <button class="flex w-full items-center gap-1 rounded-md">
-        <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Image src={arati} alt="" class="rounded-full" />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Арати
-        </span>
-      </button>
+        </p>
+      </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
@@ -327,11 +345,12 @@
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
-      <button class="flex w-full items-center gap-1 rounded-md">
-        <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Image src={tarini} alt="" class="rounded-full" />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Тарини
-        </span>
-      </button>
+        </p>
+      </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
@@ -363,11 +382,12 @@
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
-      <button class="flex w-full items-center gap-1 rounded-md">
-        <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Icon name="mdi:mother-heart" class="size-24 rounded-full border" />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Мадхаваприя
-        </span>
-      </button>
+        </p>
+      </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
@@ -398,11 +418,55 @@
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Image src={lalitasundari} alt="" class="rounded-full" />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
+          Лалитасундари
+        </p>
+      </div>
       <button class="flex w-full items-center gap-1 rounded-md">
         <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
-          Запись на сутру
         </span>
       </button>
+      <div class="w-full dark:text-amber-100">
+        <div class="flex flex-col gap-1">
+          <p class="mt-1">Расписание:</p>
+          <p class="font-light">Сб 15:30 Медитация 4БСБ</p>
+        </div>
+        <div class="mt-1 flex gap-1">
+          <p class="">Контакты:</p>
+          <a
+            href="whatsapp://send?phone=79637239294"
+            target="_blank"
+            rel="noreferrer"
+            class="text-indigo-700 hover:underline dark:text-amber-400"
+          >
+            whatsapp
+          </a>
+          <a
+            href="https://t.me/lido108"
+            target="_blank"
+            rel="noreferrer"
+            class="text-indigo-700 hover:underline dark:text-amber-400"
+          >
+            telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
+    >
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Icon
+          name="mdi:account-box-plus-outline"
+          class="size-24 rounded-full border p-3"
+        />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
+          Запись на сутру
+        </p>
+      </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
@@ -435,11 +499,15 @@
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
-      <button class="flex w-full items-center gap-1 rounded-md">
-        <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
+      <div class="my-2 flex w-full flex-col items-center justify-center">
+        <Icon
+          name="mdi:account-box-plus-outline"
+          class="size-24 rounded-full border p-3"
+        />
+        <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Запись на Бхаджан Мандалу
-        </span>
-      </button>
+        </p>
+      </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
