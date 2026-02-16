@@ -14,37 +14,37 @@ import { Icon } from "astro-icon/components";
     <div class="grid-item-dn">
       <p class="hidden md:block">Понедельник</p>
       <p class="block md:hidden">Пн</p>
-      <p>09.02</p>
+      <p>16.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Вторник</p>
       <p class="block md:hidden">Вт</p>
-      <p>10.02</p>
+      <p>17.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Среда</p>
       <p class="block md:hidden">Ср</p>
-      <p>11.02</p>
+      <p>18.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Четверг</p>
       <p class="block md:hidden">Чт</p>
-      <p>12.02</p>
+      <p>19.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Пятница</p>
       <p class="block md:hidden">Пт</p>
-      <p>13.02</p>
+      <p>20.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Суббота</p>
       <p class="block md:hidden">Сб</p>
-      <p>14.02</p>
+      <p>21.02</p>
     </div>
     <div class="grid-item-dn">
       <p class="hidden md:block">Воскресение</p>
       <p class="block md:hidden">Вс</p>
-      <p>15.02</p>
+      <p>22.02</p>
     </div>
 
     <!--! 1  -->
@@ -58,10 +58,10 @@ import { Icon } from "astro-icon/components";
     <div class="grid-item-rasp"></div>
     <!-- Среда -->
     <div class="grid-item-rasp bg-green-100">
-      <!-- <p class="w-full text-center">9:00 - 10:30</p>
+      <p class="w-full text-center">9:00 - 10:30</p>
       <b class="w-full text-center">Хатха йога</b>
-      <p class="w-full text-center font-light">Тиртхадева</p> -->
-      <p class="w-full text-center text-red-600">Отмена занятия</p>
+      <p class="w-full text-center font-light">Тиртхадева</p>
+      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp"></div>
@@ -88,10 +88,10 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Среда -->
     <div class="grid-item-rasp bg-blue-100">
-      <!-- <p class="w-full text-center">10:30 - 12:00</p>
+      <p class="w-full text-center">10:30 - 12:00</p>
       <b class="w-full text-center">Кундалини йога</b>
-      <p class="w-full text-center font-light">Тиртхадева</p> -->
-      <p class="w-full text-center text-red-600">Отмена занятия</p>
+      <p class="w-full text-center font-light">Тиртхадева</p>
+      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp bg-blue-100">
@@ -108,7 +108,11 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Суббота -->
-    <div class="grid-item-rasp bg-fuchsia-200"></div>
+    <div class="grid-item-rasp bg-fuchsia-200">
+      <p class="w-full text-center">10:00 - 15:00</p>
+      <b class="w-full text-center">Семинар по базовой концентрации</b>
+      <p class="w-full text-center font-light">Мадхаваприя</p>
+    </div>
     <!-- Воскресение -->
     <div class="grid-item-rasp"></div>
 
@@ -129,10 +133,10 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Среда -->
     <div class="grid-item-rasp bg-amber-100">
-      <!-- <p class="w-full text-center">12:00 - 13:00</p>
+      <p class="w-full text-center">12:00 - 13:00</p>
       <b class="w-full text-center">Сутра</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p> -->
-      <p class="w-full text-center text-red-600">Отмена занятия</p>
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
+      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp bg-amber-100">
@@ -170,9 +174,9 @@ import { Icon } from "astro-icon/components";
     <div class="grid-item-rasp">...</div>
     <!-- Суббота -->
     <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">16:00 - 17:00</p>
+      <!-- <p class="w-full text-center">16:00 - 17:00</p>
       <b class="w-full text-center">Медитация 4БСБ</b>
-      <b class="w-full text-center font-light">Лалитасундари</b>
+      <b class="w-full text-center font-light">Лалитасундари</b> -->
     </div>
     <!-- Воскресение -->
     <div class="grid-item-rasp">...</div>
@@ -394,6 +398,19 @@ import { Icon } from "astro-icon/components";
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
           <p class="font-light">Пт 10:00 Йога сиддхов</p>
+
+          <p class="font-light">
+            Сб 10:00 - 15:00
+
+            <a
+              href="/#dharana"
+              class="font-light text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Семинар ретрит по базовой концентрации
+            </a>
+
+            (21.02.2026)
+          </p>
         </div>
         <div class="mt-1 flex gap-1">
           <p class="">Контакты:</p>

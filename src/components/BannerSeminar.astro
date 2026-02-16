@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import bannerYoga from "../assets/banners/seminar.jpg";
+---
+
+<div
+  id="dharana"
+  class="flex w-full flex-col gap-10 font-light text-gray-700 lg:gap-20 dark:text-gray-300"
+>
+  <div class="flex w-full flex-col justify-between gap-5 lg:flex-row">
+    <a
+      href="https://t.me/mdc_ShaktiMa/4131"
+      target="_blank"
+      rel="noreferrer"
+      class="lg:w-6/12"
+    >
+      <Image
+        src={bannerYoga}
+        alt="Йога в ШактиМа"
+        class="w-full rounded-xl shadow-md"
+      />
+    </a>
+    <div
+      class="flex w-full flex-col justify-between text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
+    >
+      <p
+        class="w-full text-center text-xl font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
+      >
+        Семинар ретрит по базовой концентрации
+      </p>
+
+      <p class="text-sm md:text-base">• Проводит карма-санньяси Мадхаваприя</p>
+      <p class="text-sm md:text-base">• 21 февраля с 10:00 до 15:00</p>
+      <p class="text-sm md:text-base">• 4000 рублей</p>
+      <p class="text-sm md:text-base">• Центр йоги ШактиМа</p>
+      <p class="text-sm md:text-base">• Запись по телефону: +79852597978</p>
+    </div>
+  </div>
+</div>
