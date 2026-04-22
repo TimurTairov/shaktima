@@ -3,11 +3,11 @@ import MyAccordion from './MyAccordion'
 const ShivaAshtottaraShataNamavali = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
-      <MyAccordion id='ShivaAshtottaraShataNamavali' title='Шива-аштоттара-шата-намавали' big className='max-w-xl'>
+      <MyAccordion id='ShivaAshtottaraShataNamavali' title='108 имен господа Шивы' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
-            108 имен господа Шивы
+          <h2 className="mb-2 mt-5 text-xl md:text-2xl w-4xl">
+            Шива аштоттара шата намавали
           </h2>
 
           <div className="w-full flex flex-wrap items-center justify-center py-5">
@@ -83,7 +83,7 @@ const ShivaAshtottaraShataNamavali = () => {
               <b>25. Ом Камарае намаха</b> – Ом Врагу Камы, бога любви, поклонение
             </p>
             <p>
-              <b>6. Ом Андакасурасуданая намаха</b>2 – Ом Убийце демона Андхаки поклонение
+              <b>26. Ом Андакасурасуданая намаха</b>2 – Ом Убийце демона Андхаки поклонение
             </p>
             <p>
               <b>27. Ом Гангадхарая намаха</b> – Ом Держащему Гангу поклонение
@@ -194,8 +194,8 @@ const ShivaAshtottaraShataNamavali = () => {
               <b>59. Ом Дурдхаршая намаха</b> – Ом Недоступному поклонение
             </p>
             <p>
+              <b>60. Ом ГирИшая намаха</b> – Ом Повелителю гор поклонение
             </p>
-            <b>60. Ом ГирИшая намаха</b> – Ом Повелителю гор поклонение
           </div>
 
           <div className='mt-2'>
@@ -241,7 +241,9 @@ const ShivaAshtottaraShataNamavali = () => {
             <p>
               <b>73. Ом Джагадрупинэ намаха</b> – Ом Тому, кто проявляется через вселенную, поклонение
             </p>
-            <b>74. Ом Джагадгуравэ намаха</b> – Ом Учителю мира поклонение
+            <p>
+              <b>74. Ом Джагадгуравэ намаха</b> – Ом Учителю мира поклонение
+            </p>
             <p>
               <b>75. Ом Вьёмакешая намаха</b> – Ом Тому, чьи волосы – небо, поклонение
             </p>

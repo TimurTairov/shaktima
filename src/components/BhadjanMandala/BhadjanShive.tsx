@@ -7,24 +7,56 @@ const BhadjanShive = () => {
         <div className="w-full flex flex-col gap-5 font-light">
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
-            Шива Самба Сада (или другой)
+            Шива Самба Сада (или любой другой)
           </h2>
 
-          <div className="w-full flex flex-wrap items-center justify-center py-5">
+          <div className="w-full flex flex-wrap items-center justify-center">
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/Bhadjans/Shiva samba sada.mp3"
+              src="/sounds/ShivaBhadjans/Shiva samba sada.mp3"
               className="w-full"
             ></audio>
           </div>
 
-          <p className="font-medium">
-            Шива самба садашива ом<br />
-            Шамбхо шанкара шива ом<br />
-            Шива ом Шива ом
-          </p>
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Шива Шамбху
+          </h2>
 
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Div'ya Loka - SHiva SHambhu.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Ом Намах Шивайя
+          </h2>
+
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Ом Намах Шивайя.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Сатьям Шивам Сундарам (Sat sound)
+          </h2>
+
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Сатьям Шивам Сундарам 2017 10 25бх Sat sound.mp3"
+              className="w-full"
+            ></audio>
+          </div>
 
         </div>
       </MyAccordion>

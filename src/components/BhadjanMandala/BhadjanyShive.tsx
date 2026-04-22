@@ -5,13 +5,21 @@ const BhadjanyShive = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyShive' title='Бхаджаны Шиве' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
-          <a href='https://t.me/jkjlkjscksj/13/1114' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
+          {/* <a href='https://t.me/jkjlkjscksj/13/1114' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
             Аудио файлы бхаджанов Шиве
-          </a>
+          </a> */}
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
+          <h2 className="mb-2 mt-5 text-xl md:text-2xl w-full">
             1. ОМ НАМАХ ШИВАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Ом Намах Шивая - Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ХАРИ ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
@@ -28,6 +36,14 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ШИВА ОМ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Шива Ом.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШИВА ШИВА ШИВА… ШИВА ОМ ШИВА ОМ<br />
             ХАРЕ ХАРЕ ХАРЕ …ХАРЕ ОМ ХАРЕ ОМ<br />
@@ -41,6 +57,16 @@ const BhadjanyShive = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ
           </h2>
+
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Ом_Намах_Шивая_Ом_Намах_Шивая_Дивья_Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+
           <p className="font-medium">
             ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЯ<br />
             ШИВАЯ НАМО ОМ ШИВАЯ НАМО ОМ<br />
@@ -58,70 +84,18 @@ const BhadjanyShive = () => {
             В Тебе - Владыке всего Сущего я принимаю Прибежище!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            4. ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </h2>
-          <p className="font-medium">
-            ОМ НАМАХ ШИВАЯ ОМ НАМАХ ШИВАЙ<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом, Приветствия Господу Шиве, которого также называют Харой!
-            Приветствия Харе, разрушителю того, что должно быть разрушено.
-          </p>
-          <p className="font-medium">
-            ОМ РАМЕШВАРА ШИВА РАМЕШВАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Рамешваре, владыке Шри Рамы! Приветствия Ему,
-            кто проявил себя как джьотирлингам в святом городе Рамешваре.
-          </p>
-          <p className="font-medium">
-            ОМ ГАНГА ДХАРА ШИВА ГАНГА ДХАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Шиве, с чьей головы струится поток Ганги!
-          </p> <p className="font-medium">
-            ОМ ДЖАТА ДХАРА ШИВА ДЖАТА ДХАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Джатадхаре, Богу со спутанными волосами!
-            Приветствия величайшему мудрецу всех времен!
-          </p>
-          <p className="font-medium">
-            ОМ СОМЕШВАРА ШИВА СОМЕШВАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Сомешваре, Господу, который несет Сому - Луну на
-            себе! Приветствую Его, кто заботится о своих преданных и
-            спасает своего преданного, помещая его на голову. Приветствия
-            Ему, кто проявил себя как джьотирлингам в святом городе Сомнатх.
-          </p> <p className="font-medium">
-            ОМ ВИШВЕШВАРА ШИВА ВИШВЕШВАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Вишвешваре, тому, кто является Господом всего
-            мира! Приветствия Ему, проявившему себя как Вишванатх -
-            джьотирлингам в святом городе Каши.
-          </p>
-          <p className="font-medium">
-            МАХАКАЛЕШВАРА МАХАВАЛЕШВАРА<br />
-            ХАРА ХАРА БОЛЕ НАМАХ ШИВАЙ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Приветствия Махакалешваре! Шиве, у которого нет ни начала, ни
-            конца! Приветствия Ему, кто проявил себя как джьотирлингам в
-            святом городе Удджайн.
-          </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            5. ШИВА ШИВА ШИВА ШАМБХО
+            4. ШИВА ШИВА ШАМБХО
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Шива_Шива_Шива_Шамбхо_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШИВА ШИВА ШАМБХО ШАНКАРА<br />
             ХАРА ХАРА ХАРА МАХАДЕВА<br />
@@ -135,76 +109,16 @@ const BhadjanyShive = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            6. ШИВА ШАНКАРА
+            5. ХАРА ХАРА ХАРА МАХАДЕВА
           </h2>
-          <p className="font-medium">
-            ШИВА ШИВА ШАНКАРАЯ ШИВА<br />
-            ШИВА ШИВА ШАНКАРА<br />
-            ШИВА ОМ НАМАХ ШИВАЯ ШИВА ОМ<br />
-            ШИВА ОМ ХАРА ОМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Господь Шива, о, приносящий благо! Я склоняюсь пред тобой, о
-            Благой Господь! Всегда обитающему в лотосе моего сердца Шиве
-            – Шанкаре я поклоняюсь.
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            7. ШИВА ШИВА ШИВА ШАМБХО
-          </h2>
-          <p className="font-medium">
-            ШИВА ШИВА ШИВА ШАМБХО<br />
-            ШИВА ШИВА ШИВА ШАМБХО<br />
-            МАХАДЭВА ШАМБХО<br />
-            МАХАДЭВА ШАМБХО<br />
-            АДИДЭВА ШАМБХО<br />
-            АДИДЭВА ШАМБХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Великий Бог, Всеблагой Шива! Милость Твоя безгранична!
-            О Шамбху, обитель мира! В славе Тебе, о Изначальный, нет равных!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            8. ДЖАЯ ШИВА ШАНКАРА БОМ БОМ ХАРЕ ХАРЕ
-          </h2>
-          <p className="font-medium">
-            ДЖАЯ ШИВА ШАНКАРА<br />
-            БОМ БОМ ХАРЕ ХАРЕ<br />
-            ХАРЕ ХАРЕ ХАРЕ ХАРЕ<br />
-            БОМ БОМ ХАРЕ ХАРЕ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Слава Шиве, всеблагому Шанкаре! Звук «Воом, Воом» - раздается,
-            когда Шива танцует танец Тандава. Поклонение Великому!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            9. ХАРА МАХАДЕВ
-          </h2>
-          <p className="font-medium">
-            ХАРА ХАРА ХАРА МАХАДЕВ<br />
-            ДЖАЯ ХАРА ХАРА ХАРА МАХАДЕВ<br />
-            БРАХМА ВИШНУ САДАШИВА<br />
-            ХАРА ХАРА ХАРА МАХАДЕВ<br />
-            ДЖАЯ ХАРА ХАРА ХАРА МАХАДЕВ<br />
-            ДЖАЯ ШИВА ОМКАРА<br />
-            ДЖАЯ ХАРА ШИВА ОМКАРА<br />
-            БРАХМА ВИШНУ САДАШИВА<br />
-            ХАРА ХАРА ХАРА МАХАДЕВ<br />
-            ДЖАЯ ХАРА ХАРА ХАРА МАХАДЕВ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Воспоем славу господу Шиве, Повелителю мира, переправляющему
-            через океан сансары, Верховному Владыке, воплощению
-            божественного звука Ом! О Величайший из Богов! Ты Хара,
-            устраняющий грехи! Ты и Брахма и Вишну и Садашива,
-            Вечно благой! Ты источник вечного блаженства!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            10. ХАРА ХАРА ХАРА МАХАДЕВА
-          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/hare_hare_hare_mahadev.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ХАРА ХАРА ХАРА МАХАДЕВА<br />
             ТРИШУЛА ДАМАРУ ДХАРИ<br />
@@ -229,48 +143,19 @@ const BhadjanyShive = () => {
             трехокий танцор! Я ищу прибежища у Твоих стоп!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            11.ХАРА ХАРА ШАНКАРА ПАРАМЕШВАРА
-          </h2>
-          <p className="font-medium">
-            ХАРА ХАРА ШАНКАРА<br />
-            ПАРАБРАХМА ПАРАМЕШВАРА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Поклонение изначальному Владыке, Всеблагому Источнику
-            всего сущего!
-          </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            12. ДЖАЯ ДЖАЯ ШАНКАРА
+            6. ШИВА МАХЕШВАРА ГУРУДЕВ
           </h2>
-          <p className="font-medium">
-            ДЖАЯ ДЖАЯ ШАНКАРА<br />
-            ХАРА ХАРА ШАНКАРА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Слава Господу Шиве, благому Шанкаре,
-            разрушающему невежество!
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            13. ШИВА САМБА САДА
-          </h2>
-          <p className="font-medium">
-            ШИВА САМБАСАДА ШИВА ОМ<br />
-            ШАМБХО ШАНКАРА ШИВА ОМ<br />
-            ШИВА ОМ ШИВА ОМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь Шива, всегда благосклонный, причина истинного
-            счастья! Возле Тебя - богиня Амбика. Ты – Шанкара,
-            благословляющий преданного святыми дарами!
-            Ты – Шамбху, источник всего благоприятного!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            14. ШИВА МАХЕШВАРА ГУРУДЕВ
-          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center py-5">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Шива_Махешвара_Гурудев_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШИВА МАХЕШВАРА ШИВА МАХЕШВАРА<br />
             ШИВА МАХЕШВАРА ГУРУДЕВ<br />
@@ -292,375 +177,59 @@ const BhadjanyShive = () => {
             миров! Ом! Поклонение Всеблагому!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            15. НАТАРАДЖА
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Шива Самба Сада (или другой)
           </h2>
-          <p className="font-medium">
-            НАТАРАДЖА НАТАРАДЖА<br />
-            НАРТАНА СУНДАРА НАТАРАДЖА<br />
-            ШИВАРАДЖА ШИВАРАДЖА<br />
-            ШИВА КАМИПРИЯ ШИВАРАДЖА<br />
-            ЧЕДАМ БАРЕША НАТАРАДЖА<br />
-            ПАРТИ ПУРИША ШИВАРАДЖА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Властелин танца, танцует прекрасный Господь Шива!
-            Возлюбленный Своей небесной супруги, о Повелитель Чидамбарама!
-            О Властитель вселенной, да обретем мы в Тебе защиту!
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            16. ХАРА-МАХАДЕВА
-          </h2>
-          <p className="font-medium">
-            ХАРА ХАРА ХАРА ХАРА МАХАДЕВА<br />
-            ШИВА ШИВА ШИВА ШИВА САДАШИВА<br />
-            ОМ НАМО НАМО НАМАХ ШИВАЯ<br />
-            БРАХМА ВИШНУ СУРАРЧИТАЯ<br />
-            ОМ НАМО НАМО НАМАХ ШИВАЯ<br />
-            УМА ГАНЕША ЩАРАВАНА СЕВИТЕ<br />
-            ОМ НАМО НАМО НАМАХ ШИВАЯ<br />
-            ОМ НАМО НАМО НАМАХ ШИВАЯ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Верховный Господь Шива, склоняемся с почтением пред Тобой
-            вновь и вновь! Ты разрушаешь все пороки, освобождая наши сердца
-            для чистоты и божественности! Вечная слава Твоему
-            доброму имени – Садашива! Тебя почитают и Творец Вселенной
-            Брахма и ее Хранитель Вишну! Тебе служат Богиня Ума,
-            Господь Ганеша и Господь Субраманья (Шаравана)!
-            Повторение мантры «Ом Намах Шивайя» дарует нам озарение,
-            умиротворение и вечное блаженство.
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Shiva samba sada.mp3"
+              className="w-full"
+            ></audio>
+          </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            17. ХАРА ХАРА МАХАДЕВА ШАМБО
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Шива Шамбху
           </h2>
-          <p className="font-medium">
-            ХАРА ХАРА МАХАДЕВА ШАМБХО<br />
-            КАШИ ВИШВАНАТХА ГАНГЕ<br />
-            БАМ БАМ МАХАДЕВА ШАМБО<br />
-            КАШИ ВИШВАНАТХА ГАНГЕ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Господь Шива, переправляющий через трудноодолимый океан
-            мирского бытия, Враг Сансары, уничтожающий бедность и
-            несчастья! О, Господь Мира из Каши! Твой барабан стучит «Бам,
-            Бам», Ты – Владыка звука! Поклонение Тебе!
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            18. ЧАНДРА ШЕКХАРАЙЯ
-          </h2>
-          <p className="font-medium">
-            ЧАНДРА ШЕКХАРАЙА НАМО ОМ<br />
-            ГАНГА ДХАРАЙА НАМО ОМ<br />
-            ШИВА ШИВА ШИВАЯ НАМО ОМ<br />
-            ХАРА ХАРА ХАРАЯ НАМО ОМ<br />
-            ШИВА ШИВА ШИВАЯ НАМО ОМ<br />
-            МАХЕШВАРАЙА НАМО ОМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Я склоняюсь перед Господом, голову которого украшает полумесяц!
-            Я склоняюсь перед Господом, удерживающим на голове священную
-            реку Гангу! Поклоны Господу Шиве, поклоны всеблагому! Поклоны Господу Шиве, который разрушает все негативные качества! Я
-            склоняюсь перед Великим Богом!
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Div'ya Loka - SHiva SHambhu.mp3"
+              className="w-full"
+            ></audio>
+          </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            19. СВАРНА МАЛА СТУТИ
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Ом Намах Шивайя
           </h2>
-          <p className="font-medium">
-            ИША ГИРИША НАРЕША ПАРЕША<br />
-            МАХЕША БИЛЕШАЙА БХУШАНА БХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь! Владыка Кайласа, повелитель человечества,
-            высший бог, великий бог, тот, кого украшают змеи.
-          </p>
-          <p className="font-medium">
-            САМБА САДАШИВА ШАМБХО ШАНКАРА<br />
-            ШАРАНАМ МЕ ТАВА ЧАРАНА ЙУГАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Тот, кто находится рядом с богиней Амбикой, всегда благосклонный,
-            причина счастья! Я принимаю прибежище в твоих стопах.
-          </p>
-          <p className="font-medium">
-            УМАЙА ДИВЙА СУМАНГАЛА ВИГРАХА<br />
-            ЙАЛИНГИТА ВАМАНГА ВИБХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Вездесущий! Тот, кого слева обнимает прекрасная
-            богиня Парвати, кто исполнен благоприятности.
-          </p>
-          <p className="font-medium">
-            УРИ КУРУ МАМААГЙАН АНАТАМ<br />
-            ДУРИ КУРУ МЕ ДУРИТАМ БХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь! Ты принимаешь меня, невежественного,
-            беспомощного, и ты забираешь мои грехи.
-          </p>
-          <p className="font-medium">
-            КАРУНА ВАРУНА ЛАЙА МАЙИ ДАСА<br />
-            УДАСА СТАВОЧИТО НА ХИ БХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь, океан сострадания! Ты не можешь быть безразличным
-            ко мне, твоему слуге, не так ли?
-          </p>
-          <p className="font-medium">
-            ДЖАЙА КАИЛАСА НИВАСА ПРАМАТХА ГАНА<br />
-            ДХИША БХОО СУРААРЧИТА БХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь! Тот, кто обитает на горе Кайлас, повелитель
-            Праматхов ганов, тот, кому поклоняются брамины, люди и девы.
-          </p>
-          <p className="font-medium">
-            САТЙАМ ГЙАНАМ АНАНТАМ БРАХМЕ<br />
-            ТЕЙТА ЛАКШАНА ЛАКШИТА БХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Господь! Тот, кто есть Брахман, прославленный
-            своими качествами – Истина-Знание-Бесконечность.
-          </p>
-          <p className="font-medium">
-            ХАХА ХООХОО МУКХА СУРА ГАЙАКА<br />
-            ГИТА ПАДАНА ПАДЙА ВИБХО
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Вездесущий! Тот, о ком поют Хаха и Хуху и другие гандхарвы
-            Девалоки, о чьих героических поступках и благородных деяниях
-            слагают песни.
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            20. ШИВА МАНГАЛАМ
-          </h2>
-          <p className="font-medium">
-            ОМ МАНГАЛАМ ОМКАР МАНГАЛАМ<br />
-            ШИВА МАНГАЛАМ СОМВАР МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            ОМ Благой, Омкар Благой, Шива Благой, благой понедельник.
-          </p>
-          <p className="font-medium">
-            РУПА МАНГАЛАМ ШИВА ШРИНГАРА МАНГАЛАМ<br />
-            БАСМААНГАДХАРИ КАПАРИВАРА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Образ благой возлюбленного Шивы –
-            покрытый пеплом, носящий череп! Во благо!
-          </p>
-          <p className="font-medium">
-            ПАРВАТИ КАЙЛАША КА АДХАРА МАНГАЛАМ<br />
-            ШАМБО МАХАШАКТИ ХЕ САКАРА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Парвати и Кайлаша основание. О Шамбху! Во благо!
-          </p>
-          <p className="font-medium">
-            ДЖАТА МАНГАЛАМ ГАНГАДХАРА МАНГАЛАМ<br />
-            ЧАНДРА МАНГАЛАМ ЧАНДРАКАРА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Джата, Держащий Гангу, Полумесяц! Во благо!
-          </p>
-          <p className="font-medium">
-            РУДРА МАНГАЛАМ РУДРАКША МАНГАЛАМ<br />
-            ЧАТУРБХУДЖИ ШАМБХО КЕШУ БХАТО МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Рудра, рудракша. Во благо! О, четырехрукий Шамбху! Во благо!
-          </p>
-          <p className="font-medium">
-            БХАВА МАНГАЛАМ БХАВА КАРА МАНГАЛАМ<br />
-            НИЛАКАНТА ДХАРИ МАХАКАЛА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Сущий, творящий бытие, Синешеий, Великое Время! Во благо!
-          </p>
-          <p className="font-medium">
-            ТРИШУЛА МАНГАЛАМ ДАМАРУ ВАКЬЯ МАНГАЛАМ<br />
-            ХЕ АНТА МАНГАЛАМ МАДЬЯ АДЬЯ МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Трезубец, звук дамару, Начало, Середина и Конец! Во благо!
-          </p>
-          <p className="font-medium">
-            ХЕ ВАМ АНГА ПАРВАТИ ДЕВИ МАНГАЛАМ<br />
-            ЧАРАНО МЕ ШИВА ГАНХЕ САРЕ СЕВИ МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Богиня Парвати с левой стороны. Во благо!
-          </p>
-          <p className="font-medium">
-            ПУТРА КАРТИКЕЯ ШРИ ПРАТМЕЩА МАНГАЛАМ<br />
-            ДЕВО КИ ДЕВА ХЕ ГАНЕЩА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Сын Картикейя, наилучший господь! Бог богов, Ганеша! Во благо!
-          </p>
-          <p className="font-medium">
-            ДВАДАЩИ ДЖЬОТИРЛИНГА ХЕ ШИВА НАТХА МАНГАЛАМ<br />
-            СОМЕШВАРАНАТХА ВИЩВАНАТХА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Двенадцать лингамов света! О благой Шива!<br />
-            Господь Сомнатха, Господь Вишванатха! Во благо!
-          </p>
-          <p className="font-medium">
-            РАМЕЩВАРА ШАМБХО ХЕ КЕДАР МАНГАЛАМ<br />
-            ГУЩМЕЩВАРА БХИМА ОМКАР МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Повелитель Рамешвара, Кедара, Бхиммы, Омкары! Во благо!
-          </p>
-          <p className="font-medium">
-            МАЛИКАРДЖУН НАГЕЩВАРАНАТХА МАНГАЛАМ<br />
-            МАХАКАЛЕЩВАРА ВЭЙДЬЯНАТХА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Господь Маликаарджуны, Нагешвара,
-            Махакалешвара, Вайдьянатха! Во благо!
-          </p>
-          <p className="font-medium">
-            ТРАЯМБАКЕШВАР ШИВА САНЧАРА МАНГАЛАМ<br />
-            КАНе КАНе МЕ ШАМБХО НИРАКАРА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Трехглазый Владыка Шива! Во благо!
-          </p>
-          <p className="font-medium">
-            ОМ НАМАХШИВАЯ КАУЧАР МАНГАЛАМ<br />
-            МАХАМАНТРА МАХИМА АПАРА МАНГАЛАМ<br />
-            МУКТИ БХУКТИ ДАТТА ШИВА ДВАРА МАНГАЛАМ<br />
-            НАМА НА ВАНДЕ НАСЕ БХАВА ПАРА МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ом намах Шивайя! Великая мантра несравненного величия!
-            Во благо! Дарующий наслаждение и освобожение Шива
-            - врата бога! Во благо!
-          </p>
-          <p className="font-medium">
-            ОМ МАНГАЛАМ ОМКАР МАНГАЛАМ<br />
-            ШИВА МАНГАЛАМ СОМВАР МАНГАЛАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            ОМ Благой, Омкар Благой, Шива Благой, благой понедельник!
-            Благоприяно прославлять Благого Шиву, который является самой
-            пранавой Ом в этот понедельник.
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Ом Намах Шивайя.mp3"
+              className="w-full"
+            ></audio>
+          </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            21. БХОЛЕНАТХ
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+            Сатьям Шивам Сундарам (Sat sound)
           </h2>
-          <p className="font-medium">
-            ДЖАЙА ШИВА ШАНКАРА<br />
-            ДЖАЙА АДИНАТХ<br />
-            ШИВА КАЙЛАСА ВАСА БХОЛЕНАТХ<br />
-            БХОЛЕНАТХ БХОЛЕНАТХ<br />
-            ШИВА КАЙЛАСА ВАСА БХОЛЕНАТХ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Слава Шиве – Благосклонному, дарующему истинное счастье!
-            Слава Изначальному Владыке всего сущего!
-            Слава восседающему на вершине мира, Боленатху - Господу
-            простоты – милосердному, доброму и невинному, невовлеченному в
-            суету мира! Поклонение Шиве!
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            22. ХЕ ШИВА ШАНКАРА
-          </h2>
-          <p className="font-medium">
-            ХЕ ШИВА ШАНКАРА ХЕ МАХЕШВАРА<br />
-            ДУКХА ХАРА СУКХА КАРА ХАРА ХАРА ШАНКАРА<br />
-            ОМ НАМАХ ШИВАЯ<br />
-            ХАРИ ОМ НАМАХ ШИВАЯ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Шива! О Шанкара! О Великий Господь! О Дарующий счастье,
-            уничтожающий страдания! О, Шива, Всевышний Бог!
-            Да избавимся мы от страданий! Да обретем мы истинное счастье!
-            Преданно склоняемся пред Тобой!
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShivaBhadjans/Сатьям Шивам Сундарам 2017 10 25бх Sat sound.mp3"
+              className="w-full"
+            ></audio>
+          </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            23. ШИВА ПАНЧАКШАРА МАНТРА СТОТРА
-          </h2>
-          <p className="font-medium">
-            НАГЕНДРА ХАРАЙА ТРИЛОЧАНАЙА<br />
-            БХАСМАНГА РАГАЙА МАХЕШВАРАЙА<br />
-            НИТЬЙАЙА ШУДДХАЙА ДИГАМБАРАЙА<br />
-            ТАСМАИ НА КАРАЙА НАМАХ ШИВАЙА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Нагов царя как гирлянду Носящему, Трёхокому, обмазанному
-            пеплом по всему телу, Великому Господу, Вечному, Пречистому,
-            Облачённому в стороны света - Тому, творящему
-            слог "На" Шиве - поклонение.
-          </p>
-          <p className="font-medium">
-            МАНДАКИНИ САЛИЛА ЧАНДАНА ЧАРЧИТАЙА<br />
-            НАНДЕШВАРА ПРАМАТХА НАТХА МАХЕШВАРАЙА<br />
-            МАНДАРА ПУШПА БАХУПУШПА СУПУДЖИТАЙА<br />
-            ТАСМАИ МА КАРАЙА НАМАХ ШИВАЙА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Текущей Ганги водою и сандаловой пастой умащённому, Господину
-            Нанди, Повелителю духов, Великому Властителю, Цветами
-            мандары и множеством цветов Почитаемому - Тому,
-            творящему слог "Ма" Шиве - поклонение.
-          </p>
-          <p className="font-medium">
-            ШИВАЙА ГАУРИ ВАДАНАБДЖАВРИНДА<br />
-            СУРЙАЙА ДАКША ДВАРА НАШАКАЙА<br />
-            ШРИ НИЛАКАНТХАЙА ВРИША ДХВАДЖАЙА<br />
-            ТАСМАИ ШИ КАРАЙА НАМАХ ШИВАЙА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Шиве - благому, Освещающему светом множества солнц лотосное
-            лицо Гаури, Разгромившему жертвоприношение Дакши,
-            Священносинешеему, Быкознамённому - Тому,
-            творящему слог "Ши" Шиве - поклонение.
-          </p>
-          <p className="font-medium">
-            ВАСИШТХА КУМБХОДБХАВА ГАУТАМАРЙА<br />
-            МУНИНДРА ДЕВАРЧИТА ШЕКХАРАЙА<br />
-            ЧАНДРАРКА ВИШВАНАРА ЛОЧАНАЙА<br />
-            ТАСМАИ ВА КАРАЙА НАМАХ ШИВАЙА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Васиштхой, Кувшиннорожденным (Агастьей), Гаутамой,
-            благородными мудрецами, царями и богами почитаемому Линге,
-            Лунно-солнечно-огненноокому - Тому, творящему
-            слог "Ва" Шиве - поклонение.
-          </p>
-          <p className="font-medium">
-            ЙАГНА СВАРУПАЙА ДЖАТАДХАРАЙА<br />
-            ПИНАКА ХАСТАЙА САНАТАНАЙА<br />
-            ДИВЙАЙА ДЕВАЙА ДИГАМБАРАЙА<br />
-            ТАСМАИ ЙА КАРАЙА НАМАХ ШИВАЙА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Йакши форму принимающему, Носящему джату, держащему
-            Пинаку, Извечному, Божественному, Богу, Обнажённому - Тому,
-            творящему слог "Йа" Шиве - поклонение.
-          </p>
-          <p className="font-medium">
-            ПАНЧАКШАРАМИДАМ ПУНЬЯМ<br />
-            ЙАХ ПАТХЕЧЧИВА САННИДХАУ<br />
-            ШИВАЛОКАМАВАПНОТИ<br />
-            ШИВЕНА САХА МОДАТЕ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Читающий эту священную "Панчакшара стотру" в присутствии
-            Шивы достигнет обители Шивы
-            и пребудет в вечном блаженстве с Шивой.
-          </p>
+
         </div>
       </MyAccordion>
     </div >

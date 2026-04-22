@@ -19,9 +19,9 @@ const ShadaksharaMantra = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <div className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl ">
             Перед начитыванием - мантра освящения четок; после - мантра посвящения плода мантры
-          </h2>
+          </div>
 
         </div>
       </MyAccordion>

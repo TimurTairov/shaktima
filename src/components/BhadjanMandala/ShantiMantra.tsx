@@ -3,7 +3,7 @@ import MyAccordion from './MyAccordion'
 const ShantiMantra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
-      <MyAccordion id='ShantiMantra' title='Шанти Мантра' big className='max-w-xl'>
+      <MyAccordion id='ShantiMantra' title='Шанти мантра' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
           <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
