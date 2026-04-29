@@ -36,159 +36,159 @@ export const sadhanas = [
     title: "Бхуми Мангалам",
   },
   {
-    name: "ChitsthairakamStotra",
+    name: "chitsthairakam-stotra-page",
     title: "Читтстхаирйакам Cтотра",
   },
   {
-    name: "DattaArati",
+    name: "datta-arati-page",
     title: "Датта Арати",
   },
   {
-    name: "DurgaArati",
+    name: "durga-arati-page",
     title: "Дурга Арати",
   },
   {
-    name: "DurgaGayatri",
+    name: "durga-gayatri-page",
     title: "Дурга Гаятри",
   },
   {
-    name: "DurgaMantra",
+    name: "durga-mantra-page",
     title: "Защитная мантра Дурги",
   },
   {
-    name: "Finish",
+    name: "finish-page",
     title: "Завершение практики",
   },
   {
-    name: "GaneshaArati",
+    name: "ganesha-arati-page",
     title: "Ганеша Арати",
   },
   {
-    name: "GaneshaMantra",
+    name: "ganesha-mantra-page",
     title: "Мантра Ганеши",
   },
   {
-    name: "GimnLakshmi",
+    name: "gimn-lakshmi-page",
     title: "Гимн Лакшми",
   },
   {
-    name: "GuruPadukaStotra",
+    name: "guru-paduka-stotra-page",
     title: "Гуру падука стотра",
   },
   {
-    name: "GuruYogaFull",
+    name: "guruyoga-full-page",
     title: "Гуру йога (полная)",
   },
   {
-    name: "LakshmiGayatri",
+    name: "lakshmi-gayatri-page",
     title: "Лакшми Гаятри",
   },
   {
-    name: "LaksmiArati",
+    name: "laksmi-arati-page",
     title: "Лакшми Арати",
   },
   {
-    name: "LekciyaGuru",
+    name: "lekciya-guru-page",
     title: "Лекция Гуру",
   },
   {
-    name: "MahaAratiFull",
+    name: "maha-arati-full-page",
     title: "Маха Арати (полное)",
   },
   {
-    name: "MahaAratiSmall",
+    name: "maha-arati-small-page",
     title: "Маха Арати (короткое)",
   },
   {
-    name: "MantraPribejisha",
+    name: "mantra-pribejisha-page",
     title: "Мантра Прибежища",
   },
   {
-    name: "Meditation4BSB",
+    name: "meditation-4BSB-page",
     title: "Медитация 4 БСБ",
   },
   {
-    name: "NirvanaShatakam",
+    name: "nirvana-shatakam-page",
     title: "Нирвана шатакам",
   },
   {
-    name: "PanchabrahmaMantry",
+    name: "pancha-brahma-mantry-page",
     title: "Панчабрахма-мантры",
   },
   {
-    name: "PosvyasheneiZaslug",
+    name: "posvyashenei-zaslug-page",
     title: "Посвящение заслуг",
   },
   {
-    name: "Prarthana",
+    name: "prarthana-page",
     title: "Прартхана",
   },
   {
-    name: "Rakovina",
+    name: "rakovina-page",
     title: "Раковина",
   },
   {
-    name: "SarasvatiArati",
+    name: "sarasvati-arati-page",
     title: "Сарасвати Арати",
   },
   {
-    name: "SarasvatiAshtottaraShatanama",
+    name: "sarasvati-ashtottara-shatanama-page",
     title: "108 имен Сарасвати",
   },
   {
-    name: "SarasvatiGayatri",
+    name: "sarasvati-gayatri-page",
     title: "Сарасвати Гаятри",
   },
   {
-    name: "ShadaksharaMantra",
+    name: "shadakshara-mantra-page",
     title: "Шестислоговая мантра Шивы",
   },
   {
-    name: "ShantiMantra",
+    name: "shanti-mantra-page",
     title: "Шанти мантра",
   },
   {
-    name: "ShantiMantras",
+    name: "shanti-mantras-page",
     title: "Умиротворяющие мантры",
   },
   {
-    name: "ShantiStotra",
+    name: "shanti-stotra-page",
     title: "Шанти Стотра",
   },
   {
-    name: "ShivaArati",
+    name: "shiva-arati-page",
     title: "Шива Арати",
   },
   {
-    name: "ShivaAshtottaraShataNamavali",
+    name: "shiva-ashtottara-shata-namavali-page",
     title: "108 имен Шивы",
   },
   {
-    name: "ShivaDjayaKara",
+    name: "shiva-djaya-kara-page",
     title: "Джая-кара Шиве",
   },
   {
-    name: "ShivaMantra",
+    name: "shiva-mantra",
     title: "Мантра Шивы (3 раза)",
   },
   {
-    name: "ShivaShadaksharaStotra",
+    name: "shiva-shadakshara-stotra-page",
     title: "Шива Шадакшара Стотра",
   },
   {
-    name: "ShriRudrashtakam",
+    name: "shri-rudrashtakam-page",
     title: "Шри Рудраштакам",
   },
   {
-    name: "Start",
+    name: "start-page",
     title: "Начало практики",
   },
   {
-    name: "Totakashtakam",
+    name: "totakashtakam-page",
     title: "Тотакаштакам",
   },
   {
-    name: "VishnuArati",
+    name: "vishnu-arati-page",
     title: "Вишну Арати",
   },
   {
