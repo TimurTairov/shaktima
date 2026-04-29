@@ -8,6 +8,7 @@ import bmGuru from "../assets/upasana/bm-guru.webp";
 import bmShakti from "../assets/upasana/bm-shakti.webp";
 import bmSiddhi from "../assets/upasana/bm-siddhi.webp";
 import panchaRatnaPranamaMantra from "../assets/upasana/pancha-ratna-pranama-mantra.webp";
+import SpisokSadhan from "../assets/upasana/spisok-sadhan.webp";
 
 export const upasana = [
   {
@@ -59,5 +60,10 @@ export const upasana = [
     id: "pancha-ratna-pranama-mantra",
     title: "ПАНЧА РАТНА ПРАНАМА МАНТРА",
     img: panchaRatnaPranamaMantra,
+  },
+  {
+    id: "spisok-sadhan",
+    title: "Список садхан",
+    img: SpisokSadhan,
   },
 ];

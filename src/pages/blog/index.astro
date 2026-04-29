@@ -35,7 +35,9 @@ const posts = (await getCollection("blog")).sort(
                     {post.data.pubDate.toLocaleDateString("ru-RU")}
                   </p>
                 </div>
-                <p class="text-base">{post.data.description}</p>
+                <p class="text-base dark:text-amber-100">
+                  {post.data.description}
+                </p>
               </a>
             </li>
           ))

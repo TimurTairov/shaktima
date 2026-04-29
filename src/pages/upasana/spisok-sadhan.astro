@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { sadhanas } from "../../helpers/sadhany";
+---
+
+<Layout title="Упасана">
+  <div class="main-container">
+    <h1 class="mainTitle">Список садхан</h1>
+    <div class="mt-10 flex w-full justify-center">
+      <ul
+        class="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-5 xl:grid-cols-4 xl:gap-7"
+      >
+        {
+          sadhanas.map((sadhana) => (
+            <li class="flex w-52 flex-col gap-1 rounded-md border border-amber-400 bg-amber-100">
+              <a
+                href={`/upasana/spisok-sadhan/${sadhana.name}`}
+                class="text-center text-sm text-amber-700 hover:underline"
+              >
+                {sadhana.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</Layout>
