@@ -3,7 +3,7 @@ import MyAccordion from './MyAccordion'
 const ShivaMantra = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
-      <MyAccordion title='Мантра Шивы' big className='max-w-xl'>
+      <MyAccordion title='Мантра Шивы (3 раза)' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
