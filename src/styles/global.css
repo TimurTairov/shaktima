@@ -205,3 +205,10 @@ ol li {
 .u-jay {
   @apply italic;
 }
+
+/* .centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

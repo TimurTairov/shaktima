@@ -168,7 +168,7 @@ export const sadhanas = [
     title: "Джая-кара Шиве",
   },
   {
-    name: "shiva-mantra",
+    name: "shiva-mantra-page",
     title: "Мантра Шивы (3 раза)",
   },
   {

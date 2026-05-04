@@ -1,11 +1,20 @@
 ---
 import AltarSutra from "../../components/AltarSutra.astro";
 import Layout from "../../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
 ---
 
 <Layout title="Сутра">
   <section class="main-container">
-    <h1 class="mainTitle">Утренняя сутра</h1>
+    <div class="flex items-center justify-center gap-1">
+      <h1 class="mainTitle">Утренняя сутра</h1>
+      <a href="/upasana/" class="">
+        <Icon
+          name="mdi:arrow-left-top"
+          class="size-5 text-indigo-500 md:size-6 lg:size-8 dark:text-amber-400"
+        />
+      </a>
+    </div>
     <AltarSutra />
 
     <div id="sutra"></div>

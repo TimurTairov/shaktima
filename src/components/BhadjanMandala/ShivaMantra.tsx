@@ -7,7 +7,7 @@ const ShivaMantra = () => {
         <div className="w-full flex flex-col gap-5 font-light">
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
-            Выполняется Шива-линга пуджа.
+            Мантра Шивы (3 раза). Одновременно с этим выполняется Шива-линга пуджа.
           </h2>
 
           <div className="w-full flex flex-wrap items-center justify-center py-5">
