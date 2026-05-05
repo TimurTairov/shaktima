@@ -5,57 +5,19 @@ const BhadjanyDattatree = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center font-light'>
       <MyAccordion id='BhadjanyDattatree' title='Бхаджаны Даттатрее' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
-          <a href='https://t.me/jkjlkjscksj/58/1235' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-indigo-300 text-xs sm:text-sm md:text-md lg:text-base">
-            Аудио файлы бхаджанов Даттатрее
-          </a>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            1. АТРИ НАНДАНА
+            1. ДАТТА ДЕВА
           </h2>
-          <p className="font-medium">
-            АТРИ НАНДАНА АГАЩАМАНА<br />
-            ТРИГУНАТИТА ДЖНЯНАДХАНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Сын Атри! Подобный пространству!
-            Превосходящий три гуны! Богатство знания!
-          </p>
-          <p className="font-medium">
-            НАМБИРЕ НИС ЧАЯ БХАВА ТАРАНА<br />
-            ДАЯПААЛИСУВУДУ ГУРУ ЧАРАНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Наделяющий отсутствием сомнения, спасающий из мирского
-            бытия! Милосредный, я поклоняюсь стопам Гуру.
-          </p>
-          <p className="font-medium">
-            НАТАДЖАНА ПАЛАКА ДЖАЯКАРАНА<br />
-            АНАГХА САХИТА БХАЙЯ ХАРАНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Спаситель людей, творящий победу.
-            Безупречный, устраняющий страх.
-          </p>
-          <p className="font-medium">
-            ГХАНА МАХИМАНВИТА ГХАНА КАРУНА<br />
-            ЩАТА РАВИ БХАСУРА ТАМА ХАРАНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Средоточие величия, средоточие милосердия!
-            Сияющий, как сотни солнц, устраняющий тьму.
-          </p>
-          <p className="font-medium">
-            МАНАВАНУ БЕЛАГУВА ЩУБХАКИРАНА<br />
-            НАМИСУВЕ САТЧИТАНАНДА ГХАНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Творящий милосердие людям,
-            поклонение Тебе - Бытие, Сознание, Блаженство!
-          </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            2. ДАТТА ДЕВА
-          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Датта Дэва - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ДАТТА ДЕВА ДАТТА ДЕВА<br />
             БХУКТИ ПРАДАЯ МУКТИ ПРАДАЯ ДАТТА ДЕВА
@@ -100,147 +62,17 @@ const BhadjanyDattatree = () => {
             вся вселенная. О Гуру Датта, прими это воспевание твоих Имен как наше подношение!
           </p>
 
-
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            3. ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА
+            2. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА
           </h2>
-          <p className="font-medium">
-            ДАТТАТРЕЙЯ АТРЕЙЯ ПУТРА<br />
-            АРАВИНДА ГАТРА АПАДА МИТРА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Даттатрейя, сын Атри.
-            Пребывающий в лотосе, Друг страждущих!
-          </p>
-          <p className="font-medium">
-            СУДЖАНА ЧАРИТРА ПАРАМА ПАВИТРА<br />
-            ШРИКАРАГАТРА КАРУНАРАСАТРА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Деяние праведных, самый священный!
-            Отмеченный благоприятными знаками, сущность милосердия!
-          </p>
-          <p className="font-medium">
-            СВАПРЕМАПАТРА ДУШТА КАЛАТРА<br />
-            САТЧИТАНАНДА МИТРА СУНЕТРА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Сосуд любви к Истинному Я, устраняющий грех,
-            Бытие, Сознание, Блаженство, прекрасноокий друг!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            4. ШРИ ГУРУ ДАТТА
-          </h2>
-          <p className="font-medium">
-            ДЖАЯ ГУРУ ДАТТА ДЖАЯ ГУРУ ДАТТА<br />
-            ДЖАЯ ГУРУ ДАТТА ШРИ ДАТТА<br />
-            ШРИ ГУРУ ДАТТА ШРИ ГУРУ ДАТТА<br />
-            ШРИ ГУРУ ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Слава Гуру Датте! Слава святому Датте!
-          </p>
-          <p className="font-medium">
-            НА ТАЛЛИ ДАТТА НА ТАНДРИ ДАТТА<br />
-            НА ЙАННА ДАТТА ШРИ ДАТТА<br />
-            НА ПАРУВУ ДАТТА НА ТЕРУВУ ДАТТА<br />
-            НА ГУРУВУ ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Моя мать, мой отец, мой ведущий - Шри Датта!
-            Мой почтенный, мой путь, мой учитель - Шри Датта!
-          </p>
-          <p className="font-medium">
-            НА КАЛИМИ ДАТТА НА БАЛИМИ ДАТТА<br />
-            НА ЦЕЛИМИ ДАТТА ШРИ ДАТТА<br />
-            НА БУДДХИ ДАТТА НА ВРДДХИ ДАТТА<br />
-            НА СИДДХИ ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Моя драгоценность, мое могущество, мой друг - Шри Датта!
-            Мой интеллект, мое процветание, мое совершенство - Датта!
-          </p>
-          <p className="font-medium">
-            НА ЦУПУ ДАТТА НА РУПУ ДАТТА<br />
-            НА ЕПУ ДАТТА ШРИ ДАТТА<br />
-            НА НИДРА ДАТТА НА МУДРА ДАТТА<br />
-            НА БХАДРА ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Моя философия, моя природа, мой родственник - Шри Датта!
-            Мой сон, моя мудра, мое счастье - Шри Датта!
-          </p>
-          <p className="font-medium">
-            НА ЦЕТА ДАТТА НА ВРАТА ДАТТА<br />
-            НА КАИТА ДАТТА ШРИ ДАТТА<br />
-            НА МАТА ДАТТА НА ПАТА ДАТТА<br />
-            НА БАТА ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Мое деяние, мой обет, мой поэт - Шри Датта!
-            Мое обещание, моя музыка, мой путь - Шри Датта!
-          </p>
-          <p className="font-medium">
-            НА ПАНТА ДАТТА НА ИНТА ДАТТА<br />
-            НА ВЕНТА ДАТТА ШРИ ДАТТА<br />
-            НА МАНАСУ ДАТТА НА ТАПАСУ ДАТТА<br />
-            НА СОГАСУ ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Мой плод, мой храм, моя кшетра – Шри Датта!
-            Мой мудрый, мой аскетичный, мой прекрасный Шри Датта!
-          </p>
-          <p className="font-medium">
-            НА БРАХМА ДАТТА НА ВИШНУ ДАТТА<br />
-            НА ШИВА ДАТТА ШРИ ДАТТА<br />
-            НА ГАНАМ ДАТТА НА ДХЬЯНАМ ДАТТА<br />
-            НА ЛИНАМ ДАТТА ШРИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Мой Брахма, мой Вишну, мой Шива - Шри Датта!
-            Мое воспевание, моя медитация, моя преданность - Датта!
-          </p>
-
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            5. ДАТТАМ ДИНА ДЖАНАРТИ
-          </h2>
-          <p className="font-medium">
-            ДАТТАМ ДИНА ДЖАНАРТИ НАЩАНАКАРАМ<br />
-            ВИШНУМ ВИДХИМ ЩАНКАРАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Датта - уничтожитель бедствий бедных,
-            Он Вишну, Брахма и Шанкара.
-          </p>
-          <p className="font-medium">
-            СВАРТХАНАРТХА НИВАРАНАМ МРУДУПАДАМ<br />
-            ДХАРМАВАДХУТАМ ГХАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Устраняющий бесполезные цели, Обладатель нежных стоп,
-            Дхарма авадхута.
-          </p>
-          <p className="font-medium">
-            АТРЕЯМ БАХУЧИТРА ВЕЩАДХАРАНАМ<br />
-            САХИАДРИ САНЧАРИНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Сын Атри, Принимающий множество форм,
-            движущийся в лесу Сахиадри.
-          </p>
-          <p className="font-medium">
-            СЕВЕ САДГУРУ МУРТИМ ЕКАМАНИЩАМ<br />
-            ШРИ САТЧИТАНАНДАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Я неусыпно почитаю образ единого Истинного Гуру, Бытие, Сознание, Блаженство!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            6. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА
-          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Ом Драм Даттатеяя - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ ДРАМ ДАТТАТРЕЙАЯ НАМАХА<br />
             ДЖАЯ САТГУРУ ДАТТА<br />
@@ -252,73 +84,29 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            7. ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
+            3. ОМ ДРАМ ДАТТАТРЕЯЯ НАМАХА (SatSound)
           </h2>
-          <p className="font-medium">
-            ГУРУ ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ<br />
-            ДАТТА ДАТТА ДИГАМБАРА ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Гуру Датта, Одетый в пространство, незапятнанный!
-            В Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            АТРИ СУНУ АНАСУЙЯ НАНДАНА<br />
-            ОМ ЙОГИ РАДЖА ГУРУ ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Сын риши Атри, радость Анасуи. Царь среди йогов,
-            Духовный учитель, зажигающий пламя мудрости,
-            в Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            ШРИ ПАДА ШРИ ВАЛЛАБХА ЯТИ ВАРА<br />
-            СИДДХА САРАСВАТИ ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Являвшийся как Шри Валлабха и великий сиддха Муни
-            Сарасвати. О Гуру Датта, в Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            КАРТАВИРЬЯ БХУКТИ МУКТИ ПРАДА<br />
-            ПИНГАЛЯ ПУДЖИТА ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Картавирью одаривший процветанием и Освобождением,
-            Змея Пингалу благословлявший.
-            О Гуру Датта, в Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            ГОРАКХА ЧАРВА ВИНАЩАКА ДАТТА<br />
-            АВАДХУТА НИРАНДЖАНА ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Уничтоживший демона Чарву, незапятнанный Авадхута!
-            О Гуру Датта, в Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            ЭКНАТА ДЖАНАРДАНА СВАМИ<br />
-            АКАЛЬКОТА ГУРУ ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Освятивший жизнь Джанардана Свами и его ученика Экнатха.
-            Являвшийся как Сатгуру в Аккалькоте.
-            О Гуру Датта, в Тебе я принимаю Прибежище!
-          </p>
-          <p className="font-medium">
-            ПУРНА ПАРАТ ПАРАСА ГУНА ГУНЕЩВАРА<br />
-            НИРАКАРЕ ГУРУ ТАВА ЩАРАНАМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Безграничный, пребывающий за пределами всего запредельного,
-            неподвластный ограничениям гун, вне формы.
-            Одетый в Пространство, Незапятнанный!
-            О Гуру Датта, в Тебе я принимаю Прибежище!
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Ом_Драм_Даттатрейяя_Намаха_Live_SatSound.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            8. ШРИ ДАТТА
+            4. ШРИ ДАТТА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Шри Датта - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШРИ ДАТТА ШРИ ДАТТА ШРИ ДАТТА ДЖЕЙ ДЖЕЙ ДАТТА<br />
             ДЖЕЙ ДАТТА ДЖЕЙ ДАТТА ДЖЕЙ ДАТТА ШРИ ШРИ ДАТТА<br />
@@ -339,8 +127,16 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            9. ДАТТА ДИГАМБАРА
+            5. ДАТТА ДИГАМБАРА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Датта Дигамбара - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ ГУРУ ДАТТА НАМО НАМАХА<br />
             ДАТТА ДИГАМБАРА НАМО НАМАХА<br />
@@ -354,8 +150,16 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            10. НАМО ДАТТА
+            6. НАМО ДАТТА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Намо Датта - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             НАМО ДАТТА НАМО ДАТТА ДАТТА ДАТТА НАМО НАМО<br />
             ГУРУ ДАТТА ГУРУ ДАТТА ДАТТА ДАТТА ГУРУ ГУРО
@@ -407,8 +211,16 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            11. ДАТТАТРЕЙЯ ТРИМУРТИ РУПА
+            7. ДАТТАТРЕЙЯ ТРИМУРТИ РУПА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Даттатрейя_Тримурти_Рупа_Дивья_Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ДАТТАТРЕЙЯ ТРИМУРТИ РУПА<br />
             ТРИБХУВАНА ЛОКА РАКШАКА
@@ -464,8 +276,16 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            12. ДАТТА ДЭВА ДЭВА ДЭВА
+            8. ДАТТА ДЭВА ДЭВА ДЭВА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Датта_Дэва_Дэва_Дэва_Дивья_Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ДАТТА ДЭВА ДЭВА ДЭВА<br />
             ДАНАВАНТА ДИНА РЭКША
@@ -515,71 +335,17 @@ const BhadjanyDattatree = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            13. ГУРУТТАМА
+            9. Дигамбара (Live) - SatSound
           </h2>
-          <p className="font-medium">
-            ГУРУТТАМА ДАТТА ГУРУТТАМА<br />
-            ДЖАЙОСТУ ДАТТА ГУРУТТАМА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Луший гуру Датта, Наивысший гуру!
-            Победа тебе Датта, Наивысший гуру!
-          </p>
-          <p className="font-medium">
-            СУРЕЩА МАХЕЩА ПАРЕЩА ДАТТА<br />
-            ГИРИЩА НИРИЩА МАДИЩА ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Владыка богов, Великий владыка, Высший владыка Датта!
-            Владыка гор, Неимеющий владык, мой владыка, Датта!
-          </p>
-          <p className="font-medium">
-            СМАРАМИ ВАДАМИ ГРУНАМИ ДАТТА<br />
-            НАМАМИ БХАДЖАМИ ЙАДЖАМИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Тебя я помятую, о тебе говорю, тебя обоняю, Датта!
-            Поклоняюсь, почитаю, жертвую тебе, Датта!
-          </p>
-          <p className="font-medium">
-            ТВАМЕВА ГАТИРХИ МАМАСИ ДАТТА<br />
-            ПАТИСЧА ДХРУТИСЧА МАТИСЧА ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ты мой путь, Датта! Ты мой владыка, опора и разум, Датта!
-          </p>
-          <p className="font-medium">
-            ШРИЙАМ ЧА ДХИЙАМ ЧА ДЖАЙАМ ЧА ДАТТА<br />
-            ДАДАСИ ПРАПАСИ ТАНОСИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ты мое счастье, разум, и победа, Датта!
-            Ты даритель, защитник, и хранитель, Датта!
-          </p>
-          <p className="font-medium">
-            ВИДХАТРА ХАРИЩА МУКХОСИ ДАТТА<br />
-            КАРЕЩУ ТАДАНКА ВАХОСИ ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ты поддержатель, Владыка Хари, Ты главный, Датта!
-            Ты носишь благие знаки на руках, Датта!
-          </p>
-          <p className="font-medium">
-            ЩАМЕНА ДАМЕНА ЙАМЕНА ДАТТА<br />
-            БХАВАНТА МУПАЙТИ НАРОТРА ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Ты наделен спокойствием, терпением, и самоограничением,
-            Датта! Ими человек тебя обретает, о Датта!
-          </p>
-          <p className="font-medium">
-            ИХАПИ ПАРЕПИ СУКХАМ ХИ ДАТТА<br />
-            ПРАЙАЧЧА ШРИ САТЧИТАНАНДА ДАТТА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Здесь и там ты Счастье, Датта!
-            Ты Благо, Бытие, Сознание, Блаженство, о Датта!
-          </p>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/DattaBhadjans/Дигамбара (Live) - SatSound.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+
         </div>
       </MyAccordion>
     </div >
