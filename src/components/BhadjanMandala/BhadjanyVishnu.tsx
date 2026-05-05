@@ -43,6 +43,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             3. НАРАЯНА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Нараяна - Дивья Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             НАРАЯНА НАРАЯНА ДЖАЯ ГОВИНДА ХАРЕ<br />
             НАРАЯНА НАРАЯНА ДЖАЯ ГОПАЛА ХАРЕ
@@ -57,6 +65,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             4. ОМ НАМО НАРАЯНАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Ом_Намо_Нараяная_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМО НАРАЯНАЯ НАМО НАМО НАРАЯНАЯ<br />
             ОМ НАМО НАРАЯНАЯ НАМО НАМАХА<br />
@@ -75,6 +91,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             5. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Ом_Намо_Бхагавате_Васудевая_Дивья_Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ОМ НАМО ОМ НАМО ОМ НАМО ОМ НАМО<br />
@@ -151,6 +175,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             10. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Ом_Намо_Бхагавате_Васудевая_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ВАСУДЕВАЯ ВАСУДЕВАЯ ВАСУДЕВАЯ ОМ<br />
