@@ -5,25 +5,19 @@ const BhadjanyVishnu = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyVishnu' title='Бхаджаны Вишну' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
-          <a href='https://t.me/jkjlkjscksj/15/1054' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
-            Аудио файлы бхаджанов Вишну
-          </a>
+
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            1. ОМ НАМО НАРАЯНАЯ
+            1. ХАРИ НАРАЯНА
           </h2>
-          <p className="font-medium">
-            ОМ НАМО НАРАЯНАЯ<br />
-            НАРАЯНА НАРАЯНА НАРАЯНА НАРАЯНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Я поклоняюсь Нараяне, Богу Богов, Тому, кто сделал сердца всех
-            людей своей обителью.
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            2. ХАРИ НАРАЯНА
-          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Hari Narayana Bajo Narayana.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ДЖЕЙ ДЖЕЙ ВИТТХАЛЕ ХАРИ НАРАЯНА<br />
             ПАНДУРАНГА ВИТТХАЛЕ ХАРИ НАРАЯНА<br />
@@ -41,7 +35,7 @@ const BhadjanyVishnu = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            3. НАРАЯНА
+            2. НАРАЯНА
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center">
             <audio
@@ -60,6 +54,26 @@ const BhadjanyVishnu = () => {
             Нараяна! О, Господь Вишну! Ты – прибежище всех существ,
             приносящий счастье всему Творению, защитник всего живого!
             Ты разрушаешь страх перед циклом рождения и смерти.
+          </p>
+
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
+            3. ОМ НАМО НАРАЯНАЯ (Live) - SatSound
+          </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Ом Намо Нараяная (Live) - SatSound.mp3"
+              className="w-full"
+            ></audio>
+          </div>
+          <p className="font-medium">
+            ОМ НАМО НАРАЯНАЯ<br />
+            НАРАЯНА НАРАЯНА НАРАЯНА НАРАЯНА
+          </p>
+          <p className="text-balance max-w-screen-sm text-sm">
+            Я поклоняюсь Нараяне, Богу Богов, Тому, кто сделал сердца всех
+            людей своей обителью.
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
@@ -113,6 +127,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             6. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Om_namo_Bhagavate.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ОМ НАМО БХАГАВАТЕ ДЖИВА ДАТТАЯ<br />
@@ -131,6 +153,14 @@ const BhadjanyVishnu = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             7. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Om_Namo_Bhagavate2.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
             ХАРИ ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ<br />
@@ -144,36 +174,7 @@ const BhadjanyVishnu = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            8. НАРАЯНА
-          </h2>
-          <p className="font-medium">
-            НАРАЯНА<br />
-            ОМ НАМАХ ШИВАЯ<br />
-            НАРАЯНА НАРАЯНА НАРАЯНА ОМ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Господь Нараяна! Ты – Изначальная, Всепронизывающая
-            Основа всего! Ты - Господь Шива, поддерживающий все три
-            мира, скрытых в звуке Ом! Я прибегаю к Тебе и молю о Милости
-            Просветления и Осовбождения!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            9. ГОПАЛА ГОВИНДА
-          </h2>
-          <p className="font-medium">
-            ГОПАЛА ГОВИНДА ГОВИНДА<br />
-            ГОПАЛА ГОПАЛА ГОПАЛА ГОВИНДА ГОВИНДА<br />
-            ОМ НАМАХ ШИВАЯ<br />
-            ШИВАЯ ШИВАЯ ОМ НАМАХ ШИВАЯ
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Господь, явивший себя в образе Святого Пастушка,
-            Ты един со Всеблагим Шивой! Я принимаю в тебе Прибежище!
-          </p>
-
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            10. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
+            8. ОМ НАМО БХАГАВАТЕ ВАСУДЕВАЯ
           </h2>
           <div className="w-full flex flex-wrap items-center justify-center">
             <audio
@@ -196,8 +197,16 @@ const BhadjanyVishnu = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            11. ХАРИ ОМ НАМО НАРАЯНА
+            9. ХАРИ ОМ НАМО НАРАЯНА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/VishnuBhadjans/Хари_Ом_Намо_Нараяна_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШРИМАН НАРАЯНА НАРАЯНА ХАРИ ХАРИ<br />
             ТЭРИ ЛИЛА САБСЕ НЙАРИ НЙАРИ ХАРИ ХАРИ<br />
@@ -235,19 +244,6 @@ const BhadjanyVishnu = () => {
             О, Господь Нараяна, все игры твои непостижимы!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            12. НАРАЯНА ХАРИ
-          </h2>
-          <p className="font-medium">
-            НАРАЯНА ХАРИ НАРАЯНА БХАДЖО<br />
-            НАРАЯНА НАМО НАРАЯНА<br />
-            ХАРИ ОМ ОМ ОМ ОМ ОМ … НАМО НАРАЯНА<br />
-            ШИВА ОМ ОМ ОМ ОМ ОМ … НАМО НАРАЯНА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            Преданно воспевайте имена Господа Хари, Нараяны,
-            Того, Кто является Сердцем всего сущего!
-          </p>
         </div>
       </MyAccordion>
     </div >
