@@ -36,8 +36,8 @@ export const sadhanas = [
     title: "Бхуми Мангалам",
   },
   {
-    name: "chitsthairakam-stotra-page",
-    title: "Читтстхаирйакам Cтотра",
+    name: "vishnu-arati-page",
+    title: "Вишну Арати",
   },
   {
     name: "datta-arati-page",
@@ -188,8 +188,8 @@ export const sadhanas = [
     title: "Тотакаштакам",
   },
   {
-    name: "vishnu-arati-page",
-    title: "Вишну Арати",
+    name: "chitsthairakam-stotra-page",
+    title: "Читтстхаирйакам Cтотра",
   },
   {
     name: "",

@@ -213,7 +213,7 @@ const BhadjanyShive = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Сатьям Шивам Сундарам (Sat sound)
           </h2>
 

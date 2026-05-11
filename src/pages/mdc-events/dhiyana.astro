@@ -1,0 +1,95 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import bannerYoga from "../../assets/banners/retrit.webp";
+---
+
+<Layout title="Ретрит: Дхьяна в мегаполисе">
+  <div class="main-container flex flex-col items-center">
+    <h1 class="mainTitle">Дхьяна в мегаполисе</h1>
+    <div
+      class="mt-5 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10 lg:flex-row"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-between text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
+      >
+        <p
+          class="w-full text-center text-base font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
+        >
+          Ретрит выходного дня
+        </p>
+
+        <p class="text-sm md:text-base">Для начинающих и опытных садху</p>
+        <p class="text-sm md:text-base">24 мая с 9:30 до 19:00</p>
+        <p class="text-sm md:text-base">За свободные пожертвования</p>
+        <p class="text-sm md:text-base">Дхарма центр ШактиМа</p>
+        <p class="text-sm md:text-base">Проводит Тиртхадева</p>
+      </div>
+
+      <a href="" target="_blank" rel="noreferrer" class="lg:w-6/12">
+        <Image
+          src={bannerYoga}
+          alt="Йога в ШактиМа"
+          class="w-full rounded-xl shadow-md"
+        />
+      </a>
+    </div>
+    <div
+      class="mt-5 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10"
+    >
+      <p>
+        Никуда не уезжая из города, вы можете остановиться, успакоить свой ум,
+        перезагрузиться прямо в центре Москвы.
+      </p>
+      <p>
+        Данный ретрит — это глоток свежего воздуха внутри повседневных задач,
+        ежедневной рутины, дедлайнов, переговоров и деловых встреч.
+      </p>
+      <p>
+        Это возможность услышать себя там, где обычно слышен только гул большого
+        города.
+      </p>
+      <p>
+        Это возможность погрузиться в тишину и безмолвия ума на фоне городской
+        суеты.
+      </p>
+      <p>
+        Это возможность начать практиковать с опытными преподавателями медитации
+        и носителями традиционных знаний.
+      </p>
+      <p>
+        Все практики адаптированы для жителей мегаполиса: без побега от
+        реальности — с интеграцией тишины в обычную жизнь.
+      </p>
+      <p>
+        В программе ретрита запланированы следующие практики: - хатха, мантра и
+        кундалини йога  - мауна и простирания - концентрация и медитация
+      </p>
+      <p>Место проведения ретрита: московский дхарма центр ШактиМа.</p>
+      <p>Адрес: Москва, Нижняя Красносельская улица, 40/12к2.</p>
+      <p>Проводник: Тиртхадева</p>
+      <p>Ретрит проводится за свободные пожертвования по сердцу</p>
+      <p>Дата: 24 мая. Сбор в ДЦ в 9:30. Завершение ретрита в 19:00.</p>
+      <p>
+        Форма одежды: свободная, комфортная для практик хатха, кундалини йоги,
+        медитации.
+      </p>
+      <p>
+        Саттвичный прасад приносите с собой. Предпочтительно свежие фрукты,
+        овощи, орехи и вкусняшки к чаю.
+      </p>
+      <p>
+        До начала ретрита допускается лёгкий завтрак, такой, чтобы не было
+        тяжело практиковать асаны и кундалини йогу.
+      </p>
+      <div class="flex w-full justify-center">
+        <a
+          href="https://t.me/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button px-3 py-2">Регистрация</a
+        >
+      </div>
+    </div>
+  </div>
+</Layout>
