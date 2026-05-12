@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import meditation from "../../assets/img/meditation.jpg";
+import meditation2 from "../../assets/meditation.svg";
 import bannerYoga from "../../assets/banners/retrit.webp";
 ---
 
@@ -33,7 +34,7 @@ import bannerYoga from "../../assets/banners/retrit.webp";
         <Image
           src={bannerYoga}
           alt="Йога в ШактиМа"
-          class="w-full rounded-xl shadow-md"
+          class="w-full rounded-sm shadow-md lg:rounded-xl"
         />
       </a>
     </div>
@@ -91,10 +92,14 @@ import bannerYoga from "../../assets/banners/retrit.webp";
         мегаполиса: без побега от реальности — с интеграцией тишины в обычную жизнь.
       </p>
       <div class="mt-7 flex w-full justify-center md:mt-7 lg:mt-10 2xl:mt-12">
-        <Image src={meditation} alt="meditation" class="rounded-2xl" />
+        <Image
+          src={meditation}
+          alt="meditation"
+          class="rounded-sm lg:rounded-xl"
+        />
       </div>
 
-      <div class="flex w-full flex-col gap-5 md:mt-7 lg:mt-10 2xl:mt-12">
+      <div class="mt-7 flex w-full flex-col gap-5 lg:mt-10 2xl:mt-12">
         <p>
           <b class="dark:text-amber-600">Место проведения ретрита:</b> московский
           дхарма центр ШактиМа.
@@ -103,9 +108,22 @@ import bannerYoga from "../../assets/banners/retrit.webp";
           <b class="dark:text-amber-600">Адрес:</b> Москва, Нижняя Красносельская
           улица, 40/12к2.
         </p>
-        <p><b class="dark:text-amber-600">Проводник:</b> Тиртхадева</p>
         <div class="flex w-full items-center gap-1">
-          <p>
+          <b class="dark:text-amber-600">Проводник:</b>
+          <p>Тиртхадева</p>
+          <a
+            href="https://tirthadeva.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon
+              name="mdi:vector-link"
+              class="size-4 text-indigo-700 dark:text-amber-400"
+            />
+          </a>
+        </div>
+        <div class="inline w-full items-center gap-1">
+          <p class="inline">
             <b class="dark:text-amber-600">Подношения:</b> ретрит проводится за свободные
             пожертвования по сердцу
           </p>
@@ -130,14 +148,32 @@ import bannerYoga from "../../assets/banners/retrit.webp";
           саттвичный прасад приносите с собой. Предпочтительно свежие фрукты, овощи,
           орехи и вкусняшки к чаю.
         </p>
+        <p>
+          <b class="dark:text-amber-600">Регистрация:</b>
+          <a
+            href="whatsapp://send?phone=79672067710"
+            target="_blank"
+            rel="noreferrer"
+            class="text-indigo-700 hover:underline dark:text-amber-400"
+            >whatsapp
+          </a>
+          <a
+            href="https://t.me/tirthadeva"
+            target="_blank"
+            rel="noreferrer"
+            class="text-indigo-700 hover:underline dark:text-amber-400"
+            >telegram
+          </a>
+          либо, по номеру телефона: +79672067710
+        </p>
       </div>
-      <div class="mt-7 flex w-full justify-center lg:mt-10 2xl:mt-12">
-        <a
-          href="https://t.me/tirthadeva"
-          target="_blank"
-          rel="noreferrer"
-          class="my-button px-3 py-2">Регистрация</a
-        >
+
+      <div
+        class="mt-7 flex w-full items-center justify-around lg:mt-10 2xl:mt-12"
+      >
+        <Image src={meditation2} alt="meditation" class="size-20 lg:size-32" />
+        <p class="text-base lg:text-3xl">До встречи на практике</p>
+        <Image src={meditation2} alt="meditation" class="size-20 lg:size-32" />
       </div>
     </div>
   </div>
