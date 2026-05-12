@@ -1,29 +1,32 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import meditation from "../../assets/img/meditation.jpg";
 import bannerYoga from "../../assets/banners/retrit.webp";
 ---
 
 <Layout title="Ретрит: Дхьяна в мегаполисе">
-  <div class="main-container flex flex-col items-center">
+  <div class="main-container flex flex-col items-center dark:text-amber-100">
     <h1 class="mainTitle">Дхьяна в мегаполисе</h1>
     <div
       class="mt-5 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10 lg:flex-row"
     >
       <div
-        class="flex w-full flex-col items-center justify-between text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
+        class="flex w-full flex-col items-center justify-around text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
       >
         <p
           class="w-full text-center text-base font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
         >
           Ретрит выходного дня
         </p>
-
-        <p class="text-sm md:text-base">Для начинающих и опытных садху</p>
-        <p class="text-sm md:text-base">24 мая с 9:30 до 19:00</p>
-        <p class="text-sm md:text-base">За свободные пожертвования</p>
-        <p class="text-sm md:text-base">Дхарма центр ШактиМа</p>
-        <p class="text-sm md:text-base">Проводит Тиртхадева</p>
+        <div class="flex w-60 flex-col gap-2 md:w-72">
+          <p class="text-sm md:text-base">Для начинающих и опытных садху</p>
+          <p class="text-sm md:text-base">24 мая с 9:30 до 19:00</p>
+          <p class="text-sm md:text-base">За свободные пожертвования</p>
+          <p class="text-sm md:text-base">Дхарма центр ШактиМа</p>
+          <p class="text-sm md:text-base">Проводит Тиртхадева</p>
+        </div>
       </div>
 
       <a href="" target="_blank" rel="noreferrer" class="lg:w-6/12">
@@ -35,54 +38,100 @@ import bannerYoga from "../../assets/banners/retrit.webp";
       </a>
     </div>
     <div
-      class="mt-5 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10"
+      class="mt-7 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10"
     >
-      <p>
+      <p class="w-full text-center">
         Никуда не уезжая из города, вы можете остановиться, успакоить свой ум,
         перезагрузиться прямо в центре Москвы.
       </p>
+
+      <h5
+        class="mt-7 w-full text-center text-lg font-bold md:mt-7 md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-12 dark:text-amber-600"
+      >
+        Данный ретрит
+      </h5>
+      <div class="grid w-full grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-5">
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Это глоток свежего воздуха внутри повседневных задач, ежедневной
+          рутины, дедлайнов, переговоров и деловых встреч.
+        </p>
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Это возможность услышать себя там, где обычно слышен только гул
+          большого города.
+        </p>
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Это возможность погрузиться в тишину и безмолвия ума на фоне городской
+          суеты.
+        </p>
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Это возможность начать практиковать с опытными преподавателями
+          медитации и носителями традиционных знаний.
+        </p>
+      </div>
+
+      <h5
+        class="mt-7 w-full text-center text-lg font-bold md:mt-7 md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-12 dark:text-amber-600"
+      >
+        В программе ретрита запланированы следующие практики:
+      </h5>
+      <div class="grid w-full grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-5">
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Хатха, мантра и кундалини йога
+        </p>
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Мауна и простирания
+        </p>
+        <p class="rounded-sm border border-gray-300 p-2 dark:border-gray-600">
+          Концентрация и медитация
+        </p>
+      </div>
+
       <p>
-        Данный ретрит — это глоток свежего воздуха внутри повседневных задач,
-        ежедневной рутины, дедлайнов, переговоров и деловых встреч.
+        <b class="dark:text-amber-600">PS:</b> все практики адаптированы для жителей
+        мегаполиса: без побега от реальности — с интеграцией тишины в обычную жизнь.
       </p>
-      <p>
-        Это возможность услышать себя там, где обычно слышен только гул большого
-        города.
-      </p>
-      <p>
-        Это возможность погрузиться в тишину и безмолвия ума на фоне городской
-        суеты.
-      </p>
-      <p>
-        Это возможность начать практиковать с опытными преподавателями медитации
-        и носителями традиционных знаний.
-      </p>
-      <p>
-        Все практики адаптированы для жителей мегаполиса: без побега от
-        реальности — с интеграцией тишины в обычную жизнь.
-      </p>
-      <p>
-        В программе ретрита запланированы следующие практики: - хатха, мантра и
-        кундалини йога  - мауна и простирания - концентрация и медитация
-      </p>
-      <p>Место проведения ретрита: московский дхарма центр ШактиМа.</p>
-      <p>Адрес: Москва, Нижняя Красносельская улица, 40/12к2.</p>
-      <p>Проводник: Тиртхадева</p>
-      <p>Ретрит проводится за свободные пожертвования по сердцу</p>
-      <p>Дата: 24 мая. Сбор в ДЦ в 9:30. Завершение ретрита в 19:00.</p>
-      <p>
-        Форма одежды: свободная, комфортная для практик хатха, кундалини йоги,
-        медитации.
-      </p>
-      <p>
-        Саттвичный прасад приносите с собой. Предпочтительно свежие фрукты,
-        овощи, орехи и вкусняшки к чаю.
-      </p>
-      <p>
-        До начала ретрита допускается лёгкий завтрак, такой, чтобы не было
-        тяжело практиковать асаны и кундалини йогу.
-      </p>
-      <div class="flex w-full justify-center">
+      <div class="mt-7 flex w-full justify-center md:mt-7 lg:mt-10 2xl:mt-12">
+        <Image src={meditation} alt="meditation" class="rounded-2xl" />
+      </div>
+
+      <div class="flex w-full flex-col gap-5 md:mt-7 lg:mt-10 2xl:mt-12">
+        <p>
+          <b class="dark:text-amber-600">Место проведения ретрита:</b> московский
+          дхарма центр ШактиМа.
+        </p>
+        <p>
+          <b class="dark:text-amber-600">Адрес:</b> Москва, Нижняя Красносельская
+          улица, 40/12к2.
+        </p>
+        <p><b class="dark:text-amber-600">Проводник:</b> Тиртхадева</p>
+        <div class="flex w-full items-center gap-1">
+          <p>
+            <b class="dark:text-amber-600">Подношения:</b> ретрит проводится за свободные
+            пожертвования по сердцу
+          </p>
+          <Icon name="mdi:cards-heart-outline" class="inline text-red-500" />
+        </div>
+        <p>
+          <b class="dark:text-amber-600">Дата:</b> 24 мая. Сбор в ДЦ в 9:30. Завершение
+          ретрита в 19:00.
+        </p>
+
+        <p>
+          <b class="dark:text-amber-600">Форма одежды:</b> свободная, комфортная для
+          практик хатха, кундалини йоги, медитации.
+        </p>
+        <p>
+          <b class="dark:text-amber-600">Завтрак:</b> до начала ретрита допускается
+          лёгкий завтрак, такой, чтобы не было тяжело практиковать асаны и кундалини
+          йогу.
+        </p>
+        <p>
+          <b class="dark:text-amber-600">Обед:</b>
+          саттвичный прасад приносите с собой. Предпочтительно свежие фрукты, овощи,
+          орехи и вкусняшки к чаю.
+        </p>
+      </div>
+      <div class="mt-7 flex w-full justify-center lg:mt-10 2xl:mt-12">
         <a
           href="https://t.me/tirthadeva"
           target="_blank"
