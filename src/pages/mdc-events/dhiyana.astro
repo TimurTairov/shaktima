@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import meditation from "../../assets/img/meditation.jpg";
-import meditation2 from "../../assets/meditation.svg";
+import meditation2 from "../../assets/meditation-tirthadeva.webp";
 import bannerYoga from "../../assets/banners/retrit.webp";
 ---
 
@@ -11,7 +11,7 @@ import bannerYoga from "../../assets/banners/retrit.webp";
   <div class="main-container flex flex-col items-center dark:text-amber-100">
     <h1 class="mainTitle">Дхьяна в мегаполисе</h1>
     <div
-      class="mt-5 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10 lg:flex-row"
+      class="mt-5 flex w-full flex-col-reverse justify-between gap-5 md:mt-7 md:flex-col lg:mt-10 lg:flex-row"
     >
       <div
         class="flex w-full flex-col items-center justify-around text-lg text-gray-500 lg:w-6/12 dark:text-amber-100"
@@ -191,11 +191,10 @@ import bannerYoga from "../../assets/banners/retrit.webp";
       </div>
 
       <div
-        class="mt-7 flex w-full items-center justify-around lg:mt-10 2xl:mt-12"
+        class="mt-7 flex w-full flex-col items-center justify-center gap-1 lg:mt-10 lg:gap-2 2xl:mt-12"
       >
-        <Image src={meditation2} alt="meditation" class="size-20 lg:size-32" />
         <p class="text-base lg:text-3xl">До встречи на практике</p>
-        <Image src={meditation2} alt="meditation" class="size-20 lg:size-32" />
+        <Image src={meditation2} alt="meditation" class="rounded-sm" />
       </div>
     </div>
   </div>
