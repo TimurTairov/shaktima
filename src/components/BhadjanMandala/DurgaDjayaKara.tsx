@@ -3,7 +3,7 @@ import MyAccordion from './MyAccordion'
 const DurgaDjayaKara = () => {
   return (
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
-      <MyAccordion title='Джая-кара Сарасвати' big className='max-w-xl'>
+      <MyAccordion title='Джая-кара Дурге' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
 
@@ -11,12 +11,13 @@ const DurgaDjayaKara = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/Djaya-kara/Sarasvati.mp3"
+              src="/sounds/Djaya-kara/Durga.mp3"
               className="w-full"
             ></audio>
           </div>
 
           <div className='w-4xl'>
+            Шри Дурга мата ки – джей!<br /><br />
             Шри Шайлапутри ки – джей!<br />
             Шри Брахмачарини ки – джей!<br />
             Шри Чандрагханта ки – джей!<br />

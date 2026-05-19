@@ -9,7 +9,7 @@ const LakshmiGayatri = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/BhadjanMandala/LakshmiGayatri.mp3"
+              src="/sounds/Gayatri/LakshmiGayatri.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -26,7 +26,7 @@ const LakshmiGayatri = () => {
             И пусть Лакшми осветит наш разум!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Лакшми мантра</h2>
+          {/* <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">Лакшми мантра</h2>
 
           <p className="font-medium">
             ОМ ХРИМ ШРИ ЛАКШМИ БХЙО НАМАХА<br />
@@ -36,7 +36,7 @@ const LakshmiGayatri = () => {
           <p className="text-balance max-w-screen-sm text-sm">
             О, богиня Лакшми! Проявись во мне,
             и даруй Твое изобилие всем аспектам моего существования!
-          </p>
+          </p> */}
 
         </div>
       </MyAccordion>

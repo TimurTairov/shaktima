@@ -82,10 +82,10 @@ import { Icon } from "astro-icon/components";
       <p class="w-full text-center font-light">Тиртхадева</p> -->
     </div>
     <!-- Вторник -->
-    <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">10:00 - 11:25</p>
+    <div class="grid-item-rasp">
+      <!-- <p class="w-full text-center">10:00 - 11:25</p>
       <b class="w-full text-center">Комплекс ветра + пранаяма</b>
-      <b class="w-full text-center font-light">Мадхаваприя</b>
+      <b class="w-full text-center font-light">Мадхаваприя</b> -->
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Среда -->
@@ -97,10 +97,10 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">10:00 - 11:25</p>
+      <!-- <p class="w-full text-center">10:00 - 11:25</p>
       <b class="w-full text-center">Йога сиддхов</b>
-      <p class="w-full text-center font-light">Тарини</p>
-      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
+      <p class="w-full text-center font-light">Тарини</p> -->
+      <p class="w-full text-center text-red-600">Отмена занятия</p>
     </div>
     <!-- Пятница -->
     <div class="grid-item-rasp bg-blue-100">
@@ -111,12 +111,22 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Суббота -->
     <div class="grid-item-rasp bg-fuchsia-200">
-      <p class="w-full text-center">10:00 - 15:00</p>
-      <b class="w-full text-center"> Семинар </b>
+      <p class="w-full text-center">10:00 - 12:30</p>
+      <b class="w-full text-center">Углубленное занятие по йоге</b>
       <p class="w-full text-center font-light">Мадхаваприя</p>
     </div>
     <!-- Воскресение -->
-    <div class="grid-item-rasp bg-fuchsia-200"></div>
+    <div class="grid-item-rasp bg-fuchsia-200">
+      <p class="w-full text-center">9:30 - 19:00</p>
+      <b class="w-full text-center">
+        <a
+          href="/mdc-events/dhiyana"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+          >медитатвный ретрит для всех желающих
+        </a>
+      </b>
+      <p class="w-full text-center font-light">Тиртхадева</p>
+    </div>
 
     <!--! 3  -->
     <!-- Понедельник -->
@@ -127,10 +137,10 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Вторник -->
-    <div class="grid-item-rasp bg-amber-100">
-      <p class="w-full text-center">11:30 - 12:30</p>
+    <div class="grid-item-rasp">
+      <!-- <p class="w-full text-center">11:30 - 12:30</p>
       <b class="w-full text-center">Сутра</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p> -->
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Среда -->
@@ -142,10 +152,10 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp bg-amber-100">
-      <p class="w-full text-center">11:30 - 12:30</p>
+      <!-- <p class="w-full text-center">11:30 - 12:30</p>
       <b class="w-full text-center">Сутра</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
-      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p> -->
+      <p class="w-full text-center text-red-600">Отмена занятия</p>
     </div>
     <!-- Пятница -->
     <div class="grid-item-rasp bg-amber-100">
@@ -163,7 +173,11 @@ import { Icon } from "astro-icon/components";
     <!-- Понедельник -->
     <div class="grid-item-rasp">...</div>
     <!-- Вторник -->
-    <div class="grid-item-rasp">...</div>
+    <div class="grid-item-rasp bg-amber-100">
+      <p class="w-full text-center">18:00 - 19:00</p>
+      <b class="w-full text-center">Бхаджан Мандала</b>
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
+    </div>
     <!-- Среда -->
     <div class="grid-item-rasp">...</div>
     <!-- Четверг -->
@@ -171,11 +185,11 @@ import { Icon } from "astro-icon/components";
     <!-- Пятница -->
     <div class="grid-item-rasp">...</div>
     <!-- Суббота -->
-    <div class="grid-item-rasp bg-blue-100">
+    <div class="grid-item-rasp">
       <!-- <p class="w-full text-center">16:00 - 17:00</p>
       <b class="w-full text-center">Медитация 4БСБ</b>
       <b class="w-full text-center font-light">Лалитасундари</b> -->
-      <p class="w-full text-center text-red-600">Отмена занятия</p>
+      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Воскресение -->
     <div class="grid-item-rasp">...</div>
@@ -189,35 +203,31 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Вторник -->
-    <div class="grid-item-rasp bg-amber-100">
-      <p class="w-full text-center">19:00 - 22:00</p>
-      <b class="w-full text-center">Бхаджан Мандала</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
+    <div class="grid-item-rasp bg-blue-100">
+      <p class="w-full text-center">19:00 - 21:00</p>
+      <b class="w-full text-center">Комплекс ветра/ пранаяма</b>
+      <p class="w-full text-center font-light italic">Мадхаваприя</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Среда -->
     <div class="grid-item-rasp bg-amber-100">
-      <p class="w-full text-center">19:00 - 22:00</p>
-      <b class="w-full text-center">Встреча с Лакшитой Гири</b>
-      <p class="w-full text-center font-light italic">
-        Доступно от наличия Символа Веры
-      </p>
+      <p class="w-full text-center">19:30 - 22:00</p>
+      <b class="w-full text-center">Бхаджан Мандала</b>
+      <p class="w-full text-center font-light italic">Пуджа Вишну</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
     <div class="grid-item-rasp bg-amber-100">
       <p class="w-full text-center">18:30 - 22:00</p>
-      <b class="w-full text-center">Открытый Сатсанг Ананда Лила Гири</b>
-      <p class="w-full text-center font-light italic">
-        Лакшми-пуджа и Абхишека
-      </p>
+      <b class="w-full text-center">Бхаджан Мандала</b>
+      <p class="w-full text-center font-light italic">Пуджа Гуру</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Пятница -->
     <div class="grid-item-rasp bg-amber-100">
       <p class="w-full text-center">18:30 - 22:00</p>
       <b class="w-full text-center">Бхаджан Мандала</b>
-      <p class="w-full text-center font-light italic">САРАСВАТИ ДЖАЯНТИ</p>
+      <p class="w-full text-center font-light italic">Пуджа Шакти</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Суббота -->
@@ -229,7 +239,7 @@ import { Icon } from "astro-icon/components";
 <p
   class="w-full text-right text-[0.3rem] font-light md:text-[0.4rem] lg:text-[0.5rem] xl:text-[0.7rem]"
 >
-  Обновлено: 11.05.2026 20:05
+  Обновлено: 19.05.2026 16:00
 </p>
 <h3
   class="mt-5 mb-1 text-base font-medium text-gray-700 md:mt-5 lg:mt-10 dark:text-amber-600"
@@ -288,7 +298,7 @@ import { Icon } from "astro-icon/components";
           <p class="mt-1">Расписание:</p>
           <p class="font-light">Чт 10:00 Йога сиддхов</p>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
             href="whatsapp://send?phone=79154779637"
@@ -322,10 +332,10 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Вт 10:00 Комплекс ветра + пранаяма</p>
+          <p class="font-light">Вт 19:00 Комплекс ветра + пранаяма</p>
           <p class="font-light">Пт 10:00 Шат чакра крийя йога</p>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
             href="whatsapp://send?phone=79852597978"
@@ -365,7 +375,7 @@ import { Icon } from "astro-icon/components";
           <p class="mt-1">Расписание:</p>
           <p class="font-light">Сб 15:00 Медитация 4БСБ</p>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
             href="whatsapp://send?phone=79637239294"
@@ -391,10 +401,6 @@ import { Icon } from "astro-icon/components";
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
-        <!-- <Icon
-          name="mdi:account-box-plus-outline"
-          class="size-24 rounded-full border p-3"
-        /> -->
         <Image src={taramati} alt="" class="rounded-full" />
         <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Запись на сутру
@@ -409,7 +415,7 @@ import { Icon } from "astro-icon/components";
           <p class="font-light">Чт 11:30 Утрення пуджа Даттатрее</p>
           <p class="font-light">Пн 11:30 Утрення пуджа Даттатрее</p>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
             href="whatsapp://send?phone=79852191619"
@@ -433,10 +439,6 @@ import { Icon } from "astro-icon/components";
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
-        <!-- <Icon
-          name="mdi:account-box-plus-outline"
-          class="size-24 rounded-full border p-3"
-        /> -->
         <Image src={taramati} alt="" class="rounded-full" />
         <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Запись на Бхаджан Мандалу
@@ -451,7 +453,7 @@ import { Icon } from "astro-icon/components";
           <p class="font-light">Чт 19:00 Вечерняя пуджа Гуру</p>
           <p class="font-light">Пн 19:00 Вечерняя пуджа Шакти</p>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
             href="whatsapp://send?phone=79852191619"
@@ -475,11 +477,7 @@ import { Icon } from "astro-icon/components";
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
-        <!-- <Icon
-          name="mdi:account-box-plus-outline"
-          class="size-24 rounded-full border p-3"
-        /> -->
-        <Image src={taramati} alt="" class="rounded-full" />
+        <Image src={tirthadeva} alt="" class="rounded-full" />
         <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
           Запись на мероприятия
         </p>
@@ -487,35 +485,24 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">
-            Среда 6 мая 18:30 Вечерняя пуджа Шиве. Только для самайных!
-          </p>
-          <p class="font-light">
-            Четверг 7 мая 18:30 Семинар с Лакшита Гири. Ждем всех желающих!
-            РЕГИСТРАЦИЯ ОБЯЗАТЕЛЬНА!
-          </p>
-          <p class="font-light">
-            Пятница 8мая 18:30 Чайный сатсанг со Свамини Ананда Лилой. Участие
-            от Символа Веры Санатана Дхармы.
-          </p>
-          <p class="font-light">
-            Суббота-воскресение 9-10 мая 9:00 - семинар с Ананда Лилой.
-            ДОСТИЖЕНИЕ ТЕЛА МУДРОСТИ - СОЗЕРЦАНИЕ. Йога иллюзорного тела, 20
-            крий йоги и Шакти Янтра. Только для самайных! Сбор в 9.00, начало в
-            10.00. РЕГИСТРАЦИЯ ОБЯЗАТЕЛЬНА!
-          </p>
+          <p class="font-light">Воскресение 24 мая 9:30 -</p>
+          <a
+            href="/mdc-events/dhiyana"
+            class="text-indigo-700 hover:underline dark:text-amber-400"
+            >медитатвный ретрит для всех желающих!
+          </a>
         </div>
-        <div class="mt-1 flex gap-1">
+        <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
           <a
-            href="whatsapp://send?phone=79852191619"
+            href="whatsapp://send?phone=79672067710"
             target="_blank"
             rel="noreferrer"
             class="text-indigo-700 hover:underline dark:text-amber-400"
             >whatsapp
           </a>
           <a
-            href="https://t.me/Shartatiana"
+            href="https://t.me/tirthadeva"
             target="_blank"
             rel="noreferrer"
             class="text-indigo-700 hover:underline dark:text-amber-400"

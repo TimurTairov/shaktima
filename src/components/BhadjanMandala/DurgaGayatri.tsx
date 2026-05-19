@@ -9,7 +9,7 @@ const DurgaGayatri = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/BhadjanMandala/DurgaGayatri.mp3"
+              src="/sounds/Gayatri/DurgaGayatri.mp3"
               className="w-full"
             ></audio>
           </div>
@@ -18,6 +18,10 @@ const DurgaGayatri = () => {
             Shiva Priyayai Dhimahi<br />
             Tanno Durga Prachodayat<br />
             (3 раза)
+          </p>
+
+          <p className="text-balance max-w-screen-sm text-sm">
+            Ом! Гириджу (Дочь гор) да постигнем, На Возлюбленную Шивы медитируем, Пусть Дурга нас направит (вдохновит)!
           </p>
 
         </div>

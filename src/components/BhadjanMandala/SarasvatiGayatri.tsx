@@ -9,7 +9,7 @@ const SarasvatiGayatri = () => {
             <audio
               controls
               controlsList="nodownload"
-              src="/sounds/BhadjanMandala/SarasvatiGayatri.mp3"
+              src="/sounds/Gayatri/SarasvatiGayatri.mp3"
               className="w-full"
             ></audio>
           </div>
