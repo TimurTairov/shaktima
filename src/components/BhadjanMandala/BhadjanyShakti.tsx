@@ -5,13 +5,18 @@ const BhadjanyShakti = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='BhadjanyShakti' title='Бхаджаны Шакти' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5 font-light">
-          <a href='https://t.me/jkjlkjscksj/395/1332' target="_blank" rel="noreferrer" className="text-indigo-600 dark:text-amber-400 text-xs sm:text-sm md:text-md lg:text-base">
-            Аудио файлы бхаджанов Шакти
-          </a>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            1. ДЖАЯ ДЖАЯДЕВИ МАТА
+            1. ДЖАЯ ДЖАЯ ДЕВИ МАТА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShaktiBhadjans/Джая_Джая_Деви_Мата_Дивья_Лока.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ДЖАЯ ДЖАЯ ДЕВИ МАТА НАМАХА<br />
             ДЖЕЙ АМБЕ ДЖАГАДАМБЕ<br />
@@ -27,6 +32,14 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             2. ДЖАЯ ДЭВИ БХАВАНИ МА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShaktiBhadjans/Джая_Дэви_Бхавани_Ма_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             МАТА ДЖАЯ ДЖАЯ ДЖАГА ДЖАГА ДЖАГАНИ МА<br />
             ДЖАЯ ДЭВИ БХАВАНИ МА<br />
@@ -43,26 +56,18 @@ const BhadjanyShakti = () => {
             Прибежище и Милость!
           </p>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            3. САИ МАТА
-          </h2>
-          <p className="font-medium">
-            САИ МАТА ДЖАЯ ДЖАГАДАМБЭ<br />
-            ДЖАЙА ДЖАГАДАМБЭ МА О САИ МА<br />
-            ДУРГЕ ДЭВИ НАМО НАМАХА<br />
-            ЛАКШМИ ДЭВИ НАМО НАМАХА<br />
-            ШАНКАРИ МА ШИВА ШАНКАРИ МА<br />
-            ГИРИДЖИ МАХЕШВАРИ ПАРВАТИ МА
-          </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О, Святая Мать! О, Мать всей Вселенной, я склоняюсь пред Тобой!
-            Дурга Дэви, Богиня Лакшми, Шанкари, Мать Парвати!
-            О, Божественная Мать, я склоняюсь пред Тобой вновь и вновь!
-          </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            4. ШРИ АМБЕ ДЖАГАДАМБЕ
+            3. ШРИ АМБЕ ДЖАГАДАМБЕ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShaktiBhadjans/Шри_Амбе_Джагадамб_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ШРИ АМБЕ ДЖАГАДАМБЕ ШРИ АМБЕ ДЖАЙ ДЖАЙ МА<br />
             ШРИ АМБЕ ДЖАГАДАМБЕ ШРИ АМБЕ ДЖАЙ ДЖАГАДАМБЕ<br />
@@ -90,8 +95,16 @@ const BhadjanyShakti = () => {
           </p>
 
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
-            5. САРАСВАТИ НАМО ОМ
+            4. САРАСВАТИ НАМО ОМ
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShaktiBhadjans/Сарасвати_Намо_Ом_Тримурти_Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             ОМ АИМ САРАСВАТИ НАМО ОМ<br />
             ОМ АИМ САРАСВАТИ САРАСВАТИ<br />
@@ -168,6 +181,14 @@ const BhadjanyShakti = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             8. ДЖАЯ ДЖАЯ МА
           </h2>
+          <div className="w-full flex flex-wrap items-center justify-center">
+            <audio
+              controls
+              controlsList="nodownload"
+              src="/sounds/ShaktiBhadjans/Джэй Джэй Ма - Тримурти Ашрам.mp3"
+              className="w-full"
+            ></audio>
+          </div>
           <p className="font-medium">
             АМБЕ МА ДЖАГАДАМБЕ МА<br />
             СУКХА ДАЙИНИ МА МАНОМОХИНИ МА<br />
