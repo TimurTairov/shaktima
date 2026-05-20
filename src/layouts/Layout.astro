@@ -5,6 +5,7 @@ import "@/styles/starwind.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import YandexMetrika from "@/components/YandexMetrika.astro";
+import Pixel from "@/components/Pixel.astro";
 interface Props {
   title: string;
   desc?: string;
@@ -25,6 +26,7 @@ const {
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={desc} />
     <title>{title}</title>
+    <Pixel />
   </head>
   <body class="bg-gray-50 dark:bg-slate-700">
     <YandexMetrika />
