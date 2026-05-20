@@ -6,7 +6,7 @@ const KhadgamalaStotra = () => {
     <div className='w-full mt-5 md:mt-7 lg:mt-10 flex justify-center'>
       <MyAccordion id='KhadgamalaStotra' title='Шри Деви Кхадгомала Cтотра' big className='max-w-xl'>
         <div className="mt-5 lg:mt-10 w-full flex flex-col gap-5">
-          <div className="w-full fixed bottom-0.5 lg:bottom-0.5 left-0  py-5">
+          <div className="flex w-full flex-wrap items-center justify-center py-5">
             <audio
               controls
               controlsList="nodownload"

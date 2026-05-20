@@ -1,0 +1,98 @@
+---
+
+---
+
+<div class="flex w-full flex-col justify-center">
+  <details class="u-collapse">
+    <div class="u-collapse-aria">
+      <div class="mt-5 flex w-full flex-col gap-5 font-light lg:mt-10">
+        <div id="audioplayer" class="fixedAudioPlayer">
+          <div class="flex w-full items-center gap-5">
+            <audio
+              controls
+              controlslist="nodownload"
+              src="/sounds/BhadjanMandala/TripurasundariArati.mp3"
+              class="w-full"
+            >
+            </audio>
+            <button class="closeButton rounded-sm border p-1"> Закрыть </button>
+          </div>
+        </div>
+
+        <p class="w-xl font-medium">
+          ом джай шри мА трипуре<br />
+          деви джай шри мА трипуре<br />
+          прасида мАмих сататам<br />
+          прасида мАмих сататам<br />
+          куру вигхнам дуре<br />
+          ом джай шри ма трипуре
+        </p>
+        <p class="font-medium">
+          трикона гарвита бинду<br />
+          стадупари шатконам<br />
+          деви стадупари шатконам<br />
+          аштопадма кали мА<br />
+          аштопадма кали мА<br />
+          вартула ме кейкам<br />
+          ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          чатура кхйам трайя йугмам<br />
+          двАре чатуракхйам<br />
+          деви дваре чатуракхйам<br />
+          трайа йони трайа виджам<br />
+          трайа йони трайа виджам<br />
+          балатава чаритам<br />
+          ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          шактикамам йугмам<br />
+          вагбхава тава Адйам<br />
+          деви вагбхава тава Адйам<br />
+          мадхйе панча пуджа<br />
+          мадхйе панча пуджа<br />
+          панча шаши варнам<br />
+          ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          шодхаша варна шотА питамбара багала<br />
+          деви питамбара багала<br />
+          продхакали тАрА мА продхакали тАрА мА<br />
+          мадхйе твам камала ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          бхайрави чинна дхумА матанги бхуванА<br />
+          деви матанги бхуванА<br />
+          дашамахАвидхйА бала мА дашамахАвидхйА бала мА<br />
+          деви аннапурна ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          дхйанам Арати самайе хрдайе апи кртва<br />
+          деви хрдайе апи кртва<br />
+          нара нАри вАм патхате нара нАри вАм патхате<br />
+          сарва сукхам лабхате ом джай шри мА трипуре
+        </p>
+        <p class="font-medium">
+          ом джай шри мА трипуре<br />
+          деви джай шри мА трипуре<br />
+          прасида мАмих сататам прасида мАмих сататам<br />
+          куру вигхнам дуре ом джай шри ма трипуре
+        </p>
+      </div>
+    </div>
+    <summary class="u-summary">Трипурасундари Арати</summary>
+  </details>
+</div>
+
+<script>
+  const buttons = document.querySelectorAll("closeButton");
+  const player = document.getElementById("fixAltarIcon");
+  const closeAltarIcon = document.getElementById("closeAltarIcon");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      player?.classList.add("ClosedAudioPlayer");
+      player?.classList.remove("fixedAudioPlayer");
+    });
+  });
+</script>

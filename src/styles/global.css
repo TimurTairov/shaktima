@@ -102,6 +102,13 @@ body {
   @apply rounded-md border border-red-500 text-red-500 hover:bg-red-500 hover:text-white dark:border-amber-500 dark:text-amber-600 dark:hover:bg-amber-600 dark:hover:text-amber-100;
 }
 
+.fixedAudioPlayer {
+  @apply fixed bottom-0.5 left-0 w-full py-5 lg:bottom-0.5;
+}
+.ClosedAudioPlayer {
+  @apply flex w-full flex-wrap items-center justify-center py-5;
+}
+
 .rutube {
   @apply h-56 w-full rounded-md sm:h-60 md:h-96 lg:h-100 xl:h-120 2xl:h-160;
 }
@@ -169,7 +176,7 @@ ol li {
 
 /*! УПАСАНА */
 .u-collapse {
-  @apply mx-auto flex max-w-2xl flex-col;
+  @apply mx-auto flex w-full max-w-xl flex-col;
 }
 .u-summary {
   @apply mt-5 mb-2 w-full cursor-pointer rounded-md bg-amber-100 p-2 text-xl md:mt-7 md:text-2xl lg:mt-10 dark:bg-slate-700;
