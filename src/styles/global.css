@@ -113,6 +113,18 @@ body {
   @apply h-56 w-full rounded-md sm:h-60 md:h-96 lg:h-100 xl:h-120 2xl:h-160;
 }
 
+/* .promo-bar__wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+      gap: 10px;
+color: #ff0000;
+       position: absolute;
+    top: 50%;
+    right: calc(100% + 8px);
+  } */
+
 ol li {
   list-style-type: decimal;
   list-style-position: inside;
