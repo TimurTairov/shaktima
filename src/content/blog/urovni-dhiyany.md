@@ -1,7 +1,7 @@
 ---
-title: "Медитация"
+title: "Уровни дхьяны"
 pubDate: 2026-05-22
-description: "Уровни дхьяны"
+description: "Глубина погружения в медитацию"
 image: "https://sun9-32.userapi.com/s/v1/ig2/mT6jYrzBZKYZwlUxg4iKDsa4gR8djNVBTo1om6HNDZaMPPtSjyxlwBta_rbr4VBK8FrFTQ5W1kVVjhe6o6EmJddJ.jpg?quality=95&as=32x16,48x24,72x36,108x54,160x80,240x120,360x180,480x240,540x270,640x320,720x360,960x480&from=bu&u=r0K37es0xibxwkBLB4r9wLAB7YRif23OfW14E0FzdtE&cs=960x0"
 
 tags: ["Дхьяна", "Медитация"]

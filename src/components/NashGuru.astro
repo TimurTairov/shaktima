@@ -5,7 +5,9 @@ import { Image } from "astro:assets";
 import guru from "../assets/tradition/guru.jpg";
 ---
 
-<div class="mb-20 flex w-full flex-wrap gap-5 lg:flex-nowrap">
+<div
+  class="mt-10 flex w-full flex-wrap gap-5 md:mt-12 lg:mt-14 lg:flex-nowrap xl:mt-16 2xl:mt-20"
+>
   <div class="flex w-full items-center justify-start lg:w-1/2">
     <!-- <Guru client:visible /> -->
     <Image src={guru} alt="Гуру" format="webp" class="rounded-md" />

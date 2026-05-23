@@ -6,7 +6,7 @@ const ShriSuktam = () => {
       <MyAccordion title='Шри Сукта' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
-          <div className="fixedAudioPlayer">
+          <div className="w-full flex flex-wrap items-center justify-center py-5">
             <audio
               controls
               controlsList="nodownload"
