@@ -6,7 +6,7 @@ const BhadjanShive = () => {
       <MyAccordion title='Бхаджан Шиве' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Шива Самба Сада (или любой другой)
           </h2>
 
@@ -19,7 +19,7 @@ const BhadjanShive = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-xl">
             Шива Шамбху
           </h2>
 
@@ -32,7 +32,7 @@ const BhadjanShive = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Ом Намах Шивайя
           </h2>
 
@@ -45,7 +45,7 @@ const BhadjanShive = () => {
             ></audio>
           </div>
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Сатьям Шивам Сундарам (Sat sound)
           </h2>
 

@@ -16,7 +16,7 @@ const DurgaDjayaKara = () => {
             ></audio>
           </div>
 
-          <div className='w-4xl'>
+          <div className='font-medium'>
             Шри Дурга мата ки – джей!<br /><br />
             Шри Шайлапутри ки – джей!<br />
             Шри Брахмачарини ки – джей!<br />
@@ -29,6 +29,8 @@ const DurgaDjayaKara = () => {
             Шри Сиддхидатри ки – джей!<br /><br />
             Шри Гуру Свами Вишнудевананда Гири Джи ки – джей!
           </div>
+
+          <p className='w-xl'></p>
 
         </div>
       </MyAccordion>

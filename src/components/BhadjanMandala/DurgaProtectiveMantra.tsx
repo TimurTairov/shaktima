@@ -19,11 +19,6 @@ const DurgaProtectiveMantra = () => {
             OM Nav Durga Namaha<br />
             OM Jag Janani Namaha ||1||
           </p>
-          <p className="text-balance max-w-screen-sm text-sm">
-            О Шайлапутри, Дочь гор, прошу, защити меня! О Богиня, которая является Матерью всей вселенной, защити меня!<br />
-            Ом, поклонение девяти формам Дурги!<br />
-            Ом, поклонение Матери Мира!
-          </p>
 
           <p className="font-medium">
             OM Brahmacharini Maiya Raksha Karo<br />
@@ -103,6 +98,9 @@ const DurgaProtectiveMantra = () => {
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
 
+          </p>
+
+          <p className="w-xl">
           </p>
 
         </div>

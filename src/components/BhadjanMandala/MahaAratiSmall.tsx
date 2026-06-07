@@ -18,10 +18,10 @@ const MahaAratiSmall = () => {
           <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-full">
             Ганеш Ванданам
           </h2>
-          <p className="font-medium">Харе Ом!     <br />
-            ГаджАананАм бхУта ганАади севитАм     <br />
-            КапИтха джамбО пхалАчара бхакшанАм     <br />
-            УмА сутам шОка винАаша кAранАм     <br />
+          <p className="font-medium">Харе Ом!<br />
+            ГаджАананАм бхУта ганАади севитАм <br />
+            КапИтха джамбО пхалАчара бхакшанАм <br />
+            УмА сутам шОка винАаша кAранАм <br />
             НамАми вигнЕшвара пАда панкаджАм
           </p>
           <p className=" text-balance max-w-screen-sm text-sm">

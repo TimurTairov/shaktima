@@ -6,7 +6,7 @@ const ShadaksharaMantra = () => {
       <MyAccordion title='Шестислоговая мантра Шивы' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Читается мантра на четках 108 раз.
           </h2>
 

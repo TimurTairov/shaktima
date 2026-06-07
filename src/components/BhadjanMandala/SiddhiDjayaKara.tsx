@@ -15,7 +15,7 @@ const SiddhiDjayaKara = () => {
             ></audio>
           </div>
 
-          <div className='w-4xl'>
+          <div className='font-medium'>
 
             Шри Бала Ганапати – ки джей!<br />
             Шри Таруна Ганапати – ки джей!<br />
@@ -52,6 +52,8 @@ const SiddhiDjayaKara = () => {
 
             Шри Гуру Свами Вишнудевананда Гири Джи ки – джей!
           </div>
+
+          <p className='w-xl'></p>
 
         </div>
       </MyAccordion>

@@ -6,7 +6,7 @@ const ShivaMantra = () => {
       <MyAccordion title='Мантра Шивы' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Одновременно с этим выполняется Шива-линга пуджа.
           </h2>
 

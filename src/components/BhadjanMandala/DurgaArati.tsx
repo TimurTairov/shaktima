@@ -122,6 +122,9 @@ const DurgaArati = () => {
             Om Jai Ambe Gauri ||14||
           </p>
 
+          <p className="w-xl">
+          </p>
+
         </div>
       </MyAccordion>
     </div>

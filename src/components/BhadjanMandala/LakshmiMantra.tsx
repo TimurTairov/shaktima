@@ -14,7 +14,7 @@ const LakshmiMantra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-medium w-xl">
+          <p className="font-medium">
             ОМ ХРИМ ШРИ ЛАКШМИ БХЙО НАМАХА (108 раз)
           </p>
           <p className="text-balance max-w-screen-sm text-sm">

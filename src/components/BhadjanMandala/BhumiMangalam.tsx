@@ -6,7 +6,7 @@ const BhumiMangalam = () => {
       <MyAccordion title='Бхуми Мангалам' big className='max-w-xl'>
         <div className="w-full flex flex-col gap-5 font-light">
 
-          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl w-4xl">
+          <h2 className="mb-2 mt-5 md:mt-7 lg:mt-10 text-xl md:text-2xl">
             Молитва о благословении всего мира
           </h2>
 

@@ -14,12 +14,14 @@ const DurgaMantra = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-medium w-xl">
+          <p className="font-medium">
             Ом Дум Дургайай Намаха (108 раз)
           </p>
           <p className="text-balance max-w-screen-sm text-sm">
             Ом Дум! Богине Дурге поклонение!
           </p>
+
+          <p className="w-xl"></p>
 
         </div>
       </MyAccordion>
