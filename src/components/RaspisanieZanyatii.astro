@@ -103,16 +103,16 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Пятница -->
-    <div class="grid-item-rasp">
-      <!-- <p class="w-full text-center">10:00 - 11:25</p>
+    <div class="grid-item-rasp bg-blue-100">
+      <p class="w-full text-center">10:00 - 11:25</p>
       <b class="w-full text-center">Шат чакра крийя йога</b>
-      <p class="w-full text-center font-light">Мадхаваприя</p> -->
+      <p class="w-full text-center font-light">Мадхаваприя</p>
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Суббота -->
     <div class="grid-item-rasp bg-blue-100">
       <p class="w-full text-center">10:00 - 12:30</p>
-      <b class="w-full text-center">Углубленное занятие по йоге</b>
+      <b class="w-full text-center">Практики ветра, пранаямы, медитации</b>
       <p class="w-full text-center font-light">Мадхаваприя</p>
     </div>
     <!-- Воскресение -->
@@ -192,14 +192,14 @@ import { Icon } from "astro-icon/components";
     <div class="grid-item-rasp bg-blue-100">
       <p class="w-full text-center">16:00 - 17:00</p>
       <b class="w-full text-center">Медитация 4БСБ</b>
-      <b class="w-full text-center font-light">Лалитасундари</b>
-      <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
+      <!-- <b class="w-full text-center font-light">Лалитасундари</b> -->
+      <p class="w-full text-center text-red-600">Отмена занятия!</p>
     </div>
     <!-- Воскресение -->
-    <div class="grid-item-rasp">
-      <!-- <p class="w-full text-center">14:00 - 17:00</p>
-      <b class="w-full text-center">Интенсив по динамической йоге</b>
-      <p class="w-full text-center font-light">Тиртхадева</p> -->
+    <div class="grid-item-rasp bg-blue-100">
+      <p class="w-full text-center">14:00 - 17:00</p>
+      <b class="w-full text-center">20 крий</b>
+      <p class="w-full text-center font-light">Тиртхадева</p>
     </div>
 
     <!--! 5  -->
@@ -213,7 +213,7 @@ import { Icon } from "astro-icon/components";
     <!-- Вторник -->
     <div class="grid-item-rasp bg-blue-100">
       <p class="w-full text-center">18:30 - 22:00</p>
-      <b class="w-full text-center">Чакра йога</b>
+      <b class="w-full text-center">Шат чакра йога</b>
       <p class="w-full text-center font-light italic">Мадхаваприя</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
     </div>
@@ -296,9 +296,9 @@ import { Icon } from "astro-icon/components";
 
 <div class="flex flex-col gap-2">
   <div
-    class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10"
+    class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 xl:gap-10"
   >
-    <div
+    <!-- <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
@@ -310,7 +310,7 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Чт 10:00 Йога сиддхов</p>
+          <p class="font-light">• Чт 10:00 Йога сиддхов</p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -332,7 +332,7 @@ import { Icon } from "astro-icon/components";
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
@@ -346,8 +346,8 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Вт 19:00 Комплекс ветра + пранаяма</p>
-          <p class="font-light">Пт 10:00 Шат чакра крийя йога</p>
+          <p class="font-light">• Вт 19:00 Комплекс ветра + пранаяма</p>
+          <p class="font-light">• Пт 10:00 Шат чакра крийя йога</p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -387,7 +387,7 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Сб 15:00 Медитация 4БСБ</p>
+          <p class="font-light">• Сб 15:00 Медитация 4БСБ</p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -423,8 +423,8 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Утрення пуджа Даттатрее</p>
-          <p class="font-light">Вечерняя пуджа (по дням недели)</p>
+          <p class="font-light">• Утрення пуджа Даттатрее</p>
+          <p class="font-light">• Вечерняя пуджа (по дням недели)</p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -446,7 +446,7 @@ import { Icon } from "astro-icon/components";
       </div>
     </div>
 
-    <div
+    <!-- <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
@@ -458,17 +458,6 @@ import { Icon } from "astro-icon/components";
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">
-            Пн 25.05 18:30 Бхаджан Мандала и Брахма мантра с Нитьяшри Гири
-          </p>
-          <p class="font-light">
-            Вт 26.05 18:30 Расширенная пуджа Даттатрее с Нитьяшри Гири
-          </p>
-          <p class="font-light">Чт 27.05 19:00 Йога звука с Анугита</p>
-          <p class="font-light">
-            Пн 28.05 18:30 Пуджа Шакти и семинар "Мистерия Великой Богини
-            Трипурасундари" с Аравиндини Гири
-          </p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -488,7 +477,7 @@ import { Icon } from "astro-icon/components";
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
@@ -496,14 +485,19 @@ import { Icon } from "astro-icon/components";
       <div class="my-2 flex w-full flex-col items-center justify-center">
         <Image src={tirthadeva} alt="" class="rounded-full" />
         <p class="text-lg font-medium text-gray-700 dark:text-amber-600">
-          Запись на мероприятие
+          Тиртхадева
         </p>
       </div>
       <div class="w-full dark:text-amber-100">
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
-          <p class="font-light">Воскресение 31 мая 14:00 - 17:00</p>
-          <p class="font-light">Интенсив по динамической йоге</p>
+          <p class="font-light">
+            • Воскресение 14 июня 14:00 - 17:00. 20 крий кундалини йоги
+          </p>
+          <p class="font-light text-red-500">
+            Ps: На практику допускаются только те практикующие, которые получили
+            передачу в данную садхану!
+          </p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
