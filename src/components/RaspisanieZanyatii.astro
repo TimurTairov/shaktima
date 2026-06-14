@@ -96,10 +96,10 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
-    <div class="grid-item-rasp">
-      <!-- <p class="w-full text-center">10:00 - 11:25</p>
+    <div class="grid-item-rasp bg-blue-100">
+      <p class="w-full text-center">10:00 - 11:25</p>
       <b class="w-full text-center">Йога сиддхов</b>
-      <p class="w-full text-center font-light">Тарини</p> -->
+      <p class="w-full text-center font-light">Тарини</p>
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Пятница -->
@@ -116,7 +116,10 @@ import { Icon } from "astro-icon/components";
       <p class="w-full text-center font-light">Мадхаваприя</p>
     </div>
     <!-- Воскресение -->
-    <div class="grid-item-rasp">
+    <div class="grid-item-rasp bg-green-100">
+      <p class="w-full text-center"></p>
+      <b class="w-full text-center">День йоги</b>
+      <b class="w-full text-center font-light"></b>
       <!-- <p class="w-full text-center">9:30 - 19:00</p>
       <b class="w-full text-center">
         <a
@@ -151,17 +154,17 @@ import { Icon } from "astro-icon/components";
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Четверг -->
-    <div class="grid-item-rasp">
-      <!-- <p class="w-full text-center">11:30 - 12:30</p>
+    <div class="grid-item-rasp bg-amber-100">
+      <p class="w-full text-center">11:30 - 12:30</p>
       <b class="w-full text-center">Сутра</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p> -->
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Пятница -->
-    <div class="grid-item-rasp">
-      <!-- <p class="w-full text-center">11:30 - 12:30</p>
+    <div class="grid-item-rasp bg-amber-100">
+      <p class="w-full text-center">11:30 - 12:30</p>
       <b class="w-full text-center">Сутра</b>
-      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p> -->
+      <p class="w-full text-center font-light italic">Пуджа Даттатрее</p>
       <!-- <p class="w-full text-center text-red-600">Отмена занятия</p> -->
     </div>
     <!-- Суббота -->
@@ -190,16 +193,16 @@ import { Icon } from "astro-icon/components";
     <div class="grid-item-rasp">...</div>
     <!-- Суббота -->
     <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">16:00 - 17:00</p>
+      <p class="w-full text-center">16:00 - 17:30</p>
       <b class="w-full text-center">Медитация 4БСБ</b>
-      <!-- <b class="w-full text-center font-light">Лалитасундари</b> -->
-      <p class="w-full text-center text-red-600">Отмена занятия!</p>
+      <b class="w-full text-center font-light">Лалитасундари</b>
+      <!-- <p class="w-full text-center text-red-600">Отмена занятия!</p> -->
     </div>
     <!-- Воскресение -->
-    <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">14:00 - 17:00</p>
+    <div class="grid-item-rasp">
+      <!-- <p class="w-full text-center">14:00 - 17:00</p>
       <b class="w-full text-center">20 крий</b>
-      <p class="w-full text-center font-light">Тиртхадева</p>
+      <p class="w-full text-center font-light">Тиртхадева</p> -->
     </div>
 
     <!--! 5  -->
@@ -212,7 +215,7 @@ import { Icon } from "astro-icon/components";
     </div>
     <!-- Вторник -->
     <div class="grid-item-rasp bg-blue-100">
-      <p class="w-full text-center">18:30 - 22:00</p>
+      <p class="w-full text-center">19:00 - 21:00</p>
       <b class="w-full text-center">Шат чакра йога</b>
       <p class="w-full text-center font-light italic">Мадхаваприя</p>
       <!-- <p class="text-red-600">Отмена занятия</p> -->
@@ -253,7 +256,7 @@ import { Icon } from "astro-icon/components";
 <p
   class="w-full text-right text-[0.3rem] font-light md:text-[0.4rem] lg:text-[0.5rem] xl:text-[0.7rem]"
 >
-  Обновлено: 07.06.2026 21:40
+  Обновлено: 14.06.2026 20:20
 </p>
 <h3
   class="mt-5 mb-1 text-base font-medium text-gray-700 md:mt-5 lg:mt-10 dark:text-amber-600"
@@ -296,9 +299,9 @@ import { Icon } from "astro-icon/components";
 
 <div class="flex flex-col gap-2">
   <div
-    class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 xl:gap-10"
+    class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10"
   >
-    <!-- <div
+    <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
@@ -332,7 +335,7 @@ import { Icon } from "astro-icon/components";
           </a>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
@@ -348,6 +351,9 @@ import { Icon } from "astro-icon/components";
           <p class="mt-1">Расписание:</p>
           <p class="font-light">• Вт 19:00 Комплекс ветра + пранаяма</p>
           <p class="font-light">• Пт 10:00 Шат чакра крийя йога</p>
+          <p class="font-light">
+            • Сб 10:00 Практики ветра, пранаямы, медитации
+          </p>
         </div>
         <div class="mt-5 flex gap-1">
           <p class="">Контакты:</p>
@@ -492,11 +498,12 @@ import { Icon } from "astro-icon/components";
         <div class="flex flex-col gap-1">
           <p class="mt-1">Расписание:</p>
           <p class="font-light">
-            • Воскресение 14 июня 14:00 - 17:00. 20 крий кундалини йоги
-          </p>
-          <p class="font-light text-red-500">
-            Ps: На практику допускаются только те практикующие, которые получили
-            передачу в данную садхану!
+            • Воскресение 28 июня 9:30 - 19:00
+            <a
+              href="/mdc-events/dhiyana"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+              >Медитатвный ретрит для всех желающих
+            </a>
           </p>
         </div>
         <div class="mt-5 flex gap-1">
