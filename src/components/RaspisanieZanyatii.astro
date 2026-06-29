@@ -257,7 +257,7 @@ import { Icon } from "astro-icon/components";
 <p
   class="w-full text-right text-[0.3rem] font-light md:text-[0.4rem] lg:text-[0.5rem] xl:text-[0.7rem]"
 >
-  Обновлено: 29.06.2026 13:34
+  Обновлено: 29.06.2026 13:50
 </p>
 <h3
   class="mt-5 mb-1 text-base font-medium text-gray-700 md:mt-5 lg:mt-10 dark:text-amber-600"
@@ -302,8 +302,9 @@ import { Icon } from "astro-icon/components";
   <div
     class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10"
   >
+    <!--! ТАРИНИ -->
     <div
-      class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
+      class="flex flex-col justify-between rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
         <Image src={tarini} alt="" class="rounded-full" />
@@ -311,35 +312,36 @@ import { Icon } from "astro-icon/components";
           Тарини
         </p>
       </div>
-      <div class="w-full dark:text-amber-100">
-        <div class="flex flex-col gap-1">
-          <p class="mt-1">Расписание:</p>
-          <p class="font-light">• Чт 10:00 Йога сиддхов</p>
-        </div>
-        <div class="mt-5 flex gap-1">
-          <p class="">Контакты:</p>
-          <a
-            href="whatsapp://send?phone=79154779637"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            whapsapp
-          </a>
-          <a
-            href="https://t.me/om_tarini"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            telegram
-          </a>
-        </div>
+
+      <div class="flex flex-col gap-1 dark:text-amber-100">
+        <p class="mt-1">Расписание:</p>
+        <p class="font-light">• Чт 10:00 Йога сиддхов</p>
+      </div>
+
+      <div class="mt-5 flex gap-1 dark:text-amber-100">
+        <p class="">Контакты:</p>
+        <a
+          href="whatsapp://send?phone=79154779637"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          whapsapp
+        </a>
+        <a
+          href="https://t.me/om_tarini"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          telegram
+        </a>
       </div>
     </div>
 
+    <!--! Мадхаваприя -->
     <div
-      class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
+      class="flex flex-col justify-between rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
         <Image src={madhavapriya} alt="" class="rounded-full" />
@@ -347,39 +349,38 @@ import { Icon } from "astro-icon/components";
           Мадхаваприя
         </p>
       </div>
-      <div class="w-full dark:text-amber-100">
-        <div class="flex flex-col gap-1">
-          <p class="mt-1">Расписание:</p>
-          <p class="font-light">• Вт 19:00 Комплекс ветра + пранаяма</p>
-          <p class="font-light">• Пт 10:00 Шат чакра крийя йога</p>
-          <p class="font-light">
-            • Сб 10:00 Практики ветра, пранаямы, медитации
-          </p>
-        </div>
-        <div class="mt-5 flex gap-1">
-          <p class="">Контакты:</p>
-          <a
-            href="whatsapp://send?phone=79852597978"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            whatsapp
-          </a>
-          <a
-            href="https://t.me/margo9978"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            telegram
-          </a>
-        </div>
+      <div class="flex flex-col gap-1 dark:text-amber-100">
+        <p class="mt-1">Расписание:</p>
+        <p class="font-light">• Вт 19:00 Комплекс ветра + пранаяма</p>
+        <p class="font-light">• Пт 10:00 Шат чакра крийя йога</p>
+        <p class="font-light">• Сб 10:00 Практики ветра, пранаямы, медитации</p>
       </div>
+
+      <div class="mt-5 flex gap-1">
+        <p class="">Контакты:</p>
+        <a
+          href="whatsapp://send?phone=79852597978"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          whatsapp
+        </a>
+        <a
+          href="https://t.me/margo9978"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          telegram
+        </a>
+      </div>
+      <div class="w-full"></div>
     </div>
 
+    <!--! Лалитасундари -->
     <div
-      class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
+      class="flex flex-col justify-between rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
         <Image src={lalitasundari} alt="" class="rounded-full" />
@@ -391,33 +392,34 @@ import { Icon } from "astro-icon/components";
         <span class="text-xl font-medium text-gray-700 dark:text-amber-600">
         </span>
       </button>
-      <div class="w-full dark:text-amber-100">
-        <div class="flex flex-col gap-1">
-          <p class="mt-1">Расписание:</p>
-          <p class="font-light">• Сб 16:00 Медитация 4БСБ</p>
-        </div>
-        <div class="mt-5 flex gap-1">
-          <p class="">Контакты:</p>
-          <a
-            href="whatsapp://send?phone=79637239294"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            whatsapp
-          </a>
-          <a
-            href="https://t.me/lido108"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-          >
-            telegram
-          </a>
-        </div>
+
+      <div class="flex flex-col gap-1 dark:text-amber-100">
+        <p class="mt-1">Расписание:</p>
+        <p class="font-light">• Сб 16:00 Медитация 4БСБ</p>
+      </div>
+
+      <div class="mt-5 flex gap-1 dark:text-amber-100">
+        <p class="">Контакты:</p>
+        <a
+          href="whatsapp://send?phone=79637239294"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          whatsapp
+        </a>
+        <a
+          href="https://t.me/lido108"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+        >
+          telegram
+        </a>
       </div>
     </div>
 
+    <!--! Тарамати -->
     <div
       class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
@@ -427,34 +429,35 @@ import { Icon } from "astro-icon/components";
           Запись на пуджу
         </p>
       </div>
-      <div class="w-full dark:text-amber-100">
-        <div class="flex flex-col gap-1">
-          <p class="mt-1">Расписание:</p>
-          <p class="font-light">• Утрення пуджа Даттатрее</p>
-          <p class="font-light">• Вечерняя пуджа (по дням недели)</p>
-        </div>
-        <div class="mt-5 flex gap-1">
-          <p class="">Контакты:</p>
-          <a
-            href="whatsapp://send?phone=79852191619"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-            >whatsapp
-          </a>
-          <a
-            href="https://t.me/Shartatiana"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-            >telegram
-          </a>
-        </div>
+
+      <div class="flex flex-col gap-1 dark:text-amber-100">
+        <p class="mt-1">Расписание:</p>
+        <p class="font-light">• Утрення пуджа Даттатрее</p>
+        <p class="font-light">• Вечерняя пуджа (по дням недели)</p>
+      </div>
+
+      <div class="mt-5 flex gap-1 dark:text-amber-100">
+        <p class="">Контакты:</p>
+        <a
+          href="whatsapp://send?phone=79852191619"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+          >whatsapp
+        </a>
+        <a
+          href="https://t.me/Shartatiana"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+          >telegram
+        </a>
       </div>
     </div>
 
+    <!--! Тиртхадева -->
     <div
-      class="flex flex-col rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
+      class="flex flex-col justify-between rounded-md bg-amber-100 p-2 text-sm text-slate-700 transition-all duration-700 ease-in dark:bg-slate-700 dark:text-white"
     >
       <div class="my-2 flex w-full flex-col items-center justify-center">
         <Image src={tirthadeva} alt="" class="rounded-full" />
@@ -462,35 +465,35 @@ import { Icon } from "astro-icon/components";
           Тиртхадева
         </p>
       </div>
-      <div class="w-full dark:text-amber-100">
-        <div class="flex flex-col gap-1">
-          <p class="mt-1">Расписание:</p>
-          <p class="font-light">
-            • Воскресение 28 июня 9:30 - 19:00
+
+      <div class="flex flex-col gap-1 dark:text-amber-100">
+        <p class="mt-1">Расписание:</p>
+        <p class="font-light">
+          <!-- • Воскресение 28 июня 9:30 - 19:00
             <a
               href="/mdc-events/dhiyana"
               class="text-indigo-700 hover:underline dark:text-amber-400"
               >Медитатвный ретрит для всех желающих
-            </a>
-          </p>
-        </div>
-        <div class="mt-5 flex gap-1">
-          <p class="">Контакты:</p>
-          <a
-            href="whatsapp://send?phone=79672067710"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-            >whatsapp
-          </a>
-          <a
-            href="https://t.me/tirthadeva"
-            target="_blank"
-            rel="noreferrer"
-            class="text-indigo-700 hover:underline dark:text-amber-400"
-            >telegram
-          </a>
-        </div>
+            </a> -->
+        </p>
+      </div>
+
+      <div class="flex gap-1 dark:text-amber-100">
+        <p class="">Контакты:</p>
+        <a
+          href="whatsapp://send?phone=79672067710"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+          >whatsapp
+        </a>
+        <a
+          href="https://t.me/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="text-indigo-700 hover:underline dark:text-amber-400"
+          >telegram
+        </a>
       </div>
     </div>
   </div>
