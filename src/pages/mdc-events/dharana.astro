@@ -13,7 +13,9 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
   <div class="main-container flex flex-col items-center dark:text-amber-100">
     <h1 class="mainTitle">ВНУТРИ ТОЧКИ — БЕСКОНЕЧНОСТЬ</h1>
 
-    <div class="mt-7 flex w-full max-w-xl items-center justify-center">
+    <div
+      class="mt-7 flex w-full max-w-xl items-center justify-center lg:mt-10 2xl:mt-16"
+    >
       <Image
         src={bannerYoga}
         alt="Йога в ШактиМа"
@@ -22,7 +24,7 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
     </div>
 
     <div
-      class="mt-5 flex w-full flex-col-reverse justify-between gap-5 md:mt-7 md:flex-col lg:mt-10 lg:flex-row"
+      class="mt-7 flex w-full flex-col-reverse justify-between gap-5 md:flex-col lg:mt-10 lg:flex-row 2xl:mt-16"
     >
       <div
         class="flex w-full flex-col items-center justify-around gap-3 text-lg text-gray-500 dark:text-amber-100"
@@ -49,10 +51,10 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
     </div>
 
     <div
-      class="mt-7 flex w-full flex-col justify-between gap-5 md:mt-7 lg:mt-10"
+      class="mt-7 flex w-full flex-col justify-between gap-4 lg:mt-10 2xl:mt-16"
     >
       <h5
-        class="mt-7 w-full text-center text-lg font-bold md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-12 dark:text-amber-600"
+        class="w-full text-center text-lg font-bold md:text-xl lg:text-2xl dark:text-amber-600"
       >
         ДАННЫЙ РЕТРИТ
       </h5>
@@ -82,192 +84,194 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
           медитации и носителями традиционных знаний.
         </p>
       </div>
+    </div>
 
-      <h5
-        class="mt-7 w-full text-center text-lg font-bold md:mt-7 md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-12 dark:text-amber-600"
+    <h5
+      class="mt-7 w-full text-center text-lg font-bold md:mt-7 md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-16 dark:text-amber-600"
+    >
+      ЧТО ВАС ЖДЁТ
+    </h5>
+    <div
+      class="mt-4 grid w-full grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-4 2xl:grid-cols-4"
+    >
+      <p
+        class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
       >
-        ЧТО ВАС ЖДЁТ
+        Хатха, мантра и кундалини йога
+      </p>
+      <p
+        class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Мауна и простирания
+      </p>
+      <p
+        class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Концентрация
+      </p>
+      <p
+        class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Созерцательная ходьба
+      </p>
+    </div>
+    <p class="mt-4">
+      <b class="dark:text-amber-600">PS:</b> все практики адаптированы для жителей
+      мегаполиса: без побега от реальности — с интеграцией тишины в обычную жизнь.
+    </p>
+
+    <div
+      class="mt-7 flex w-full flex-col items-center justify-center gap-2 lg:mt-10 lg:text-2xl 2xl:mt-16"
+    >
+      <h5
+        class="w-full text-center text-lg font-bold md:text-xl dark:text-amber-600"
+      >
+        РАСПИСАНИЕ
       </h5>
-      <div class="grid w-full grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-5">
-        <p
-          class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      <div
+        class="mt-4 flex flex-col gap-3 rounded-sm border border-amber-700 bg-amber-100 p-4 dark:bg-gray-700"
+      >
+        <p>9:30 — Сбор/ инструктаж</p>
+        <p>10:00 — Простирания/ хатха йога</p>
+        <p>11:30 — Кундалини йога/ Чандали</p>
+        <p>13:00 — Концентрация/ созерцательная ходьба</p>
+        <p>14:00 — Прасад/лекция гуру</p>
+        <p>15:00 — Концентрация/ созерцательная ходьба</p>
+        <p>16:00 — Мантра йога/ созерцательная ходьба</p>
+        <p>17:00 — Концентрация/ созерцательная ходьба</p>
+        <p>18:00 — Чай/ беседы о дхарме</p>
+        <p>19:00 — Завершение ретрита</p>
+      </div>
+    </div>
+
+    <div class="mt-7 lg:mt-10 2xl:mt-16">
+      <DhyanaFoto client:visible />
+    </div>
+
+    <div class="mt-7 flex w-full flex-col gap-4 lg:mt-10 2xl:mt-16">
+      <h5
+        class="w-full text-center text-lg font-bold md:mt-7 md:text-xl dark:text-amber-600"
+      >
+        ДЛЯ КОГО ЭТОТ РЕТРИТ
+      </h5>
+      <p>• Для тех, кто пробовал медитировать, но «ничего не выходит»</p>
+      <p>• Для руководителей и творцов, уставших от многозадачности</p>
+      <p>• Для практикующих йогу, которые хотят углубить Дхьяну</p>
+      <p>• Для всех, кто чувствует: пора остановить бег мыслей и просто быть</p>
+      <p></p>
+    </div>
+
+    <div class="mt-7 flex w-full flex-col gap-4 lg:mt-10 2xl:mt-16">
+      <h5
+        class="w-full text-center text-lg font-bold md:text-xl dark:text-amber-600"
+      >
+        УСЛОВИЯ УЧАСТИЯ
+      </h5>
+      <p>
+        <b class="dark:text-amber-600">Место проведения ретрита:</b> московский дхарма
+        центр ШактиМа.
+      </p>
+      <p>
+        <b class="dark:text-amber-600">Адрес:</b> Москва, Нижняя Красносельская улица,
+        40/12к2.
+      </p>
+      <div class="flex w-full items-center gap-1">
+        <b class="dark:text-amber-600">Проводник:</b>
+        <p>Тиртхадева</p>
+        <a
+          href="https://tirthadeva.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
         >
-          Хатха, мантра и кундалини йога
+          <Icon
+            name="mdi:vector-link"
+            class="size-4 text-indigo-700 dark:text-amber-400"
+          />
+        </a>
+      </div>
+      <div class="inline w-full items-center gap-1">
+        <p class="inline">
+          <b class="dark:text-amber-600">Подношения:</b> ретрит проводится за свободные
+          пожертвования по сердцу
         </p>
-        <p
-          class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
-        >
-          Мауна и простирания
-        </p>
-        <p
-          class="rounded-sm border border-gray-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
-        >
-          Концентрация внимания на точку
-        </p>
+        <Icon name="mdi:cards-heart-outline" class="inline text-red-500" />
       </div>
       <p>
-        <b class="dark:text-amber-600">PS:</b> все практики адаптированы для жителей
-        мегаполиса: без побега от реальности — с интеграцией тишины в обычную жизнь.
+        <b class="dark:text-amber-600">Дата:</b> 26 июля. Сбор в ДЦ в 9:30. Завершение
+        ретрита в 19:00.
       </p>
+      <p>
+        <b class="dark:text-amber-600">Форма одежды:</b> свободная, комфортная для
+        практик хатха, кундалини йоги, медитации.
+      </p>
+      <p>
+        <b class="dark:text-amber-600">Завтрак:</b> до начала ретрита допускается
+        лёгкий завтрак, такой, чтобы не было тяжело практиковать асаны и кундалини
+        йогу.
+      </p>
+      <p>
+        <b class="dark:text-amber-600">Обед:</b>
+        саттвичный прасад приносите с собой. Предпочтительно свежие фрукты, овощи,
+        орехи и вкусняшки к чаю.
+      </p>
+    </div>
 
-      <div
-        class="mt-7 flex w-full flex-col items-center justify-center gap-2 lg:mt-10 lg:text-2xl 2xl:mt-12"
+    <div class="mt-7 lg:mt-10 2xl:mt-16">
+      <DhyanaOtzyvy client:visible />
+    </div>
+
+    <div class="mt-7 flex w-full flex-col gap-5 lg:mt-10 2xl:mt-16">
+      <p>
+        «Концентрация — это не сжатие, а раскрытие. На ретрите вы не научитесь
+        «держать» мысли — вы научитесь отпускать их с лёгкостью».
+      </p>
+      <p>
+        Если внутри отозвалось — значит, это ваш момент. Мы ждём вас. Возьмите с
+        собой свободное время, удобную одежду и что-нибудь поесть. Всё остальное
+        у нас есть — коврики, подушки для медитации, распечатанные листы с
+        точкой.
+      </p>
+    </div>
+
+    <div
+      class="mt-7 flex w-full flex-col items-center justify-center gap-3 lg:mt-10 2xl:mt-16"
+    >
+      <h5 class="font-bold md:text-xl lg:text-2xl dark:text-amber-600">
+        КАК ЗАПИСАТЬСЯ
+      </h5>
+      <div class="mt-2 flex w-full justify-center gap-1">
+        <a
+          href="whatsapp://send?phone=79672067710"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
+          >WhatsApp
+        </a>
+        <a
+          href="https://t.me/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
+          >Telegram
+        </a>
+        <a
+          href="https://vk.com/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
+          >Вконтакте
+        </a>
+      </div>
+      <span class="w-full text-center"
+        >Либо, по номеру телефона: +79672067710 (Тиртхадева)</span
       >
-        <h5
-          class="w-full text-center text-lg font-bold md:mt-7 md:text-xl dark:text-amber-600"
-        >
-          РАСПИСАНИЕ
-        </h5>
-        <div
-          class="flex flex-col gap-3 rounded-sm border bg-amber-100 p-2 lg:p-4 2xl:p-6 dark:bg-gray-700"
-        >
-          <p>9:30 — Сбор/ инструктаж</p>
-          <p>10:00 — Простирания/ хатха йога</p>
-          <p>11:30 — Кундалини йога/ Чандали</p>
-          <p>13:00 — Концентрация/ созерцательная ходьба</p>
-          <p>14:00 — Прасад/лекция гуру</p>
-          <p>15:00 — Концентрация/ созерцательная ходьба</p>
-          <p>16:00 — Мантра йога/ созерцательная ходьба</p>
-          <p>17:00 — Концентрация/ созерцательная ходьба</p>
-          <p>18:00 — Чай/ беседы о дхарме</p>
-          <p>19:00 — Завершение ретрита</p>
-        </div>
-      </div>
+    </div>
 
-      <div class="mt-7 lg:mt-10 2xl:mt-12">
-        <DhyanaFoto client:visible />
-      </div>
-
-      <div class="mt-7 flex w-full flex-col gap-4 lg:mt-10 2xl:mt-12">
-        <h5
-          class="w-full text-center text-lg font-bold md:mt-7 md:text-xl dark:text-amber-600"
-        >
-          УСЛОВИЯ УЧАСТИЯ
-        </h5>
-        <p>
-          <b class="dark:text-amber-600">Место проведения ретрита:</b> московский
-          дхарма центр ШактиМа.
-        </p>
-        <p>
-          <b class="dark:text-amber-600">Адрес:</b> Москва, Нижняя Красносельская
-          улица, 40/12к2.
-        </p>
-        <div class="flex w-full items-center gap-1">
-          <b class="dark:text-amber-600">Проводник:</b>
-          <p>Тиртхадева</p>
-          <a
-            href="https://tirthadeva.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Icon
-              name="mdi:vector-link"
-              class="size-4 text-indigo-700 dark:text-amber-400"
-            />
-          </a>
-        </div>
-        <div class="inline w-full items-center gap-1">
-          <p class="inline">
-            <b class="dark:text-amber-600">Подношения:</b> ретрит проводится за свободные
-            пожертвования по сердцу
-          </p>
-          <Icon name="mdi:cards-heart-outline" class="inline text-red-500" />
-        </div>
-        <p>
-          <b class="dark:text-amber-600">Дата:</b> 26 июля. Сбор в ДЦ в 9:30. Завершение
-          ретрита в 19:00.
-        </p>
-
-        <p>
-          <b class="dark:text-amber-600">Форма одежды:</b> свободная, комфортная для
-          практик хатха, кундалини йоги, медитации.
-        </p>
-        <p>
-          <b class="dark:text-amber-600">Завтрак:</b> до начала ретрита допускается
-          лёгкий завтрак, такой, чтобы не было тяжело практиковать асаны и кундалини
-          йогу.
-        </p>
-        <p>
-          <b class="dark:text-amber-600">Обед:</b>
-          саттвичный прасад приносите с собой. Предпочтительно свежие фрукты, овощи,
-          орехи и вкусняшки к чаю.
-        </p>
-      </div>
-
-      <div class="mt-7 flex w-full flex-col gap-4 lg:mt-10 2xl:mt-16">
-        <h5
-          class="w-full text-center text-lg font-bold md:mt-7 md:text-xl dark:text-amber-600"
-        >
-          ДЛЯ КОГО ЭТОТ РЕТРИТ
-        </h5>
-        <p>• Для тех, кто пробовал медитировать, но «ничего не выходит»</p>
-        <p>• Для руководителей и творцов, уставших от многозадачности</p>
-        <p>• Для практикующих йогу, которые хотят углубить Дхьяну</p>
-        <p>
-          • Для всех, кто чувствует: пора остановить бег мыслей и просто быть
-        </p>
-        <p></p>
-      </div>
-
-      <div class="mt-7 flex w-full flex-col gap-5 lg:mt-10 2xl:mt-16">
-        <p>
-          «Концентрация — это не сжатие, а раскрытие. На ретрите вы не научитесь
-          «держать» мысли — вы научитесь отпускать их с лёгкостью».
-        </p>
-        <p>
-          Если внутри отозвалось — значит, это ваш момент. Мы ждём вас. Возьмите
-          с собой свободное время, удобную одежду и что-нибудь поесть. Всё
-          остальное у нас есть — коврики, подушки для медитации, распечатанные
-          листы с точкой.
-        </p>
-      </div>
-
-      <div class="mt-7 lg:mt-10 2xl:mt-16">
-        <DhyanaOtzyvy client:visible />
-      </div>
-
-      <div
-        class="mt-7 flex w-full flex-col items-center justify-center gap-3 lg:mt-10 2xl:mt-16"
-      >
-        <h5
-          class="font-bold md:text-xl lg:mt-10 lg:text-2xl 2xl:mt-12 dark:text-amber-600"
-        >
-          КАК ЗАПИСАТЬСЯ
-        </h5>
-        <div class="mt-2 flex w-full justify-center gap-1">
-          <a
-            href="whatsapp://send?phone=79672067710"
-            target="_blank"
-            rel="noreferrer"
-            class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
-            >WhatsApp
-          </a>
-          <a
-            href="https://t.me/tirthadeva"
-            target="_blank"
-            rel="noreferrer"
-            class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
-            >Telegram
-          </a>
-          <a
-            href="https://vk.com/tirthadeva"
-            target="_blank"
-            rel="noreferrer"
-            class="my-button w-min rounded-xs border border-gray-300 px-3 py-2"
-            >Вконтакте
-          </a>
-        </div>
-        <span class="w-full text-center"
-          >Либо, по номеру телефона: +79672067710 (Тиртхадева)</span
-        >
-      </div>
-
-      <div
-        class="mt-7 flex w-full flex-col items-center justify-center gap-1 lg:mt-10 lg:gap-2 2xl:mt-12"
-      >
-        <p class="text-base lg:text-3xl">До встречи на коврике тишины.</p>
-        <Image src={meditation2} alt="meditation" class="rounded-sm" />
-      </div>
+    <div
+      class="mt-7 flex w-full flex-col items-center justify-center gap-1 lg:mt-10 lg:gap-2 2xl:mt-16"
+    >
+      <p class="text-base lg:text-3xl">До встречи на коврике тишины.</p>
+      <Image src={meditation2} alt="meditation" class="mt-2 rounded-sm" />
     </div>
   </div>
 </Layout>
