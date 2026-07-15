@@ -6,6 +6,7 @@
     "cssVariables": true
   },
   "componentDir": "src/components",
+  "utilsDir": "src/lib/utils",
   "components": [
     {
       "name": "button",
@@ -14,6 +15,10 @@
     {
       "name": "carousel",
       "version": "1.0.1"
+    },
+    {
+      "name": "tabs",
+      "version": "1.4.3"
     }
   ]
 }
