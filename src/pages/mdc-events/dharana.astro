@@ -1,12 +1,30 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
-// import meditation from "../../assets/img/meditation.jpg";
 import meditation2 from "../../assets/meditation-tirthadeva.webp";
 import bannerYoga from "../../assets/banners/dharana2.webp";
 import DhyanaFoto from "@/components/carousel/DhyanaFoto";
 import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
+import { Image } from "astro:assets";
+import img1 from "@/assets/Photos from previous events/01.webp";
+import img2 from "@/assets/Photos from previous events/02.webp";
+import img3 from "@/assets/Photos from previous events/03.webp";
+import img4 from "@/assets/Photos from previous events/04.webp";
+import img5 from "@/assets/Photos from previous events/05.webp";
+import img6 from "@/assets/Photos from previous events/06.webp";
+import img7 from "@/assets/Photos from previous events/07.webp";
+import img8 from "@/assets/Photos from previous events/08.webp";
+import img9 from "@/assets/Photos from previous events/09.webp";
+import otzyv1 from "@/assets/otzyvy/otzyv-1.webp";
+import otzyv2 from "@/assets/otzyvy/otzyv-2.webp";
+import otzyv3 from "@/assets/otzyvy/otzyv-3.webp";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/starwind/carousel";
 ---
 
 <Layout title="РЕТРИТ: ВНУТРИ ТОЧКИ — БЕСКОНЕЧНОСТЬ">
@@ -146,7 +164,93 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
       </div>
     </div>
 
-    <DhyanaFoto client:visible />
+    <!-- <DhyanaFoto client:visible /> -->
+
+    <h5 class="mt-16 w-full text-center font-bold dark:text-amber-600">
+      Фотографии с предыдущих мероприятий
+    </h5>
+
+    <Carousel
+      opts={{ align: "start", loop: true, duration: 30 }}
+      class="mx-auto w-full px-0 lg:px-20"
+    >
+      <CarouselContent>
+        <CarouselItem>
+          <Image
+            src={img1}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img2}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img3}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img4}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img5}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img6}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img7}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img8}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img9}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
 
     <div class="mt-16 flex w-full flex-col gap-4">
       <h5
@@ -249,7 +353,29 @@ import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
       </p>
     </div>
 
-    <DhyanaOtzyvy client:visible />
+    <!-- <DhyanaOtzyvy client:visible /> -->
+    <h1 class="mt-16 w-full text-center font-bold dark:text-amber-600">
+      Отзывы с прошедших ретритов
+    </h1>
+
+    <Carousel
+      opts={{ align: "start", loop: true, duration: 30 }}
+      class="mx-auto px-0 lg:px-20 xl:px-24 2xl:px-28"
+    >
+      <CarouselContent>
+        <CarouselItem>
+          <Image src={otzyv1} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+        <CarouselItem>
+          <Image src={otzyv2} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+        <CarouselItem>
+          <Image src={otzyv3} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
 
     <div class="mt-16 flex w-full flex-col gap-4">
       <p
