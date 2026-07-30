@@ -4,11 +4,11 @@ import Layout from "./Layout.astro";
 ---
 
 <Layout title={frontmatter.title}>
-  <div class="md-container">
+  <div class="md-container bg-amber-50">
     <h1 class="mainTitle">{frontmatter.title}</h1>
     <div class="md-wrapper">
       <p class="w-full text-right text-xs text-gray-400">
-        {frontmatter.pubDate.toLocaleDateString()}
+        {frontmatter.pubDate.toLocaleDateString("ru-RU")}
       </p>
       <!-- <p>{frontmatter.pubDate}</p> -->
       <p class="w-full text-center text-base md:text-xl">
@@ -21,7 +21,7 @@ import Layout from "./Layout.astro";
         class="my-2 w-full rounded-sm"
       />
     </div>
-    <div class="my-10 flex list-disc flex-col gap-2 text-base md:gap-5">
+    <div class="my-10 flex list-disc flex-col gap-2 p-1 text-base md:gap-5">
       <slot />
     </div>
     <div
