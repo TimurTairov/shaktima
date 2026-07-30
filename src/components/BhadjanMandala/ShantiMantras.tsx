@@ -15,7 +15,7 @@ const ShantiMantras = () => {
             ></audio>
           </div>
 
-          <div className=''>
+          <div className='w-lg md:w-xl'>
             <p className='font-bold'>Лока самаста сукхино бхаванту</p>
             <p>Пусть все живые существа будут счастливы!</p>
           </div>

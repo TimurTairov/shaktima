@@ -19,7 +19,7 @@ const BhumiMangalam = () => {
             ></audio>
           </div>
 
-          <div>
+          <div className='w-xl'>
             <p>Бхуми мангалам</p>
             <p>Удака мангалам</p>
             <p>Агни мангалам</p>

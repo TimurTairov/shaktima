@@ -13,7 +13,7 @@ const GuruYoga = () => {
               className="w-full"
             ></audio>
           </div>
-          <p className="font-medium w-2xl">
+          <p className="font-medium w-xl">
             Намо Гуру Дева <br />
             Намо Сатья Дхарма <br />
             Намо Арья Сангха
