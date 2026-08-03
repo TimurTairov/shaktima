@@ -28,7 +28,7 @@ const { posts } = Astro.props;
 <Layout title={tag}>
   <div class="main-container flex flex-col gap-10">
     <h1 class="mainTitle">
-      Посты с тегом «<span class="italic">{tag}</span>»:
+      Посты с тегом «<span class="font-semibold italic">{tag}</span>»:
     </h1>
     <ul class="flex w-full flex-col items-center">
       <!-- {
@@ -50,7 +50,9 @@ const { posts } = Astro.props;
               )}
               <div class="flex w-full items-center justify-between">
                 <h6 class="title font-semibold">{post.data.title}</h6>
-                <p class="date">{post.data.pubDate.toLocaleDateString()}</p>
+                <p class="date">
+                  {post.data.pubDate.toLocaleDateString("ru-RU")}
+                </p>
               </div>
               <p class="text-base">{post.data.description}</p>
             </a>

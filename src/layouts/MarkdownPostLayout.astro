@@ -3,8 +3,8 @@ const { frontmatter } = Astro.props;
 import Layout from "./Layout.astro";
 ---
 
-<Layout title={frontmatter.title}>
-  <div class="md-container bg-amber-50">
+<Layout title={frontmatter.title} desc={frontmatter.desc}>
+  <div class="md-container border border-amber-200 bg-amber-50">
     <h1 class="mainTitle">{frontmatter.title}</h1>
     <div class="md-wrapper">
       <p class="w-full text-right text-xs text-gray-400">
@@ -21,7 +21,9 @@ import Layout from "./Layout.astro";
         class="my-2 w-full rounded-sm"
       />
     </div>
-    <div class="my-10 flex list-disc flex-col gap-2 p-1 text-base md:gap-5">
+    <div
+      class="my-10 flex list-disc flex-col gap-2 p-1 text-base md:gap-5 lg:p-2"
+    >
       <slot />
     </div>
     <div
