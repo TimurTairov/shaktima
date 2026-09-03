@@ -145,7 +145,7 @@ ol li {
   @apply flex h-20 flex-col justify-between rounded-md bg-red-100 p-1 text-center;
 }
 .grid-item-rasp {
-  @apply flex flex-col items-center justify-center gap-1 rounded-md p-1 text-xs lg:text-sm;
+  @apply grid grid-cols-1 items-start gap-1 rounded-md p-1 text-xs lg:grid-cols-3 lg:p-5 lg:text-sm dark:text-gray-800;
 }
 .grid-item-rasp-2 {
   @apply row-span-4 flex max-w-60 flex-col items-center justify-center gap-1 rounded-md p-1 text-[0.4rem] md:text-xs;
