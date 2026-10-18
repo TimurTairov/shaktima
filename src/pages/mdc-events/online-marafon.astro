@@ -145,8 +145,8 @@ import { Image } from "astro:assets";
       <p
         class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
       >
-        <b class="dark:text-amber-600">Дата:</b> 1 ноября 2026 года (воскресение).
-        Сбор в ДЦ в 9:30. Завершение ретрита в 19:00.
+        <b class="dark:text-amber-600">Дата и время:</b> ежедневно с 6:00 до 7:00,
+        кроме воскресения.
       </p>
       <p
         class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
@@ -160,7 +160,7 @@ import { Image } from "astro:assets";
       <h5 class="font-bold md:text-xl lg:text-2xl dark:text-amber-600">
         КАК ЗАПИСАТЬСЯ
       </h5>
-      <div class="flex w-full justify-center gap-1">
+      <div class="flex justify-center gap-1">
         <a
           href="whatsapp://send?phone=79670377183"
           target="_blank"
@@ -188,8 +188,23 @@ import { Image } from "astro:assets";
       >
     </div>
 
+    <div class="mt-16 flex w-full flex-col items-center justify-center gap-4">
+      <h5 class="font-bold md:text-xl lg:text-2xl dark:text-amber-600">
+        ДЛЯ УЧАСТИЯ НЕОБХОДИМО ДОБАВИТЬСЯ В ТЕЛЕГРАМ ГРУППУ
+      </h5>
+      <div class="flex justify-center gap-1">
+        <a
+          href="https://t.me/+RiUjUzANG-5kODli"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button rounded-xs border border-amber-300 px-3 py-2"
+          >Группа ONLINE
+        </a>
+      </div>
+    </div>
+
     <div class="mt-16 flex w-full flex-col items-center justify-center gap-1">
-      <p>До встречи на коврике тишины...</p>
+      <p>До встречи на коврике online...</p>
       <Image src={meditation2} alt="meditation" class="rounded-sm lg:w-200" />
     </div>
   </div>
