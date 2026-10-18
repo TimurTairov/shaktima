@@ -1,0 +1,434 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+import meditation2 from "../../assets/meditation-tirthadeva.webp";
+import bannerYoga from "../../assets/banners/retreat2.webp";
+import DhyanaFoto from "@/components/carousel/DhyanaFoto";
+import DhyanaOtzyvy from "@/components/carousel/DhyanaOtzyvy";
+import { Image } from "astro:assets";
+import img1 from "@/assets/Photos from previous events/01.webp";
+import img2 from "@/assets/Photos from previous events/02.webp";
+import img3 from "@/assets/Photos from previous events/03.webp";
+import img4 from "@/assets/Photos from previous events/04.webp";
+import img5 from "@/assets/Photos from previous events/05.webp";
+import img6 from "@/assets/Photos from previous events/06.webp";
+import img7 from "@/assets/Photos from previous events/07.webp";
+import img8 from "@/assets/Photos from previous events/08.webp";
+import img9 from "@/assets/Photos from previous events/09.webp";
+import otzyv1 from "@/assets/otzyvy/otzyv-1.webp";
+import otzyv2 from "@/assets/otzyvy/otzyv-2.webp";
+import otzyv3 from "@/assets/otzyvy/otzyv-3.webp";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/starwind/carousel";
+---
+
+<Layout title="РЕТРИТ: ВНУТРИ ТОЧКИ — БЕСКОНЕЧНОСТЬ">
+  <div class="main-container flex flex-col items-center dark:text-amber-100">
+    <h1 class="mainTitle">РЕТРИТ ДХЬЯНА В МЕГАПОЛИСЕ</h1>
+
+    <div
+      class="mt-7 flex w-full max-w-xl items-center justify-center lg:mt-10 2xl:mt-16"
+    >
+      <Image
+        src={bannerYoga}
+        alt="Йога в ШактиМа"
+        class="w-full rounded-sm shadow-md lg:rounded-xl"
+      />
+    </div>
+
+    <div
+      class="mt-16 flex w-full flex-col-reverse justify-between gap-5 md:flex-col lg:flex-row"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-around gap-3 text-lg text-gray-500 dark:text-amber-100"
+      >
+        <p
+          class="w-full text-center text-base font-bold text-gray-700 xl:text-2xl 2xl:text-3xl dark:text-amber-600"
+        >
+          ДРУЗЬЯ, намасте 🙏🏻
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Мы приглашаем вас в путешествие к самому ценному ресурсу современности
+          — вашему собственному вниманию. Без гаджетов, без спешки, без
+          необходимости «стать кем-то другим». Только вы, тишина и одна чёрная
+          точка.
+        </p>
+
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Это не йога-тур и не лекционный марафон. Это живая практика, где
+          главный инструмент — ваш взгляд. Мы будем учиться смотреть так, чтобы
+          видеть: как уходит внутренний диалог, как рождается ясность и как
+          замирает время.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-16 flex w-full flex-col justify-between gap-4">
+      <h5
+        class="w-full text-center text-lg font-bold md:text-xl lg:text-2xl dark:text-amber-600"
+      >
+        ДАННЫЙ РЕТРИТ
+      </h5>
+      <div class="grid w-full grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4">
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Это глоток свежего воздуха внутри повседневных задач, ежедневной
+          рутины, дедлайнов, переговоров и деловых встреч.
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Это возможность услышать себя там, где обычно слышен только гул
+          большого города.
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Это возможность погрузиться в тишину и безмолвия ума на фоне городской
+          суеты.
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Это возможность начать практиковать с опытными преподавателями
+          медитации и носителями традиционных знаний.
+        </p>
+      </div>
+    </div>
+
+    <h5
+      class="mt-16 w-full text-center text-lg font-bold md:text-xl lg:text-2xl dark:text-amber-600"
+    >
+      ЧТО ВАС ЖДЁТ
+    </h5>
+    <div
+      class="mt-4 grid w-full grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4 2xl:grid-cols-4"
+    >
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Хатха, мантра и кундалини йога
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Мауна и простирания
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Концентрация и медитация
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+      >
+        Созерцательная ходьба
+      </p>
+    </div>
+    <p class="mt-4">
+      <b class="dark:text-amber-600">PS:</b> все практики адаптированы для жителей
+      мегаполиса: без побега от реальности — с интеграцией тишины в обычную жизнь.
+    </p>
+
+    <div
+      class="mt-16 flex w-full flex-col items-center justify-center gap-4 lg:text-2xl"
+    >
+      <h5
+        class="w-full text-center text-lg font-bold md:text-xl dark:text-amber-600"
+      >
+        РАСПИСАНИЕ
+      </h5>
+      <div
+        class="flex flex-col gap-2 rounded-sm border border-amber-700 bg-amber-100 p-4 dark:bg-gray-700"
+      >
+        <p>9:30 — Сбор/ инструктаж</p>
+        <p>10:00 — Простирания/ хатха йога</p>
+        <p>11:30 — Кундалини йога/ Чандали</p>
+        <p>13:00 — Концентрация/ созерцательная ходьба</p>
+        <p>14:00 — Прасад/лекция гуру</p>
+        <p>15:00 — Медитация/ созерцательная ходьба</p>
+        <p>16:00 — Мантра йога/ созерцательная ходьба</p>
+        <p>17:00 — Медитация/ созерцательная ходьба</p>
+        <p>18:00 — Чай/ беседы о дхарме</p>
+        <p>19:00 — Завершение ретрита</p>
+      </div>
+    </div>
+
+    <!-- <DhyanaFoto client:visible /> -->
+
+    <h5 class="mt-16 w-full text-center font-bold dark:text-amber-600">
+      Фотографии с предыдущих мероприятий
+    </h5>
+
+    <Carousel
+      opts={{ align: "start", loop: true, duration: 30 }}
+      class="mx-auto w-full px-0 lg:w-200 lg:px-20"
+    >
+      <CarouselContent>
+        <CarouselItem>
+          <Image
+            src={img1}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img2}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img3}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img4}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img5}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img6}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img7}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img8}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <Image
+            src={img9}
+            alt="МДЦ ШактиМа"
+            format="webp"
+            class="rounded-md"
+          />
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+
+    <div class="mt-16 flex w-full flex-col gap-4">
+      <h5
+        class="w-full text-center text-lg font-bold md:mt-7 md:text-xl dark:text-amber-600"
+      >
+        ДЛЯ КОГО ЭТОТ РЕТРИТ
+      </h5>
+      <div class="w-ful grid grid-cols-1 gap-2 md:grid-cols-2">
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Для тех, кто хочет научиться медитировать или углубить свою практику
+          медитации
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Для руководителей и творческих личностей, уставших от многозадачности
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Для практикующих йогу, которые хотят углубить Дхьяну
+        </p>
+        <p
+          class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+        >
+          Для всех, кто чувствует: пора остановить бег мыслей и просто быть
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-16 flex w-full flex-col gap-4">
+      <h5
+        class="w-full text-center text-lg font-bold md:text-xl dark:text-amber-600"
+      >
+        УСЛОВИЯ УЧАСТИЯ
+      </h5>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Место проведения ретрита:</b> московский дхарма
+        центр ШактиМа.
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Адрес:</b> Москва, Нижняя Красносельская улица,
+        40/12к2.
+      </p>
+      <div
+        class="flex w-full items-center gap-1 rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Проводник:</b>
+        <p>Тиртхадева</p>
+        <a
+          href="https://tirthadeva.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon
+            name="mdi:vector-link"
+            class="size-4 text-indigo-700 dark:text-amber-400"
+          />
+        </a>
+      </div>
+      <div
+        class="inline w-full items-center gap-1 rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <p class="inline">
+          <b class="dark:text-amber-600">Подношения:</b> ретрит проводится за свободные
+          пожертвования по сердцу
+        </p>
+        <Icon name="mdi:cards-heart-outline" class="inline text-red-500" />
+      </div>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Дата:</b> 1 ноября 2026 года (воскресение).
+        Сбор в ДЦ в 9:30. Завершение ретрита в 19:00.
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Форма одежды:</b> свободная, комфортная для
+        практик хатха, кундалини йоги, медитации.
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Завтрак:</b> до начала ретрита допускается
+        лёгкий завтрак, такой, чтобы не было тяжело практиковать асаны и кундалини
+        йогу.
+      </p>
+      <p
+        class="rounded-sm border border-amber-300 bg-amber-100 p-2 italic dark:border-gray-600 dark:bg-gray-700"
+      >
+        <b class="dark:text-amber-600">Обед:</b>
+        саттвичный прасад приносите с собой. Предпочтительно свежие фрукты, овощи,
+        орехи и вкусняшки к чаю.
+      </p>
+    </div>
+
+    <!-- <DhyanaOtzyvy client:visible /> -->
+    <h1 class="mt-16 w-full text-center font-bold dark:text-amber-600">
+      Отзывы с прошедших ретритов
+    </h1>
+
+    <Carousel
+      opts={{ align: "start", loop: true, duration: 30 }}
+      class="mx-auto px-0 lg:w-200 lg:px-20 xl:px-24 2xl:px-40"
+    >
+      <CarouselContent>
+        <CarouselItem>
+          <Image src={otzyv1} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+        <CarouselItem>
+          <Image src={otzyv2} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+        <CarouselItem>
+          <Image src={otzyv3} alt="Отзыв" format="webp" class="rounded-md" />
+        </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+
+    <div
+      class="mt-16 flex w-full flex-col gap-3 rounded-sm border border-amber-300 bg-amber-100 p-2 italic lg:text-center dark:border-gray-600 dark:bg-gray-700"
+    >
+      <p class="text-left">
+        Высшее Я невозможно достичь другими методами кроме медитации. Если ты
+        даже последний глупец, но можешь медитировать в течении 11 секунд,
+        польза будет такая же, если пожертвовать корову в благотворительных
+        целях. Если ты можешь медитировать 101 секунду, польза такая же, как от
+        священного ритуала. Если длительность медитации 12 минут, польза
+        увеличивается в 1000 раз. Если длительность медитации равна целому дню,
+        ты обитаешь в Высшем пространстве. Это есть Высочайшая йога, Высочайшее
+        служение и Высочайшее действие.
+      </p>
+      <p class="text-right">Йога Васиштха</p>
+    </div>
+
+    <div class="mt-16 flex w-full flex-col items-center justify-center gap-4">
+      <h5 class="font-bold md:text-xl lg:text-2xl dark:text-amber-600">
+        КАК ЗАПИСАТЬСЯ
+      </h5>
+      <div class="flex w-full justify-center gap-1">
+        <a
+          href="whatsapp://send?phone=79672067710"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-amber-300 px-3 py-2"
+          >WhatsApp
+        </a>
+        <a
+          href="https://t.me/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-amber-300 px-3 py-2"
+          >Telegram
+        </a>
+        <a
+          href="https://vk.com/tirthadeva"
+          target="_blank"
+          rel="noreferrer"
+          class="my-button w-min rounded-xs border border-amber-300 px-3 py-2"
+          >Вконтакте
+        </a>
+      </div>
+      <span class="w-full text-center"
+        >Либо, по номеру телефона: +79672067710 (Тиртхадева)</span
+      >
+    </div>
+
+    <div class="mt-16 flex w-full flex-col items-center justify-center gap-1">
+      <p>До встречи на коврике тишины...</p>
+      <Image src={meditation2} alt="meditation" class="rounded-sm" />
+    </div>
+  </div>
+</Layout>
