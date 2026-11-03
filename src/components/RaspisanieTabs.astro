@@ -15,7 +15,7 @@ import {
 } from "@/components/starwind/tabs";
 ---
 
-<h1 class="mainTitle">Расписание занятий</h1>
+<h1 class="mainTitle">Расписание</h1>
 
 <div class="mt-5 flex w-full flex-col items-center justify-center">
   <Tabs defaultValue="pn" class="w-full px-0.5 lg:px-2">
@@ -55,7 +55,14 @@ import {
       <div class="flex w-full flex-col gap-3 lg:gap-5">
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">6:00 - 7:00</p>
-          <b class="w-full text-center">Кундалини йога ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
         </div>
         <div class="grid-item-rasp bg-green-100">
@@ -86,7 +93,14 @@ import {
       <div class="flex w-full flex-col gap-3 lg:gap-5">
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">6:00 - 7:00</p>
-          <b class="w-full text-center">Цигун ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
         </div>
         <!-- <div class="grid-item-rasp bg-blue-100">
@@ -122,10 +136,22 @@ import {
       <div class="flex w-full flex-col gap-3 lg:gap-5">
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">6:00 - 7:00</p>
-          <b class="w-full text-center">Кундалини йога ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
         </div>
-        <div class="grid-item-rasp bg-green-100">
+        <div class="grid-item-rasp bg-red-100">
+          <p class="w-full text-center">7:00 - 7:30</p>
+          <b class="w-full text-center">Медитация ОНЛАЙН</b>
+          <p class="w-full text-center font-light italic">Ума</p>
+        </div>
+        <!-- <div class="grid-item-rasp bg-green-100">
           <p class="w-full text-center">10:00 - 11:00</p>
           <b class="w-full text-center">Хатха йога</b>
           <p class="w-full text-center font-light italic">Мадхаваприя</p>
@@ -139,7 +165,7 @@ import {
           <p class="w-full text-center">12:00 - 12:25</p>
           <b class="w-full text-center">Сутра</b>
           <p class="w-full text-center font-light italic">Утренняя пуджа</p>
-        </div>
+        </div> -->
         <!-- <div class="grid-item-rasp bg-amber-100">
           <p class="w-full text-center">13:00 - 13:15</p>
           <b class="w-full text-center">Брахма мантра</b>
@@ -150,13 +176,13 @@ import {
           <b class="w-full text-center">Хатха йога</b>
           <p class="w-full text-center font-light italic">Галина</p>
         </div> -->
-        <div class="grid-item-rasp bg-red-100">
+        <!-- <div class="grid-item-rasp bg-red-100">
           <p class="w-full text-center">18:00 - 19:00</p>
           <b class="w-full text-center">Медитация</b>
           <p class="w-full text-center font-light italic">
             Тратака. Махашанти. Атма-вичара
           </p>
-        </div>
+        </div> -->
         <div class="grid-item-rasp bg-amber-100">
           <p class="w-full text-center">19:00 - 20:30</p>
           <b class="w-full text-center">Бхаджан Мандала</b>
@@ -170,7 +196,14 @@ import {
       <div class="flex w-full flex-col gap-3 lg:gap-5">
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">6:00 - 7:00</p>
-          <b class="w-full text-center">Цигун ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
         </div>
         <div class="grid-item-rasp bg-amber-100">
@@ -186,7 +219,14 @@ import {
       <div class="flex w-full flex-col gap-3 lg:gap-5">
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">6:00 - 7:00</p>
-          <b class="w-full text-center">Кундалини йога ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
         </div>
         <div class="grid-item-rasp bg-green-100">
@@ -205,9 +245,11 @@ import {
           <p class="w-full text-center font-light italic">Утренняя пуджа</p>
         </div>
         <div class="grid-item-rasp bg-amber-100">
-          <p class="w-full text-center">19:00 - 20:30</p>
+          <p class="w-full text-center">18:00 - 21:30</p>
           <b class="w-full text-center">Бхаджан Мандала</b>
-          <p class="w-full text-center font-light italic">Пуджа Шакти</p>
+          <p class="w-full text-center font-light italic">
+            Пуджа Шакти и Дхавнвантари джаянти
+          </p>
         </div>
       </div>
     </TabsContent>
@@ -215,11 +257,18 @@ import {
     <!--! Суббота -->
     <TabsContent value="sb">
       <div class="flex w-full flex-col gap-3 lg:gap-5">
-        <!-- <div class="grid-item-rasp bg-blue-100">
+        <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">5:30 - 6:30</p>
-          <b class="w-full text-center">Кундалини йога ОНЛАЙН</b>
+          <b class="w-full text-center">
+            <a
+              href="/mdc-events/online-marafon"
+              class="text-indigo-700 hover:underline dark:text-amber-400"
+            >
+              Йога ОНЛАЙН</a
+            >
+          </b>
           <p class="w-full text-center font-light italic">Ума</p>
-        </div> -->
+        </div>
         <div class="grid-item-rasp bg-blue-100">
           <p class="w-full text-center">10:00 - 11:00</p>
           <b class="w-full text-center">Тренинг ветра монахов воинов</b>
@@ -235,22 +284,25 @@ import {
           <b class="w-full text-center">Сутра</b>
           <p class="w-full text-center font-light italic">Утренняя пуджа</p>
         </div>
-        <div class="grid-item-rasp bg-amber-100">
+        <!-- <div class="grid-item-rasp bg-amber-100">
           <p class="w-full text-center">12:30 - 12:45</p>
           <b class="w-full text-center">Брахма мантра</b>
           <p class="w-full text-center font-light italic">Мантра йога</p>
-        </div>
-        <div class="grid-item-rasp bg-red-100">
+        </div> -->
+        <!-- <div class="grid-item-rasp bg-red-100">
           <p class="w-full text-center">18:00 - 18:50</p>
           <b class="w-full text-center">Медитация 4БСБ</b>
           <p class="w-full text-center font-light italic">Лалитасундари</p>
+        </div> -->
+        <div class="grid-item-rasp bg-amber-100">
+          <p class="w-full text-center">13:30 - 17:00</p>
+          <b class="w-full text-center">Хануман Джаянти</b>
+          <p class="w-full text-center font-light italic">Детская программа</p>
         </div>
         <div class="grid-item-rasp bg-amber-100">
-          <p class="w-full text-center">19:00 - 20:30</p>
-          <b class="w-full text-center">Бхаджан Мандала</b>
-          <p class="w-full text-center font-light italic">
-            Пуджа сиддхам. Почитание Парамгуру Авадхуты Свами Брахмананды
-          </p>
+          <p class="w-full text-center">18:00 - 20:30</p>
+          <b class="w-full text-center">Хануман Джаянти</b>
+          <p class="w-full text-center font-light italic">Праздничная пуджа</p>
         </div>
       </div>
     </TabsContent>
@@ -258,7 +310,7 @@ import {
     <!--! Воскресение -->
     <TabsContent value="vs">
       <div class="flex w-full flex-col gap-3 lg:gap-5">
-        <div class="grid-item-rasp bg-fuchsia-200">
+        <!-- <div class="grid-item-rasp bg-fuchsia-200">
           <p class="w-full text-center">9:30 - 19:00</p>
           <b class="w-full text-center">
             <a
@@ -268,13 +320,21 @@ import {
             </a>
           </b>
           <p class="w-full text-center font-light">Тиртхадева</p>
+        </div> -->
+
+        <div class="grid-item-rasp bg-amber-100">
+          <p class="w-full text-center">11:00 - 15:00</p>
+          <b class="w-full text-center">Дивали</b>
+          <p class="w-full text-center font-light italic">
+            Лакшми пуджа и абхишека
+          </p>
         </div>
       </div>
     </TabsContent>
   </Tabs>
 
   <p class="mt-5 w-full text-right text-xs font-light text-gray-400">
-    Обновлено: 27.10.2026 12:30
+    Обновлено: 03.11.2026 15:30
   </p>
   <h3
     class="mt-5 mb-1 text-base font-medium text-gray-700 md:mt-5 lg:mt-10 dark:text-amber-600"
